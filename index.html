@@ -113,11 +113,16 @@
   main[hidden] {
     display: none;
   }
-  .json-view {
+  #json-view {
     max-width: 900px;
-    margin: 0 auto;
-    padding: 0.9rem 1.1rem;
+    margin: 0 auto 3rem;
+    padding: 1rem 1.1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
     font-size: 0.8rem;
+    overflow-x: auto;
+    white-space: pre;
   }
   main {
     max-width: 900px;
@@ -224,7 +229,7 @@
 <main id="list">
   <div class="empty">Loading NOTAMs…</div>
 </main>
-<pre id="json-view" class="raw json-view" hidden></pre>
+<pre id="json-view" hidden></pre>
 <footer>
   Data source: <a href="https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam" target="_blank" rel="noopener noreferrer">IAA AeroInfo</a>
   &middot; Raw JSON: <a href="./notams.json">notams.json</a>
