@@ -61,8 +61,32 @@ function renderCard(n) {
   `;
 }
 
-async function main() {
+function setupViewToggle() {
+  const cardsBtn = document.getElementById('view-cards');
+  const jsonBtn = document.getElementById('view-json');
   const listEl = document.getElementById('list');
+  const jsonEl = document.getElementById('json-view');
+  const searchEl = document.getElementById('search');
+
+  function setMode(showJson) {
+    listEl.hidden = showJson;
+    jsonEl.hidden = !showJson;
+    searchEl.hidden = showJson;
+    jsonBtn.classList.toggle('active', showJson);
+    jsonBtn.setAttribute('aria-pressed', String(showJson));
+    cardsBtn.classList.toggle('active', !showJson);
+    cardsBtn.setAttribute('aria-pressed', String(!showJson));
+  }
+
+  cardsBtn.addEventListener('click', () => setMode(false));
+  jsonBtn.addEventListener('click', () => setMode(true));
+}
+
+async function main() {
+  setupViewToggle();
+
+  const listEl = document.getElementById('list');
+  const jsonEl = document.getElementById('json-view');
   let data;
   try {
     const res = await fetch('./notams.json', { cache: 'no-store' });
@@ -72,6 +96,10 @@ async function main() {
     listEl.innerHTML = `<div class="error">Failed to load notams.json: ${escapeHtml(err.message)}</div>`;
     return;
   }
+
+  // textContent, not innerHTML: no manual escaping needed, and this is the
+  // one place the raw fetched payload is shown verbatim rather than rendered.
+  jsonEl.textContent = JSON.stringify(data, null, 2);
 
   document.getElementById('generated').textContent =
     `Last updated: ${fmtUtc(data.generatedAt)} (${timeAgo(data.generatedAt)})`;

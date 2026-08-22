@@ -75,15 +75,49 @@
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.25rem 1rem;
+    display: flex;
+    gap: 0.6rem;
   }
   #search {
-    width: 100%;
+    flex: 1;
+    min-width: 0;
     padding: 0.6rem 0.8rem;
     border-radius: 8px;
     border: 1px solid var(--border);
     background: var(--surface);
     color: var(--text);
     font-size: 0.95rem;
+  }
+  .view-toggle {
+    display: flex;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .toggle-btn {
+    padding: 0.6rem 0.9rem;
+    border: none;
+    background: var(--surface);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .toggle-btn + .toggle-btn {
+    border-left: 1px solid var(--border);
+  }
+  .toggle-btn.active {
+    background: var(--accent);
+    color: #fff;
+  }
+  main[hidden] {
+    display: none;
+  }
+  .json-view {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0.9rem 1.1rem;
+    font-size: 0.8rem;
   }
   main {
     max-width: 900px;
@@ -182,10 +216,15 @@
 </header>
 <div class="controls">
   <input id="search" type="search" placeholder="Filter by NOTAM ID, location, or text…" autocomplete="off" />
+  <div class="view-toggle" role="group" aria-label="View mode">
+    <button type="button" id="view-cards" class="toggle-btn active" aria-pressed="true">Cards</button>
+    <button type="button" id="view-json" class="toggle-btn" aria-pressed="false">JSON</button>
+  </div>
 </div>
 <main id="list">
   <div class="empty">Loading NOTAMs…</div>
 </main>
+<pre id="json-view" class="raw json-view" hidden></pre>
 <footer>
   Data source: <a href="https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam" target="_blank" rel="noopener noreferrer">IAA AeroInfo</a>
   &middot; Raw JSON: <a href="./notams.json">notams.json</a>
