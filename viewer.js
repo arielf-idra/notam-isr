@@ -27,6 +27,7 @@ function renderCard(n) {
   if (n.location) badges.push(`<span class="badge">${escapeHtml(n.location)}</span>`);
   if (!n.fullTextAvailable) badges.push(`<span class="badge">preview only</span>`);
   if (n.position) badges.push(`<span class="badge accent">${n.position.source === 'e_text' ? 'precise position' : 'approx. position'}</span>`);
+  if (n.replaces) badges.push(`<span class="badge">replaces ${escapeHtml(n.replaces)}</span>`);
 
   const validity = (n.fromDate || n.toDate)
     ? `Valid ${escapeHtml(fmtUtc(n.fromDate))} &rarr; ${escapeHtml(fmtUtc(n.toDate))}`

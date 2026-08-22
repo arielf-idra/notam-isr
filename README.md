@@ -90,6 +90,8 @@ conservative "this snapshot is true as of" bound.
       "upperLimit": "2200FT AMSL",
       "position": { "lat": 31.381111, "lon": 34.761389, "radiusNm": 0.4, "source": "e_text" },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1780/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/022/3123N03446E001\nA) LLLL B) 2608230245 C) 2608312059\nE) CAPTIVE BALLOON WILL TAKE PLACE AT RAHAT, UP TO 1,700FT AMSL.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 312252N0344541E\nCLSD FM GND UP TO 2,200FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ\nF) GND G) 2200FT AMSL)",
       "fullTextAvailable": true
     }
@@ -113,6 +115,28 @@ out of the default view. They're kept in the JSON (not dropped) since a
 consumer may want to use one as an integrity check — e.g. confirming every
 NOTAM number the checklist lists is also present in this feed's `notams`
 array.
+
+### About `notamType` / `replaces` — and why there's no `cancelled` field
+
+There isn't an explicit "cancelled" flag, because it isn't needed: IAA's live
+page only ever lists currently-active NOTAMs. When a NOTAM is cancelled (or
+simply expires), it stops appearing on the page — and therefore in the next
+`notams.json` — rather than being shown with some cancelled status.
+**Presence in the `notams` array means active; absence means it no longer
+is**, as of the file's `generatedAt`.
+
+What the page *does* show is the ICAO message type, in `notamType`:
+
+- `"N"` — a new NOTAM.
+- `"R"` — replaces an earlier NOTAM, whose number is given in `replaces`
+  (e.g. `A0668/26` has `"notamType": "R", "replaces": "A0598/26"`). About a
+  third of entries at any given time are typically replacements.
+- `"C"` (cancellation) never appears in this feed for the reason above, but
+  the field would carry it if IAA's page behavior ever changes.
+
+If you're caching NOTAMs across polls (rather than always using the latest
+file as-is), `replaces` lets you retire the superseded number explicitly
+instead of just noticing it disappeared on the next fetch.
 
 ### About the `position` field — read this before plotting anything
 

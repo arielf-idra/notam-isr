@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T08:06:05.244Z",
+  "generatedAt": "2026-08-22T08:09:25.096Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 90,
@@ -40,6 +40,8 @@
         "source": "e_text"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1780/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/022/3123N03446E001\nA) LLLL B) 2608230245 C) 2608312059\nE) CAPTIVE BALLOON WILL TAKE PLACE AT RAHAT, UP TO 1,700FT AMSL.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 312252N0344541E\nCLSD FM GND UP TO 2,200FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ\nF) GND G) 2200FT AMSL)",
       "fullTextAvailable": true
     },
@@ -79,6 +81,8 @@
         "source": "e_text"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1779/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/018/3259N03519E001\nA) LLLL B) 2608221730 C) 2608222000\nE) UAS/UAV AIR-SHOW WILL TAKE PLACE AT PEKIIN.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 325918N0351858E\nCLSD FM GND UP TO 50M AGL 1,800FT AMSL.\nCTN ADZ.\nF) GND G) 1800FT AMSL)",
       "fullTextAvailable": true
     },
@@ -118,6 +122,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1777/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/005/3141N03440E001\nA) LLLL B) 2608230600 C) 2608271300\nD) DAILY 0600-1300\nE) UAS ACT WILL TAKE PLACE AT JULIS.\nAN AREA FM GND UP TO 500FT AMSL CLSD TO ALL FLT\nBTN FLW PSN  314122N0344041E 314012N0344040E\n314018N0343958E 314118N0344006E 314118N0344024E.\nOPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 500FT AMSL)",
       "fullTextAvailable": true
     },
@@ -157,6 +163,8 @@
         "source": "e_text"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1775/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /E /000/006/3258N03505E002\nA) LLLL B) 2608200500 C) 2608231645\nE) OBST ERECTED AT SHAVEI-ZION, WI ZVULUN-N (BZVUN) ULTRALIGHT\nBUBBLE.\nAN AREA WI 1.6NM RADIUS CENTERED ON PSN 325822N0350444E\nCLSD FM GND UP TO 600FT AMSL.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
@@ -196,6 +204,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0672/26 NOTAMN\nQ) LLLL/QNMAS/IV/BO /E /000/999/3117N03443E025\nA) LLLL B) 2608191107 C) 2608241300\nE) VOR/DME BSA FREQ 114.300MHZ U/S.)",
       "fullTextAvailable": true
     },
@@ -235,6 +245,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1772/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3313N03536E005\nA) LLKS B) 2608191049 C) 2608312059\nE) AIRSTRIP CLSD TO ALL FLT.)",
       "fullTextAvailable": true
     },
@@ -274,6 +286,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1771/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/080/3129N03450E005\nA) LLLL B) 2608240400 C) 2608272059\nE) PJE WILL TAKE PLACE AT KELACH.\nAN AREA FM GND UP TO 8,000FT AMSL CLSD TO ALL FLT BTN FLW PSN\n313200N0345319E 313159N0344733E 312602N0344730E\n312444N0345024E 312602N0345311E.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 8000FT AMSL)",
       "fullTextAvailable": true
     },
@@ -313,6 +327,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "A0598/26",
       "rawText": "(A0668/26 NOTAMR A0598/26\nQ) LLLL/QFALT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2608180837 C) 2609302359\nE) CLOSURE FOR LDG BTN 0100-0200LMT (2200-2300UTC) TEMPO WITHDRAWN.)",
       "fullTextAvailable": true
     },
@@ -352,6 +368,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "A0599/26",
       "rawText": "(A0669/26 NOTAMR A0599/26\nQ) LLLL/QFALT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2608180838 C) 2609302359\nE) NIGHT RESTRICTIONS BTN 0140-0500LMT (2240-0200UTC)\nTEMPO WITHDRAWN.)",
       "fullTextAvailable": true
     },
@@ -391,6 +409,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "A0600/26",
       "rawText": "(A0670/26 NOTAMR A0600/26\nQ) LLLL/QFALT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2608180838 C) 2609302359\nE) RESTRICTIONS OF LDG 4 ENGINE ACFT WI LLBG TEMPO WITHDRAWN.)",
       "fullTextAvailable": true
     },
@@ -430,6 +450,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0663/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3249N03503E005\nA) LLHA B) 2609010525 C) 2609011000\nD) 0525-0725 0830-1000\nE) AD CLSD TO ALL FLT INCLUDING HEL, DUE WIP.\nIN CASE OF EMERG AVBL WI 10MIN.)",
       "fullTextAvailable": true
     },
@@ -469,6 +491,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1770/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /012/015/3144N03453E004\nA) LLLL B) 2608230820 C) 2608230930\nE) ULTRALIGHT RTE CLSD DUE FIREFIGHTING ACT\nZHRYA-GEFFN-NAHEM.)",
       "fullTextAvailable": true
     },
@@ -508,6 +532,8 @@
         "source": "e_text"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1769/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/020/3145N03452E002\nA) LLLL B) 2608230820 C) 2608230930\nE) FIREFIGHTING ACT WILL TAKE PLACE AT TIROSH.\nAN AREA WI 2NM RADIUS CENTERED ON PSN 314502N0345208E\nCLSD TO ALL FLT INCLUDING AGRICULTURE FLT, FM GND\nUP TO 2,000FT AMSL.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
@@ -547,6 +573,8 @@
         "source": "e_text"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1765/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/003/3201N03444E001\nA) LLLL B) 2608221800 C) 2608222030\nE) UAS/UAV AIR-SHOW WILL TAKE PLACE AT BAT-YAM.\nAN AREA WI 0.3KM RADIUS CENTERED ON PSN 320055N0344414E\nCLSD FM GND UP TO 50M AGL 300FT AMSL.\nCTN ADZ.\nF) GND G) 300FT AMSL)",
       "fullTextAvailable": true
     },
@@ -586,6 +614,8 @@
         "source": "e_text"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1764/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/037/3058N03456E001\nA) LLLL B) 2608230300 C) 2608271430\nD) DAILY 0300-1430\nE) UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E\nCLSD FM GND UP TO 3,700FT AMSL.\nCTN ADZ.\nF) GND G) 3700FT AMSL)",
       "fullTextAvailable": true
     },
@@ -625,6 +655,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0660/26 NOTAMN\nQ) LLLL/QACLP/IV/NBO/AE/000/030/3251N03503E007\nA) LLHA B) 2608241530 C) 2608241700\nE) CIRCUIT EXER PROHIBITED, EXC FLTCK.\nTFC EXP DLA.)",
       "fullTextAvailable": true
     },
@@ -664,6 +696,8 @@
         "source": "e_text"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1727/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/022/3307N03534E001\nA) LLLL B) 2608160200 C) 2608221400\nD) DAILY 0200-1400\nE) CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE,\nFM GND UP TO 400M AGL. LIT AND DAY MARKED.\nAN AREA WI 0.54NM RADIUS CENTERED ON PSN 330646N0353414E\nCLSD FM GND UP TO 2,200FT AMSL, TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nIN CASE OF EMERG LOWERED WI 10MIN.\nCTN ADZ.\nF) GND G) 2200FT AMSL)",
       "fullTextAvailable": true
     },
@@ -703,6 +737,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0657/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2608170300 C) 2608241000\nD) 17 24 DAILY 0300-1000\nE) DUE CRANE AT SHOHAM RWY 12 CLSD FOR TKOF, RWY 30 CLSD FOR LDG.)",
       "fullTextAvailable": true
     },
@@ -742,6 +778,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0656/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/005/3159N03454E001\nA) LLBG B) 2608170300 C) 2608241000\nD) 17 24 DAILY 0300-1000\nE) CRANE ERECTED AT SHOAH WI LLBG CTR.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN\n315907.32N0345601.24E CLSD FM GND UP TO 134M 440FT AMSL.\n315907.04N0345606.77E CLSD FM GND UP TO 140M 460FT AMSL.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
@@ -781,6 +819,8 @@
         "source": "e_text"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1723/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/022/3123N03446E001\nA) LLLL B) 2608120240 C) 2608230240\nD) 12 0240-2359, 13 0001-0415 1215-1640, 14-15 DAILY 1650-0240,\n16-17 DAILY 0240-1650, 18-20 DAILY 0240-0420 1215-1650,  21-23 DAILY\n1650-0240\nE) CAPTIVE BALLOON WILL TAKE PLACE AT RAHAT, UP TO 1,700FT AMSL.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 312252N0344541E\nCLSD FM GND UP TO 2,200FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ\nF) GND G) 2200FT AMSL)",
       "fullTextAvailable": true
     },
@@ -820,6 +860,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0646/26 NOTAMN\nQ) LLLL/QNMAS/IV/BO /E /000/999/3220N03458E025\nA) LLLL B) 2608250700 C) 2608251200\nE) VOR/DME NAT FREQ 112.400MHZ WITHDRAWN FOR MAINT.)",
       "fullTextAvailable": true
     },
@@ -859,6 +901,8 @@
         "source": "e_text"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1719/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/018/3306N03535E001\nA) LLLL B) 2608160330 C) 2608230200\nD) DAILY 0330-1400 1700-0200\nE) CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE,\nFM GND UP TO 400M AGL. LIT AND DAY MARKED.\nAN AREA WI 0.54NM RADIUS CENTERED ON PSN 330622N0353454E\nCLSD FM GND UP TO 1,800FT AMSL, TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 1800FT AMSL)",
       "fullTextAvailable": true
     },
@@ -898,6 +942,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C0458/26",
       "rawText": "(C1698/26 NOTAMR C0458/26\nQ) LLLL/QOBCE/IV/M  /AE/000/010/3259N03534E005\nA) LLIB B) 2608060645 C) PERM\nE) 2 OBST PSN 325907.85N0353409.91E HGT 2M AGL AND 1M AGL.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
@@ -937,6 +983,8 @@
         "source": "e_text"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1679/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/028/3147N03506E001\nA) LLLL B) 2608060700 C) 2608311500\nD) DAILY 0700-1500\nE) UAS/UAV ACT WILL TAKE PLACE AT EITANIM-HOSPITAL.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 314643N0350539E\nCLSD FM GND UP TO 100M AGL, 2,800FT AMSL.\nCTN ADZ.\nF) GND G) 2800FT AMSL)",
       "fullTextAvailable": true
     },
@@ -976,6 +1024,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1678/26 NOTAMN\nQ) LLLL/QOATT/IV/BO /E /000/999/3211N03515E015\nA) LLLL B) 2609030001 C) 2609162359\nE) TRIGGER NOTAM - NIL AIRAC DOM AIP AMDT WEF 03 SEP 2026.)",
       "fullTextAvailable": true
     },
@@ -1015,6 +1065,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0630/26 NOTAMN\nQ) LLLL/QOATT/IV/BO /E /000/999/3123N03515E999\nA) LLLL B) 2609030001 C) 2609162359\nE) TRIGGER NOTAM - NIL AIRAC AIP AMDT WEF 03 SEP 2026.)",
       "fullTextAvailable": true
     },
@@ -1054,6 +1106,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1656/26 NOTAMN\nQ) LLLL/QFUAU/IV/NBO/A /000/999/3259N03534E005\nA) LLIB B) 2608031211 C) 2610312059\nE) REFUELING ALL TYP OF AIRCRAFT/HEL NOT AVBL.)",
       "fullTextAvailable": true
     },
@@ -1093,6 +1147,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0622/26 NOTAMN\nQ) LLLL/QANLT/I /NBO/E /120/600/3217N03423E018\nA) LLLL B) 2608061630 C) PERM\nE) ATS RTE W13 AVBL H24 BTN TAPUZ-JILET-DAFNA BTN 12,000FT-FL325.\nAND BTN TAPUZ-JILET-DAFNA CDR1 BTN FL330-FL600, AS FLW\nSUN 2100(2000) - MON 0500(0400)\nMON 2100(2000) - TUE 0500(0400)\nTUE 2100(2000) - WED 0500(0400)\nWED 2100(2000) - THU 0500(0400)\nTHU 1500(1400) - SUN 0600(0500)\nHOL-1 1500(1400) - HOL+1 0600(0500)\nTIME IN BRACKETS ARE SUMMER SAVING, ALL TIMES UTC.\nISRAEL AIP, PART ENR 3.1, PAGE ENR 3.1-30, CHART ENR 6-1 REF.)",
       "fullTextAvailable": true
     },
@@ -1132,6 +1188,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0616/26 NOTAMN\nQ) LLLL/QRRCA/IV/BO /W /070/400/3247N03441E022\nA) LLLL B) 2608061630 C) PERM\nE) LLR01 ACTIVATED H24, XNG MERVA NOT AVBL EXC BY ATC.\nTFC TO/FM LLHA AVBL VIA MERVA BIDIRECTIONAL AT 5,000FT AMSL.\nISRAEL AIP, PART ENR 5.1, PAGE ENR 5.1-3, PARA 2,\nCHART ENR 6-1 REF.\nF) 7000FT AMSL G) 40000FT AMSL)",
       "fullTextAvailable": true
     },
@@ -1171,6 +1229,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0613/26 NOTAMN\nQ) LLLL/QANLT/I /NBO/E /050/600/3205N03450E039\nA) LLLL B) 2608061630 C) 2608312359\nE) ATS RTE L53 BTN TALMI-TAPUZ AND N134 BTN VOLFO-SALAM\nAVBL H24 BTN 11,000-16,000FT FOR TFC WITH ARR/DEP AT\nAD WITHIN AMMAN FIR, LLER, LLNV, LLOV AND LLRM ONLY,\nAVBL H24 ABV 17,000FT FOR MIL TFC ONLY.)",
       "fullTextAvailable": true
     },
@@ -1210,6 +1270,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0612/26 NOTAMN\nQ) LLLL/QANLT/I /NBO/E /050/600/3205N03450E039\nA) LLLL B) 2608051630 C) 2808061420\nE) ATS RTE L53 BTN TALMI-TAPUZ AND N134 BTN VOLFO-SALAM\nAVBL H24 BTN 11,000-16,000FT FOR TFC WITH ARR/DEP AT\nAD WITHIN AMMAN FIR, LLER, LLNV, LLOV AND LLRM ONLY,\nAVBL H24 ABV 17,000FT FOR MIL TFC ONLY.)",
       "fullTextAvailable": true
     },
@@ -1249,6 +1311,8 @@
         "source": "q_line"
       },
       "administrative": true,
+      "notamType": "R",
+      "replaces": "A0538/26",
       "rawText": "(A0610/26 NOTAMR A0538/26\nQ) LLLL/QKKKK/K /K  /K /000/999/3124N03520E999\nA) LLLL B) 2608030558 C) 2609030558EST\nE) CHECKLIST\nYEAR=2025 0886\nYEAR=2026 0001 0056 0116 0117 0127 0156 0281 0353 0354 0358 0359 0388\n0409 0433 0434 0457 0467 0471 0475 0497 0498 0499 0500 0501\n0526 0527 0530 0531 0534 0535 0536 0537 0557 0560 0561 0570\n0571 0572 0575 0589 0592 0594 0595 0596 0598 0599 0600 0602\n0603 0604 0605 0606\nLATEST PUBLICATIONS\nAIP AIRAC AMDT IFR 002/2025 EFFECTIVE DATE 02 OCT 25\nAIP AIRAC SUP IFR 004/2026 EFFECTIVE DATE 14 MAY 26\nAIC IFR A001/2026 EFFECTIVE DATE 05 FEB 26\nAIC CHECKLIST\nAIP IFR\nA001/2026\nAIP VFR\n006/2025 001/2026\nAIP MIL\nNIL\nSUP CHECKLIST\nAIP IFR\n002/2026 003/2026 004/2026\nAIP VFR\n001/2026 002/2026 003/2026\nAIP MIL\nNIL)",
       "fullTextAvailable": true
     },
@@ -1288,6 +1352,8 @@
         "source": "q_line"
       },
       "administrative": true,
+      "notamType": "R",
+      "replaces": "C1468/26",
       "rawText": "(C1647/26 NOTAMR C1468/26\nQ) LLLL/QKKKK/K /K  /K /000/999/3124N03520E999\nA) LLLL B) 2608030559 C) 2609030559EST\nE) CHECKLIST\nYEAR=2026 0003 0004 0005 0006 0009 0010 0013 0014 0017 0032 0035 0037\n0090 0162 0232 0431 0458 0953 1244 1281 1361 1458 1459 1460\n1461 1462 1463 1464 1465 1466 1467 1529 1541 1556 1558 1562\n1574 1575 1576 1577 1578 1579 1580 1581 1582 1583 1584 1587\n1588 1589 1590 1591 1592 1595 1596 1597 1600 1602 1603 1608\n1612 1614 1616 1618 1619 1620 1621 1622 1623 1624 1625 1626\n1629 1630 1632 1633 1635 1637 1639 1640 1641 1642 1643 1644\n1645 1646\nLATEST PUBLICATIONS\nAIP AIRAC AMDT IFR 002/2025 EFFECTIVE DATE 02 OCT 25\nAIP AIRAC SUP IFR 004/2026 EFFECTIVE DATE 14 MAY 26\nAIC IFR A001/2026 EFFECTIVE DATE 05 FEB 26\nAIC CHECKLIST\nAIP IFR\nA001/2026\nAIP VFR\n006/2025 001/2026\nAIP MIL\nNIL\nSUP CHECKLIST\nAIP IFR\n002/2026 003/2026 004/2026\nAIP VFR\n001/2026 002/2026 003/2026\nAIP MIL\nNIL)",
       "fullTextAvailable": true
     },
@@ -1327,6 +1393,8 @@
         "source": "e_text"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1630/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/006/3233N03517E002\nA) LLLL B) 2608010001 C) 2608312059\nE) UAS ACT WILL TAKE PLACE AT TAANACHIM AND GADISH.\nAN AREA CLSD FM GND UP TO 100M AGL 560FT AMSL BTN FLW PSN\n323333N0351719E 323219N0351747E 323221N0351759E\n323207N0351803E 323201N0351722E 323254N0351640E\n323313N0351637E 323317N0351558E 323335N0351558E.\nAN AREA WI 400M RADIUS CENTERED ON PSN 323309N0351447E\nCLSD FM GND UP TO 100M AGL, 560FT AMSL.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 560FT AMSL)",
       "fullTextAvailable": true
     },
@@ -1366,6 +1434,8 @@
         "source": "e_text"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1626/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/003/3146N03445E001\nA) LLLL B) 2608010001 C) 2608312059\nE) UAS/UAV ACT WILL TAKE PLACE AT PARK-REEM.\nAN AREA WI 0.5NM RADIUS CENTERED ON PSN 314633N0344520E\nCLSD FM GND UP TO 25M AGL 300FT AMSL.\nOPS AVBL WITH PPR FM ATC ONLY.\nCTN ADZ.\nF) GND G) 300FT AMSL)",
       "fullTextAvailable": true
     },
@@ -1405,6 +1475,8 @@
         "source": "e_text"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1616/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/005/3230N03455E001\nA) LLLL B) 2608011900 C) 2608310230\nD) DAILY 1900-0230\nE) UAS/UAV ACT WILL TAKE PLACE AT KESARYA UP TO 100M AGL,\nAN AREA WI 0.8NM RADIUS CENTERED ON PSN 322941N0345439E\nCLSD FM GND UP TO 500FT AMSL.\nCTN ADZ.\nF) GND G) 500FT AMSL)",
       "fullTextAvailable": true
     },
@@ -1444,6 +1516,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "A0508/26",
       "rawText": "(A0596/26 NOTAMR A0508/26\nQ) LLLL/QGWAU/IV/NBO/E /000/999/3125N03521E117\nA) LLLL B) 2607281045 C) 2608312359\nE) POSS INTRP TO AIRBORNE GNSS EQPT WI TEL-AVIV FIR.)",
       "fullTextAvailable": true
     },
@@ -1483,6 +1557,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "A0507/26",
       "rawText": "(A0595/26 NOTAMR A0507/26\nQ) LLLL/QANLT/I /NBO/E /040/370/3053N03516E052\nA) LLLL B) 2607281044 C) 2608312359\nE) MAX ALT ALONG ATS RTE J10 BTN NURIT-SIVAK 18,000FT AMSL.)",
       "fullTextAvailable": true
     },
@@ -1522,6 +1598,8 @@
         "source": "e_text"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1608/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/022/3257N03530E001\nA) LLLL B) 2607281041 C) 2608312059\nE) UAS/UAV ACT WILL TAKE PLACE AT ZIV-HOSPITAL/TZFAT.\nWI 0.4KM RADIUS CENTERED ON PSN 325715N0352934E\nFM GND UP TO 30M AGL, 2,200FT AMSL.\nCTN ADZ.\nF) GND G) 2200FT AMSL)",
       "fullTextAvailable": true
     },
@@ -1561,6 +1639,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1596/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/015/3246N03502E002\nA) LLLL B) 2608010001 C) 2608312059\nE) UAS/UAV ACT WILL TAKE PLACE AT NESHER WI LLHA CTR\nFM GND UP TO 460M AGL 1,510FT AMSL, BTN FLW PSN\n324637N0350134E 324629N0350037E 324552N0350043E\n324514N0350131E 324513N0350243E 324559N0350245E\n324617N0350207E.\nCTN ADZ.\nF) GND G) 1500FT AMSL)",
       "fullTextAvailable": true
     },
@@ -1600,6 +1680,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1595/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/014/3143N03450E002\nA) LLLL B) 2608010001 C) 2608312059\nE) UAS/UAV ACT WILL TAKE PLACE AT DALIA/TZAFIT, WI ULTRALIGHT\nBUBBLE GOVRIN SOUTH (BGOVS) UP TO 100M AGL.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,400FT AMSL\n314353N0345038E 314339N0345010E 314221N0344925E\n314150N0345023E 314222N0345118E 314323N0345123E.\nCTN ADZ.\nF) GND G) 1400FT AMSL)",
       "fullTextAvailable": true
     },
@@ -1639,6 +1721,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "A0505/26",
       "rawText": "(A0592/26 NOTAMR A0505/26\nQ) LLLL/QANLC/I /NBO/E /050/370/3056N03502E053\nA) LLLL B) 2607261624 C) 2608312059\nE) ATS RTE Q30 CLSD BTN BEXOM-NURIT.)",
       "fullTextAvailable": true
     },
@@ -1678,6 +1762,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1399/26",
       "rawText": "(C1592/26 NOTAMR C1399/26\nQ) LLLL/QACLP/IV/NBO/AE/000/060/3259N03534E006\nA) LLIB B) 2607261528 C) 2608312059\nE) DEP/ARR AVBL VIA SOUTH ENTRY/EXIT ONLY.\nOPS OF ACFT AVBL WITH MAX 10 PAX ON BOARD.\nPJE PROHIBITED.)",
       "fullTextAvailable": true
     },
@@ -1717,6 +1803,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1398/26",
       "rawText": "(C1591/26 NOTAMR C1398/26\nQ) LLLL/QAELC/IV/NBO/E /020/060/3308N03536E006\nA) LLLL B) 2607261526 C) 2608312059\nE) LLIB TRG AREA NR A AND B CLSD.)",
       "fullTextAvailable": true
     },
@@ -1756,6 +1844,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1397/26",
       "rawText": "(C1590/26 NOTAMR C1397/26\nQ) LLLL/QCACI/IV/BO /AE/000/999/3158N03445E005\nA) LLRS B) 2607261525 C) 2608312059\nE) FLT DEPARTING AIRSTRIP NB VIA TYONA PILOT SHALL CONTACT\nPLUTO CTL FOR IDENT OVER TYONA.)",
       "fullTextAvailable": true
     },
@@ -1795,6 +1885,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1396/26",
       "rawText": "(C1589/26 NOTAMR C1396/26\nQ) LLLL/QACLP/IV/NBO/AE/000/100/3238N03524E012\nA) LLMG B) 2607261523 C) 2608312059\nE) GLD ACT AVBL S OF ROAD NR 85 AND ROAD NR 91,\nMAX 10 GLIDERS AIRBORNE APPROVED.\nPILOT SHALL MAKE TWO WAY RADIO COMM WITH ATC AND\nOPR TRANSPONDER.)",
       "fullTextAvailable": true
     },
@@ -1834,6 +1926,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1394/26",
       "rawText": "(C1587/26 NOTAMR C1394/26\nQ) LLLL/QAELC/IV/NBO/E /000/040/3301N03542E014\nA) LLLL B) 2607261520 C) 2608312059\nE) ULTRALIGHT BUBBLE RAMAT HAGOLAN (BRGOL) CLSD N OF ROAD NR 91.)",
       "fullTextAvailable": true
     },
@@ -1873,6 +1967,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1395/26",
       "rawText": "(C1588/26 NOTAMR C1395/26\nQ) LLLL/QACLP/IV/NBO/AE/000/015/3113N03428E002\nA) LLGV B) 2607261521 C) 2608312059\nE) CTR AVBL FOR UAS/UAV OR AGRICULTURE FLT ONLY.)",
       "fullTextAvailable": true
     },
@@ -1912,6 +2008,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1393/26",
       "rawText": "(C1584/26 NOTAMR C1393/26\nQ) LLLL/QAELC/IV/NBO/E /000/040/3304N03523E018\nA) LLLL B) 2607261518 C) 2608312059\nE) ULTRALIGHT BUBBLE CLSD  HAHULA (BHULA), KARMIEL (BKRML).)",
       "fullTextAvailable": true
     },
@@ -1951,6 +2049,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1392/26",
       "rawText": "(C1583/26 NOTAMR C1392/26\nQ) LLLL/QAELP/IV/NBO/E /000/015/3131N03436E013\nA) LLLL B) 2607261517 C) 2608312059\nE) ULTRALIGHT BUBBLE SHDEROT NORTH (BDRTN) AVBL UP TO 1,000FT AMSL,\nSHDEROT SOUTH (BDRTS) AVBL E OF ROAD NR 34 AND NE OF ROAD\nNR 25 UP TO 1,000FT AMSL AND CLSD W OF ROAD NR 34 AND\nSW OF ROAD NR 25.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
@@ -1990,6 +2090,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1390/26",
       "rawText": "(C1581/26 NOTAMR C1390/26\nQ) LLLL/QAELC/IV/NBO/E /000/030/3209N03522E028\nA) LLLL B) 2607261514 C) 2608312059\nE) PILOT SHALL FLY AT MNM 500FT AGL WI ULTRALIGHT BUBBLE,\nTKOF/LDG AVBL  HARROD (BHROD), NAAMA (BNAMM), ALMOG (BLMOG).)",
       "fullTextAvailable": true
     },
@@ -2029,6 +2131,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1385/26",
       "rawText": "(C1576/26 NOTAMR C1385/26\nQ) LLLL/QAELC/IV/NBO/E /000/999/3306N03525E019\nA) LLLL B) 2607261510 C) 2608312059\nE) AN AREA N OF ROAD NR 85 AND ROAD NR 91 CLSD TO ALL DOM FLT,\nEXC  ULTRALIGHT BUBBLE BZVUE, EMERG, OIL RIG FLT,\nMEDEVAC HEL OR PPR FLT FM IAF.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
@@ -2068,6 +2172,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1386/26",
       "rawText": "(C1577/26 NOTAMR C1386/26\nQ) LLLL/QAELC/IV/NBO/E /000/999/3308N03526E019\nA) LLLL B) 2607261510 C) 2608312059\nE) AN AREA FM LEBANON BOUNDRAY TO 8KM SB CLSD TO ALL DOM FLT,\nEXC POLICE, FIREFIGHTING, MEDEVAC FLT OR UAS/UAV FLT FOR\nEMERG, SECURITY, MEDEVAC PURPOSES ONLY.\nALL EMERG APPROVED FLT SHALL COORD WITH ATC AND MABBAH.)",
       "fullTextAvailable": true
     },
@@ -2107,6 +2213,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1387/26",
       "rawText": "(C1578/26 NOTAMR C1387/26\nQ) LLLL/QAELP/IV/NBO/E /000/999/3302N03547E018\nA) LLLL B) 2607261511 C) 2608312059\nE) AN AREA FM SYRIA BOUNDRAY TO 6KM WB CLSD TO ALL DOM FLT,\nEXC POLICE, FIREFIGHTING, MEDEVAC FLT OR UAS/UAV FLT FOR\nEMERG, SECURITY, MEDEVAC PURPOSES ONLY.\nALL EMERG APPROVED FLT SHALL COORD WITH ATC AND MABBAH.)",
       "fullTextAvailable": true
     },
@@ -2146,6 +2254,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1388/26",
       "rawText": "(C1579/26 NOTAMR C1388/26\nQ) LLLL/QAELP/IV/NBO/E /000/999/3123N03524E087\nA) LLLL B) 2607261511 C) 2608312059\nE) OPS OF FLT FM JORDAN BOUNDRAY TO 6KM WB REQUIRES\nTRANSPONDER OPERATING DRG ALL THE FLT AND MAINTANING\nTWO WAY RADIO COM WITH ATC.)",
       "fullTextAvailable": true
     },
@@ -2185,6 +2295,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1389/26",
       "rawText": "(C1580/26 NOTAMR C1389/26\nQ) LLLL/QAELP/IV/NBO/E /000/999/3029N03435E050\nA) LLLL B) 2607261512 C) 2608312059\nE) OPS OF FLT FM EGYPT BOUNDRAY TO 6KM WB REQUIRES\nTRANSPONDER OPERATING DRG ALL THE FLT AND MAINTANING\nTWO WAY RADIO COM WITH ATC.)",
       "fullTextAvailable": true
     },
@@ -2224,6 +2336,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1384/26",
       "rawText": "(C1575/26 NOTAMR C1384/26\nQ) LLLL/QAELP/IV/NBO/E /000/999/3132N03429E030\nA) LLLL B) 2607261509 C) 2608312059\nE) AN AREA AT GAZA-STRIP BTN FLW PSN CLSD TO ALL FLT, EXC\nPPR FLT FM IAF OR AGRICULTURE FLT, EMERG, MEDEVAC HEL\n310714N0341759E 310818N0343709E 310550N0344003E\n310818N0344800E 311316N0344737E 311900N0344023E\n312552N0344447E 313452N0344528E 313649N0344411E\n313923N0343600E 314259N0343316E 315055N0343648E\n315113N0343244E 315551N0343443E 315601N0340959E\n315145N0340414E 314613N0340054E 311927N0341305E.\nOPS FLT FM GAZA-STRIP BOUNDRAY TO 6KM OUTWARD\nAVBL BY PPR FM IAF AND CAAI AND ENTRY APPROVAL\nFM IDF (MABBAH) BY PHONE NR 08-9115730.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
@@ -2263,6 +2377,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C0813/26",
       "rawText": "(C1574/26 NOTAMR C0813/26\nQ) LLLL/QCACF/IV/BO /AE/000/999/3211N03450E005\nA) LLHZ B) 2607260548 C) 2608312059\nE) TWR FREQ TEMPO CHG TO 125.600MHZ,\nCLEARANCE (CPT) FREQ CHG TO 118.550MHZ.)",
       "fullTextAvailable": true
     },
@@ -2302,6 +2418,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1562/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/009/3211N03455E001\nA) LLLL B) 2607231211 C) 2608312059\nE) UAS ACT WILL TAKE PLACE AT KFAR-SABA WI LLHZ TRG AREA NR 3,\nFM GND UP TO 400FT AGL.\nAN AREA BTN FLW PSN CLSD FM GND UP TO 900FT AMSL\n321038N0345552E 321015N0345531E 321023N0345500E\n321100N0345511E 321112N0345414E 321144N0345442E\n321143N0345448E 321141N0345447E 321132N0345511E\n321126N0345509E 321122N0345510E 321114N0345542E\n321045N0345541E.\nCTN ADZ.\nF) GND G) 900FT AMSL)",
       "fullTextAvailable": true
     },
@@ -2341,6 +2459,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1558/26 NOTAMN\nQ) LLLL/QWMLW/IV/BO /W /000/120/3105N03454E001\nA) LLLL B) 2608020500 C) 2608311500\nD) SUN-THU 0500-1500\nE) FRNG WILL TAKE PLACE AT RAMAT-BEKA WI LLP14.\nAN AREA BTN THE FLW PSN  310542N0345314E\n310541N0345352E 310509N0345351E 310453N0345313E\nCLSD FM GND UP TO 12,000FT AMSL.\nCTN ADZ.\nF) GND G) 12000FT AMSL)",
       "fullTextAvailable": true
     },
@@ -2380,6 +2500,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1556/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/004/3157N03453E001\nA) LLLL B) 2608010001 C) 2609302059\nE) UAS/UAV ACT WILL TAKE PLACE AT LOD TRAIN, FM GND\nUP TO 40M AGL, BTN FLW PSN  315630N0345208E\n315644N0345204E 315703N0345210E 315718N0345229E\n315716N0345249E 315710N0345306E 315657N0345311E\n315645N0345305E 315631N0345249E 315624N0345228E\nCTN ADZ.\nF) GND G) 330FT AMSL)",
       "fullTextAvailable": true
     },
@@ -2419,6 +2541,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1541/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3211N03450E005\nA) LLHZ B) 2607211244 C) PERM\nE) THE FLW ELEMENTS PENETRATING RWY STRIP\nTWY PENETRATING S OF RWY 10.\nFENCE PENETRATING NW OF RWY 10.\nPOLES HEIGHT 1.20M AGL E OF RWY 28.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
@@ -2458,6 +2582,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0575/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/2944N03501E005\nA) LLER B) 2607191145 C) 2608312359\nE) OCA(H) FOR ILS RWY 19 CHG TO 500(228) FOR ALL CAT.)",
       "fullTextAvailable": true
     },
@@ -2497,6 +2623,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0572/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/2944N03501E005\nA) LLER B) 2607191137 C) 2608312359\nE) OCA(H) FOR ILS RWY 01 CHG TO 500(248) FOR ALL CAT.)",
       "fullTextAvailable": true
     },
@@ -2536,6 +2664,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1529/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/015/3231N03518E002\nA) LLLL B) 2608010001 C) 2608312059\nE) UAS/UAV ACT WILL TAKE PLACE AT MAGEN-SHAUL, UP TO 100M AGL.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,500FT AMSL\n323145N0351642E 323024N0351638E 323039N0352004E\n323139N0351954E 323153N0351930E 323159N0351907E\nCTN ADZ.\nF) GND G) 1500FT AMSL)",
       "fullTextAvailable": true
     },
@@ -2575,6 +2705,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1361/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/010/3151N03440E002\nA) LLLL B) 2607010001 C) 2612312159\nE) UAS/UAV ACT WILL TAKE PLACE AT ASHDOD, FM GND UP TO 100M AGL.\nAN AREA BTN FLW PSN CLSD FM GND UP TO 950FT AMSL\n315119N0344122E 315127N0344037E 315123N0344007E\n315132N0343931E 315055N0343917E 315038N0344013E\n315035N0344120E.\nCTN ADZ.\nF) GND G) 950FT AMSL)",
       "fullTextAvailable": true
     },
@@ -2614,6 +2746,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0500/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/3201N03451E005\nA) LLBG B) 2606241641 C) 2608312359\nE) OCA(H) FOR ILS RWY 26 CHG TO 500(376) FOR ALL CAT.)",
       "fullTextAvailable": true
     },
@@ -2653,6 +2787,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0501/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/3201N03452E005\nA) LLBG B) 2606241642 C) 2608312359\nE) OCA(H) FOR ILS RWY 30 CHG TO 500(370) FOR ALL CAT.)",
       "fullTextAvailable": true
     },
@@ -2692,6 +2828,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0497/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/3201N03454E005\nA) LLBG B) 2606241639 C) 2608312359\nE) OCA(H) FOR ILS RWY 08 CHG TO 500(403) FOR ALL CAT.)",
       "fullTextAvailable": true
     },
@@ -2731,6 +2869,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0498/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/3200N03454E005\nA) LLBG B) 2606241640 C) 2608312359\nE) OCA(H) FOR ILS RWY 12 CHG TO 500(397) FOR ALL CAT.)",
       "fullTextAvailable": true
     },
@@ -2770,6 +2910,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0499/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/3200N03453E005\nA) LLBG B) 2606241640 C) 2608312359\nE) OCA(H) FOR ILS RWY 21 CHG TO 500(366) FOR ALL CAT.)",
       "fullTextAvailable": true
     },
@@ -2809,6 +2951,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C1119/26",
       "rawText": "(C1281/26 NOTAMR C1119/26\nQ) LLLL/QAELC/IV/NBO/E /000/015/3246N03525E001\nA) LLLL B) 2606151146 C) PERM\nE) AN AREA AT GOLANI-INTERCHANGE WI 0.6NM RADIUS CENTRED\nON PSN 324600N0352530E CLSD TO ALL FLT INCLUDING\nAGRICULTURE FLT, FM GND UP TO 1,500FT AMSL.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
@@ -2848,6 +2992,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0475/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/001/3249N03503E001\nA) LLHA B) 2606150644 C) 2609302059\nE) CRANE ERECTED WI LLHA CTR, FM GND UP TO 26M 89FT AGL,\n29M 95FT AMSL. AN AREA WI 0.3NM RADIUS CENTERED ON\nPSN 324910.1N0350231.28E CLSD FM GND UP TO 100FT AMSL.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
@@ -2887,6 +3033,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0467/26 NOTAMN\nQ) LLLL/QLPAS/IV/BO /A /000/999/2944N03501E005\nA) LLER B) 2606100537 C) 2609102359\nE) PAPI RWY 19 EAST U/S.)",
       "fullTextAvailable": true
     },
@@ -2926,6 +3074,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C1244/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /040/060/2946N03455E005\nA) LLLL B) 2606100537 C) 2609102359\nE) LLER TRG AREA HAR BERECH CLSD TO ALL FLT.)",
       "fullTextAvailable": true
     },
@@ -2965,6 +3115,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "A0410/26",
       "rawText": "(A0457/26 NOTAMR A0410/26\nQ) LLLL/QPDCH/I /NBO/A /000/999/3201N03453E005\nA) LLBG B) 2606080531 C) PERM\nE) MNM CMB GRADIENT CHG AS FLW\nCHART AD 2 LLBG SID 26-1\nALL SID  MNM CMB GRADIENT REQUIRED 7.0 PERCENT UP TO\n2,500FT DUE TO AIR-SPACE RESTRICTIONS.\nIF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\n3.5 PERCENT DUE TO OBST.\nCHART AD 2 LLBG SID 12-26-30-1\nFOR SID PIDET1E  MNM CMB GRADIENT REQUIRED OF 6.0 PERCENT\nUP TO 5,000FT DUE TO AIR-SPACE RESTRICTIONS.\nIF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\n3.5 PERCENT DUE TO OBST.\nFOR SID RIPUD1E  MNM CMB GRADIENT REQUIRED OF 7.0 PERCENT\nUP TO 6,000FT DUE TO AIR-SPACE RESTRICTIONS.\nIF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\n3.5 PERCENT DUE TO OBST.\nCHART AD 2 LLBG SID 12-26-30-2, FOR SID ORLEV1E\nMNM CMB GRADIENT REQUIRED 8.0 PERCENT UP TO 5,000FT\nDUE TO AIR-SPACE RESTRICTIONS.\nIF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\n3.5 PERCENT DUE TO OBST.\nISRAEL AIP, PART AD, CHARTS  AD 2 LLBG SID 26-1,\nAD 2 LLBG SID 12-26-30-1, AD 2 LLBG SID 12-26-30-2. REF.)",
       "fullTextAvailable": true
     },
@@ -3004,6 +3156,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "A0326/26",
       "rawText": "(A0434/26 NOTAMR A0326/26\nQ) LLLL/QMXAR/IV/M  /A /000/999/3112N03502E005\nA) LLNV B) 2605270811 C) 2608312059\nE) TWY Z LOCATED S OF RWY 07/25, MARKED AND LIT AS RWY,\nAVBL FOR TWY, LDG/TKOFF ON TWY Z AVBL BY ATC ONLY.\nDIRECTIONS 06/24.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
@@ -3043,6 +3197,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "A0360/26",
       "rawText": "(A0433/26 NOTAMR A0360/26\nQ) LLLL/QSEAU/IV/BO /AE/000/999/3112N03502E005\nA) LLNV B) 2605270808 C) 2608312059\nE) RADAR SER NOT AVBL.)",
       "fullTextAvailable": true
     },
@@ -3082,6 +3238,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0409/26 NOTAMN\nQ) LLLL/QMPLC/IV/BO /A /000/999/3249N03503E005\nA) LLHA B) 2605120601 C) 2608312059\nE) ACFT STAND A1 CLSD, DUE WIP.)",
       "fullTextAvailable": true
     },
@@ -3121,6 +3279,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0353/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2609041500 C) 2609041955\nE) AD CLSD DUE WIP.)",
       "fullTextAvailable": true
     },
@@ -3160,6 +3320,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0354/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2610161500 C) 2610161955\nE) AD CLSD DUE WIP.)",
       "fullTextAvailable": true
     },
@@ -3199,6 +3361,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0281/26 NOTAMN\nQ) LLLL/QMPLC/IV/BO /A /000/999/3249N03503E005\nA) LLHA B) 2603251146 C) PERM\nE) ACFT STAND J10 CLSD.)",
       "fullTextAvailable": true
     },
@@ -3238,6 +3402,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C0431/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/003/3204N03447E001\nA) LLLL B) 2602111125 C) PERM\nE) OPS OF UAS/UAV OR MODEL ACFT WI 500M RADIUS CENTERED ON\nPSN 320418N0344709.6E FM GND UP TO 300FT AMSL PROHIBITED.\nDOM AIP, PART A-17, PAGE 5, PARA 1A.C. AND NISPACH C. REF.\nF) GND G) 300FT AMSL)",
       "fullTextAvailable": true
     },
@@ -3277,6 +3443,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0117/26 NOTAMN\nQ) LLLL/QMXLT/IV/M  /A /000/999/3201N03453E005\nA) LLBG B) 2601291639 C) PERM\nE) TWY W4 PCR 1,520/F/C/X/T.\nISRAEL AIP, PART AD, CHART AD 2 LLBG ADC-1 REF.)",
       "fullTextAvailable": true
     },
@@ -3316,6 +3484,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(A0116/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2601291632 C) PERM\nE) RWY 08/26 PCR 880/F/C/X/T.\nISRAEL AIP, PART AD, PAGE AD-2-LLBG-6, TABLE 2.12 REF.)",
       "fullTextAvailable": true
     },
@@ -3355,6 +3525,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "A0722/25",
       "rawText": "(A0056/26 NOTAMR A0722/25\nQ) LLLL/QANLC/I /NBO/E /120/600/3224N03432E024\nA) LLLL B) 2601250805 C) PERM\nE) ATS RTE P42 BTN TAPUZ-MERVA AVBL BY ATC ONLY.\nISRAEL AIP, PART ENR 3.1, PAGE ENR 3.1-17, CHART ENR 6-1 REF.)",
       "fullTextAvailable": true
     },
@@ -3394,6 +3566,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C0037/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/015/3236N03525E005\nA) LLLL B) 2601011650 C) 2612312159\nE) OPS OF HOT-AIR BALLOON AT MOLEDET-CENTER WI 4.5KM RADIUS\nSEMI-CIRCLE TO EAST CENTERED ON PSN 323732.9N0352302.1E\nPROHIBITED.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
@@ -3433,6 +3607,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "N",
+      "replaces": null,
       "rawText": "(C0032/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/100/3238N03523E002\nA) LLLL B) 2601011156 C) 2612312159\nE) AN AREA AT NAURA WI LLMG TRG AREA B-WEST WI 2.2KM RADIUS\nCENTERED ON PSN 323732.9N0352302.1E CLSD TO ALL FLT\nINCLUDING AGRICULTURE FLT, FM GND UP TO 10,000FT AMSL.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
@@ -3472,6 +3648,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C2794/25",
       "rawText": "(C0010/26 NOTAMR C2794/25\nQ) LLLL/QWULW/IV/BO /W /000/010/3149N03458E001\nA) LLLL B) 2601010640 C) PERM\nE) UAS ACT WILL TAKE PLACE AT LATRUN.\nAN AREA BTN THE FLW PSNS  N314945E0345822 N314949E0345806\nN314936E0345743 N314910E0345813 CLSD FM GND UP TO\n300FT AGL, 950FT AMSL.\nCTN ADZ.\nDOM AIP, PART B-03, CHART A, B-08, CHART A. REF.\nF) GND G) 1000FT AMSL)",
       "fullTextAvailable": true
     },
@@ -3511,6 +3689,8 @@
         "source": "q_line"
       },
       "administrative": false,
+      "notamType": "R",
+      "replaces": "C0731/25",
       "rawText": "(C0005/26 NOTAMR C0731/25\nQ) LLLL/QWULW/IV/BO /W /000/005/3231N03455E001\nA) LLLL B) 2601010630 C) PERM\nE) UAS/UAV ACT WILL TAKE PLACE AT OR-AKIVA INDUSTRY AREA.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 500FT AMSL\nN323122E0345511 N323119E0345512 N323119E0345515\nN323123E0345514.\nCTN ADZ.\nDOM AIP, PART A-17, PAGE 10, PARA 3. NISPACH 2 REF.\nF) GND G) 500FT AMSL)",
       "fullTextAvailable": true
     }

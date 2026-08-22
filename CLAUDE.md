@@ -38,8 +38,10 @@ Single-purpose scraper, no framework:
   `page.waitForResponse`, regex-extracts the `<Msg>` XML, and hand-parses it
   (no XML library — the structure is simple and fixed) into structured
   fields: Q-line (FIR/Qcode/traffic/purpose/scope/altitude/summary
-  position), A) affected locations, full E) text, F)/G) altitude limits, and
-  a best-available `position` (prefers a `CENTERED ON PSN ... RADIUS` phrase
+  position), A) affected locations, full E) text, F)/G) altitude limits,
+  ICAO message type + superseded NOTAM number (`notamType`/`replaces`,
+  parsed off the first line, e.g. `"(A0668/26 NOTAMR A0598/26"`), and a
+  best-available `position` (prefers a `CENTERED ON PSN ... RADIUS` phrase
   parsed out of the E) text over the Q-line's minute-rounded summary
   position, but always keeps the Q-line one as a guaranteed fallback since
   every ICAO NOTAM has one). Per-row failures retry once, then fall back to

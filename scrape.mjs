@@ -125,6 +125,16 @@ function buildNotamRecord(xml, fallback) {
   const { attrs, lines } = parseMsgXml(xml);
   const rawText = lines.join('\n');
 
+  // First line is e.g. "(A0668/26 NOTAMR A0598/26" (replaces A0598/26) or
+  // "(C1780/26 NOTAMN" (new). This page never shows NOTAMC (cancellation)
+  // entries — a cancelled NOTAM just stops appearing in future scrapes — but
+  // NOTAMR's "replaces" reference is real data worth surfacing: a consumer
+  // caching NOTAMs across polls can retire the old number explicitly instead
+  // of just noticing it vanished.
+  const headerMatch = /^\(\S+\s+NOTAM([A-Z])(?:\s+(\S+))?/.exec((lines[0] || '').trim());
+  const notamType = headerMatch ? headerMatch[1] : null;
+  const replaces = headerMatch && headerMatch[2] ? headerMatch[2] : null;
+
   const qLineText = lines.find((l) => /^Q\)/.test(l.trim()));
   const aLineText = lines.find((l) => /^A\)/.test(l.trim()));
   const fgLineText = lines.find((l) => /^F\)/.test(l.trim()));
@@ -191,6 +201,8 @@ function buildNotamRecord(xml, fallback) {
     upperLimit,
     position,
     administrative,
+    notamType,
+    replaces,
     rawText,
     fullTextAvailable: true,
   };
@@ -279,6 +291,8 @@ async function scrapeAll() {
         // preview text itself (see the qcode-based check above for the
         // normal, reliable path).
         administrative: /^(E\)\s*)?CHECKLIST\b/i.test(fallback.preview.trim()),
+        notamType: null,
+        replaces: null,
         rawText: fallback.preview,
         fullTextAvailable: false,
       };
