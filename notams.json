@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-22T20:00:53.522Z",
+  "generatedAt": "2026-08-22T20:36:36.188Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 89,
+  "count": 87,
   "notams": [
     {
       "id": "C1780/26",
@@ -43,47 +43,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1780/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/022/3123N03446E001\nA) LLLL B) 2608230245 C) 2608312059\nE) CAPTIVE BALLOON WILL TAKE PLACE AT RAHAT, UP TO 1,700FT AMSL.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 312252N0344541E\nCLSD FM GND UP TO 2,200FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ\nF) GND G) 2200FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1779/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2049486",
-      "fromDate": "2026-08-22T17:30:00Z",
-      "toDate": "2026-08-22T20:00:00Z",
-      "createDate": "2026-08-20T10:16:05Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "018",
-        "positionToken": "3259N03519E001",
-        "position": {
-          "lat": 32.983333,
-          "lon": 35.316667,
-          "radiusNm": 1
-        }
-      },
-      "eText": "UAS/UAV AIR-SHOW WILL TAKE PLACE AT PEKIIN. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 325918N0351858E CLSD FM GND UP TO 50M AGL 1,800FT AMSL. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "1800FT AMSL",
-      "position": {
-        "lat": 32.988333,
-        "lon": 35.316111,
-        "radiusNm": 0.3,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1779/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/018/3259N03519E001\nA) LLLL B) 2608221730 C) 2608222000\nE) UAS/UAV AIR-SHOW WILL TAKE PLACE AT PEKIIN.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 325918N0351858E\nCLSD FM GND UP TO 50M AGL 1,800FT AMSL.\nCTN ADZ.\nF) GND G) 1800FT AMSL)",
       "fullTextAvailable": true
     },
     {
@@ -535,47 +494,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1769/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/020/3145N03452E002\nA) LLLL B) 2608230820 C) 2608230930\nE) FIREFIGHTING ACT WILL TAKE PLACE AT TIROSH.\nAN AREA WI 2NM RADIUS CENTERED ON PSN 314502N0345208E\nCLSD TO ALL FLT INCLUDING AGRICULTURE FLT, FM GND\nUP TO 2,000FT AMSL.\nCTN ADZ.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1765/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2048373",
-      "fromDate": "2026-08-22T18:00:00Z",
-      "toDate": "2026-08-22T20:30:00Z",
-      "createDate": "2026-08-17T08:55:55Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "003",
-        "positionToken": "3201N03444E001",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.733333,
-          "radiusNm": 1
-        }
-      },
-      "eText": "UAS/UAV AIR-SHOW WILL TAKE PLACE AT BAT-YAM. AN AREA WI 0.3KM RADIUS CENTERED ON PSN 320055N0344414E CLSD FM GND UP TO 50M AGL 300FT AMSL. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "300FT AMSL",
-      "position": {
-        "lat": 32.015278,
-        "lon": 34.737222,
-        "radiusNm": null,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1765/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/003/3201N03444E001\nA) LLLL B) 2608221800 C) 2608222030\nE) UAS/UAV AIR-SHOW WILL TAKE PLACE AT BAT-YAM.\nAN AREA WI 0.3KM RADIUS CENTERED ON PSN 320055N0344414E\nCLSD FM GND UP TO 50M AGL 300FT AMSL.\nCTN ADZ.\nF) GND G) 300FT AMSL)",
       "fullTextAvailable": true
     },
     {
