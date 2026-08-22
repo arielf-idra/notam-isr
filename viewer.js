@@ -71,7 +71,7 @@ function setupViewToggle() {
   function setMode(showJson) {
     listEl.hidden = showJson;
     jsonEl.hidden = !showJson;
-    searchEl.hidden = showJson;
+    searchEl.disabled = showJson;
     jsonBtn.classList.toggle('active', showJson);
     jsonBtn.setAttribute('aria-pressed', String(showJson));
     cardsBtn.classList.toggle('active', !showJson);
