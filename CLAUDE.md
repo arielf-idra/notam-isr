@@ -56,9 +56,10 @@ Single-purpose scraper, no framework:
   behavior) **and** the file actually changed. This means a scrape failure
   or WAF change leaves the last known-good `notams.json` published as-is —
   never overwrite good data with a broken/empty result.
-- **`index.html`** — static, dependency-free viewer. Fetches `./notams.json`
-  client-side and renders a searchable list; meant to be served via GitHub
-  Pages from the repo root. No build step; edit and reload directly.
+- **`index.html`** / **`viewer.js`** — static, dependency-free viewer. Fetches
+  `./notams.json` client-side and renders a searchable list; meant to be
+  served via GitHub Pages from the repo root. No build step; edit and reload
+  directly.
 
 ## Key gotchas when touching the scraper
 
@@ -77,3 +78,17 @@ Single-purpose scraper, no framework:
   `"F) GND G) 2200FT AMSL)"`) — the parsing in `scrape.mjs` has to split on
   the next field marker and strip that trailing paren rather than assuming a
   field ends at end-of-line.
+
+## Security notes for future changes
+
+Every NOTAM field is untrusted third-party scraped data (see the
+[Security](README.md#security) section in the README for the full rationale).
+When touching `viewer.js`, every value interpolated into `innerHTML` must go
+through `escapeHtml()` — there is no exception, since `index.html`'s CSP
+(`script-src 'self'`, no inline scripts) is the only backstop against an
+escaping bug. If you add new JS to the page, it must live in an external
+`.js` file for the same reason — an inline `<script>` block would violate
+that CSP. When touching `.github/workflows/scrape.yml`, keep third-party
+Actions pinned to a commit SHA (not a tag) and keep the workflow off
+`pull_request`/`pull_request_target` triggers, since it holds
+`contents: write`.

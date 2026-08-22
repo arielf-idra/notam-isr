@@ -167,6 +167,39 @@ npm run scrape
 Takes roughly 50–60 seconds for ~90 NOTAMs (page load + one AJAX round trip
 per row, sequential). Writes `notams.json` in the repo root.
 
+## Security
+
+- **Least-privilege automation.** `scrape.yml` declares only
+  `permissions: contents: write` — nothing else — and only ever runs on a
+  schedule or manual `workflow_dispatch`, never on a `pull_request` trigger.
+  That means an external contributor can't get a fork's code to run with this
+  repo's write token by opening a PR (a common CI supply-chain hole). The
+  commit step also stages only `notams.json` explicitly (`git add
+  notams.json`, not `git add -A`), so a compromised dependency can't smuggle
+  other file changes into a commit even in the worst case.
+- **Pinned Actions.** All third-party GitHub Actions in the workflow are
+  pinned to a full commit SHA (with the version as a trailing comment), not a
+  mutable tag, so a compromised or force-moved tag upstream can't silently
+  swap in different code. [Dependabot](.github/dependabot.yml) keeps these
+  pins (and npm dependencies) current via automated PRs.
+- **Escaped, CSP-hardened viewer.** Every NOTAM field is scraped from a
+  third-party site and is treated as untrusted input: [`viewer.js`](viewer.js)
+  HTML-escapes every field before inserting it into the page, and
+  [`index.html`](index.html) sets a strict `Content-Security-Policy`
+  (`script-src 'self'`, no inline scripts) as defense in depth — even if an
+  escaping bug slipped in, the browser would still refuse to execute an
+  injected `<script>`.
+- **Data integrity has a hard limit.** There's no cryptographic signing on
+  IAA's side, so if their site were compromised or tampered with in transit,
+  this feed would faithfully republish that. Treat this the same way you'd
+  treat any unofficial scrape — informational, not authoritative (see the
+  disclaimer throughout this README).
+
+If you fork or extend this: keep the workflow off `pull_request` triggers, or
+if you need PR-based CI, make sure any privileged step (like the commit/push
+here) only ever runs on your own trusted code, not on code checked out from a
+fork.
+
 ## Limitations
 
 - This is a scraper against a third-party government site with no public API
