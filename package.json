@@ -1,0 +1,30 @@
+{
+  "name": "notam-isr",
+  "version": "1.0.0",
+  "description": "Unofficial JSON republish of Israel's Airports Authority (IAA) live NOTAM feed",
+  "scripts": {
+    "scrape": "node scrape.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arielf-idra/notam-isr.git"
+  },
+  "keywords": [
+    "notam",
+    "aviation",
+    "israel",
+    "iaa",
+    "vfr",
+    "flight-planning"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/arielf-idra/notam-isr/issues"
+  },
+  "homepage": "https://github.com/arielf-idra/notam-isr#readme",
+  "dependencies": {
+    "playwright": "^1.62.1"
+  }
+}
