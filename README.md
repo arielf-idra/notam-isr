@@ -89,12 +89,30 @@ conservative "this snapshot is true as of" bound.
       "lowerLimit": "GND",
       "upperLimit": "2200FT AMSL",
       "position": { "lat": 31.381111, "lon": 34.761389, "radiusNm": 0.4, "source": "e_text" },
+      "administrative": false,
       "rawText": "(C1780/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/022/3123N03446E001\nA) LLLL B) 2608230245 C) 2608312059\nE) CAPTIVE BALLOON WILL TAKE PLACE AT RAHAT, UP TO 1,700FT AMSL.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 312252N0344541E\nCLSD FM GND UP TO 2,200FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ\nF) GND G) 2200FT AMSL)",
       "fullTextAvailable": true
     }
   ]
 }
 ```
+
+### About the `administrative` field
+
+A small number of entries in the feed aren't operational NOTAMs at all —
+they're **CHECKLIST** NOTAMs: a periodic manifest listing every currently
+valid NOTAM number (by year) plus the latest AIP amendment/supplement/AIC
+references, published so users can cross-check they haven't missed one due
+to a distribution gap. They carry no geographic restriction of their own.
+
+These are detected via the ICAO Q-code: subject `KK` (e.g. `QKKKK`) is
+reserved for exactly this NOTAM type, paired with a `000/999` altitude range
+and a `999NM` radius as IAA's way of marking "no real scope." Any such entry
+gets `"administrative": true`, and [`index.html`](index.html) filters these
+out of the default view. They're kept in the JSON (not dropped) since a
+consumer may want to use one as an integrity check — e.g. confirming every
+NOTAM number the checklist lists is also present in this feed's `notams`
+array.
 
 ### About the `position` field — read this before plotting anything
 

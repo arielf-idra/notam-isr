@@ -171,6 +171,11 @@ function buildNotamRecord(xml, fallback) {
       ? { ...qLine.position, source: 'q_line' }
       : null;
 
+  // ICAO Q-code subject "KK" (e.g. "QKKKK") is reserved for CHECKLIST NOTAMs:
+  // a periodic manifest of currently-valid NOTAM numbers + AIP/AIC references,
+  // published for completeness cross-checking, not an operational restriction.
+  const administrative = Boolean(qLine && qLine.qcode && qLine.qcode.slice(1, 3) === 'KK');
+
   return {
     id: attrs.NotamID || fallback.id,
     location: attrs.Location || fallback.location,
@@ -185,6 +190,7 @@ function buildNotamRecord(xml, fallback) {
     lowerLimit,
     upperLimit,
     position,
+    administrative,
     rawText,
     fullTextAvailable: true,
   };
@@ -269,6 +275,10 @@ async function scrapeAll() {
         lowerLimit: null,
         upperLimit: null,
         position: null,
+        // No Q-line available in this fallback path, so detect via the
+        // preview text itself (see the qcode-based check above for the
+        // normal, reliable path).
+        administrative: /^(E\)\s*)?CHECKLIST\b/i.test(fallback.preview.trim()),
         rawText: fallback.preview,
         fullTextAvailable: false,
       };

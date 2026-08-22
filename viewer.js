@@ -74,15 +74,28 @@ async function main() {
 
   document.getElementById('generated').textContent =
     `Last updated: ${fmtUtc(data.generatedAt)} (${timeAgo(data.generatedAt)})`;
-  document.getElementById('count').textContent = `${data.count} active NOTAM${data.count === 1 ? '' : 's'}`;
 
   if (!data.notams || data.notams.length === 0) {
+    document.getElementById('count').textContent = `${data.count} active NOTAM${data.count === 1 ? '' : 's'}`;
     listEl.innerHTML = '<div class="empty">No NOTAMs found.</div>';
     return;
   }
 
-  const sorted = [...data.notams].sort((a, b) => (a.fromDate || '').localeCompare(b.fromDate || ''));
-  listEl.innerHTML = sorted.map(renderCard).join('');
+  // Administrative NOTAMs (e.g. CHECKLIST) carry no operational info of their
+  // own — they're a periodic manifest of NOTAM numbers for completeness
+  // cross-checking. Not useful to show in a browsing view, so hide them here
+  // (they're still in notams.json for anyone who wants that cross-check).
+  const operational = data.notams.filter((n) => !n.administrative);
+  const hiddenCount = data.notams.length - operational.length;
+
+  document.getElementById('count').textContent =
+    `${operational.length} active NOTAM${operational.length === 1 ? '' : 's'}` +
+    (hiddenCount > 0 ? ` (+${hiddenCount} administrative hidden)` : '');
+
+  const sorted = [...operational].sort((a, b) => (a.fromDate || '').localeCompare(b.fromDate || ''));
+  listEl.innerHTML = sorted.length
+    ? sorted.map(renderCard).join('')
+    : '<div class="empty">No NOTAMs found.</div>';
 
   const cards = Array.from(listEl.querySelectorAll('.card'));
   document.getElementById('search').addEventListener('input', (e) => {
