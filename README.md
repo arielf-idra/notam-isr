@@ -50,7 +50,11 @@ const { generatedAt, disclaimer, count, notams } = await res.json();
 
 Refresh interval: **every 10 minutes** (GitHub Actions cron), plus manual
 runs. Check `generatedAt` in the payload to see how fresh the data actually
-is at fetch time.
+is at fetch time — it's set to when the scrape run **started** reading the
+source page, not when it finished. A full run walks ~90 rows sequentially
+and takes ~50-60s, so using the finish time would understate staleness if
+something on the source page changed partway through; the start time is the
+conservative "this snapshot is true as of" bound.
 
 ### JSON shape
 

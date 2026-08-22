@@ -194,6 +194,12 @@ async function scrapeAll() {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
+  // Captured right before the first request to the source page, not after
+  // scraping finishes: the ~50-60s run touches ~90 rows sequentially, so
+  // "finished" would understate staleness if something changed on the source
+  // page partway through. The start time is the conservative "true as of" bound.
+  const startedAt = new Date().toISOString();
+
   console.log(`Navigating to ${SOURCE_URL} ...`);
   const resp = await page.goto(SOURCE_URL, { waitUntil: 'load', timeout: 60000 });
   if (!resp || resp.status() !== 200) {
@@ -272,11 +278,11 @@ async function scrapeAll() {
   }
 
   await browser.close();
-  return results;
+  return { startedAt, notams: results };
 }
 
 async function main() {
-  const notams = await scrapeAll();
+  const { startedAt, notams } = await scrapeAll();
 
   if (notams.length < MIN_ROWS) {
     throw new Error(
@@ -290,7 +296,7 @@ async function main() {
   }
 
   const output = {
-    generatedAt: new Date().toISOString(),
+    generatedAt: startedAt,
     source: SOURCE_URL,
     disclaimer: 'Informational only. Not a substitute for an official pre-flight briefing.',
     count: notams.length,
