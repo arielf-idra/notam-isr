@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-08-23T11:47:25.294Z",
+  "generatedAt": "2026-08-23T12:02:21.892Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 84,
+  "count": 85,
   "notams": [
+    {
+      "id": "C1782/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2050599",
+      "fromDate": "2026-09-07T03:00:00Z",
+      "toDate": "2026-09-08T06:30:00Z",
+      "createDate": "2026-08-23T11:59:26Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "025",
+        "upperLimitFl": "040",
+        "positionToken": "3034N03512E037",
+        "position": {
+          "lat": 30.566667,
+          "lon": 35.2,
+          "radiusNm": 37
+        }
+      },
+      "eText": "CVFR RTE CLSD KTORA-YAHEL-BMNUH-ZOFAR-HAZVA-ARAVA-ZOHAR.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.566667,
+        "lon": 35.2,
+        "radiusNm": 37,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1782/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /025/040/3034N03512E037\nA) LLLL B) 2609070300 C) 2609080630\nD) 07 0300-0630 1630-1900, 08 0330-0630\nE) CVFR RTE CLSD\nKTORA-YAHEL-BMNUH-ZOFAR-HAZVA-ARAVA-ZOHAR.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C1781/26",
       "location": "LLIB",
