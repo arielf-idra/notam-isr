@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-23T16:27:49.521Z",
+  "generatedAt": "2026-08-23T16:54:38.648Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 88,
+  "count": 87,
   "notams": [
     {
       "id": "C1785/26",
@@ -289,47 +289,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1777/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/005/3141N03440E001\nA) LLLL B) 2608230600 C) 2608271300\nD) DAILY 0600-1300\nE) UAS ACT WILL TAKE PLACE AT JULIS.\nAN AREA FM GND UP TO 500FT AMSL CLSD TO ALL FLT\nBTN FLW PSN  314122N0344041E 314012N0344040E\n314018N0343958E 314118N0344006E 314118N0344024E.\nOPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 500FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1775/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2049404",
-      "fromDate": "2026-08-20T05:00:00Z",
-      "toDate": "2026-08-23T16:45:00Z",
-      "createDate": "2026-08-20T04:51:42Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QOBCE",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "006",
-        "positionToken": "3258N03505E002",
-        "position": {
-          "lat": 32.966667,
-          "lon": 35.083333,
-          "radiusNm": 2
-        }
-      },
-      "eText": "OBST ERECTED AT SHAVEI-ZION, WI ZVULUN-N (BZVUN) ULTRALIGHT BUBBLE. AN AREA WI 1.6NM RADIUS CENTERED ON PSN 325822N0350444E CLSD FM GND UP TO 600FT AMSL. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.972778,
-        "lon": 35.078889,
-        "radiusNm": 1.6,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1775/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /E /000/006/3258N03505E002\nA) LLLL B) 2608200500 C) 2608231645\nE) OBST ERECTED AT SHAVEI-ZION, WI ZVULUN-N (BZVUN) ULTRALIGHT\nBUBBLE.\nAN AREA WI 1.6NM RADIUS CENTERED ON PSN 325822N0350444E\nCLSD FM GND UP TO 600FT AMSL.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
     {
