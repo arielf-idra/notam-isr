@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-08-23T05:42:11.681Z",
+  "generatedAt": "2026-08-23T06:16:46.427Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 85,
+  "count": 86,
   "notams": [
+    {
+      "id": "C1781/26",
+      "location": "LLIB",
+      "airfield": "Rosh-Pina",
+      "msgNumber": "2050509",
+      "fromDate": "2026-09-17T06:00:00Z",
+      "toDate": "2026-09-17T09:00:00Z",
+      "createDate": "2026-08-23T05:59:01Z",
+      "affected": [
+        "LLIB"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALT",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3259N03534E005",
+        "position": {
+          "lat": 32.983333,
+          "lon": 35.566667,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AD CLSD TO ALL FLT, DUE WIP. OPS OF HEL AVBL BY PPR FM ATC. IN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.983333,
+        "lon": 35.566667,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1781/26 NOTAMN\nQ) LLLL/QFALT/IV/NBO/A /000/999/3259N03534E005\nA) LLIB B) 2609170600 C) 2609170900\nE) AD CLSD TO ALL FLT, DUE WIP.\nOPS OF HEL AVBL BY PPR FM ATC.\nIN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C1780/26",
       "location": "LLLL",
