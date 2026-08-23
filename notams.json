@@ -1,9 +1,132 @@
 {
-  "generatedAt": "2026-08-23T12:02:21.892Z",
+  "generatedAt": "2026-08-23T12:59:32.874Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 85,
+  "count": 88,
   "notams": [
+    {
+      "id": "C1785/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2050608",
+      "fromDate": "2026-09-07T03:00:00Z",
+      "toDate": "2026-09-08T06:30:00Z",
+      "createDate": "2026-08-23T12:35:31Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "018",
+        "upperLimitFl": "035",
+        "positionToken": "3025N03455E028",
+        "position": {
+          "lat": 30.416667,
+          "lon": 34.916667,
+          "radiusNm": 28
+        }
+      },
+      "eText": "HEL RTE CLSD KTORA-SIZFN-SITIM-ZZHOR. BMNUH-ZZHOR-MESAR-RUHOT. ZOFAR-HRGVS-RUHOT-KNFHA-RAMLY-MIDRS. LLEY-NNAHS-MIDRS. NNAHS-RAMLY.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.416667,
+        "lon": 34.916667,
+        "radiusNm": 28,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1785/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /018/035/3025N03455E028\nA) LLLL B) 2609070300 C) 2609080630\nD) 07 0300-0630 1630-1900, 08 0330-0630\nE) HEL RTE CLSD\nKTORA-SIZFN-SITIM-ZZHOR.\nBMNUH-ZZHOR-MESAR-RUHOT.\nZOFAR-HRGVS-RUHOT-KNFHA-RAMLY-MIDRS.\nLLEY-NNAHS-MIDRS.\nNNAHS-RAMLY.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1784/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2050603",
+      "fromDate": "2026-09-07T03:00:00Z",
+      "toDate": "2026-09-08T06:30:00Z",
+      "createDate": "2026-08-23T12:15:29Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "025",
+        "upperLimitFl": "045",
+        "positionToken": "3028N03454E027",
+        "position": {
+          "lat": 30.466667,
+          "lon": 34.9,
+          "radiusNm": 27
+        }
+      },
+      "eText": "CVFR RTE CLSD SIZFN-SITIM-ZZHOR. SIZFN-YAHEL. BMNUH-ZZHOR-MESAR-RUHOT. ZOFAR-HRGVS-RUHOT-OVDAT-BOKER.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.466667,
+        "lon": 34.9,
+        "radiusNm": 27,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1784/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /025/045/3028N03454E027\nA) LLLL B) 2609070300 C) 2609080630\nD) 07 0300-0630 1630-1900, 08 0330-0630\nE) CVFR RTE CLSD\nSIZFN-SITIM-ZZHOR.\nSIZFN-YAHEL.\nBMNUH-ZZHOR-MESAR-RUHOT.\nZOFAR-HRGVS-RUHOT-OVDAT-BOKER.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1783/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2050601",
+      "fromDate": "2026-09-07T03:00:00Z",
+      "toDate": "2026-09-08T06:30:00Z",
+      "createDate": "2026-08-23T12:03:27Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "025",
+        "upperLimitFl": "040",
+        "positionToken": "3034N03512E037",
+        "position": {
+          "lat": 30.566667,
+          "lon": 35.2,
+          "radiusNm": 37
+        }
+      },
+      "eText": "HEL RTE CLSD KTORA-YAHEL-BMNUH-ZOFAR-HAZVA-ARAVA-ZOHAR.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.566667,
+        "lon": 35.2,
+        "radiusNm": 37,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1783/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /025/040/3034N03512E037\nA) LLLL B) 2609070300 C) 2609080630\nD) 07 0300-0630 1630-1900, 08 0330-0630\nE) HEL RTE CLSD\nKTORA-YAHEL-BMNUH-ZOFAR-HAZVA-ARAVA-ZOHAR.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C1782/26",
       "location": "LLLL",
