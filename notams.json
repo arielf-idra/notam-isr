@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-23T01:24:22.851Z",
+  "generatedAt": "2026-08-23T02:46:04.673Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 87,
+  "count": 85,
   "notams": [
     {
       "id": "C1780/26",
@@ -661,47 +661,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "C1723/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2046188",
-      "fromDate": "2026-08-12T02:40:00Z",
-      "toDate": "2026-08-23T02:40:00Z",
-      "createDate": "2026-08-11T11:57:24Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWCLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "022",
-        "positionToken": "3123N03446E001",
-        "position": {
-          "lat": 31.383333,
-          "lon": 34.766667,
-          "radiusNm": 1
-        }
-      },
-      "eText": "CAPTIVE BALLOON WILL TAKE PLACE AT RAHAT, UP TO 1,700FT AMSL. AN AREA WI 0.4NM RADIUS CENTERED ON PSN 312252N0344541E CLSD FM GND UP TO 2,200FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ",
-      "lowerLimit": "GND",
-      "upperLimit": "2200FT AMSL",
-      "position": {
-        "lat": 31.381111,
-        "lon": 34.761389,
-        "radiusNm": 0.4,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1723/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/022/3123N03446E001\nA) LLLL B) 2608120240 C) 2608230240\nD) 12 0240-2359, 13 0001-0415 1215-1640, 14-15 DAILY 1650-0240,\n16-17 DAILY 0240-1650, 18-20 DAILY 0240-0420 1215-1650,  21-23 DAILY\n1650-0240\nE) CAPTIVE BALLOON WILL TAKE PLACE AT RAHAT, UP TO 1,700FT AMSL.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 312252N0344541E\nCLSD FM GND UP TO 2,200FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ\nF) GND G) 2200FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "A0646/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
@@ -740,47 +699,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0646/26 NOTAMN\nQ) LLLL/QNMAS/IV/BO /E /000/999/3220N03458E025\nA) LLLL B) 2608250700 C) 2608251200\nE) VOR/DME NAT FREQ 112.400MHZ WITHDRAWN FOR MAINT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1719/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2045802",
-      "fromDate": "2026-08-16T03:30:00Z",
-      "toDate": "2026-08-23T02:00:00Z",
-      "createDate": "2026-08-10T11:05:21Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWCLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "018",
-        "positionToken": "3306N03535E001",
-        "position": {
-          "lat": 33.1,
-          "lon": 35.583333,
-          "radiusNm": 1
-        }
-      },
-      "eText": "CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE, FM GND UP TO 400M AGL. LIT AND DAY MARKED. AN AREA WI 0.54NM RADIUS CENTERED ON PSN 330622N0353454E CLSD FM GND UP TO 1,800FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "1800FT AMSL",
-      "position": {
-        "lat": 33.106111,
-        "lon": 35.581667,
-        "radiusNm": 0.54,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1719/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/018/3306N03535E001\nA) LLLL B) 2608160330 C) 2608230200\nD) DAILY 0330-1400 1700-0200\nE) CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE,\nFM GND UP TO 400M AGL. LIT AND DAY MARKED.\nAN AREA WI 0.54NM RADIUS CENTERED ON PSN 330622N0353454E\nCLSD FM GND UP TO 1,800FT AMSL, TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 1800FT AMSL)",
       "fullTextAvailable": true
     },
     {
