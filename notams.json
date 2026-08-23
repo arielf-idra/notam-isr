@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-23T09:28:43.046Z",
+  "generatedAt": "2026-08-23T09:55:13.125Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 86,
+  "count": 84,
   "notams": [
     {
       "id": "C1781/26",
@@ -453,88 +453,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0663/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3249N03503E005\nA) LLHA B) 2609010525 C) 2609011000\nD) 0525-0725 0830-1000\nE) AD CLSD TO ALL FLT INCLUDING HEL, DUE WIP.\nIN CASE OF EMERG AVBL WI 10MIN.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1770/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2048433",
-      "fromDate": "2026-08-23T08:20:00Z",
-      "toDate": "2026-08-23T09:30:00Z",
-      "createDate": "2026-08-17T12:16:14Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "012",
-        "upperLimitFl": "015",
-        "positionToken": "3144N03453E004",
-        "position": {
-          "lat": 31.733333,
-          "lon": 34.883333,
-          "radiusNm": 4
-        }
-      },
-      "eText": "ULTRALIGHT RTE CLSD DUE FIREFIGHTING ACT ZHRYA-GEFFN-NAHEM.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.733333,
-        "lon": 34.883333,
-        "radiusNm": 4,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1770/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /012/015/3144N03453E004\nA) LLLL B) 2608230820 C) 2608230930\nE) ULTRALIGHT RTE CLSD DUE FIREFIGHTING ACT\nZHRYA-GEFFN-NAHEM.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1769/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2048432",
-      "fromDate": "2026-08-23T08:20:00Z",
-      "toDate": "2026-08-23T09:30:00Z",
-      "createDate": "2026-08-17T12:10:13Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "020",
-        "positionToken": "3145N03452E002",
-        "position": {
-          "lat": 31.75,
-          "lon": 34.866667,
-          "radiusNm": 2
-        }
-      },
-      "eText": "FIREFIGHTING ACT WILL TAKE PLACE AT TIROSH. AN AREA WI 2NM RADIUS CENTERED ON PSN 314502N0345208E CLSD TO ALL FLT INCLUDING AGRICULTURE FLT, FM GND UP TO 2,000FT AMSL. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.750556,
-        "lon": 34.868889,
-        "radiusNm": 2,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1769/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/020/3145N03452E002\nA) LLLL B) 2608230820 C) 2608230930\nE) FIREFIGHTING ACT WILL TAKE PLACE AT TIROSH.\nAN AREA WI 2NM RADIUS CENTERED ON PSN 314502N0345208E\nCLSD TO ALL FLT INCLUDING AGRICULTURE FLT, FM GND\nUP TO 2,000FT AMSL.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
     {
