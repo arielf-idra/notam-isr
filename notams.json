@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-24T17:01:02.395Z",
+  "generatedAt": "2026-08-24T17:43:28.944Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 89,
+  "count": 88,
   "notams": [
     {
       "id": "C1790/26",
@@ -781,47 +781,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1764/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/037/3058N03456E001\nA) LLLL B) 2608230300 C) 2608271430\nD) DAILY 0300-1430\nE) UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E\nCLSD FM GND UP TO 3,700FT AMSL.\nCTN ADZ.\nF) GND G) 3700FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0660/26",
-      "location": "LLHA",
-      "airfield": "Haifa",
-      "msgNumber": "2048328",
-      "fromDate": "2026-08-24T15:30:00Z",
-      "toDate": "2026-08-24T17:00:00Z",
-      "createDate": "2026-08-17T06:19:42Z",
-      "affected": [
-        "LLHA"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QACLP",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "AE",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "030",
-        "positionToken": "3251N03503E007",
-        "position": {
-          "lat": 32.85,
-          "lon": 35.05,
-          "radiusNm": 7
-        }
-      },
-      "eText": "CIRCUIT EXER PROHIBITED, EXC FLTCK. TFC EXP DLA.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.85,
-        "lon": 35.05,
-        "radiusNm": 7,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0660/26 NOTAMN\nQ) LLLL/QACLP/IV/NBO/AE/000/030/3251N03503E007\nA) LLHA B) 2608241530 C) 2608241700\nE) CIRCUIT EXER PROHIBITED, EXC FLTCK.\nTFC EXP DLA.)",
       "fullTextAvailable": true
     },
     {
