@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-08-24T19:06:06.170Z",
+  "generatedAt": "2026-08-24T19:41:20.748Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 90,
+  "count": 91,
   "notams": [
+    {
+      "id": "C1793/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2051100",
+      "fromDate": "2026-08-25T04:00:00Z",
+      "toDate": "2026-08-25T06:00:00Z",
+      "createDate": "2026-08-24T19:26:01Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "017",
+        "upperLimitFl": "020",
+        "positionToken": "3244N03525E003",
+        "position": {
+          "lat": 32.733333,
+          "lon": 35.416667,
+          "radiusNm": 3
+        }
+      },
+      "eText": "ULTRALIGHT AND HEL RTE CLSD TAVOR-ZGLNI .",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.733333,
+        "lon": 35.416667,
+        "radiusNm": 3,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1793/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /017/020/3244N03525E003\nA) LLLL B) 2608250400 C) 2608250600\nE) ULTRALIGHT AND HEL RTE CLSD\nTAVOR-ZGLNI .)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C1792/26",
       "location": "LLLL",
