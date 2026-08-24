@@ -1,9 +1,91 @@
 {
-  "generatedAt": "2026-08-24T09:25:40.647Z",
+  "generatedAt": "2026-08-24T10:11:30.692Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 89,
   "notams": [
+    {
+      "id": "C1789/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2050935",
+      "fromDate": "2026-09-01T00:01:00Z",
+      "toDate": "2026-09-30T20:59:00Z",
+      "createDate": "2026-08-24T09:43:18Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "015",
+        "positionToken": "3246N03502E002",
+        "position": {
+          "lat": 32.766667,
+          "lon": 35.033333,
+          "radiusNm": 2
+        }
+      },
+      "eText": "UAS/UAV ACT WILL TAKE PLACE AT NESHER WI LLHA CTR FM GND UP TO 460M AGL 1,510FT AMSL, BTN FLW PSN 324637N0350134E 324629N0350037E 324552N0350043E 324514N0350131E 324513N0350243E 324559N0350245E 324617N0350207E. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "1500FT AMSL",
+      "position": {
+        "lat": 32.766667,
+        "lon": 35.033333,
+        "radiusNm": 2,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1789/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/015/3246N03502E002\nA) LLLL B) 2609010001 C) 2609302059\nE) UAS/UAV ACT WILL TAKE PLACE AT NESHER WI LLHA CTR\nFM GND UP TO 460M AGL 1,510FT AMSL, BTN FLW PSN\n324637N0350134E 324629N0350037E 324552N0350043E\n324514N0350131E 324513N0350243E 324559N0350245E\n324617N0350207E.\nCTN ADZ.\nF) GND G) 1500FT AMSL)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1788/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2050934",
+      "fromDate": "2026-09-01T00:01:00Z",
+      "toDate": "2026-09-30T20:59:00Z",
+      "createDate": "2026-08-24T09:37:17Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "014",
+        "positionToken": "3143N03450E002",
+        "position": {
+          "lat": 31.716667,
+          "lon": 34.833333,
+          "radiusNm": 2
+        }
+      },
+      "eText": "UAS/UAV ACT WILL TAKE PLACE AT DALIA/TZAFIT, WI ULTRALIGHT BUBBLE GOVRIN SOUTH (BGOVS) UP TO 100M AGL. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,400FT AMSL 314353N0345038E 314339N0345010E 314221N0344925E 314150N0345023E 314222N0345118E 314323N0345123E. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "1400FT AMSL",
+      "position": {
+        "lat": 31.716667,
+        "lon": 34.833333,
+        "radiusNm": 2,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1788/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/014/3143N03450E002\nA) LLLL B) 2609010001 C) 2609302059\nE) UAS/UAV ACT WILL TAKE PLACE AT DALIA/TZAFIT, WI ULTRALIGHT\nBUBBLE GOVRIN SOUTH (BGOVS) UP TO 100M AGL.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,400FT AMSL\n314353N0345038E 314339N0345010E 314221N0344925E\n314150N0345023E 314222N0345118E 314323N0345123E.\nCTN ADZ.\nF) GND G) 1400FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C1787/26",
       "location": "LLLL",
@@ -740,88 +822,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0660/26 NOTAMN\nQ) LLLL/QACLP/IV/NBO/AE/000/030/3251N03503E007\nA) LLHA B) 2608241530 C) 2608241700\nE) CIRCUIT EXER PROHIBITED, EXC FLTCK.\nTFC EXP DLA.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0657/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2046264",
-      "fromDate": "2026-08-17T03:00:00Z",
-      "toDate": "2026-08-24T10:00:00Z",
-      "createDate": "2026-08-11T16:33:44Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QMRLT",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "DUE CRANE AT SHOHAM RWY 12 CLSD FOR TKOF, RWY 30 CLSD FOR LDG.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0657/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2608170300 C) 2608241000\nD) 17 24 DAILY 0300-1000\nE) DUE CRANE AT SHOHAM RWY 12 CLSD FOR TKOF, RWY 30 CLSD FOR LDG.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0656/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2046263",
-      "fromDate": "2026-08-17T03:00:00Z",
-      "toDate": "2026-08-24T10:00:00Z",
-      "createDate": "2026-08-11T16:27:43Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QOBCE",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "AE",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "005",
-        "positionToken": "3159N03454E001",
-        "position": {
-          "lat": 31.983333,
-          "lon": 34.9,
-          "radiusNm": 1
-        }
-      },
-      "eText": "CRANE ERECTED AT SHOAH WI LLBG CTR. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 315907.32N0345601.24E CLSD FM GND UP TO 134M 440FT AMSL. 315907.04N0345606.77E CLSD FM GND UP TO 140M 460FT AMSL. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.983333,
-        "lon": 34.9,
-        "radiusNm": 1,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0656/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/005/3159N03454E001\nA) LLBG B) 2608170300 C) 2608241000\nD) 17 24 DAILY 0300-1000\nE) CRANE ERECTED AT SHOAH WI LLBG CTR.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN\n315907.32N0345601.24E CLSD FM GND UP TO 134M 440FT AMSL.\n315907.04N0345606.77E CLSD FM GND UP TO 140M 460FT AMSL.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
     {
