@@ -1,9 +1,91 @@
 {
-  "generatedAt": "2026-08-25T10:54:48.421Z",
+  "generatedAt": "2026-08-25T11:29:06.838Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 94,
+  "count": 96,
   "notams": [
+    {
+      "id": "C1799/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2051341",
+      "fromDate": "2026-09-01T19:00:00Z",
+      "toDate": "2026-10-01T03:00:00Z",
+      "createDate": "2026-08-25T11:11:27Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "005",
+        "positionToken": "3230N03455E001",
+        "position": {
+          "lat": 32.5,
+          "lon": 34.916667,
+          "radiusNm": 1
+        }
+      },
+      "eText": "UAS/UAV ACT WILL TAKE PLACE AT KESARYA UP TO 100M AGL, AN AREA WI 0.8NM RADIUS CENTERED ON PSN 322941N0345439E CLSD FM GND UP TO 500FT AMSL. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "500FT AMSL",
+      "position": {
+        "lat": 32.494722,
+        "lon": 34.910833,
+        "radiusNm": 0.8,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1799/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/005/3230N03455E001\nA) LLLL B) 2609011900 C) 2610010300\nD) DAILY 1900-0300\nE) UAS/UAV ACT WILL TAKE PLACE AT KESARYA UP TO 100M AGL,\nAN AREA WI 0.8NM RADIUS CENTERED ON PSN 322941N0345439E\nCLSD FM GND UP TO 500FT AMSL.\nCTN ADZ.\nF) GND G) 500FT AMSL)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1798/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2051334",
+      "fromDate": "2026-09-01T00:01:00Z",
+      "toDate": "2026-09-30T20:59:00Z",
+      "createDate": "2026-08-25T10:57:25Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "006",
+        "positionToken": "3233N03517E002",
+        "position": {
+          "lat": 32.55,
+          "lon": 35.283333,
+          "radiusNm": 2
+        }
+      },
+      "eText": "UAS ACT WILL TAKE PLACE AT TAANACHIM AND GADISH. AN AREA CLSD FM GND UP TO 100M AGL 560FT AMSL BTN FLW PSN 323333N0351719E 323219N0351747E 323221N0351759E 323207N0351803E 323201N0351722E 323254N0351640E 323313N0351637E 323317N0351558E 323335N0351558E. AN AREA WI 400M RADIUS CENTERED ON PSN 323309N0351447E CLSD FM GND UP TO 100M AGL, 560FT AMSL. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "560FT AMSL",
+      "position": {
+        "lat": 32.5525,
+        "lon": 35.246389,
+        "radiusNm": null,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1798/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/006/3233N03517E002\nA) LLLL B) 2609010001 C) 2609302059\nE) UAS ACT WILL TAKE PLACE AT TAANACHIM AND GADISH.\nAN AREA CLSD FM GND UP TO 100M AGL 560FT AMSL BTN FLW PSN\n323333N0351719E 323219N0351747E 323221N0351759E\n323207N0351803E 323201N0351722E 323254N0351640E\n323313N0351637E 323317N0351558E 323335N0351558E.\nAN AREA WI 400M RADIUS CENTERED ON PSN 323309N0351447E\nCLSD FM GND UP TO 100M AGL, 560FT AMSL.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 560FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C1797/26",
       "location": "LLLL",
