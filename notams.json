@@ -1,9 +1,132 @@
 {
-  "generatedAt": "2026-08-25T08:02:40.168Z",
+  "generatedAt": "2026-08-25T08:56:55.775Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 89,
+  "count": 92,
   "notams": [
+    {
+      "id": "C1795/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2051295",
+      "fromDate": "2026-09-01T00:01:00Z",
+      "toDate": "2026-09-30T20:59:00Z",
+      "createDate": "2026-08-25T08:49:14Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "015",
+        "positionToken": "3231N03518E002",
+        "position": {
+          "lat": 32.516667,
+          "lon": 35.3,
+          "radiusNm": 2
+        }
+      },
+      "eText": "UAS/UAV ACT WILL TAKE PLACE AT MAGEN-SHAUL, UP TO 100M AGL. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,500FT AMSL 323145N0351642E 323024N0351638E 323039N0352004E 323139N0351954E 323153N0351930E 323159N0351907E CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "1500FT AMSL",
+      "position": {
+        "lat": 32.516667,
+        "lon": 35.3,
+        "radiusNm": 2,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1795/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/015/3231N03518E002\nA) LLLL B) 2609010001 C) 2609302059\nE) UAS/UAV ACT WILL TAKE PLACE AT MAGEN-SHAUL, UP TO 100M AGL.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,500FT AMSL\n323145N0351642E 323024N0351638E 323039N0352004E\n323139N0351954E 323153N0351930E 323159N0351907E\nCTN ADZ.\nF) GND G) 1500FT AMSL)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1794/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2051294",
+      "fromDate": "2026-08-26T08:00:00Z",
+      "toDate": "2026-08-26T13:00:00Z",
+      "createDate": "2026-08-25T08:31:13Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "016",
+        "positionToken": "3257N03512E001",
+        "position": {
+          "lat": 32.95,
+          "lon": 35.2,
+          "radiusNm": 1
+        }
+      },
+      "eText": "AN AREA AT YARKA WI 0.5NM RADIUS CENTERED ON PSN 325724N0351154E CLSD FM GND UP TO 1,600FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.956667,
+        "lon": 35.198333,
+        "radiusNm": 0.5,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1794/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/016/3257N03512E001\nA) LLLL B) 2608260800 C) 2608261300\nE) AN AREA AT YARKA WI 0.5NM RADIUS CENTERED ON PSN 325724N0351154E\nCLSD FM GND UP TO 1,600FT AMSL TO ALL FLT,\nOPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC.\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0679/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2051288",
+      "fromDate": "2026-08-26T03:30:00Z",
+      "toDate": "2026-08-26T13:00:00Z",
+      "createDate": "2026-08-25T08:03:11Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QMRLT",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3201N03453E005",
+        "position": {
+          "lat": 32.016667,
+          "lon": 34.883333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "RWY 08 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.016667,
+        "lon": 34.883333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0679/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2608260330 C) 2608261300\nD) DAILY 0330-1300\nE) RWY 08 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "A0678/26",
       "location": "LLHA",
