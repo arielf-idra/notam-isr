@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-08-26T04:40:53.912Z",
+  "generatedAt": "2026-08-26T05:19:20.177Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 95,
   "notams": [
+    {
+      "id": "A0685/26",
+      "location": "LLHA",
+      "airfield": "Haifa",
+      "msgNumber": "2051602",
+      "fromDate": "2026-08-26T04:39:00Z",
+      "toDate": "2026-11-30T21:59:00Z",
+      "createDate": "2026-08-26T04:40:39Z",
+      "affected": [
+        "LLHA"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QCACS",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "AE",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3249N03503E005",
+        "position": {
+          "lat": 32.816667,
+          "lon": 35.05,
+          "radiusNm": 5
+        }
+      },
+      "eText": "NEW FREQ INSTL FOR CLEARANCE BFR TAXI (CPT) 127.800MHZ. DEP FLT SHALL CTC TWR ON CPT FREQ BFR STARTING UP ENGINE.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.816667,
+        "lon": 35.05,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "R",
+      "replaces": "A0680/26",
+      "rawText": "(A0685/26 NOTAMR A0680/26\nQ) LLLL/QCACS/IV/BO /AE/000/999/3249N03503E005\nA) LLHA B) 2608260439 C) 2611302159\nE) NEW FREQ INSTL FOR CLEARANCE BFR TAXI (CPT) 127.800MHZ.\nDEP FLT SHALL CTC TWR ON CPT FREQ BFR STARTING UP ENGINE.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "A0684/26",
       "location": "LLBG",
@@ -207,47 +248,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1796/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/003/3146N03445E001\nA) LLLL B) 2609010001 C) 2609302059\nE) UAS/UAV ACT WILL TAKE PLACE AT PARK-REEM.\nAN AREA WI 0.5NM RADIUS CENTERED ON PSN 314633N0344520E\nCLSD FM GND UP TO 25M AGL 300FT AMSL.\nOPS AVBL WITH PPR FM ATC ONLY.\nCTN ADZ.\nF) GND G) 300FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0680/26",
-      "location": "LLHA",
-      "airfield": "Haifa",
-      "msgNumber": "2051323",
-      "fromDate": "2026-08-25T10:26:00Z",
-      "toDate": "2026-11-30T21:59:00Z",
-      "createDate": "2026-08-25T10:27:23Z",
-      "affected": [
-        "LLHA"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QCACS",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "AE",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3249N03503E005",
-        "position": {
-          "lat": 32.816667,
-          "lon": 35.05,
-          "radiusNm": 5
-        }
-      },
-      "eText": "NEW FREQ INSTL FOR CLEARANCE BFR TAXI (CPT) 121.800MHZ. DEP FLT SHALL CTC TWR ON CPT FREQ BFR STARTING UP ENGINE.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.816667,
-        "lon": 35.05,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "R",
-      "replaces": "A0678/26",
-      "rawText": "(A0680/26 NOTAMR A0678/26\nQ) LLLL/QCACS/IV/BO /AE/000/999/3249N03503E005\nA) LLHA B) 2608251026 C) 2611302159\nE) NEW FREQ INSTL FOR CLEARANCE BFR TAXI (CPT) 121.800MHZ.\nDEP FLT SHALL CTC TWR ON CPT FREQ BFR STARTING UP ENGINE.)",
       "fullTextAvailable": true
     },
     {
