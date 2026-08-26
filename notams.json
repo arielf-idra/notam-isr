@@ -1,9 +1,91 @@
 {
-  "generatedAt": "2026-08-26T12:54:13.460Z",
+  "generatedAt": "2026-08-26T13:56:23.142Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 98,
+  "count": 99,
   "notams": [
+    {
+      "id": "C1805/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2051751",
+      "fromDate": "2026-08-26T15:00:00Z",
+      "toDate": "2026-08-26T20:59:00Z",
+      "createDate": "2026-08-26T13:37:36Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "033",
+        "positionToken": "3107N03437E005",
+        "position": {
+          "lat": 31.116667,
+          "lon": 34.616667,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AN AREA AT GVULOT FM GND UP TO 3,300FT AMSL CLSD TO ALL FLT BTN FLW PSN  310448N0344124E311026N0343419E 310824N0343212E310247N0343911E. OPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC. CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.116667,
+        "lon": 34.616667,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1805/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/033/3107N03437E005\nA) LLLL B) 2608261500 C) 2608262059\nE) AN AREA AT GVULOT FM GND UP TO 3,300FT AMSL CLSD TO ALL FLT\nBTN FLW PSN  310448N0344124E311026N0343419E\n310824N0343212E310247N0343911E.\nOPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC.\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1804/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2051746",
+      "fromDate": "2026-08-28T05:00:00Z",
+      "toDate": "2026-08-28T11:00:00Z",
+      "createDate": "2026-08-26T13:19:34Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWPLW",
+        "traffic": "IV",
+        "purpose": "M",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "110",
+        "positionToken": "3117N03443E004",
+        "position": {
+          "lat": 31.283333,
+          "lon": 34.716667,
+          "radiusNm": 4
+        }
+      },
+      "eText": "PJE AIRSPACE TEIMAN ACT FM 11,000FT AMSL. IN CASE OF EMERG CLEAR THE AIRSPACE WI 5MIN. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "11000FT AMSL",
+      "position": {
+        "lat": 31.283333,
+        "lon": 34.716667,
+        "radiusNm": 4,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1804/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/110/3117N03443E004\nA) LLLL B) 2608280500 C) 2608281100\nE) PJE AIRSPACE TEIMAN ACT FM 11,000FT AMSL.\nIN CASE OF EMERG CLEAR THE AIRSPACE WI 5MIN.\nCTN ADZ.\nF) GND G) 11000FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "A0690/26",
       "location": "LLLL",
@@ -576,47 +658,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1795/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/015/3231N03518E002\nA) LLLL B) 2609010001 C) 2609302059\nE) UAS/UAV ACT WILL TAKE PLACE AT MAGEN-SHAUL, UP TO 100M AGL.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,500FT AMSL\n323145N0351642E 323024N0351638E 323039N0352004E\n323139N0351954E 323153N0351930E 323159N0351907E\nCTN ADZ.\nF) GND G) 1500FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1794/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2051294",
-      "fromDate": "2026-08-26T08:00:00Z",
-      "toDate": "2026-08-26T13:00:00Z",
-      "createDate": "2026-08-25T08:31:13Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "016",
-        "positionToken": "3257N03512E001",
-        "position": {
-          "lat": 32.95,
-          "lon": 35.2,
-          "radiusNm": 1
-        }
-      },
-      "eText": "AN AREA AT YARKA WI 0.5NM RADIUS CENTERED ON PSN 325724N0351154E CLSD FM GND UP TO 1,600FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.956667,
-        "lon": 35.198333,
-        "radiusNm": 0.5,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1794/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/016/3257N03512E001\nA) LLLL B) 2608260800 C) 2608261300\nE) AN AREA AT YARKA WI 0.5NM RADIUS CENTERED ON PSN 325724N0351154E\nCLSD FM GND UP TO 1,600FT AMSL TO ALL FLT,\nOPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
     {
