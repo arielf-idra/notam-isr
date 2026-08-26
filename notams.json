@@ -1,9 +1,173 @@
 {
-  "generatedAt": "2026-08-26T09:12:57.612Z",
+  "generatedAt": "2026-08-26T10:10:50.429Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 96,
   "notams": [
+    {
+      "id": "A0689/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2051690",
+      "fromDate": "2026-08-26T09:57:00Z",
+      "toDate": "2026-10-31T23:59:00Z",
+      "createDate": "2026-08-26T09:59:19Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QANLC",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "050",
+        "upperLimitFl": "370",
+        "positionToken": "3056N03502E053",
+        "position": {
+          "lat": 30.933333,
+          "lon": 35.033333,
+          "radiusNm": 53
+        }
+      },
+      "eText": "ATS RTE Q30 CLSD BTN BEXOM-NURIT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.933333,
+        "lon": 35.033333,
+        "radiusNm": 53,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "R",
+      "replaces": "A0592/26",
+      "rawText": "(A0689/26 NOTAMR A0592/26\nQ) LLLL/QANLC/I /NBO/E /050/370/3056N03502E053\nA) LLLL B) 2608260957 C) 2610312359\nE) ATS RTE Q30 CLSD BTN BEXOM-NURIT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0686/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2051678",
+      "fromDate": "2026-08-26T09:46:00Z",
+      "toDate": "2026-10-31T23:59:00Z",
+      "createDate": "2026-08-26T09:49:17Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QANLT",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "050",
+        "upperLimitFl": "600",
+        "positionToken": "3205N03450E039",
+        "position": {
+          "lat": 32.083333,
+          "lon": 34.833333,
+          "radiusNm": 39
+        }
+      },
+      "eText": "ATS RTE L53 BTN TALMI-TAPUZ AND N134 BTN VOLFO-SALAM AVBL H24 BTN 11,000-16,000FT FOR TFC WITH ARR/DEP AT AD WITHIN AMMAN FIR, LLER, LLNV, LLOV AND LLRM ONLY, AVBL H24 ABV 17,000FT FOR MIL TFC ONLY.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.083333,
+        "lon": 34.833333,
+        "radiusNm": 39,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "R",
+      "replaces": "A0613/26",
+      "rawText": "(A0686/26 NOTAMR A0613/26\nQ) LLLL/QANLT/I /NBO/E /050/600/3205N03450E039\nA) LLLL B) 2608260946 C) 2610312359\nE) ATS RTE L53 BTN TALMI-TAPUZ AND N134 BTN VOLFO-SALAM\nAVBL H24 BTN 11,000-16,000FT FOR TFC WITH ARR/DEP AT\nAD WITHIN AMMAN FIR, LLER, LLNV, LLOV AND LLRM ONLY,\nAVBL H24 ABV 17,000FT FOR MIL TFC ONLY.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0687/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2051679",
+      "fromDate": "2026-08-26T09:47:00Z",
+      "toDate": "2026-10-31T23:59:00Z",
+      "createDate": "2026-08-26T09:49:17Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QANLT",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "040",
+        "upperLimitFl": "370",
+        "positionToken": "3053N03516E052",
+        "position": {
+          "lat": 30.883333,
+          "lon": 35.266667,
+          "radiusNm": 52
+        }
+      },
+      "eText": "MAX ALT ALONG ATS RTE J10 BTN NURIT-SIVAK 18,000FT AMSL.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.883333,
+        "lon": 35.266667,
+        "radiusNm": 52,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "R",
+      "replaces": "A0595/26",
+      "rawText": "(A0687/26 NOTAMR A0595/26\nQ) LLLL/QANLT/I /NBO/E /040/370/3053N03516E052\nA) LLLL B) 2608260947 C) 2610312359\nE) MAX ALT ALONG ATS RTE J10 BTN NURIT-SIVAK 18,000FT AMSL.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0688/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2051680",
+      "fromDate": "2026-08-26T09:47:00Z",
+      "toDate": "2026-10-31T23:59:00Z",
+      "createDate": "2026-08-26T09:49:17Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QGWAU",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3125N03521E117",
+        "position": {
+          "lat": 31.416667,
+          "lon": 35.35,
+          "radiusNm": 117
+        }
+      },
+      "eText": "POSS INTRP TO AIRBORNE GNSS EQPT WI TEL-AVIV FIR.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.416667,
+        "lon": 35.35,
+        "radiusNm": 117,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "R",
+      "replaces": "A0596/26",
+      "rawText": "(A0688/26 NOTAMR A0596/26\nQ) LLLL/QGWAU/IV/NBO/E /000/999/3125N03521E117\nA) LLLL B) 2608260947 C) 2610312359\nE) POSS INTRP TO AIRBORNE GNSS EQPT WI TEL-AVIV FIR.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C1800/26",
       "location": "LLLL",
@@ -1440,47 +1604,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "A0613/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2043134",
-      "fromDate": "2026-08-06T16:30:00Z",
-      "toDate": "2026-08-31T23:59:00Z",
-      "createDate": "2026-08-03T09:49:16Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QANLT",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "050",
-        "upperLimitFl": "600",
-        "positionToken": "3205N03450E039",
-        "position": {
-          "lat": 32.083333,
-          "lon": 34.833333,
-          "radiusNm": 39
-        }
-      },
-      "eText": "ATS RTE L53 BTN TALMI-TAPUZ AND N134 BTN VOLFO-SALAM AVBL H24 BTN 11,000-16,000FT FOR TFC WITH ARR/DEP AT AD WITHIN AMMAN FIR, LLER, LLNV, LLOV AND LLRM ONLY, AVBL H24 ABV 17,000FT FOR MIL TFC ONLY.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.083333,
-        "lon": 34.833333,
-        "radiusNm": 39,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0613/26 NOTAMN\nQ) LLLL/QANLT/I /NBO/E /050/600/3205N03450E039\nA) LLLL B) 2608061630 C) 2608312359\nE) ATS RTE L53 BTN TALMI-TAPUZ AND N134 BTN VOLFO-SALAM\nAVBL H24 BTN 11,000-16,000FT FOR TFC WITH ARR/DEP AT\nAD WITHIN AMMAN FIR, LLER, LLNV, LLOV AND LLRM ONLY,\nAVBL H24 ABV 17,000FT FOR MIL TFC ONLY.)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "A0612/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
@@ -1727,88 +1850,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "A0596/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2040889",
-      "fromDate": "2026-07-28T10:45:00Z",
-      "toDate": "2026-08-31T23:59:00Z",
-      "createDate": "2026-07-28T10:48:02Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QGWAU",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3125N03521E117",
-        "position": {
-          "lat": 31.416667,
-          "lon": 35.35,
-          "radiusNm": 117
-        }
-      },
-      "eText": "POSS INTRP TO AIRBORNE GNSS EQPT WI TEL-AVIV FIR.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.416667,
-        "lon": 35.35,
-        "radiusNm": 117,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "R",
-      "replaces": "A0508/26",
-      "rawText": "(A0596/26 NOTAMR A0508/26\nQ) LLLL/QGWAU/IV/NBO/E /000/999/3125N03521E117\nA) LLLL B) 2607281045 C) 2608312359\nE) POSS INTRP TO AIRBORNE GNSS EQPT WI TEL-AVIV FIR.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0595/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2040888",
-      "fromDate": "2026-07-28T10:44:00Z",
-      "toDate": "2026-08-31T23:59:00Z",
-      "createDate": "2026-07-28T10:46:02Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QANLT",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "040",
-        "upperLimitFl": "370",
-        "positionToken": "3053N03516E052",
-        "position": {
-          "lat": 30.883333,
-          "lon": 35.266667,
-          "radiusNm": 52
-        }
-      },
-      "eText": "MAX ALT ALONG ATS RTE J10 BTN NURIT-SIVAK 18,000FT AMSL.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 30.883333,
-        "lon": 35.266667,
-        "radiusNm": 52,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "R",
-      "replaces": "A0507/26",
-      "rawText": "(A0595/26 NOTAMR A0507/26\nQ) LLLL/QANLT/I /NBO/E /040/370/3053N03516E052\nA) LLLL B) 2607281044 C) 2608312359\nE) MAX ALT ALONG ATS RTE J10 BTN NURIT-SIVAK 18,000FT AMSL.)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "C1608/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
@@ -1929,47 +1970,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1595/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/014/3143N03450E002\nA) LLLL B) 2608010001 C) 2608312059\nE) UAS/UAV ACT WILL TAKE PLACE AT DALIA/TZAFIT, WI ULTRALIGHT\nBUBBLE GOVRIN SOUTH (BGOVS) UP TO 100M AGL.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,400FT AMSL\n314353N0345038E 314339N0345010E 314221N0344925E\n314150N0345023E 314222N0345118E 314323N0345123E.\nCTN ADZ.\nF) GND G) 1400FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0592/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2040224",
-      "fromDate": "2026-07-26T16:24:00Z",
-      "toDate": "2026-08-31T20:59:00Z",
-      "createDate": "2026-07-26T16:27:07Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QANLC",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "050",
-        "upperLimitFl": "370",
-        "positionToken": "3056N03502E053",
-        "position": {
-          "lat": 30.933333,
-          "lon": 35.033333,
-          "radiusNm": 53
-        }
-      },
-      "eText": "ATS RTE Q30 CLSD BTN BEXOM-NURIT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 30.933333,
-        "lon": 35.033333,
-        "radiusNm": 53,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "R",
-      "replaces": "A0505/26",
-      "rawText": "(A0592/26 NOTAMR A0505/26\nQ) LLLL/QANLC/I /NBO/E /050/370/3056N03502E053\nA) LLLL B) 2607261624 C) 2608312059\nE) ATS RTE Q30 CLSD BTN BEXOM-NURIT.)",
       "fullTextAvailable": true
     },
     {
