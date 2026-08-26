@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-08-26T06:52:00.052Z",
+  "generatedAt": "2026-08-26T07:48:18.670Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 95,
+  "count": 96,
   "notams": [
+    {
+      "id": "C1800/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2051650",
+      "fromDate": "2026-08-30T05:00:00Z",
+      "toDate": "2026-09-03T19:00:00Z",
+      "createDate": "2026-08-26T07:45:09Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "028",
+        "positionToken": "3109N03425E004",
+        "position": {
+          "lat": 31.15,
+          "lon": 34.416667,
+          "radiusNm": 4
+        }
+      },
+      "eText": "AN AREA AT GVULOT CLSD FM GND UP TO 2800FT AMSL TO ALL FLT BTN FLW PSN  311148N0342530E 311142N0342617E 310528N0342517E 310534N0342424E OPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC. CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.15,
+        "lon": 34.416667,
+        "radiusNm": 4,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1800/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/028/3109N03425E004\nA) LLLL B) 2608300500 C) 2609031900\nE) AN AREA AT GVULOT CLSD FM GND UP TO 2800FT AMSL TO ALL FLT\nBTN FLW PSN  311148N0342530E 311142N0342617E\n310528N0342517E 310534N0342424E\nOPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC.\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "A0685/26",
       "location": "LLHA",
