@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-26T19:12:55.467Z",
+  "generatedAt": "2026-08-26T22:19:01.170Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 100,
+  "count": 99,
   "notams": [
     {
       "id": "C1806/26",
@@ -43,47 +43,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1806/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/025/3132N03451E003\nA) LLLL B) 2608300250 C) 2609031630\nD) DAILY 0250-1630\nE) UAS ACT WILL TAKE PLACE AT KELCH.\nAN AREA FM GND UP TO 2,500FT AMSL CLSD TO ALL FLT\nBTN FLW PSN  313226N0344801E 313225N0345409E\n313144N0345409E 313129N0345246E 313129N0345126E\n313125N0344843E\nOPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 2500FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1805/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2051751",
-      "fromDate": "2026-08-26T15:00:00Z",
-      "toDate": "2026-08-26T20:59:00Z",
-      "createDate": "2026-08-26T13:37:36Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "033",
-        "positionToken": "3107N03437E005",
-        "position": {
-          "lat": 31.116667,
-          "lon": 34.616667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "AN AREA AT GVULOT FM GND UP TO 3,300FT AMSL CLSD TO ALL FLT BTN FLW PSN  310448N0344124E311026N0343419E 310824N0343212E310247N0343911E. OPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.116667,
-        "lon": 34.616667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1805/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/033/3107N03437E005\nA) LLLL B) 2608261500 C) 2608262059\nE) AN AREA AT GVULOT FM GND UP TO 3,300FT AMSL CLSD TO ALL FLT\nBTN FLW PSN  310448N0344124E311026N0343419E\n310824N0343212E310247N0343911E.\nOPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
     {
