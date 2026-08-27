@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-08-27T14:29:24.605Z",
+  "generatedAt": "2026-08-27T23:55:10.725Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 114,
+  "count": 113,
   "notams": [
+    {
+      "id": "C1820/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2052178",
+      "fromDate": "2026-08-28T07:00:00Z",
+      "toDate": "2026-08-28T12:00:00Z",
+      "createDate": "2026-08-27T16:13:51Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "015",
+        "positionToken": "3250N03513E002",
+        "position": {
+          "lat": 32.833333,
+          "lon": 35.216667,
+          "radiusNm": 2
+        }
+      },
+      "eText": "UAS ACT WILL TAKE PLACE AT MITZPE-AVIV. AN AREA FM GND UP TO 1,500FT AMSL CLSD TO ALL FLT INCLUDING AGRICULTURE FLT, BTN FLW PSN  325105N0351308E 325013N0351337E 324952N0351222E 324957N0351138E 325051N0351133E. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "1500FT AMSL",
+      "position": {
+        "lat": 32.833333,
+        "lon": 35.216667,
+        "radiusNm": 2,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1820/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/015/3250N03513E002\nA) LLLL B) 2608280700 C) 2608281200\nE) UAS ACT WILL TAKE PLACE AT MITZPE-AVIV.\nAN AREA FM GND UP TO 1,500FT AMSL CLSD TO ALL FLT\nINCLUDING AGRICULTURE FLT, BTN FLW PSN  325105N0351308E\n325013N0351337E 324952N0351222E 324957N0351138E\n325051N0351133E.\nCTN ADZ.\nF) GND G) 1500FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "A0698/26",
       "location": "LLHA",
@@ -1891,47 +1932,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "C1771/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2048802",
-      "fromDate": "2026-08-24T04:00:00Z",
-      "toDate": "2026-08-27T20:59:00Z",
-      "createDate": "2026-08-18T12:56:48Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWPLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "080",
-        "positionToken": "3129N03450E005",
-        "position": {
-          "lat": 31.483333,
-          "lon": 34.833333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "PJE WILL TAKE PLACE AT KELACH. AN AREA FM GND UP TO 8,000FT AMSL CLSD TO ALL FLT BTN FLW PSN 313200N0345319E 313159N0344733E 312602N0344730E 312444N0345024E 312602N0345311E. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "8000FT AMSL",
-      "position": {
-        "lat": 31.483333,
-        "lon": 34.833333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1771/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/080/3129N03450E005\nA) LLLL B) 2608240400 C) 2608272059\nE) PJE WILL TAKE PLACE AT KELACH.\nAN AREA FM GND UP TO 8,000FT AMSL CLSD TO ALL FLT BTN FLW PSN\n313200N0345319E 313159N0344733E 312602N0344730E\n312444N0345024E 312602N0345311E.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 8000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "A0668/26",
       "location": "LLBG",
       "airfield": "Ben-Gurion",
@@ -2093,47 +2093,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0663/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3249N03503E005\nA) LLHA B) 2609010525 C) 2609011000\nD) 0525-0725 0830-1000\nE) AD CLSD TO ALL FLT INCLUDING HEL, DUE WIP.\nIN CASE OF EMERG AVBL WI 10MIN.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1764/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2048364",
-      "fromDate": "2026-08-23T03:00:00Z",
-      "toDate": "2026-08-27T14:30:00Z",
-      "createDate": "2026-08-17T08:45:53Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "037",
-        "positionToken": "3058N03456E001",
-        "position": {
-          "lat": 30.966667,
-          "lon": 34.933333,
-          "radiusNm": 1
-        }
-      },
-      "eText": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E CLSD FM GND UP TO 3,700FT AMSL. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "3700FT AMSL",
-      "position": {
-        "lat": 30.971944,
-        "lon": 34.933611,
-        "radiusNm": 0.3,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1764/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/037/3058N03456E001\nA) LLLL B) 2608230300 C) 2608271430\nD) DAILY 0300-1430\nE) UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E\nCLSD FM GND UP TO 3,700FT AMSL.\nCTN ADZ.\nF) GND G) 3700FT AMSL)",
       "fullTextAvailable": true
     },
     {
