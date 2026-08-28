@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-08-27T23:55:10.725Z",
+  "generatedAt": "2026-08-28T10:04:40.768Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 113,
+  "count": 114,
   "notams": [
+    {
+      "id": "C1821/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2052425",
+      "fromDate": "2026-08-30T10:00:00Z",
+      "toDate": "2026-08-30T12:00:00Z",
+      "createDate": "2026-08-28T07:03:06Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "015",
+        "positionToken": "3216N03456E004",
+        "position": {
+          "lat": 32.266667,
+          "lon": 34.933333,
+          "radiusNm": 4
+        }
+      },
+      "eText": "AN AREA AT GEULIM WI 1.1NM RADIUS CENTERED ON PSN 321723N0345723E CLSD FM GND UP TO 1,500FT AMSL TO ALL FLT. LLHZ TRG AERA NR 9 CLSD ULTRALIGHT BUBBLE SHARON DAROM(BSARS) CLSD BTN ROAD NR 4 57 6 AND N OF TIRAH OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.289722,
+        "lon": 34.956389,
+        "radiusNm": 1.1,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1821/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/015/3216N03456E004\nA) LLLL B) 2608301000 C) 2608301200\nE) AN AREA AT GEULIM WI 1.1NM RADIUS CENTERED ON PSN\n321723N0345723E CLSD FM GND UP TO 1,500FT AMSL TO ALL FLT.\nLLHZ TRG AERA NR 9 CLSD\nULTRALIGHT BUBBLE SHARON DAROM(BSARS) CLSD BTN ROAD\nNR 4 57 6 AND N OF TIRAH\nOPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC.\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C1820/26",
       "location": "LLLL",
