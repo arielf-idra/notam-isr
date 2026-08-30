@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-30T06:49:52.039Z",
+  "generatedAt": "2026-08-30T12:20:08.353Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 111,
+  "count": 116,
   "notams": [
     {
-      "id": "C1821/26",
+      "id": "C1824/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2052425",
-      "fromDate": "2026-08-30T10:00:00Z",
-      "toDate": "2026-08-30T12:00:00Z",
-      "createDate": "2026-08-28T07:03:06Z",
+      "msgNumber": "2053260",
+      "fromDate": "2026-09-01T06:00:00Z",
+      "toDate": "2026-09-01T16:30:00Z",
+      "createDate": "2026-08-30T11:59:31Z",
       "affected": [
         "LLLL"
       ],
@@ -22,27 +22,232 @@
         "purpose": "NBO",
         "scope": "E",
         "lowerLimitFl": "000",
-        "upperLimitFl": "015",
-        "positionToken": "3216N03456E004",
+        "upperLimitFl": "046",
+        "positionToken": "3257N03519E002",
         "position": {
-          "lat": 32.266667,
-          "lon": 34.933333,
-          "radiusNm": 4
+          "lat": 32.95,
+          "lon": 35.316667,
+          "radiusNm": 2
         }
       },
-      "eText": "AN AREA AT GEULIM WI 1.1NM RADIUS CENTERED ON PSN 321723N0345723E CLSD FM GND UP TO 1,500FT AMSL TO ALL FLT. LLHZ TRG AERA NR 9 CLSD ULTRALIGHT BUBBLE SHARON DAROM(BSARS) CLSD BTN ROAD NR 4 57 6 AND N OF TIRAH OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "eText": "AN AREA WI 1.3NM RADIUS CENTERED ON PSN 325732N0351857E CLSD FM GND UP TO 4,550FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC ONLY. CTN ADZ.",
       "lowerLimit": null,
       "upperLimit": null,
       "position": {
-        "lat": 32.289722,
-        "lon": 34.956389,
-        "radiusNm": 1.1,
+        "lat": 32.958889,
+        "lon": 35.315833,
+        "radiusNm": 1.3,
         "source": "e_text"
       },
       "administrative": false,
       "notamType": "N",
       "replaces": null,
-      "rawText": "(C1821/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/015/3216N03456E004\nA) LLLL B) 2608301000 C) 2608301200\nE) AN AREA AT GEULIM WI 1.1NM RADIUS CENTERED ON PSN\n321723N0345723E CLSD FM GND UP TO 1,500FT AMSL TO ALL FLT.\nLLHZ TRG AERA NR 9 CLSD\nULTRALIGHT BUBBLE SHARON DAROM(BSARS) CLSD BTN ROAD\nNR 4 57 6 AND N OF TIRAH\nOPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC.\nCTN ADZ.)",
+      "rawText": "(C1824/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/046/3257N03519E002\nA) LLLL B) 2609010600 C) 2609011630\nE) AN AREA WI 1.3NM RADIUS CENTERED ON PSN 325732N0351857E\nCLSD FM GND UP TO 4,550FT AMSL TO ALL FLT,\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC ONLY.\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1823/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2053251",
+      "fromDate": "2026-09-06T03:00:00Z",
+      "toDate": "2026-09-10T14:30:00Z",
+      "createDate": "2026-08-30T11:45:30Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "037",
+        "positionToken": "3058N03456E001",
+        "position": {
+          "lat": 30.966667,
+          "lon": 34.933333,
+          "radiusNm": 1
+        }
+      },
+      "eText": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E CLSD FM GND UP TO 3,700FT AMSL. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "3700FT AMSL",
+      "position": {
+        "lat": 30.971944,
+        "lon": 34.933611,
+        "radiusNm": 0.3,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1823/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/037/3058N03456E001\nA) LLLL B) 2609060300 C) 2609101430\nD) DAILY 0300-1430\nE) UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E\nCLSD FM GND UP TO 3,700FT AMSL.\nCTN ADZ.\nF) GND G) 3700FT AMSL)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0701/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2053250",
+      "fromDate": "2026-10-01T00:01:00Z",
+      "toDate": "2026-12-31T20:59:00Z",
+      "createDate": "2026-08-30T11:29:29Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QOBCE",
+        "traffic": "IV",
+        "purpose": "M",
+        "scope": "AE",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "003",
+        "positionToken": "3202N03454E001",
+        "position": {
+          "lat": 32.033333,
+          "lon": 34.9,
+          "radiusNm": 1
+        }
+      },
+      "eText": "CRANE ERECTED WI LLBG CTR, AT YAHUD/IAI INDUSTRY. AN AREA BTN FLW PSN CLSD FM GND UP TO 74.50M 245FT AMSL 320152N0345416E 320150N0345416E 320150N0345413E 320152N0345413E. LIT AND DAY MARKED. CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.033333,
+        "lon": 34.9,
+        "radiusNm": 1,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0701/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/003/3202N03454E001\nA) LLBG B) 2610010001 C) 2612312059\nE) CRANE ERECTED WI LLBG CTR, AT YAHUD/IAI INDUSTRY.\nAN AREA BTN FLW PSN CLSD FM GND UP TO 74.50M 245FT AMSL\n320152N0345416E 320150N0345416E 320150N0345413E\n320152N0345413E.\nLIT AND DAY MARKED.\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0700/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2053245",
+      "fromDate": "2026-09-01T00:01:00Z",
+      "toDate": "2026-09-30T20:59:00Z",
+      "createDate": "2026-08-30T11:17:28Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QOBCE",
+        "traffic": "IV",
+        "purpose": "M",
+        "scope": "AE",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "003",
+        "positionToken": "3202N03454E001",
+        "position": {
+          "lat": 32.033333,
+          "lon": 34.9,
+          "radiusNm": 1
+        }
+      },
+      "eText": "DRILLING TOWER ERECTED WI LLBG CTR, AT YAHUD/IAI INDUSTRY. AN AREA BTN FLW PSN CLSD FM GND UP TO 72M 236FT AMSL 320152N0345416E 320150N0345416E 320150N0345413E 320152N0345413E. LIT AND DAY MARKED. CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.033333,
+        "lon": 34.9,
+        "radiusNm": 1,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0700/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/003/3202N03454E001\nA) LLBG B) 2609010001 C) 2609302059\nE) DRILLING TOWER ERECTED WI LLBG CTR, AT YAHUD/IAI INDUSTRY.\nAN AREA BTN FLW PSN CLSD FM GND UP TO 72M 236FT AMSL\n320152N0345416E 320150N0345416E 320150N0345413E\n320152N0345413E.\nLIT AND DAY MARKED.\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1822/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2053238",
+      "fromDate": "2026-09-07T05:30:00Z",
+      "toDate": "2026-09-09T09:30:00Z",
+      "createDate": "2026-08-30T11:05:26Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWPLW",
+        "traffic": "IV",
+        "purpose": "M",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "024",
+        "positionToken": "3103N03442E006",
+        "position": {
+          "lat": 31.05,
+          "lon": 34.7,
+          "radiusNm": 6
+        }
+      },
+      "eText": "PJE WILL TAKE PLACE AT REVIVIM. AN AREA FM GND UP 2,400FT AMSL CLSD BTN FLW PSN 310712N0344550E 310511N0343920E 310455N0343655E 305931N0343815E 310035N0344409E 310359N0344720E 310712N0344550E. OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "2400FT AMSL",
+      "position": {
+        "lat": 31.05,
+        "lon": 34.7,
+        "radiusNm": 6,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1822/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/024/3103N03442E006\nA) LLLL B) 2609070530 C) 2609090930\nD) DAILY 0530-0930\nE) PJE WILL TAKE PLACE AT REVIVIM.\nAN AREA FM GND UP 2,400FT AMSL CLSD BTN FLW PSN\n310712N0344550E 310511N0343920E 310455N0343655E\n305931N0343815E 310035N0344409E 310359N0344720E\n310712N0344550E.\nOPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC\nCTN ADZ.\nF) GND G) 2400FT AMSL)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0699/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2053188",
+      "fromDate": "2026-08-31T20:00:00Z",
+      "toDate": "2026-09-01T01:00:00Z",
+      "createDate": "2026-08-30T07:27:12Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QMRLT",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3201N03453E005",
+        "position": {
+          "lat": 32.016667,
+          "lon": 34.883333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "DUE CRANE AT EL-AL JUNCTION, RWY 12 CLSD FOR TKOF, RWY 30 CLSD FOR LDG.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.016667,
+        "lon": 34.883333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0699/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2608312000 C) 2609010100\nE) DUE CRANE AT EL-AL JUNCTION, RWY 12 CLSD FOR TKOF,\nRWY 30 CLSD FOR LDG.)",
       "fullTextAvailable": true
     },
     {
