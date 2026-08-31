@@ -1,48 +1,458 @@
 {
-  "generatedAt": "2026-08-31T06:06:55.002Z",
+  "generatedAt": "2026-08-31T13:42:08.438Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 117,
+  "count": 119,
   "notams": [
     {
-      "id": "C1847/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2053554",
-      "fromDate": "2026-08-31T05:19:00Z",
-      "toDate": "2026-08-31T10:00:00Z",
-      "createDate": "2026-08-31T05:20:58Z",
+      "id": "A0711/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2053644",
+      "fromDate": "2026-09-01T04:00:00Z",
+      "toDate": "2026-09-01T08:00:00Z",
+      "createDate": "2026-08-31T10:43:23Z",
       "affected": [
-        "LLLL"
+        "LLBG"
       ],
       "qLine": {
         "fir": "LLLL",
-        "qcode": "QAELC",
+        "qcode": "QOBCE",
         "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "010",
-        "upperLimitFl": "030",
-        "positionToken": "3224N03448E004",
+        "purpose": "M",
+        "scope": "AE",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "004",
+        "positionToken": "3159N03454E001",
         "position": {
-          "lat": 32.4,
-          "lon": 34.8,
-          "radiusNm": 4
+          "lat": 31.983333,
+          "lon": 34.9,
+          "radiusNm": 1
         }
       },
-      "eText": "LLHZ TRG AREA NR 11 CLSD TO ALL FLT, EXC AGRICULTURE FLT.",
+      "eText": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E 315926N0345421E. CTN ADZ.",
       "lowerLimit": null,
       "upperLimit": null,
       "position": {
-        "lat": 32.4,
-        "lon": 34.8,
-        "radiusNm": 4,
+        "lat": 31.983333,
+        "lon": 34.9,
+        "radiusNm": 1,
         "source": "q_line"
       },
       "administrative": false,
       "notamType": "N",
       "replaces": null,
-      "rawText": "(C1847/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /010/030/3224N03448E004\nA) LLLL B) 2608310519 C) 2608311000\nE) LLHZ TRG AREA NR 11 CLSD TO ALL FLT, EXC AGRICULTURE FLT.)",
+      "rawText": "(A0711/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001\nA) LLBG B) 2609010400 C) 2609010800\nE) CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION.\nAN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN\n315924N0345425E 315922N0345423E 315924N0345419E\n315926N0345421E.\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0712/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2053645",
+      "fromDate": "2026-09-01T04:00:00Z",
+      "toDate": "2026-09-01T08:00:00Z",
+      "createDate": "2026-08-31T10:43:23Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QMRLT",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3201N03453E005",
+        "position": {
+          "lat": 32.016667,
+          "lon": 34.883333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.016667,
+        "lon": 34.883333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0712/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2609010400 C) 2609010800\nE) RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0710/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2053627",
+      "fromDate": "2026-08-31T09:45:00Z",
+      "toDate": "2026-11-30T23:59:00Z",
+      "createDate": "2026-08-31T09:47:18Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QCAAS",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3232N03453E060",
+        "position": {
+          "lat": 32.533333,
+          "lon": 34.883333,
+          "radiusNm": 60
+        }
+      },
+      "eText": "TEL AVIV CTL FLW FREQ TEMPO NOT AVBL 123.050MHZ, 132.050MHZ, 135.625MHZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.533333,
+        "lon": 34.883333,
+        "radiusNm": 60,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0710/26 NOTAMN\nQ) LLLL/QCAAS/IV/BO /E /000/999/3232N03453E060\nA) LLLL B) 2608310945 C) 2611302359\nE) TEL AVIV CTL FLW FREQ TEMPO NOT AVBL\n123.050MHZ, 132.050MHZ, 135.625MHZ.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0709/26",
+      "location": "LLER",
+      "airfield": "Ramon",
+      "msgNumber": "2053626",
+      "fromDate": "2026-09-08T15:35:00Z",
+      "toDate": "2026-09-09T18:15:00Z",
+      "createDate": "2026-08-31T09:41:18Z",
+      "affected": [
+        "LLER"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALT",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "2944N03501E005",
+        "position": {
+          "lat": 29.733333,
+          "lon": 35.016667,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AD CLSD TO ALL FLT INCLUDING HEL, DUE WIP. IN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 29.733333,
+        "lon": 35.016667,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0709/26 NOTAMN\nQ) LLLL/QFALT/IV/NBO/A /000/999/2944N03501E005\nA) LLER B) 2609081535 C) 2609091815\nD) 08 1535-1815, 09 1335-1445 1535-1815\nE) AD CLSD TO ALL FLT INCLUDING HEL, DUE WIP.\nIN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0708/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2053580",
+      "fromDate": "2026-08-31T06:32:00Z",
+      "toDate": "2026-09-30T23:59:00Z",
+      "createDate": "2026-08-31T06:35:04Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QPOCH",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3201N03452E005",
+        "position": {
+          "lat": 32.016667,
+          "lon": 34.866667,
+          "radiusNm": 5
+        }
+      },
+      "eText": "OCA(H) FOR ILS RWY 30 CHG TO 500(370) FOR ALL CAT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.016667,
+        "lon": 34.866667,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "R",
+      "replaces": "A0501/26",
+      "rawText": "(A0708/26 NOTAMR A0501/26\nQ) LLLL/QPOCH/I /NBO/A /000/999/3201N03452E005\nA) LLBG B) 2608310632 C) 2609302359\nE) OCA(H) FOR ILS RWY 30 CHG TO 500(370) FOR ALL CAT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0703/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2053575",
+      "fromDate": "2026-08-31T06:28:00Z",
+      "toDate": "2026-09-30T23:59:00Z",
+      "createDate": "2026-08-31T06:31:04Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QPOCH",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3200N03454E005",
+        "position": {
+          "lat": 32,
+          "lon": 34.9,
+          "radiusNm": 5
+        }
+      },
+      "eText": "OCA(H) FOR ILS RWY 12 CHG TO 500(397) FOR ALL CAT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32,
+        "lon": 34.9,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "R",
+      "replaces": "A0498/26",
+      "rawText": "(A0703/26 NOTAMR A0498/26\nQ) LLLL/QPOCH/I /NBO/A /000/999/3200N03454E005\nA) LLBG B) 2608310628 C) 2609302359\nE) OCA(H) FOR ILS RWY 12 CHG TO 500(397) FOR ALL CAT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0704/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2053576",
+      "fromDate": "2026-08-31T06:29:00Z",
+      "toDate": "2026-09-30T23:59:00Z",
+      "createDate": "2026-08-31T06:31:04Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QPOCH",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3200N03453E005",
+        "position": {
+          "lat": 32,
+          "lon": 34.883333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "OCA(H) FOR ILS RWY 21 CHG TO 500(366) FOR ALL CAT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32,
+        "lon": 34.883333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "R",
+      "replaces": "A0499/26",
+      "rawText": "(A0704/26 NOTAMR A0499/26\nQ) LLLL/QPOCH/I /NBO/A /000/999/3200N03453E005\nA) LLBG B) 2608310629 C) 2609302359\nE) OCA(H) FOR ILS RWY 21 CHG TO 500(366) FOR ALL CAT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0705/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2053577",
+      "fromDate": "2026-08-31T06:29:00Z",
+      "toDate": "2026-09-30T23:59:00Z",
+      "createDate": "2026-08-31T06:31:04Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QPOCH",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3201N03451E005",
+        "position": {
+          "lat": 32.016667,
+          "lon": 34.85,
+          "radiusNm": 5
+        }
+      },
+      "eText": "OCA(H) FOR ILS RWY 26 CHG TO 500(376) FOR ALL CAT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.016667,
+        "lon": 34.85,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "R",
+      "replaces": "A0500/26",
+      "rawText": "(A0705/26 NOTAMR A0500/26\nQ) LLLL/QPOCH/I /NBO/A /000/999/3201N03451E005\nA) LLBG B) 2608310629 C) 2609302359\nE) OCA(H) FOR ILS RWY 26 CHG TO 500(376) FOR ALL CAT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0706/26",
+      "location": "LLER",
+      "airfield": "Ramon",
+      "msgNumber": "2053578",
+      "fromDate": "2026-08-31T06:29:00Z",
+      "toDate": "2026-09-30T23:59:00Z",
+      "createDate": "2026-08-31T06:31:04Z",
+      "affected": [
+        "LLER"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QPOCH",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "2944N03501E005",
+        "position": {
+          "lat": 29.733333,
+          "lon": 35.016667,
+          "radiusNm": 5
+        }
+      },
+      "eText": "OCA(H) FOR ILS RWY 01 CHG TO 500(248) FOR ALL CAT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 29.733333,
+        "lon": 35.016667,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "R",
+      "replaces": "A0572/26",
+      "rawText": "(A0706/26 NOTAMR A0572/26\nQ) LLLL/QPOCH/I /NBO/A /000/999/2944N03501E005\nA) LLER B) 2608310629 C) 2609302359\nE) OCA(H) FOR ILS RWY 01 CHG TO 500(248) FOR ALL CAT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0707/26",
+      "location": "LLER",
+      "airfield": "Ramon",
+      "msgNumber": "2053579",
+      "fromDate": "2026-08-31T06:30:00Z",
+      "toDate": "2026-09-30T23:59:00Z",
+      "createDate": "2026-08-31T06:31:04Z",
+      "affected": [
+        "LLER"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QPOCH",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "2944N03501E005",
+        "position": {
+          "lat": 29.733333,
+          "lon": 35.016667,
+          "radiusNm": 5
+        }
+      },
+      "eText": "OCA(H) FOR ILS RWY 19 CHG TO 500(228) FOR ALL CAT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 29.733333,
+        "lon": 35.016667,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "R",
+      "replaces": "A0575/26",
+      "rawText": "(A0707/26 NOTAMR A0575/26\nQ) LLLL/QPOCH/I /NBO/A /000/999/2944N03501E005\nA) LLER B) 2608310630 C) 2609302359\nE) OCA(H) FOR ILS RWY 19 CHG TO 500(228) FOR ALL CAT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0702/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2053574",
+      "fromDate": "2026-08-31T06:28:00Z",
+      "toDate": "2026-09-30T23:59:00Z",
+      "createDate": "2026-08-31T06:29:04Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QPOCH",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3201N03454E005",
+        "position": {
+          "lat": 32.016667,
+          "lon": 34.9,
+          "radiusNm": 5
+        }
+      },
+      "eText": "OCA(H) FOR ILS RWY 08 CHG TO 500(403) FOR ALL CAT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.016667,
+        "lon": 34.9,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "R",
+      "replaces": "A0497/26",
+      "rawText": "(A0702/26 NOTAMR A0497/26\nQ) LLLL/QPOCH/I /NBO/A /000/999/3201N03454E005\nA) LLBG B) 2608310628 C) 2609302359\nE) OCA(H) FOR ILS RWY 08 CHG TO 500(403) FOR ALL CAT.)",
       "fullTextAvailable": true
     },
     {
@@ -1273,47 +1683,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0695/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001\nA) LLBG B) 2609020400 C) 2609150800\nD) SUN-THU 0400-0800\nE) CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION.\nAN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN\n315924N0345425E 315922N0345423E 315924N0345419E\n315926N0345421E.\nCTN ADZ.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1819/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2052107",
-      "fromDate": "2026-08-31T06:00:00Z",
-      "toDate": "2026-08-31T11:30:00Z",
-      "createDate": "2026-08-27T11:39:32Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "035",
-        "positionToken": "3140N03501E003",
-        "position": {
-          "lat": 31.666667,
-          "lon": 35.016667,
-          "radiusNm": 3
-        }
-      },
-      "eText": "UAS ACT WILL TAKE PLACE AT ADERET. AN AREA BTN FLW PSN FM GND UP TO 3,500FT AMSL CLSD TO ALL FLT INCLUDING AGRICULTURE FLT  314107N0345919E 313846N0345857E 313804N0350116E 313931N0350342E 314131N0350134E. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "3500FT AMSL",
-      "position": {
-        "lat": 31.666667,
-        "lon": 35.016667,
-        "radiusNm": 3,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1819/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/035/3140N03501E003\nA) LLLL B) 2608310600 C) 2608311130\nD) 0600-0730 0900-1130\nE) UAS ACT WILL TAKE PLACE AT ADERET.\nAN AREA BTN FLW PSN FM GND UP TO 3,500FT AMSL CLSD TO\nALL FLT INCLUDING AGRICULTURE FLT  314107N0345919E\n313846N0345857E 313804N0350116E 313931N0350342E\n314131N0350134E.\nCTN ADZ.\nF) GND G) 3500FT AMSL)",
       "fullTextAvailable": true
     },
     {
@@ -3777,88 +4146,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "A0575/26",
-      "location": "LLER",
-      "airfield": "Ramon",
-      "msgNumber": "2037546",
-      "fromDate": "2026-07-19T11:45:00Z",
-      "toDate": "2026-08-31T23:59:00Z",
-      "createDate": "2026-07-19T11:47:38Z",
-      "affected": [
-        "LLER"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QPOCH",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "2944N03501E005",
-        "position": {
-          "lat": 29.733333,
-          "lon": 35.016667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "OCA(H) FOR ILS RWY 19 CHG TO 500(228) FOR ALL CAT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 29.733333,
-        "lon": 35.016667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0575/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/2944N03501E005\nA) LLER B) 2607191145 C) 2608312359\nE) OCA(H) FOR ILS RWY 19 CHG TO 500(228) FOR ALL CAT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0572/26",
-      "location": "LLER",
-      "airfield": "Ramon",
-      "msgNumber": "2037543",
-      "fromDate": "2026-07-19T11:37:00Z",
-      "toDate": "2026-08-31T23:59:00Z",
-      "createDate": "2026-07-19T11:39:37Z",
-      "affected": [
-        "LLER"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QPOCH",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "2944N03501E005",
-        "position": {
-          "lat": 29.733333,
-          "lon": 35.016667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "OCA(H) FOR ILS RWY 01 CHG TO 500(248) FOR ALL CAT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 29.733333,
-        "lon": 35.016667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0572/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/2944N03501E005\nA) LLER B) 2607191137 C) 2608312359\nE) OCA(H) FOR ILS RWY 01 CHG TO 500(248) FOR ALL CAT.)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "C1529/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
@@ -3938,211 +4225,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1361/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/010/3151N03440E002\nA) LLLL B) 2607010001 C) 2612312159\nE) UAS/UAV ACT WILL TAKE PLACE AT ASHDOD, FM GND UP TO 100M AGL.\nAN AREA BTN FLW PSN CLSD FM GND UP TO 950FT AMSL\n315119N0344122E 315127N0344037E 315123N0344007E\n315132N0343931E 315055N0343917E 315038N0344013E\n315035N0344120E.\nCTN ADZ.\nF) GND G) 950FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0500/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2028110",
-      "fromDate": "2026-06-24T16:41:00Z",
-      "toDate": "2026-08-31T23:59:00Z",
-      "createDate": "2026-06-24T16:44:39Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QPOCH",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03451E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.85,
-          "radiusNm": 5
-        }
-      },
-      "eText": "OCA(H) FOR ILS RWY 26 CHG TO 500(376) FOR ALL CAT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.85,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0500/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/3201N03451E005\nA) LLBG B) 2606241641 C) 2608312359\nE) OCA(H) FOR ILS RWY 26 CHG TO 500(376) FOR ALL CAT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0501/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2028111",
-      "fromDate": "2026-06-24T16:42:00Z",
-      "toDate": "2026-08-31T23:59:00Z",
-      "createDate": "2026-06-24T16:44:39Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QPOCH",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03452E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.866667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "OCA(H) FOR ILS RWY 30 CHG TO 500(370) FOR ALL CAT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.866667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0501/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/3201N03452E005\nA) LLBG B) 2606241642 C) 2608312359\nE) OCA(H) FOR ILS RWY 30 CHG TO 500(370) FOR ALL CAT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0497/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2028107",
-      "fromDate": "2026-06-24T16:39:00Z",
-      "toDate": "2026-08-31T23:59:00Z",
-      "createDate": "2026-06-24T16:42:39Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QPOCH",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03454E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.9,
-          "radiusNm": 5
-        }
-      },
-      "eText": "OCA(H) FOR ILS RWY 08 CHG TO 500(403) FOR ALL CAT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.9,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0497/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/3201N03454E005\nA) LLBG B) 2606241639 C) 2608312359\nE) OCA(H) FOR ILS RWY 08 CHG TO 500(403) FOR ALL CAT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0498/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2028108",
-      "fromDate": "2026-06-24T16:40:00Z",
-      "toDate": "2026-08-31T23:59:00Z",
-      "createDate": "2026-06-24T16:42:39Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QPOCH",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3200N03454E005",
-        "position": {
-          "lat": 32,
-          "lon": 34.9,
-          "radiusNm": 5
-        }
-      },
-      "eText": "OCA(H) FOR ILS RWY 12 CHG TO 500(397) FOR ALL CAT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32,
-        "lon": 34.9,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0498/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/3200N03454E005\nA) LLBG B) 2606241640 C) 2608312359\nE) OCA(H) FOR ILS RWY 12 CHG TO 500(397) FOR ALL CAT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0499/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2028109",
-      "fromDate": "2026-06-24T16:40:00Z",
-      "toDate": "2026-08-31T23:59:00Z",
-      "createDate": "2026-06-24T16:42:39Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QPOCH",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3200N03453E005",
-        "position": {
-          "lat": 32,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "OCA(H) FOR ILS RWY 21 CHG TO 500(366) FOR ALL CAT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0499/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/3200N03453E005\nA) LLBG B) 2606241640 C) 2608312359\nE) OCA(H) FOR ILS RWY 21 CHG TO 500(366) FOR ALL CAT.)",
       "fullTextAvailable": true
     },
     {
