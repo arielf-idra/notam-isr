@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-31T23:26:45.640Z",
+  "generatedAt": "2026-09-01T01:59:25.175Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 108,
+  "count": 106,
   "notams": [
     {
       "id": "C1849/26",
@@ -1522,47 +1522,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "A0699/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2053188",
-      "fromDate": "2026-08-31T20:00:00Z",
-      "toDate": "2026-09-01T01:00:00Z",
-      "createDate": "2026-08-30T07:27:12Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QMRLT",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "DUE CRANE AT EL-AL JUNCTION, RWY 12 CLSD FOR TKOF, RWY 30 CLSD FOR LDG.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0699/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2608312000 C) 2609010100\nE) DUE CRANE AT EL-AL JUNCTION, RWY 12 CLSD FOR TKOF,\nRWY 30 CLSD FOR LDG.)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "A0698/26",
       "location": "LLHA",
       "airfield": "Haifa",
@@ -1601,47 +1560,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0698/26 NOTAMN\nQ) LLLL/QACLP/IV/NBO/AE/000/030/3251N03503E007\nA) LLHA B) 2609101515 C) 2609101700\nD) 1515-1545 1630-1700\nE) CIRCUIT EXER PROHIBITED, EXC ACFT ATR C/S HFA.\nLDG PROHIBITED EXC PPR FLT FM AD MANAGEMENT OR FM ATC.\nEXP DLA FOR DEP FLT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0697/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2052139",
-      "fromDate": "2026-08-31T20:00:00Z",
-      "toDate": "2026-09-01T01:00:00Z",
-      "createDate": "2026-08-27T13:35:41Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QOBCE",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "AE",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "003",
-        "positionToken": "3159N03454E001",
-        "position": {
-          "lat": 31.983333,
-          "lon": 34.9,
-          "radiusNm": 1
-        }
-      },
-      "eText": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 315938.65N0345424.86E CLSD FM GND UP TO 91.80M 302FT AMSL. IN CASE OF EMERG LOWERED WI 5MIN. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.983333,
-        "lon": 34.9,
-        "radiusNm": 1,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0697/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/003/3159N03454E001\nA) LLBG B) 2608312000 C) 2609010100\nE) CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 315938.65N0345424.86E\nCLSD FM GND UP TO 91.80M 302FT AMSL.\nIN CASE OF EMERG LOWERED WI 5MIN.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
     {
