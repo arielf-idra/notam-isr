@@ -1,91 +1,9 @@
 {
-  "generatedAt": "2026-09-02T00:26:10.922Z",
+  "generatedAt": "2026-09-02T04:56:24.292Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 106,
+  "count": 104,
   "notams": [
-    {
-      "id": "C1852/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2054092",
-      "fromDate": "2026-09-02T02:50:00Z",
-      "toDate": "2026-09-02T04:00:00Z",
-      "createDate": "2026-09-01T14:29:44Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "020",
-        "positionToken": "3246N03523E001",
-        "position": {
-          "lat": 32.766667,
-          "lon": 35.383333,
-          "radiusNm": 1
-        }
-      },
-      "eText": "UAS ACT WILL TAKE PLACE AT GOLANI-JUNCTION. AN AREA WI 1NM RADIUS CENTERED ON PSN 324550N0352304E CLSD TO ALL FLT FM GND UP TO 2,000FT AMSL. OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "2000FT AMSL",
-      "position": {
-        "lat": 32.763889,
-        "lon": 35.384444,
-        "radiusNm": 1,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1852/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/020/3246N03523E001\nA) LLLL B) 2609020250 C) 2609020400\nE) UAS ACT WILL TAKE PLACE AT GOLANI-JUNCTION.\nAN AREA WI 1NM RADIUS CENTERED ON PSN 324550N0352304E\nCLSD TO ALL FLT FM GND UP TO 2,000FT AMSL.\nOPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 2000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0716/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2054087",
-      "fromDate": "2026-09-02T02:50:00Z",
-      "toDate": "2026-09-02T03:00:00Z",
-      "createDate": "2026-09-01T14:09:42Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QANLC",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "040",
-        "upperLimitFl": "060",
-        "positionToken": "3242N03524E012",
-        "position": {
-          "lat": 32.7,
-          "lon": 35.4,
-          "radiusNm": 12
-        }
-      },
-      "eText": "ATS RTE J14 CLSD BTN MEGID-BARZI.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.7,
-        "lon": 35.4,
-        "radiusNm": 12,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0716/26 NOTAMN\nQ) LLLL/QANLC/I /NBO/E /040/060/3242N03524E012\nA) LLLL B) 2609020250 C) 2609020300\nE) ATS RTE J14 CLSD BTN MEGID-BARZI.)",
-      "fullTextAvailable": true
-    },
     {
       "id": "A0715/26",
       "location": "LLER",
