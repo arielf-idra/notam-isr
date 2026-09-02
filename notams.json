@@ -1,9 +1,173 @@
 {
-  "generatedAt": "2026-09-02T04:56:24.292Z",
+  "generatedAt": "2026-09-02T09:22:17.315Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 104,
+  "count": 108,
   "notams": [
+    {
+      "id": "C1854/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2054351",
+      "fromDate": "2026-09-06T03:00:00Z",
+      "toDate": "2026-09-08T16:20:00Z",
+      "createDate": "2026-09-02T07:29:10Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "028",
+        "positionToken": "3057N03456E002",
+        "position": {
+          "lat": 30.95,
+          "lon": 34.933333,
+          "radiusNm": 2
+        }
+      },
+      "eText": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 250M AGL. AN AREA BTN FLW PSN 305830N0345551E 305823N0345644E 305803N0345708E 305709N0345649E 305624N0345614E 305652N0345453E CLSD FM GND UP TO 2,800FT AMSL. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "2800FT AMSL",
+      "position": {
+        "lat": 30.95,
+        "lon": 34.933333,
+        "radiusNm": 2,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1854/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/028/3057N03456E002\nA) LLLL B) 2609060300 C) 2609081620\nD) DAILY 0300-1620\nE) UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 250M AGL.\nAN AREA BTN FLW PSN 305830N0345551E 305823N0345644E\n305803N0345708E 305709N0345649E 305624N0345614E\n305652N0345453E CLSD FM GND UP TO 2,800FT AMSL.\nCTN ADZ.\nF) GND G) 2800FT AMSL)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0718/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2054344",
+      "fromDate": "2026-10-01T00:01:00Z",
+      "toDate": "2026-10-14T23:59:00Z",
+      "createDate": "2026-09-02T07:01:08Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QOATT",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3123N03515E999",
+        "position": {
+          "lat": 31.383333,
+          "lon": 35.25,
+          "radiusNm": 999
+        }
+      },
+      "eText": "TRIGGER NOTAM - NIL AIRAC AIP AMDT WEF 01 OCT 2026.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.383333,
+        "lon": 35.25,
+        "radiusNm": 999,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0718/26 NOTAMN\nQ) LLLL/QOATT/IV/BO /E /000/999/3123N03515E999\nA) LLLL B) 2610010001 C) 2610142359\nE) TRIGGER NOTAM - NIL AIRAC AIP AMDT WEF 01 OCT 2026.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1853/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2054345",
+      "fromDate": "2026-10-01T00:01:00Z",
+      "toDate": "2026-10-14T23:59:00Z",
+      "createDate": "2026-09-02T07:01:08Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QOATT",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3211N03515E015",
+        "position": {
+          "lat": 32.183333,
+          "lon": 35.25,
+          "radiusNm": 15
+        }
+      },
+      "eText": "TRIGGER NOTAM - NIL AIRAC DOM AIP AMDT WEF 01 OCT 2026.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.183333,
+        "lon": 35.25,
+        "radiusNm": 15,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1853/26 NOTAMN\nQ) LLLL/QOATT/IV/BO /E /000/999/3211N03515E015\nA) LLLL B) 2610010001 C) 2610142359\nE) TRIGGER NOTAM - NIL AIRAC DOM AIP AMDT WEF 01 OCT 2026.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0717/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2054334",
+      "fromDate": "2026-09-02T06:40:00Z",
+      "toDate": "2026-09-02T10:00:00Z",
+      "createDate": "2026-09-02T06:41:06Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QMRLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3201N03453E005",
+        "position": {
+          "lat": 32.016667,
+          "lon": 34.883333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "RWY 08/26 CLSD EXC RWY INT, DUE WIP.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.016667,
+        "lon": 34.883333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0717/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2609020640 C) 2609021000\nE) RWY 08/26 CLSD EXC RWY INT, DUE WIP.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "A0715/26",
       "location": "LLER",
