@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-03T13:55:50.591Z",
+  "generatedAt": "2026-09-03T17:37:00.655Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 115,
+  "count": 113,
   "notams": [
     {
       "id": "C1874/26",
@@ -2711,47 +2711,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "C1806/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2051791",
-      "fromDate": "2026-08-30T02:50:00Z",
-      "toDate": "2026-09-03T16:30:00Z",
-      "createDate": "2026-08-26T15:59:46Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "025",
-        "positionToken": "3132N03451E003",
-        "position": {
-          "lat": 31.533333,
-          "lon": 34.85,
-          "radiusNm": 3
-        }
-      },
-      "eText": "UAS ACT WILL TAKE PLACE AT KELCH. AN AREA FM GND UP TO 2,500FT AMSL CLSD TO ALL FLT BTN FLW PSN  313226N0344801E 313225N0345409E 313144N0345409E 313129N0345246E 313129N0345126E 313125N0344843E OPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "2500FT AMSL",
-      "position": {
-        "lat": 31.533333,
-        "lon": 34.85,
-        "radiusNm": 3,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1806/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/025/3132N03451E003\nA) LLLL B) 2608300250 C) 2609031630\nD) DAILY 0250-1630\nE) UAS ACT WILL TAKE PLACE AT KELCH.\nAN AREA FM GND UP TO 2,500FT AMSL CLSD TO ALL FLT\nBTN FLW PSN  313226N0344801E 313225N0345409E\n313144N0345409E 313129N0345246E 313129N0345126E\n313125N0344843E\nOPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 2500FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "C1803/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
@@ -3200,47 +3159,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1795/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/015/3231N03518E002\nA) LLLL B) 2609010001 C) 2609302059\nE) UAS/UAV ACT WILL TAKE PLACE AT MAGEN-SHAUL, UP TO 100M AGL.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,500FT AMSL\n323145N0351642E 323024N0351638E 323039N0352004E\n323139N0351954E 323153N0351930E 323159N0351907E\nCTN ADZ.\nF) GND G) 1500FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1790/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2050952",
-      "fromDate": "2026-08-30T03:00:00Z",
-      "toDate": "2026-09-03T14:30:00Z",
-      "createDate": "2026-08-24T10:49:23Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "037",
-        "positionToken": "3058N03456E001",
-        "position": {
-          "lat": 30.966667,
-          "lon": 34.933333,
-          "radiusNm": 1
-        }
-      },
-      "eText": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E CLSD FM GND UP TO 3,700FT AMSL. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "3700FT AMSL",
-      "position": {
-        "lat": 30.971944,
-        "lon": 34.933611,
-        "radiusNm": 0.3,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1790/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/037/3058N03456E001\nA) LLLL B) 2608300300 C) 2609031430\nD) DAILY 0300-1430\nE) UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E\nCLSD FM GND UP TO 3,700FT AMSL.\nCTN ADZ.\nF) GND G) 3700FT AMSL)",
       "fullTextAvailable": true
     },
     {
