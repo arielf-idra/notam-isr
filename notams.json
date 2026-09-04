@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-09-04T04:56:41.519Z",
+  "generatedAt": "2026-09-04T09:30:14.429Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 112,
   "notams": [
+    {
+      "id": "A0727/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2055128",
+      "fromDate": "2026-09-04T15:50:00Z",
+      "toDate": "2026-09-04T19:55:00Z",
+      "createDate": "2026-09-04T08:41:14Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3201N03453E005",
+        "position": {
+          "lat": 32.016667,
+          "lon": 34.883333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AD CLSD DUE WIP.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.016667,
+        "lon": 34.883333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0727/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2609041550 C) 2609041955\nE) AD CLSD DUE WIP.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C1874/26",
       "location": "LLLL",
@@ -4143,47 +4184,6 @@
       "notamType": "R",
       "replaces": "A0410/26",
       "rawText": "(A0457/26 NOTAMR A0410/26\nQ) LLLL/QPDCH/I /NBO/A /000/999/3201N03453E005\nA) LLBG B) 2606080531 C) PERM\nE) MNM CMB GRADIENT CHG AS FLW\nCHART AD 2 LLBG SID 26-1\nALL SID  MNM CMB GRADIENT REQUIRED 7.0 PERCENT UP TO\n2,500FT DUE TO AIR-SPACE RESTRICTIONS.\nIF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\n3.5 PERCENT DUE TO OBST.\nCHART AD 2 LLBG SID 12-26-30-1\nFOR SID PIDET1E  MNM CMB GRADIENT REQUIRED OF 6.0 PERCENT\nUP TO 5,000FT DUE TO AIR-SPACE RESTRICTIONS.\nIF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\n3.5 PERCENT DUE TO OBST.\nFOR SID RIPUD1E  MNM CMB GRADIENT REQUIRED OF 7.0 PERCENT\nUP TO 6,000FT DUE TO AIR-SPACE RESTRICTIONS.\nIF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\n3.5 PERCENT DUE TO OBST.\nCHART AD 2 LLBG SID 12-26-30-2, FOR SID ORLEV1E\nMNM CMB GRADIENT REQUIRED 8.0 PERCENT UP TO 5,000FT\nDUE TO AIR-SPACE RESTRICTIONS.\nIF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\n3.5 PERCENT DUE TO OBST.\nISRAEL AIP, PART AD, CHARTS  AD 2 LLBG SID 26-1,\nAD 2 LLBG SID 12-26-30-1, AD 2 LLBG SID 12-26-30-2. REF.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0353/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2004610",
-      "fromDate": "2026-09-04T15:00:00Z",
-      "toDate": "2026-09-04T19:55:00Z",
-      "createDate": "2026-04-23T14:17:28Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QFALC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "AD CLSD DUE WIP.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0353/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2609041500 C) 2609041955\nE) AD CLSD DUE WIP.)",
       "fullTextAvailable": true
     },
     {
