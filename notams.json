@@ -1,50 +1,9 @@
 {
-  "generatedAt": "2026-09-04T19:36:08.866Z",
+  "generatedAt": "2026-09-04T21:48:47.038Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 111,
+  "count": 110,
   "notams": [
-    {
-      "id": "A0727/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2055128",
-      "fromDate": "2026-09-04T15:50:00Z",
-      "toDate": "2026-09-04T19:55:00Z",
-      "createDate": "2026-09-04T08:41:14Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QFALC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "AD CLSD DUE WIP.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0727/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2609041550 C) 2609041955\nE) AD CLSD DUE WIP.)",
-      "fullTextAvailable": true
-    },
     {
       "id": "C1874/26",
       "location": "LLLL",
