@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-04T09:30:14.429Z",
+  "generatedAt": "2026-09-04T13:41:57.492Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 112,
+  "count": 111,
   "notams": [
     {
       "id": "A0727/26",
@@ -1560,47 +1560,6 @@
       "notamType": "R",
       "replaces": "A0497/26",
       "rawText": "(A0702/26 NOTAMR A0497/26\nQ) LLLL/QPOCH/I /NBO/A /000/999/3201N03454E005\nA) LLBG B) 2608310628 C) 2609302359\nE) OCA(H) FOR ILS RWY 08 CHG TO 500(403) FOR ALL CAT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1846/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2053307",
-      "fromDate": "2026-09-03T10:05:00Z",
-      "toDate": "2026-09-04T11:00:00Z",
-      "createDate": "2026-08-30T13:45:43Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWPLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "080",
-        "positionToken": "3120N03523E003",
-        "position": {
-          "lat": 31.333333,
-          "lon": 35.383333,
-          "radiusNm": 3
-        }
-      },
-      "eText": "PJE AIRSPACE METZADA ACT FM 8,000FT AMSL. OPR BY PPR FM ATC ONLY.",
-      "lowerLimit": "GND",
-      "upperLimit": "8000FT AMSL",
-      "position": {
-        "lat": 31.333333,
-        "lon": 35.383333,
-        "radiusNm": 3,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1846/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/080/3120N03523E003\nA) LLLL B) 2609031005 C) 2609041100\nD) 03 1005-1630, 04 0600-1100\nE) PJE AIRSPACE METZADA ACT FM 8,000FT AMSL.\nOPR BY PPR FM ATC ONLY.\nF) GND G) 8000FT AMSL)",
       "fullTextAvailable": true
     },
     {
