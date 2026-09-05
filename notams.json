@@ -1,9 +1,132 @@
 {
-  "generatedAt": "2026-09-05T13:26:57.312Z",
+  "generatedAt": "2026-09-05T16:12:18.415Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 111,
+  "count": 114,
   "notams": [
+    {
+      "id": "C1878/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2055587",
+      "fromDate": "2026-09-06T05:30:00Z",
+      "toDate": "2026-09-06T14:30:00Z",
+      "createDate": "2026-09-05T15:19:40Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "030",
+        "positionToken": "3220N03500E002",
+        "position": {
+          "lat": 32.333333,
+          "lon": 35,
+          "radiusNm": 2
+        }
+      },
+      "eText": "AN AREA AT OLESH WI 1.5NM RADIUS CENTERED ON PSN 322025N0345939E CLSD FM GND UP TO 3,000FT AMSL, TO ALL FLT INCLUDING AGRICULTURE. CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.340278,
+        "lon": 34.994167,
+        "radiusNm": 1.5,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1878/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/030/3220N03500E002\nA) LLLL B) 2609060530 C) 2609061430\nE) AN AREA AT OLESH WI 1.5NM RADIUS CENTERED ON PSN 322025N0345939E\nCLSD FM GND UP TO 3,000FT AMSL, TO ALL FLT INCLUDING AGRICULTURE.\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0729/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2055575",
+      "fromDate": "2026-09-06T05:30:00Z",
+      "toDate": "2026-09-06T14:30:00Z",
+      "createDate": "2026-09-05T14:37:37Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QANLT",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "040",
+        "upperLimitFl": "090",
+        "positionToken": "3218N03500E002",
+        "position": {
+          "lat": 32.3,
+          "lon": 35,
+          "radiusNm": 2
+        }
+      },
+      "eText": "THE FLW ATS ROUTS LIMITED TO MIN 5,000 FT J14 BTN NAT-ZACCI, J11 BTN NAT-KANER .",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.3,
+        "lon": 35,
+        "radiusNm": 2,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0729/26 NOTAMN\nQ) LLLL/QANLT/I /NBO/E /040/090/3218N03500E002\nA) LLLL B) 2609060530 C) 2609061430\nE) THE FLW ATS ROUTS LIMITED TO MIN 5,000 FT\nJ14 BTN NAT-ZACCI,\nJ11 BTN NAT-KANER .)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1876/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2055570",
+      "fromDate": "2026-09-05T15:30:00Z",
+      "toDate": "2026-09-05T17:00:00Z",
+      "createDate": "2026-09-05T14:13:35Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "027",
+        "positionToken": "3243N03518E002",
+        "position": {
+          "lat": 32.716667,
+          "lon": 35.3,
+          "radiusNm": 2
+        }
+      },
+      "eText": "AN AREA AT NATZERET WI 2.0NM RADIUS CENTERED ON PSN 324301N0351802E CLSD FM GND UP TO 2,700FT AMSL TO ALL FLT, EFECTING MEGIDO A WEST, NETOFA ULTRA LIGHT BUBBELS. OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.716944,
+        "lon": 35.300556,
+        "radiusNm": 2,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1876/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/027/3243N03518E002\nA) LLLL B) 2609051530 C) 2609051700\nE) AN AREA AT NATZERET WI 2.0NM RADIUS CENTERED ON\nPSN 324301N0351802E CLSD FM GND UP TO 2,700FT AMSL\nTO ALL FLT, EFECTING MEGIDO A WEST, NETOFA ULTRA LIGHT BUBBELS.\nOPS OF AGRICULTURE FLT AVBL WITH 15MIN\nPPR FM ATC.\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "A0728/26",
       "location": "LLHA",
