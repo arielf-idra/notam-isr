@@ -1,91 +1,9 @@
 {
-  "generatedAt": "2026-09-06T04:24:08.622Z",
+  "generatedAt": "2026-09-06T08:47:24.074Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 112,
+  "count": 110,
   "notams": [
-    {
-      "id": "C1878/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2055587",
-      "fromDate": "2026-09-06T05:30:00Z",
-      "toDate": "2026-09-06T14:30:00Z",
-      "createDate": "2026-09-05T15:19:40Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "030",
-        "positionToken": "3220N03500E002",
-        "position": {
-          "lat": 32.333333,
-          "lon": 35,
-          "radiusNm": 2
-        }
-      },
-      "eText": "AN AREA AT OLESH WI 1.5NM RADIUS CENTERED ON PSN 322025N0345939E CLSD FM GND UP TO 3,000FT AMSL, TO ALL FLT INCLUDING AGRICULTURE. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.340278,
-        "lon": 34.994167,
-        "radiusNm": 1.5,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1878/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/030/3220N03500E002\nA) LLLL B) 2609060530 C) 2609061430\nE) AN AREA AT OLESH WI 1.5NM RADIUS CENTERED ON PSN 322025N0345939E\nCLSD FM GND UP TO 3,000FT AMSL, TO ALL FLT INCLUDING AGRICULTURE.\nCTN ADZ.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0729/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2055575",
-      "fromDate": "2026-09-06T05:30:00Z",
-      "toDate": "2026-09-06T14:30:00Z",
-      "createDate": "2026-09-05T14:37:37Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QANLT",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "040",
-        "upperLimitFl": "090",
-        "positionToken": "3218N03500E002",
-        "position": {
-          "lat": 32.3,
-          "lon": 35,
-          "radiusNm": 2
-        }
-      },
-      "eText": "THE FLW ATS ROUTS LIMITED TO MIN 5,000 FT J14 BTN NAT-ZACCI, J11 BTN NAT-KANER .",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.3,
-        "lon": 35,
-        "radiusNm": 2,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0729/26 NOTAMN\nQ) LLLL/QANLT/I /NBO/E /040/090/3218N03500E002\nA) LLLL B) 2609060530 C) 2609061430\nE) THE FLW ATS ROUTS LIMITED TO MIN 5,000 FT\nJ14 BTN NAT-ZACCI,\nJ11 BTN NAT-KANER .)",
-      "fullTextAvailable": true
-    },
     {
       "id": "A0728/26",
       "location": "LLHA",
