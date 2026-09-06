@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-05T22:16:28.455Z",
+  "generatedAt": "2026-09-05T23:59:28.377Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 113,
+  "count": 112,
   "notams": [
     {
       "id": "C1878/26",
@@ -3282,47 +3282,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1788/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/014/3143N03450E002\nA) LLLL B) 2609010001 C) 2609302059\nE) UAS/UAV ACT WILL TAKE PLACE AT DALIA/TZAFIT, WI ULTRALIGHT\nBUBBLE GOVRIN SOUTH (BGOVS) UP TO 100M AGL.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,400FT AMSL\n314353N0345038E 314339N0345010E 314221N0344925E\n314150N0345023E 314222N0345118E 314323N0345123E.\nCTN ADZ.\nF) GND G) 1400FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1786/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2050892",
-      "fromDate": "2026-09-05T19:00:00Z",
-      "toDate": "2026-09-05T23:00:00Z",
-      "createDate": "2026-08-24T07:03:05Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWSLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "010",
-        "positionToken": "3237N03502E001",
-        "position": {
-          "lat": 32.616667,
-          "lon": 35.033333,
-          "radiusNm": 1
-        }
-      },
-      "eText": "AN AREA WI 0.6NM RADIUS CENTERED ON PSN 323704N0350226 AT HAGIT POWER PLANT, CLSD FM GND UP TO 1,000FT AMSL, DUE TO GAS EMISSION. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "1000FT AMSL",
-      "position": {
-        "lat": 32.616667,
-        "lon": 35.033333,
-        "radiusNm": 1,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1786/26 NOTAMN\nQ) LLLL/QWSLW/IV/M  /W /000/010/3237N03502E001\nA) LLLL B) 2609051900 C) 2609052300\nE) AN AREA WI 0.6NM RADIUS CENTERED ON PSN 323704N0350226\nAT HAGIT POWER PLANT, CLSD FM GND UP TO 1,000FT AMSL,\nDUE TO GAS EMISSION.\nCTN ADZ.\nF) GND G) 1000FT AMSL)",
       "fullTextAvailable": true
     },
     {
