@@ -1,9 +1,91 @@
 {
-  "generatedAt": "2026-09-06T08:47:24.074Z",
+  "generatedAt": "2026-09-06T12:23:10.752Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 110,
+  "count": 112,
   "notams": [
+    {
+      "id": "A0731/26",
+      "location": "LLER",
+      "airfield": "Ramon",
+      "msgNumber": "2055906",
+      "fromDate": "2026-09-07T03:55:00Z",
+      "toDate": "2026-09-07T04:10:00Z",
+      "createDate": "2026-09-06T11:51:28Z",
+      "affected": [
+        "LLER"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QACLP",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "AE",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "2944N03458E018",
+        "position": {
+          "lat": 29.733333,
+          "lon": 34.966667,
+          "radiusNm": 18
+        }
+      },
+      "eText": "CTR/CTA CLSD TO ALL FLT, EXC AIR FORCE ACT. CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 29.733333,
+        "lon": 34.966667,
+        "radiusNm": 18,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0731/26 NOTAMN\nQ) LLLL/QACLP/IV/NBO/AE/000/999/2944N03458E018\nA) LLER B) 2609070355 C) 2609070410\nE) CTR/CTA CLSD TO ALL FLT, EXC AIR FORCE ACT.\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1880/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2055878",
+      "fromDate": "2026-09-08T06:00:00Z",
+      "toDate": "2026-09-09T11:30:00Z",
+      "createDate": "2026-09-06T10:49:23Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "035",
+        "positionToken": "3140N03501E003",
+        "position": {
+          "lat": 31.666667,
+          "lon": 35.016667,
+          "radiusNm": 3
+        }
+      },
+      "eText": "UAS ACT WILL TAKE PLACE AT ADERET. AN AREA BTN FLW PSN FM GND UP TO 3,500FT AMSL CLSD TO ALL FLT INCLUDING AGRICULTURE FLT  314107N0345919E 313846N0345857E 313804N0350116E 313931N0350342E 314131N0350134E. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "3500FT AMSL",
+      "position": {
+        "lat": 31.666667,
+        "lon": 35.016667,
+        "radiusNm": 3,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1880/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/035/3140N03501E003\nA) LLLL B) 2609080600 C) 2609091130\nD) 0600-0800 0900-1130\nE) UAS ACT WILL TAKE PLACE AT ADERET.\nAN AREA BTN FLW PSN FM GND UP TO 3,500FT AMSL CLSD TO\nALL FLT INCLUDING AGRICULTURE FLT  314107N0345919E\n313846N0345857E 313804N0350116E 313931N0350342E\n314131N0350134E.\nCTN ADZ.\nF) GND G) 3500FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "A0728/26",
       "location": "LLHA",
