@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-06T17:42:53.303Z",
+  "generatedAt": "2026-09-06T19:36:26.835Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 113,
+  "count": 110,
   "notams": [
     {
       "id": "C1881/26",
@@ -699,129 +699,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1866/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /015/020/3253N03507E005\nA) LLLL B) 2609070600 C) 2609071000\nD) 0600-0645 0920-1000\nE) CVFR RTE CLSD  EVLYM-AHIUD-AAKKO-SMRAT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1864/26",
-      "location": "LLEY",
-      "airfield": "Eyn-Yahav",
-      "msgNumber": "2054742",
-      "fromDate": "2026-09-06T16:20:00Z",
-      "toDate": "2026-09-06T18:00:00Z",
-      "createDate": "2026-09-03T08:47:14Z",
-      "affected": [
-        "LLEY"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QFALC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3037N03512E005",
-        "position": {
-          "lat": 30.616667,
-          "lon": 35.2,
-          "radiusNm": 5
-        }
-      },
-      "eText": "AIRSTRIP CLSD TO ALL FLT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 30.616667,
-        "lon": 35.2,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1864/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3037N03512E005\nA) LLEY B) 2609061620 C) 2609061800\nE) AIRSTRIP CLSD TO ALL FLT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1865/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2054743",
-      "fromDate": "2026-09-06T16:20:00Z",
-      "toDate": "2026-09-06T18:00:00Z",
-      "createDate": "2026-09-03T08:47:14Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "035",
-        "upperLimitFl": "045",
-        "positionToken": "3035N03504E007",
-        "position": {
-          "lat": 30.583333,
-          "lon": 35.066667,
-          "radiusNm": 7
-        }
-      },
-      "eText": "CVFR RTE CLSD  ZOFAR-HRGVS.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 30.583333,
-        "lon": 35.066667,
-        "radiusNm": 7,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1865/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /035/045/3035N03504E007\nA) LLLL B) 2609061620 C) 2609061800\nE) CVFR RTE CLSD  ZOFAR-HRGVS.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1863/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2054741",
-      "fromDate": "2026-09-06T16:20:00Z",
-      "toDate": "2026-09-06T18:00:00Z",
-      "createDate": "2026-09-03T08:45:14Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "025",
-        "upperLimitFl": "040",
-        "positionToken": "3051N03515E054",
-        "position": {
-          "lat": 30.85,
-          "lon": 35.25,
-          "radiusNm": 54
-        }
-      },
-      "eText": "CVFR RTE CLSD KTORA-YAHEL-BMNUH-ZOFAR-ARAVA-ZOHAR-MMORR-LLMZ-ZUKIM. MMORR-ARRAD-LLMZ. ARRAD-HATRU-ZOHAR. TARAD-ARRAD.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 30.85,
-        "lon": 35.25,
-        "radiusNm": 54,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1863/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /025/040/3051N03515E054\nA) LLLL B) 2609061620 C) 2609061800\nE) CVFR RTE CLSD\nKTORA-YAHEL-BMNUH-ZOFAR-ARAVA-ZOHAR-MMORR-LLMZ-ZUKIM.\nMMORR-ARRAD-LLMZ.\nARRAD-HATRU-ZOHAR.\nTARAD-ARRAD.)",
       "fullTextAvailable": true
     },
     {
