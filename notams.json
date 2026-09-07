@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-09-07T01:06:07.608Z",
+  "generatedAt": "2026-09-07T06:03:30.402Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 110,
   "notams": [
+    {
+      "id": "C1882/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2056173",
+      "fromDate": "2026-09-07T05:29:00Z",
+      "toDate": "2029-09-07T05:33:00Z",
+      "createDate": "2026-09-07T05:33:00Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAECH",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "030",
+        "positionToken": "3223N03453E004",
+        "position": {
+          "lat": 32.383333,
+          "lon": 34.883333,
+          "radiusNm": 4
+        }
+      },
+      "eText": "THE RESTRICTIONS OF AEROBATICS FLT WI LLHZ TRG AREA NR 12 COMPLETELY WITHDRAW. DOM AIP, PART AD, PAGE LLHZ 14, PARA 24.D. REF.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.383333,
+        "lon": 34.883333,
+        "radiusNm": 4,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1882/26 NOTAMN\nQ) LLLL/QAECH/IV/NBO/E /000/030/3223N03453E004\nA) LLLL B) 2609070529 C) PERM\nE) THE RESTRICTIONS OF AEROBATICS FLT WI LLHZ TRG AREA NR 12\nCOMPLETELY WITHDRAW.\nDOM AIP, PART AD, PAGE LLHZ 14, PARA 24.D. REF.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C1881/26",
       "location": "LLHZ",
@@ -43,47 +84,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1881/26 NOTAMN\nQ) LLLL/QACLP/IV/NBO/AE/000/020/3211N03451E004\nA) LLHZ B) 2609101500 C) 2609101520\nE) CTR CLSD TO ALL FLT, EXC PARTICIPATING ACFT IN FLYPAST\nAND AEROBATICS FLT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0731/26",
-      "location": "LLER",
-      "airfield": "Ramon",
-      "msgNumber": "2055906",
-      "fromDate": "2026-09-07T03:55:00Z",
-      "toDate": "2026-09-07T04:10:00Z",
-      "createDate": "2026-09-06T11:51:28Z",
-      "affected": [
-        "LLER"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QACLP",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "AE",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "2944N03458E018",
-        "position": {
-          "lat": 29.733333,
-          "lon": 34.966667,
-          "radiusNm": 18
-        }
-      },
-      "eText": "CTR/CTA CLSD TO ALL FLT, EXC AIR FORCE ACT. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 29.733333,
-        "lon": 34.966667,
-        "radiusNm": 18,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0731/26 NOTAMN\nQ) LLLL/QACLP/IV/NBO/AE/000/999/2944N03458E018\nA) LLER B) 2609070355 C) 2609070410\nE) CTR/CTA CLSD TO ALL FLT, EXC AIR FORCE ACT.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
     {
