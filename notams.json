@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-09-08T15:17:14.153Z",
+  "generatedAt": "2026-09-08T18:48:17.113Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 110,
+  "count": 108,
   "notams": [
+    {
+      "id": "C1901/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2056764",
+      "fromDate": "2026-09-09T05:00:00Z",
+      "toDate": "2026-09-09T16:00:00Z",
+      "createDate": "2026-09-08T17:51:55Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "015",
+        "positionToken": "3243N03524E001",
+        "position": {
+          "lat": 32.716667,
+          "lon": 35.4,
+          "radiusNm": 1
+        }
+      },
+      "eText": "AN AREA AT KFAR-TAVOR WI 1.1NM RADIUS CENTERED ON PSN 324241N0352429E CLSD FM GND UP TO 1,500FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.711389,
+        "lon": 35.408056,
+        "radiusNm": 1.1,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1901/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/015/3243N03524E001\nA) LLLL B) 2609090500 C) 2609091600\nD) 0500-0700 1400-1600\nE) AN AREA AT KFAR-TAVOR WI 1.1NM RADIUS CENTERED ON\nPSN 324241N0352429E CLSD FM GND UP TO 1,500FT AMSL\nTO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN\nPPR FM ATC.\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C1900/26",
       "location": "LLMG",
@@ -907,47 +948,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "C1867/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2054745",
-      "fromDate": "2026-09-08T09:20:00Z",
-      "toDate": "2026-09-08T16:45:00Z",
-      "createDate": "2026-09-03T08:51:15Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "015",
-        "upperLimitFl": "020",
-        "positionToken": "3253N03507E005",
-        "position": {
-          "lat": 32.883333,
-          "lon": 35.116667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "CVFR RTE CLSD  EVLYM-AHIUD-AAKKO-SMRAT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.883333,
-        "lon": 35.116667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1867/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /015/020/3253N03507E005\nA) LLLL B) 2609080920 C) 2609081645\nD) 0920-1000 1230-1320 1600-1645\nE) CVFR RTE CLSD  EVLYM-AHIUD-AAKKO-SMRAT.)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "C1862/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
@@ -986,47 +986,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1862/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/022/3123N03446E001\nA) LLLL B) 2609080001 C) 2609110250\nE) CAPTIVE BALLOON WILL TAKE PLACE AT RAHAT, UP TO 2,200FT AMSL.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 312252N0344541E\nCLSD FM GND UP TO 2,200FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ\nF) GND G) 2200FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1861/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2054726",
-      "fromDate": "2026-09-08T14:30:00Z",
-      "toDate": "2026-09-08T17:30:00Z",
-      "createDate": "2026-09-03T07:37:09Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "015",
-        "positionToken": "3149N03454E001",
-        "position": {
-          "lat": 31.816667,
-          "lon": 34.9,
-          "radiusNm": 1
-        }
-      },
-      "eText": "UAS ACT WILL TAKE PLACE AT MISHMAR-DAVID. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 314901N0345351E CLSD TO ALL FLT FM GND UP TO 1,500FT AMSL. OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "1500FT AMSL",
-      "position": {
-        "lat": 31.816944,
-        "lon": 34.8975,
-        "radiusNm": 0.2,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1861/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/015/3149N03454E001\nA) LLLL B) 2609081430 C) 2609081730\nE) UAS ACT WILL TAKE PLACE AT MISHMAR-DAVID.\nAN AREA WI 0.2NM RADIUS CENTERED ON PSN 314901N0345351E\nCLSD TO ALL FLT FM GND UP TO 1,500FT AMSL.\nOPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 1500FT AMSL)",
       "fullTextAvailable": true
     },
     {
@@ -1273,47 +1232,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1857/26 NOTAMN\nQ) LLLL/QWMLW/IV/BO /W /000/120/3105N03454E001\nA) LLLL B) 2609030500 C) 2609301500\nD) SUN-THU 0500-1500\nE) FRNG WILL TAKE PLACE AT RAMAT-BEKA WI LLP14.\nAN AREA BTN THE FLW PSN  310542N0345314E\n310541N0345352E 310509N0345351E 310453N0345313E\nCLSD FM GND UP TO 12,000FT AMSL.\nCTN ADZ.\nF) GND G) 12000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1854/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2054351",
-      "fromDate": "2026-09-06T03:00:00Z",
-      "toDate": "2026-09-08T16:20:00Z",
-      "createDate": "2026-09-02T07:29:10Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "028",
-        "positionToken": "3057N03456E002",
-        "position": {
-          "lat": 30.95,
-          "lon": 34.933333,
-          "radiusNm": 2
-        }
-      },
-      "eText": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 250M AGL. AN AREA BTN FLW PSN 305830N0345551E 305823N0345644E 305803N0345708E 305709N0345649E 305624N0345614E 305652N0345453E CLSD FM GND UP TO 2,800FT AMSL. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "2800FT AMSL",
-      "position": {
-        "lat": 30.95,
-        "lon": 34.933333,
-        "radiusNm": 2,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1854/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/028/3057N03456E002\nA) LLLL B) 2609060300 C) 2609081620\nD) DAILY 0300-1620\nE) UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 250M AGL.\nAN AREA BTN FLW PSN 305830N0345551E 305823N0345644E\n305803N0345708E 305709N0345649E 305624N0345614E\n305652N0345453E CLSD FM GND UP TO 2,800FT AMSL.\nCTN ADZ.\nF) GND G) 2800FT AMSL)",
       "fullTextAvailable": true
     },
     {
