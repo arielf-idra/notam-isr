@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-09T19:15:36.538Z",
+  "generatedAt": "2026-09-09T21:45:24.512Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 105,
+  "count": 104,
   "notams": [
     {
       "id": "C1906/26",
@@ -1765,47 +1765,6 @@
       "notamType": "R",
       "replaces": "C1588/26",
       "rawText": "(C1840/26 NOTAMR C1588/26\nQ) LLLL/QACLP/IV/NBO/AE/000/015/3113N03428E002\nA) LLGV B) 2608301257 C) 2610312159\nE) CTR AVBL FOR UAS/UAV OR AGRICULTURE FLT ONLY.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1839/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2053288",
-      "fromDate": "2026-09-09T04:00:00Z",
-      "toDate": "2026-09-09T20:30:00Z",
-      "createDate": "2026-08-30T12:53:37Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLT",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "008",
-        "upperLimitFl": "012",
-        "positionToken": "3155N03446E008",
-        "position": {
-          "lat": 31.916667,
-          "lon": 34.766667,
-          "radiusNm": 8
-        }
-      },
-      "eText": "CVFR AND HEL RTE CLSD AT 1,200FT, AVBL BIDIRECTIONAL AT 800FT AMSL ONLY TYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.916667,
-        "lon": 34.766667,
-        "radiusNm": 8,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1839/26 NOTAMN\nQ) LLLL/QARLT/IV/NBO/E /008/012/3155N03446E008\nA) LLLL B) 2609090400 C) 2609092030\nD) 0400-0730 1630-2030\nE) CVFR AND HEL RTE CLSD AT 1,200FT,\nAVBL BIDIRECTIONAL AT 800FT AMSL ONLY\nTYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.)",
       "fullTextAvailable": true
     },
     {
