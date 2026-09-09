@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-09T16:05:26.731Z",
+  "generatedAt": "2026-09-09T19:15:36.538Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 107,
+  "count": 105,
   "notams": [
     {
       "id": "C1906/26",
@@ -169,47 +169,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "A0735/26",
-      "location": "LLER",
-      "airfield": "Ramon",
-      "msgNumber": "2056969",
-      "fromDate": "2026-09-09T13:35:00Z",
-      "toDate": "2026-09-09T18:15:00Z",
-      "createDate": "2026-09-09T07:25:09Z",
-      "affected": [
-        "LLER"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QFALT",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "2944N03501E005",
-        "position": {
-          "lat": 29.733333,
-          "lon": 35.016667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "AD CLSD TO ALL FLT INCLUDING HEL, EXC PPR FLT FM AD ADMINISTRATION DUE WIP. IN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 29.733333,
-        "lon": 35.016667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0735/26 NOTAMN\nQ) LLLL/QFALT/IV/NBO/A /000/999/2944N03501E005\nA) LLER B) 2609091335 C) 2609091815\nD) 1335-1445 1535-1815\nE) AD CLSD TO ALL FLT INCLUDING HEL, EXC PPR FLT FM AD\nADMINISTRATION DUE WIP.\nIN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN.)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "C1902/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
@@ -248,47 +207,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1902/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/024/3241N03517E001\nA) LLLL B) 2609130300 C) 2609190300\nE) CAPTIVE BALLOON WILL TAKE PLACE AT NAZARETH.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 324128N0351711E\nCLSD FM GND UP TO 2,400FT AMSL, TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 2400FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1900/26",
-      "location": "LLMG",
-      "airfield": "Meggido",
-      "msgNumber": "2056712",
-      "fromDate": "2026-09-09T02:00:00Z",
-      "toDate": "2026-09-09T17:20:00Z",
-      "createDate": "2026-09-08T15:05:40Z",
-      "affected": [
-        "LLMG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QFALT",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3236N03514E005",
-        "position": {
-          "lat": 32.6,
-          "lon": 35.233333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "AIRSTRIP CLSD TO ALL FLT EXC ACFT WHOSE HOME BASE IS LLMG,DUE WIP.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.6,
-        "lon": 35.233333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1900/26 NOTAMN\nQ) LLLL/QFALT/IV/NBO/A /000/999/3236N03514E005\nA) LLMG B) 2609090200 C) 2609091720\nE) AIRSTRIP CLSD TO ALL FLT EXC ACFT WHOSE HOME BASE IS LLMG,DUE WIP.\n)",
       "fullTextAvailable": true
     },
     {
