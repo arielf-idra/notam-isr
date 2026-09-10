@@ -1,9 +1,214 @@
 {
-  "generatedAt": "2026-09-10T01:26:42.297Z",
+  "generatedAt": "2026-09-10T06:31:10.908Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 104,
+  "count": 109,
   "notams": [
+    {
+      "id": "C1909/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2057308",
+      "fromDate": "2026-09-14T09:45:00Z",
+      "toDate": "2026-09-14T10:05:00Z",
+      "createDate": "2026-09-10T06:21:04Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "010",
+        "upperLimitFl": "020",
+        "positionToken": "3235N03513E013",
+        "position": {
+          "lat": 32.583333,
+          "lon": 35.216667,
+          "radiusNm": 13
+        }
+      },
+      "eText": "ULTRALIGHT AND HEL RTE CLSD EIRON-ARRAA-ZMGID-NIRYA-MRHVA-TAVOR. TFC WILL BE DIVERTED VIA FRDIS-HASID.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.583333,
+        "lon": 35.216667,
+        "radiusNm": 13,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1909/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /010/020/3235N03513E013\nA) LLLL B) 2609140945 C) 2609141005\nE) ULTRALIGHT AND HEL RTE CLSD\nEIRON-ARRAA-ZMGID-NIRYA-MRHVA-TAVOR.\nTFC WILL BE DIVERTED VIA FRDIS-HASID.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1908/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2057306",
+      "fromDate": "2026-09-15T06:50:00Z",
+      "toDate": "2026-09-15T14:10:00Z",
+      "createDate": "2026-09-10T06:09:03Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "035",
+        "upperLimitFl": "045",
+        "positionToken": "3037N03500E011",
+        "position": {
+          "lat": 30.616667,
+          "lon": 35,
+          "radiusNm": 11
+        }
+      },
+      "eText": "CVFR RTE CLSD  ZOFAR-HRGVS-RUHOT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.616667,
+        "lon": 35,
+        "radiusNm": 11,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1908/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /035/045/3037N03500E011\nA) LLLL B) 2609150650 C) 2609151410\nD) 0650-1000 1050-1410\nE) CVFR RTE CLSD  ZOFAR-HRGVS-RUHOT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1907/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2057304",
+      "fromDate": "2026-09-15T16:15:00Z",
+      "toDate": "2026-09-15T17:45:00Z",
+      "createDate": "2026-09-10T06:07:02Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "035",
+        "upperLimitFl": "045",
+        "positionToken": "3035N03504E007",
+        "position": {
+          "lat": 30.583333,
+          "lon": 35.066667,
+          "radiusNm": 7
+        }
+      },
+      "eText": "CVFR RTE CLSD  ZOFAR-HRGVS.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.583333,
+        "lon": 35.066667,
+        "radiusNm": 7,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1907/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /035/045/3035N03504E007\nA) LLLL B) 2609151615 C) 2609151745\nE) CVFR RTE CLSD  ZOFAR-HRGVS.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0737/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2057302",
+      "fromDate": "2026-09-14T09:45:00Z",
+      "toDate": "2026-09-14T10:05:00Z",
+      "createDate": "2026-09-10T06:01:01Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QANLT",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "050",
+        "upperLimitFl": "060",
+        "positionToken": "3236N03518E018",
+        "position": {
+          "lat": 32.6,
+          "lon": 35.3,
+          "radiusNm": 18
+        }
+      },
+      "eText": "ATS RTE J14 AVBL BTN ZACCI-GIMIK BIDIRECTIONAL AT 6,000FT AMSL ONLY.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.6,
+        "lon": 35.3,
+        "radiusNm": 18,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0737/26 NOTAMN\nQ) LLLL/QANLT/I /NBO/E /050/060/3236N03518E018\nA) LLLL B) 2609140945 C) 2609141005\nE) ATS RTE J14 AVBL BTN ZACCI-GIMIK BIDIRECTIONAL AT\n6,000FT AMSL ONLY.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0736/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2057301",
+      "fromDate": "2026-09-15T07:15:00Z",
+      "toDate": "2026-09-15T10:50:00Z",
+      "createDate": "2026-09-10T05:59:01Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QANLT",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "050",
+        "upperLimitFl": "060",
+        "positionToken": "3236N03518E018",
+        "position": {
+          "lat": 32.6,
+          "lon": 35.3,
+          "radiusNm": 18
+        }
+      },
+      "eText": "ATS RTE J14 AVBL BTN ZACCI-GIMIK BIDIRECTIONAL AT 6,000FT AMSL ONLY.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.6,
+        "lon": 35.3,
+        "radiusNm": 18,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0736/26 NOTAMN\nQ) LLLL/QANLT/I /NBO/E /050/060/3236N03518E018\nA) LLLL B) 2609150715 C) 2609151050\nD) 0715-0735 1030-1050\nE) ATS RTE J14 AVBL BTN ZACCI-GIMIK BIDIRECTIONAL AT\n6,000FT AMSL ONLY.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C1906/26",
       "location": "LLLL",
