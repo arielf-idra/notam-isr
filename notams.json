@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-11T01:11:46.385Z",
+  "generatedAt": "2026-09-11T06:06:17.894Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 117,
+  "count": 116,
   "notams": [
     {
       "id": "C1925/26",
@@ -1601,47 +1601,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1873/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/022/3307N03534E001\nA) LLLL B) 2609070200 C) 2609121400\nD) DAILY 0200-1400\nE) CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE,\nFM GND UP TO 400M AGL. LIT AND DAY MARKED.\nAN AREA WI 0.54NM RADIUS CENTERED ON PSN 330646N0353414E\nCLSD FM GND UP TO 2,200FT AMSL.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nIN CASE OF EMERG LOWERED WI 10MIN.\nCTN ADZ.\nF) GND G) 2200FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1862/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2054727",
-      "fromDate": "2026-09-08T00:01:00Z",
-      "toDate": "2026-09-11T02:50:00Z",
-      "createDate": "2026-09-03T07:41:10Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWCLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "022",
-        "positionToken": "3123N03446E001",
-        "position": {
-          "lat": 31.383333,
-          "lon": 34.766667,
-          "radiusNm": 1
-        }
-      },
-      "eText": "CAPTIVE BALLOON WILL TAKE PLACE AT RAHAT, UP TO 2,200FT AMSL. AN AREA WI 0.4NM RADIUS CENTERED ON PSN 312252N0344541E CLSD FM GND UP TO 2,200FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ",
-      "lowerLimit": "GND",
-      "upperLimit": "2200FT AMSL",
-      "position": {
-        "lat": 31.381111,
-        "lon": 34.761389,
-        "radiusNm": 0.4,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1862/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/022/3123N03446E001\nA) LLLL B) 2609080001 C) 2609110250\nE) CAPTIVE BALLOON WILL TAKE PLACE AT RAHAT, UP TO 2,200FT AMSL.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 312252N0344541E\nCLSD FM GND UP TO 2,200FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ\nF) GND G) 2200FT AMSL)",
       "fullTextAvailable": true
     },
     {
