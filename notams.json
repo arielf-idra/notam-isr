@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-11T06:06:17.894Z",
+  "generatedAt": "2026-09-11T11:15:33.667Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 116,
+  "count": 115,
   "notams": [
     {
       "id": "C1925/26",
@@ -1314,47 +1314,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1897/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/080/3120N03523E003\nA) LLLL B) 2609170930 C) 2609181100\nD) 17 0930-1608, 18 0600-1100\nE) PJE AIRSPACE METZADA ACT FM 8,000FT AMSL.\nOPR BY PPR FM ATC ONLY.\nF) GND G) 8000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1896/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2056598",
-      "fromDate": "2026-09-11T05:00:00Z",
-      "toDate": "2026-09-11T11:00:00Z",
-      "createDate": "2026-09-08T08:09:11Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWPLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "110",
-        "positionToken": "3117N03443E004",
-        "position": {
-          "lat": 31.283333,
-          "lon": 34.716667,
-          "radiusNm": 4
-        }
-      },
-      "eText": "PJE AIRSPACE TEIMAN ACT FM 11,000FT AMSL. IN CASE OF EMERG CLEAR THE AIRSPACE WI 5MIN. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "11000FT AMSL",
-      "position": {
-        "lat": 31.283333,
-        "lon": 34.716667,
-        "radiusNm": 4,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1896/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/110/3117N03443E004\nA) LLLL B) 2609110500 C) 2609111100\nE) PJE AIRSPACE TEIMAN ACT FM 11,000FT AMSL.\nIN CASE OF EMERG CLEAR THE AIRSPACE WI 5MIN.\nCTN ADZ.\nF) GND G) 11000FT AMSL)",
       "fullTextAvailable": true
     },
     {
