@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-10T23:14:15.683Z",
+  "generatedAt": "2026-09-11T01:11:46.385Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 118,
+  "count": 117,
   "notams": [
     {
       "id": "C1925/26",
@@ -4348,47 +4348,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0475/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/001/3249N03503E001\nA) LLHA B) 2606150644 C) 2609302059\nE) CRANE ERECTED WI LLHA CTR, FM GND UP TO 26M 89FT AGL,\n29M 95FT AMSL. AN AREA WI 0.3NM RADIUS CENTERED ON\nPSN 324910.1N0350231.28E CLSD FM GND UP TO 100FT AMSL.\nCTN ADZ.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0467/26",
-      "location": "LLER",
-      "airfield": "Ramon",
-      "msgNumber": "2022661",
-      "fromDate": "2026-06-10T05:37:00Z",
-      "toDate": "2026-09-10T23:59:00Z",
-      "createDate": "2026-06-10T05:38:55Z",
-      "affected": [
-        "LLER"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QLPAS",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "2944N03501E005",
-        "position": {
-          "lat": 29.733333,
-          "lon": 35.016667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "PAPI RWY 19 EAST U/S.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 29.733333,
-        "lon": 35.016667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0467/26 NOTAMN\nQ) LLLL/QLPAS/IV/BO /A /000/999/2944N03501E005\nA) LLER B) 2606100537 C) 2609102359\nE) PAPI RWY 19 EAST U/S.)",
       "fullTextAvailable": true
     },
     {
