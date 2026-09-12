@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/arielf-idra/notam-isr#readme",
   "dependencies": {
-    "playwright": "^1.62.1"
+    "playwright": "^1.63.0"
   }
 }
