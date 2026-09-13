@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-13T00:57:15.315Z",
+  "generatedAt": "2026-09-13T05:52:29.408Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 114,
+  "count": 113,
   "notams": [
     {
       "id": "C1925/26",
@@ -1478,47 +1478,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0728/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3249N03503E005\nA) LLHA B) 2610060525 C) 2610061000\nD) 0525-0725 0830-1000\nE) AD CLSD TO ALL FLT INCLUDING HEL, DUE WIP.\nIN CASE OF EMERG AVBL WI 10MIN.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1874/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2054826",
-      "fromDate": "2026-09-06T15:00:00Z",
-      "toDate": "2026-09-13T02:00:00Z",
-      "createDate": "2026-09-03T13:09:35Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWCLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "020",
-        "positionToken": "3306N03535E001",
-        "position": {
-          "lat": 33.1,
-          "lon": 35.583333,
-          "radiusNm": 1
-        }
-      },
-      "eText": "CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE, FM GND UP TO 400M AGL. LIT AND DAY MARKED. AN AREA WI 0.54NM RADIUS CENTERED ON PSN 330622N0353454E CLSD FM GND UP TO 2,000FT AMSL. IN CASE OF EMERG LOWERED WI 10MIN. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "2000FT AMSL",
-      "position": {
-        "lat": 33.106111,
-        "lon": 35.581667,
-        "radiusNm": 0.54,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1874/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/020/3306N03535E001\nA) LLLL B) 2609061500 C) 2609130200\nD) DAILY 0001-0200 1500-2359\nE) CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE,\nFM GND UP TO 400M AGL. LIT AND DAY MARKED.\nAN AREA WI 0.54NM RADIUS CENTERED ON PSN 330622N0353454E\nCLSD FM GND UP TO 2,000FT AMSL.\nIN CASE OF EMERG LOWERED WI 10MIN.\nCTN ADZ.\nF) GND G) 2000FT AMSL)",
       "fullTextAvailable": true
     },
     {
