@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-14T16:49:07.877Z",
+  "generatedAt": "2026-09-14T20:39:14.888Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 115,
+  "count": 114,
   "notams": [
     {
       "id": "C1936/26",
@@ -1232,47 +1232,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0736/26 NOTAMN\nQ) LLLL/QANLT/I /NBO/E /050/060/3236N03518E018\nA) LLLL B) 2609150715 C) 2609151050\nD) 0715-0735 1030-1050\nE) ATS RTE J14 AVBL BTN ZACCI-GIMIK BIDIRECTIONAL AT\n6,000FT AMSL ONLY.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1904/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2057037",
-      "fromDate": "2026-09-14T06:50:00Z",
-      "toDate": "2026-09-14T18:15:00Z",
-      "createDate": "2026-09-09T12:21:29Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "035",
-        "upperLimitFl": "045",
-        "positionToken": "3035N03504E007",
-        "position": {
-          "lat": 30.583333,
-          "lon": 35.066667,
-          "radiusNm": 7
-        }
-      },
-      "eText": "CVFR RTE CLSD  ZOFAR-HRGVS.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 30.583333,
-        "lon": 35.066667,
-        "radiusNm": 7,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1904/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /035/045/3035N03504E007\nA) LLLL B) 2609140650 C) 2609141815\nD) 0650-1410 1600-1815\nE) CVFR RTE CLSD  ZOFAR-HRGVS.)",
       "fullTextAvailable": true
     },
     {
