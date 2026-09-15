@@ -1,9 +1,91 @@
 {
-  "generatedAt": "2026-09-15T01:50:06.664Z",
+  "generatedAt": "2026-09-15T06:49:53.098Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 114,
+  "count": 116,
   "notams": [
+    {
+      "id": "C1938/26",
+      "location": "LLHZ",
+      "airfield": "Herzlia",
+      "msgNumber": "2059118",
+      "fromDate": "2026-10-08T10:30:00Z",
+      "toDate": "2026-10-08T13:30:00Z",
+      "createDate": "2026-09-15T05:53:01Z",
+      "affected": [
+        "LLHZ"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3211N03450E005",
+        "position": {
+          "lat": 32.183333,
+          "lon": 34.833333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AD CLSD TO ALL FLT INCLUDING HEL, DUE EMERG DRILL. AD NOT AVBL FOR LDG IN EMERG. TAX, RUN-UP, REFUEL OR ANY AVIATION ACT PROHIBITED. CLOSURE EXP TO BE EXTENDED.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.183333,
+        "lon": 34.833333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1938/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3211N03450E005\nA) LLHZ B) 2610081030 C) 2610081330\nE) AD CLSD TO ALL FLT INCLUDING HEL, DUE EMERG DRILL.\nAD NOT AVBL FOR LDG IN EMERG.\nTAX, RUN-UP, REFUEL OR ANY AVIATION ACT PROHIBITED.\nCLOSURE EXP TO BE EXTENDED.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1937/26",
+      "location": "LLHZ",
+      "airfield": "Herzlia",
+      "msgNumber": "2059115",
+      "fromDate": "2026-10-08T10:30:00Z",
+      "toDate": "2026-10-08T13:30:00Z",
+      "createDate": "2026-09-15T05:45:00Z",
+      "affected": [
+        "LLHZ"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QACLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "AE",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "020",
+        "positionToken": "3211N03451E004",
+        "position": {
+          "lat": 32.183333,
+          "lon": 34.85,
+          "radiusNm": 4
+        }
+      },
+      "eText": "CTR CLSD TO ALL FLT, DUE EMERG DRILL. CLOSURE EXP TO BE EXTENDED.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.183333,
+        "lon": 34.85,
+        "radiusNm": 4,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1937/26 NOTAMN\nQ) LLLL/QACLC/IV/NBO/AE/000/020/3211N03451E004\nA) LLHZ B) 2610081030 C) 2610081330\nE) CTR CLSD TO ALL FLT, DUE EMERG DRILL.\nCLOSURE EXP TO BE EXTENDED.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C1936/26",
       "location": "LLLL",
