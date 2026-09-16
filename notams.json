@@ -1,9 +1,173 @@
 {
-  "generatedAt": "2026-09-16T06:08:48.332Z",
+  "generatedAt": "2026-09-16T11:31:01.254Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 113,
   "notams": [
+    {
+      "id": "C1959/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2059585",
+      "fromDate": "2026-09-18T03:00:00Z",
+      "toDate": "2026-09-18T04:00:00Z",
+      "createDate": "2026-09-16T11:21:27Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "020",
+        "positionToken": "3142N03457E010",
+        "position": {
+          "lat": 31.7,
+          "lon": 34.95,
+          "radiusNm": 10
+        }
+      },
+      "eText": "ULTRALIGHT BUBBLE BET-GOVRIN NORTH (BGOVN) AND SOUTH (BGOVS) CLSD TO ALL FLT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.7,
+        "lon": 34.95,
+        "radiusNm": 10,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1959/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/020/3142N03457E010\nA) LLLL B) 2609180300 C) 2609180400\nE) ULTRALIGHT BUBBLE BET-GOVRIN NORTH (BGOVN) AND SOUTH (BGOVS)\nCLSD TO ALL FLT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1958/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2059584",
+      "fromDate": "2026-09-18T03:00:00Z",
+      "toDate": "2026-09-18T04:00:00Z",
+      "createDate": "2026-09-16T11:17:27Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "005",
+        "upperLimitFl": "050",
+        "positionToken": "3154N03505E015",
+        "position": {
+          "lat": 31.9,
+          "lon": 35.083333,
+          "radiusNm": 15
+        }
+      },
+      "eText": "CVFR RTE CLSD NSHRM-AYLON-LTRUN-SHARG-SORES. SORES-HAREL-HNINA-ANATA-DUMIM. ANATA-MIHMS. ZHRYA-BSEMS-ESTOL-SORES. HEL RTE CLSD NSHRM-AYLON-LTRUN-SHARG-SORES. SORES-HAREL-HNINA-DUMIM. SORES-ESTOL-LTRUN-NCSHN. ZHRYA-BSEMS-ESTOL-SHARG. ULTRALIGHT RTE CLSD NSHRM-AYLON-LTRUN-SHARG. SHARG-SORES-TZUBA-KENED-HOMMA-DUMIM. NSHRM-SHLVM-REUTE. SHARG-HORON-REUTE-LAPID-MCZVA-YARHV-MEYAL. ZHRYA-BSEMS-ESTOL-SHARG. BSEMS-NCSHN-LTRUN.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.9,
+        "lon": 35.083333,
+        "radiusNm": 15,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1958/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /005/050/3154N03505E015\nA) LLLL B) 2609180300 C) 2609180400\nE) CVFR RTE CLSD\nNSHRM-AYLON-LTRUN-SHARG-SORES.\nSORES-HAREL-HNINA-ANATA-DUMIM.\nANATA-MIHMS.\nZHRYA-BSEMS-ESTOL-SORES.\nHEL RTE CLSD\nNSHRM-AYLON-LTRUN-SHARG-SORES.\nSORES-HAREL-HNINA-DUMIM.\nSORES-ESTOL-LTRUN-NCSHN.\nZHRYA-BSEMS-ESTOL-SHARG.\nULTRALIGHT RTE CLSD\nNSHRM-AYLON-LTRUN-SHARG.\nSHARG-SORES-TZUBA-KENED-HOMMA-DUMIM.\nNSHRM-SHLVM-REUTE.\nSHARG-HORON-REUTE-LAPID-MCZVA-YARHV-MEYAL.\nZHRYA-BSEMS-ESTOL-SHARG.\nBSEMS-NCSHN-LTRUN.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1955/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2059539",
+      "fromDate": "2026-09-16T13:45:00Z",
+      "toDate": "2026-09-16T14:30:00Z",
+      "createDate": "2026-09-16T08:37:15Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWPLW",
+        "traffic": "IV",
+        "purpose": "M",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "130",
+        "positionToken": "3150N03449E007",
+        "position": {
+          "lat": 31.833333,
+          "lon": 34.816667,
+          "radiusNm": 7
+        }
+      },
+      "eText": "PJE WILL TAKE PLACE AT TEL-NOF. AN AREA WI 3NM RADIUS CENTERED ON PSN 314907N0344929E CLSD FM GND UP TO 8,500FT AMSL TO ALL FLT. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "13000FT AMSL",
+      "position": {
+        "lat": 31.818611,
+        "lon": 34.824722,
+        "radiusNm": 3,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1955/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/130/3150N03449E007\nA) LLLL B) 2609161345 C) 2609161430\nE) PJE WILL TAKE PLACE AT TEL-NOF.\nAN AREA WI 3NM RADIUS CENTERED ON PSN 314907N0344929E\nCLSD FM GND UP TO 8,500FT AMSL TO ALL FLT.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 13000FT AMSL)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1953/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2059537",
+      "fromDate": "2026-09-22T03:00:00Z",
+      "toDate": "2026-09-24T14:30:00Z",
+      "createDate": "2026-09-16T08:31:14Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "037",
+        "positionToken": "3058N03456E001",
+        "position": {
+          "lat": 30.966667,
+          "lon": 34.933333,
+          "radiusNm": 1
+        }
+      },
+      "eText": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E CLSD FM GND UP TO 3,700FT AMSL. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "3700FT AMSL",
+      "position": {
+        "lat": 30.971944,
+        "lon": 34.933611,
+        "radiusNm": 0.3,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C1953/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/037/3058N03456E001\nA) LLLL B) 2609220300 C) 2609241430\nD) DAILY 0300-1430\nE) UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E\nCLSD FM GND UP TO 3,700FT AMSL.\nCTN ADZ.\nF) GND G) 3700FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C1951/26",
       "location": "LLLL",
@@ -702,88 +866,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "C1928/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2058810",
-      "fromDate": "2026-09-15T14:00:00Z",
-      "toDate": "2026-09-16T06:30:00Z",
-      "createDate": "2026-09-14T10:19:19Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "020",
-        "positionToken": "3242N03521E006",
-        "position": {
-          "lat": 32.7,
-          "lon": 35.35,
-          "radiusNm": 6
-        }
-      },
-      "eText": "ULTRALIGHT BUBBLE A-WEST (BMGWA) CLSD.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.7,
-        "lon": 35.35,
-        "radiusNm": 6,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1928/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/020/3242N03521E006\nA) LLLL B) 2609151400 C) 2609160630\nD) 15 1400-1445, 16 0600-0630\nE) ULTRALIGHT BUBBLE A-WEST (BMGWA) CLSD.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1927/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2058809",
-      "fromDate": "2026-09-15T14:00:00Z",
-      "toDate": "2026-09-16T06:30:00Z",
-      "createDate": "2026-09-14T10:15:19Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "020",
-        "positionToken": "3243N03524E001",
-        "position": {
-          "lat": 32.716667,
-          "lon": 35.4,
-          "radiusNm": 1
-        }
-      },
-      "eText": "AN AREA AT KFAR-TAVOR WI 1.1NM RADIUS CENTERED ON PSN 324241N0352429E CLSD FM GND UP TO 2,000FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.711389,
-        "lon": 35.408056,
-        "radiusNm": 1.1,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1927/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/020/3243N03524E001\nA) LLLL B) 2609151400 C) 2609160630\nD) 15 1400-1445, 16 0600-0630\nE) AN AREA AT KFAR-TAVOR WI 1.1NM RADIUS CENTERED ON\nPSN 324241N0352429E CLSD FM GND UP TO 2,000FT AMSL\nTO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN\nPPR FM ATC.\nCTN ADZ.)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "C1925/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
@@ -986,88 +1068,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0749/26 NOTAMN\nQ) LLLL/QNDAS/IV/BO /E /000/999/3148N03502E025\nA) LLLL B) 2610040400 C) 2610041400\nE) DME BTM/BET-MEIR FREQ 112.000MHZ WITHDRAWN FOR MAINT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0747/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2057367",
-      "fromDate": "2026-09-16T06:00:00Z",
-      "toDate": "2026-09-16T10:00:00Z",
-      "createDate": "2026-09-10T08:57:17Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QILAS",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3200N03453E005",
-        "position": {
-          "lat": 32,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "ILS 21 C/S BN FREQ 109.700MHZ WITHDRAWN FOR MAINT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0747/26 NOTAMN\nQ) LLLL/QILAS/I /NBO/A /000/999/3200N03453E005\nA) LLBG B) 2609160600 C) 2609161000\nE) ILS 21 C/S BN FREQ 109.700MHZ WITHDRAWN FOR MAINT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0746/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2057366",
-      "fromDate": "2026-09-16T03:00:00Z",
-      "toDate": "2026-09-16T10:00:00Z",
-      "createDate": "2026-09-10T08:53:17Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QMRLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "RWY 03/21 CLSD EXC RWY INT 03/30 DUE WIP.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0746/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2609160300 C) 2609161000\nE) RWY 03/21 CLSD EXC RWY INT 03/30 DUE WIP.)",
       "fullTextAvailable": true
     },
     {
