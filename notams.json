@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-17T05:14:01.755Z",
+  "generatedAt": "2026-09-17T10:05:14.113Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 121,
+  "count": 119,
   "notams": [
     {
-      "id": "C1967/26",
+      "id": "C1970/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2059687",
-      "fromDate": "2026-09-17T05:00:00Z",
-      "toDate": "2026-09-17T08:00:00Z",
-      "createDate": "2026-09-16T17:07:54Z",
+      "msgNumber": "2059931",
+      "fromDate": "2026-09-24T05:00:00Z",
+      "toDate": "2026-09-24T14:00:00Z",
+      "createDate": "2026-09-17T09:01:17Z",
       "affected": [
         "LLLL"
       ],
@@ -22,27 +22,68 @@
         "purpose": "BO",
         "scope": "W",
         "lowerLimitFl": "000",
-        "upperLimitFl": "012",
-        "positionToken": "3256N03508E001",
+        "upperLimitFl": "017",
+        "positionToken": "3059N03455E002",
         "position": {
-          "lat": 32.933333,
-          "lon": 35.133333,
-          "radiusNm": 1
+          "lat": 30.983333,
+          "lon": 34.916667,
+          "radiusNm": 2
         }
       },
-      "eText": "UAS ACT WILL TAKE PLACE AT JDEIDA. AN AREA BTN FLW PSN CLSD FM GND UP TO 1,200FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT  325519N0350844E 325524N0350801E 325558N0350754E 325559N0350852E. CTN ADZ.",
+      "eText": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM. AN AREA WI 0.54NM RADIUS CENTERED ON PSN 305832N0345546E AND PSN 305832N0345347E CLSD FM GND UP TO 1,700FT AMSL. CTN ADZ.",
       "lowerLimit": "GND",
-      "upperLimit": "1200FT AMSL",
+      "upperLimit": "1700FT AMSL",
       "position": {
-        "lat": 32.933333,
-        "lon": 35.133333,
-        "radiusNm": 1,
-        "source": "q_line"
+        "lat": 30.975556,
+        "lon": 34.929444,
+        "radiusNm": 0.54,
+        "source": "e_text"
       },
       "administrative": false,
       "notamType": "N",
       "replaces": null,
-      "rawText": "(C1967/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/012/3256N03508E001\nA) LLLL B) 2609170500 C) 2609170800\nE) UAS ACT WILL TAKE PLACE AT JDEIDA.\nAN AREA BTN FLW PSN CLSD FM GND UP TO 1,200FT AMSL\nTO ALL FLT INCLUDING AGRICULTURE FLT  325519N0350844E\n325524N0350801E 325558N0350754E 325559N0350852E.\nCTN ADZ.\nF) GND G) 1200FT AMSL)",
+      "rawText": "(C1970/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/017/3059N03455E002\nA) LLLL B) 2609240500 C) 2609241400\nE) UAS/UAV ACT WILL TAKE PLACE AT YERUHAM.\nAN AREA WI 0.54NM RADIUS CENTERED ON PSN 305832N0345546E\nAND PSN 305832N0345347E CLSD FM GND UP TO 1,700FT AMSL.\nCTN ADZ.\nF) GND G) 1700FT AMSL)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C1969/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2059890",
+      "fromDate": "2026-09-17T06:21:00Z",
+      "toDate": "2026-09-23T03:00:00Z",
+      "createDate": "2026-09-17T06:23:06Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWCLW",
+        "traffic": "IV",
+        "purpose": "M",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "027",
+        "positionToken": "3242N03519E001",
+        "position": {
+          "lat": 32.7,
+          "lon": 35.316667,
+          "radiusNm": 1
+        }
+      },
+      "eText": "CAPTIVE BALLOON WILL TAKE PLACE AT NAZARETH. AN AREA WI 0.4NM RADIUS CENTERED ON PSN 324212N0351902E CLSD FM GND UP TO 2,700FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "2700FT AMSL",
+      "position": {
+        "lat": 32.703333,
+        "lon": 35.317222,
+        "radiusNm": 0.4,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "R",
+      "replaces": "C1923/26",
+      "rawText": "(C1969/26 NOTAMR C1923/26\nQ) LLLL/QWCLW/IV/M  /W /000/027/3242N03519E001\nA) LLLL B) 2609170621 C) 2609230300\nE) CAPTIVE BALLOON WILL TAKE PLACE AT NAZARETH.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 324212N0351902E\nCLSD FM GND UP TO 2,700FT AMSL, TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 2700FT AMSL)",
       "fullTextAvailable": true
     },
     {
@@ -84,47 +125,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1966/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/010/3248N03531E001\nA) LLLL B) 2609170700 C) 2609171100\nE) UAS ACT WILL TAKE PLACE AT TIBERIA.\nAN AREA WI 0.5NM RADIUS CENTERED ON PSN 324753N0353105E\nCLSD FM GND UP TO 1,000FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 1000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1965/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2059676",
-      "fromDate": "2026-09-17T06:30:00Z",
-      "toDate": "2026-09-17T16:00:00Z",
-      "createDate": "2026-09-16T16:31:52Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "030",
-        "positionToken": "3220N03459E001",
-        "position": {
-          "lat": 32.333333,
-          "lon": 34.983333,
-          "radiusNm": 1
-        }
-      },
-      "eText": "AN AREA AT OLESH WI 0.8NM RADIUS CENTERED ON PSN 322017N0345921E CLSD FM GND UP TO 3,000FT AMSL TO ALL FLT. HASHARON-DAROM BUBBLE (BSARS) CLSD E OF NAT VOR. LLHZ TRG AREA NR 13 CLSD E OF NAT VOR. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.338056,
-        "lon": 34.989167,
-        "radiusNm": 0.8,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1965/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/030/3220N03459E001\nA) LLLL B) 2609170630 C) 2609171600\nE) AN AREA AT OLESH WI 0.8NM RADIUS CENTERED ON PSN 322017N0345921E\nCLSD FM GND UP TO 3,000FT AMSL TO ALL FLT.\nHASHARON-DAROM BUBBLE (BSARS) CLSD E OF NAT VOR.\nLLHZ TRG AREA NR 13 CLSD E OF NAT VOR.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
     {
@@ -1355,47 +1355,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1924/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/030/3237N03501E005\nA) LLLL B) 2609140300 C) 2609171615\nD) 14 16 0300-1420, 15 17 0300-1615\nE) MINI UAS/UAV BUBBLE CARMEL NORTH CLSD.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nCTN ADZ.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1923/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2057423",
-      "fromDate": "2026-09-15T06:00:00Z",
-      "toDate": "2026-09-22T06:00:00Z",
-      "createDate": "2026-09-10T12:41:31Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWCLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "027",
-        "positionToken": "3242N03519E001",
-        "position": {
-          "lat": 32.7,
-          "lon": 35.316667,
-          "radiusNm": 1
-        }
-      },
-      "eText": "CAPTIVE BALLOON WILL TAKE PLACE AT NAZARETH. AN AREA WI 0.4NM RADIUS CENTERED ON PSN 324212N0351902E CLSD FM GND UP TO 2,700FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "2700FT AMSL",
-      "position": {
-        "lat": 32.703333,
-        "lon": 35.317222,
-        "radiusNm": 0.4,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1923/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/027/3242N03519E001\nA) LLLL B) 2609150600 C) 2609220600\nE) CAPTIVE BALLOON WILL TAKE PLACE AT NAZARETH.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 324212N0351902E\nCLSD FM GND UP TO 2,700FT AMSL, TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 2700FT AMSL)",
       "fullTextAvailable": true
     },
     {
@@ -3938,47 +3897,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1788/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/014/3143N03450E002\nA) LLLL B) 2609010001 C) 2609302059\nE) UAS/UAV ACT WILL TAKE PLACE AT DALIA/TZAFIT, WI ULTRALIGHT\nBUBBLE GOVRIN SOUTH (BGOVS) UP TO 100M AGL.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,400FT AMSL\n314353N0345038E 314339N0345010E 314221N0344925E\n314150N0345023E 314222N0345118E 314323N0345123E.\nCTN ADZ.\nF) GND G) 1400FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1781/26",
-      "location": "LLIB",
-      "airfield": "Rosh-Pina",
-      "msgNumber": "2050509",
-      "fromDate": "2026-09-17T06:00:00Z",
-      "toDate": "2026-09-17T09:00:00Z",
-      "createDate": "2026-08-23T05:59:01Z",
-      "affected": [
-        "LLIB"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QFALT",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3259N03534E005",
-        "position": {
-          "lat": 32.983333,
-          "lon": 35.566667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "AD CLSD TO ALL FLT, DUE WIP. OPS OF HEL AVBL BY PPR FM ATC. IN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.983333,
-        "lon": 35.566667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1781/26 NOTAMN\nQ) LLLL/QFALT/IV/NBO/A /000/999/3259N03534E005\nA) LLIB B) 2609170600 C) 2609170900\nE) AD CLSD TO ALL FLT, DUE WIP.\nOPS OF HEL AVBL BY PPR FM ATC.\nIN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN.)",
       "fullTextAvailable": true
     },
     {
