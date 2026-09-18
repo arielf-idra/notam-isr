@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-17T21:57:28.471Z",
+  "generatedAt": "2026-09-18T00:01:37.179Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 125,
+  "count": 124,
   "notams": [
     {
       "id": "C1982/26",
@@ -1601,47 +1601,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1947/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/014/3143N03450E002\nA) LLLL B) 2610010001 C) 2610312159\nE) UAS/UAV ACT WILL TAKE PLACE AT DALIA/TZAFIT, WI ULTRALIGHT\nBUBBLE GOVRIN SOUTH (BGOVS) UP TO 100M AGL.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,400FT AMSL\n314353N0345038E 314339N0345010E 314221N0344925E\n314150N0345023E 314222N0345118E 314323N0345123E.\nCTN ADZ.\nF) GND G) 1400FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1944/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2059223",
-      "fromDate": "2026-09-17T15:45:00Z",
-      "toDate": "2026-09-17T22:00:00Z",
-      "createDate": "2026-09-15T12:11:29Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "012",
-        "upperLimitFl": "040",
-        "positionToken": "3141N03453E012",
-        "position": {
-          "lat": 31.683333,
-          "lon": 34.883333,
-          "radiusNm": 12
-        }
-      },
-      "eText": "CVFR RTE CLSD NOAAM-GOVRN-ZHRYA-BSEMS-ESTOL-SORES. HEL RTE CLSD MACHZ-MKGAT-NAHEM-ZHRYA-BSEMS-ESTOL-SHARG. SORES-ESTOL-LTRUN-NCSHN. ULTRALIGHT RTE CLSD BSEMS-NCSHN-LTRUN. MACHZ-MKGAT-NAHLA-NAHEM-GEFFN-ZHRYA-BSEMS-ESTOL-SHARG.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.683333,
-        "lon": 34.883333,
-        "radiusNm": 12,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1944/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /012/040/3141N03453E012\nA) LLLL B) 2609171545 C) 2609172200\nE) CVFR RTE CLSD\nNOAAM-GOVRN-ZHRYA-BSEMS-ESTOL-SORES.\nHEL RTE CLSD\nMACHZ-MKGAT-NAHEM-ZHRYA-BSEMS-ESTOL-SHARG.\nSORES-ESTOL-LTRUN-NCSHN.\nULTRALIGHT RTE CLSD\nBSEMS-NCSHN-LTRUN.\nMACHZ-MKGAT-NAHLA-NAHEM-GEFFN-ZHRYA-BSEMS-ESTOL-SHARG.)",
       "fullTextAvailable": true
     },
     {
