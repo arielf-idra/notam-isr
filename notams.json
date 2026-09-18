@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-18T04:37:14.748Z",
+  "generatedAt": "2026-09-18T09:12:11.657Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 122,
+  "count": 120,
   "notams": [
     {
       "id": "C1982/26",
@@ -330,47 +330,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1975/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /005/018/3201N03501E013\nA) LLLL B) 2609201000 C) 2609201200\nE) ULTRALIGHT RTE CLSD  SHARG-HORON-REUTE-LAPID-MCZVA-YARHV-MEYAL.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1974/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2060037",
-      "fromDate": "2026-09-18T03:30:00Z",
-      "toDate": "2026-09-18T06:00:00Z",
-      "createDate": "2026-09-17T15:17:46Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "020",
-        "positionToken": "3248N03525E005",
-        "position": {
-          "lat": 32.8,
-          "lon": 35.416667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "POWERED PARACHUTE WILL TAKE PLACE N OF GOLANI JUNCTION. AN AREA BTN FLW PSN CLSD TO ALL FLT INCLUDING AGRICULTURE FLT  324724N0351923E 324636N0352108E 324700N0352630E 324548N0353003E 324927N0353034E 325019N0352946E 324950N0352125E 324750N0351940E. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.8,
-        "lon": 35.416667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1974/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/020/3248N03525E005\nA) LLLL B) 2609180330 C) 2609180600\nE) POWERED PARACHUTE WILL TAKE PLACE N OF GOLANI JUNCTION.\nAN AREA BTN FLW PSN CLSD TO ALL FLT INCLUDING\nAGRICULTURE FLT  324724N0351923E 324636N0352108E\n324700N0352630E 324548N0353003E 324927N0353034E\n325019N0352946E 324950N0352125E 324750N0351940E.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
     {
@@ -822,47 +781,6 @@
       "notamType": "R",
       "replaces": "C1923/26",
       "rawText": "(C1969/26 NOTAMR C1923/26\nQ) LLLL/QWCLW/IV/M  /W /000/027/3242N03519E001\nA) LLLL B) 2609170621 C) 2609230300\nE) CAPTIVE BALLOON WILL TAKE PLACE AT NAZARETH.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 324212N0351902E\nCLSD FM GND UP TO 2,700FT AMSL, TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 2700FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1964/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2059670",
-      "fromDate": "2026-09-18T03:30:00Z",
-      "toDate": "2026-09-18T06:00:00Z",
-      "createDate": "2026-09-16T16:09:50Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "017",
-        "upperLimitFl": "020",
-        "positionToken": "3243N03524E010",
-        "position": {
-          "lat": 32.716667,
-          "lon": 35.4,
-          "radiusNm": 10
-        }
-      },
-      "eText": "ULTRALIGHT RTE CLSD, EXC PARTICIPATING ACFT IN FLY-PAST MOVIL-KKANA-ZGLNI-MIGDL. TAVOR-ZGLNI. HEL RTE CLSD, EXC PARTICIPATING ACFT IN FLY-PAST MOVIL-ZGLNI-MIGDL. TAVOR-ZGLNI.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.716667,
-        "lon": 35.4,
-        "radiusNm": 10,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1964/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /017/020/3243N03524E010\nA) LLLL B) 2609180330 C) 2609180600\nE) ULTRALIGHT RTE CLSD, EXC PARTICIPATING ACFT IN FLY-PAST\nMOVIL-KKANA-ZGLNI-MIGDL.\nTAVOR-ZGLNI.\nHEL RTE CLSD, EXC PARTICIPATING ACFT IN FLY-PAST\nMOVIL-ZGLNI-MIGDL.\nTAVOR-ZGLNI.)",
       "fullTextAvailable": true
     },
     {
