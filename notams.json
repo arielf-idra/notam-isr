@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-20T11:11:46.198Z",
+  "generatedAt": "2026-09-20T14:43:56.600Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 119,
+  "count": 118,
   "notams": [
     {
       "id": "C1982/26",
@@ -289,47 +289,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1976/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3158N03445E005\nA) LLRS B) 2609200300 C) 2609212159\nE) AIRSTRIP CLSD TO ALL FLT, ON SEP 20 BTN 0600-1500LMT\nOPS OF HEL BY PPR FM AIRSTRIP OPR.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1975/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2060044",
-      "fromDate": "2026-09-20T10:00:00Z",
-      "toDate": "2026-09-20T12:00:00Z",
-      "createDate": "2026-09-17T15:33:48Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "005",
-        "upperLimitFl": "018",
-        "positionToken": "3201N03501E013",
-        "position": {
-          "lat": 32.016667,
-          "lon": 35.016667,
-          "radiusNm": 13
-        }
-      },
-      "eText": "ULTRALIGHT RTE CLSD  SHARG-HORON-REUTE-LAPID-MCZVA-YARHV-MEYAL.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 35.016667,
-        "radiusNm": 13,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1975/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /005/018/3201N03501E013\nA) LLLL B) 2609201000 C) 2609201200\nE) ULTRALIGHT RTE CLSD  SHARG-HORON-REUTE-LAPID-MCZVA-YARHV-MEYAL.)",
       "fullTextAvailable": true
     },
     {
