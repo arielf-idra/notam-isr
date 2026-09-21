@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-21T20:34:21.685Z",
+  "generatedAt": "2026-09-21T23:35:57.408Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 118,
+  "count": 117,
   "notams": [
     {
       "id": "C1982/26",
@@ -248,47 +248,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1977/26 NOTAMN\nQ) LLLL/QFALT/IV/NBO/A /000/999/3236N03514E001\nA) LLMG B) 2609240735 C) 2609240800\nE) AIRSTRIP LTD TO MAX 400FT AMSL DUE ILS ACT WI LLRD\nCTN ADZ.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1976/26",
-      "location": "LLRS",
-      "airfield": "Rishon Letzion",
-      "msgNumber": "2060054",
-      "fromDate": "2026-09-20T03:00:00Z",
-      "toDate": "2026-09-21T21:59:00Z",
-      "createDate": "2026-09-17T15:57:50Z",
-      "affected": [
-        "LLRS"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QFALC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3158N03445E005",
-        "position": {
-          "lat": 31.966667,
-          "lon": 34.75,
-          "radiusNm": 5
-        }
-      },
-      "eText": "AIRSTRIP CLSD TO ALL FLT, ON SEP 20 BTN 0600-1500LMT OPS OF HEL BY PPR FM AIRSTRIP OPR.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.966667,
-        "lon": 34.75,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1976/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3158N03445E005\nA) LLRS B) 2609200300 C) 2609212159\nE) AIRSTRIP CLSD TO ALL FLT, ON SEP 20 BTN 0600-1500LMT\nOPS OF HEL BY PPR FM AIRSTRIP OPR.)",
       "fullTextAvailable": true
     },
     {
