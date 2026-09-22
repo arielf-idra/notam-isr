@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-22T01:51:40.095Z",
+  "generatedAt": "2026-09-22T07:25:52.436Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 116,
+  "count": 114,
   "notams": [
     {
       "id": "C1982/26",
@@ -2219,47 +2219,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "A0708/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2053580",
-      "fromDate": "2026-08-31T06:32:00Z",
-      "toDate": "2026-09-30T23:59:00Z",
-      "createDate": "2026-08-31T06:35:04Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QPOCH",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03452E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.866667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "OCA(H) FOR ILS RWY 30 CHG TO 500(370) FOR ALL CAT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.866667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "R",
-      "replaces": "A0501/26",
-      "rawText": "(A0708/26 NOTAMR A0501/26\nQ) LLLL/QPOCH/I /NBO/A /000/999/3201N03452E005\nA) LLBG B) 2608310632 C) 2609302359\nE) OCA(H) FOR ILS RWY 30 CHG TO 500(370) FOR ALL CAT.)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "A0703/26",
       "location": "LLBG",
       "airfield": "Ben-Gurion",
@@ -2298,47 +2257,6 @@
       "notamType": "R",
       "replaces": "A0498/26",
       "rawText": "(A0703/26 NOTAMR A0498/26\nQ) LLLL/QPOCH/I /NBO/A /000/999/3200N03454E005\nA) LLBG B) 2608310628 C) 2609302359\nE) OCA(H) FOR ILS RWY 12 CHG TO 500(397) FOR ALL CAT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0704/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2053576",
-      "fromDate": "2026-08-31T06:29:00Z",
-      "toDate": "2026-09-30T23:59:00Z",
-      "createDate": "2026-08-31T06:31:04Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QPOCH",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3200N03453E005",
-        "position": {
-          "lat": 32,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "OCA(H) FOR ILS RWY 21 CHG TO 500(366) FOR ALL CAT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "R",
-      "replaces": "A0499/26",
-      "rawText": "(A0704/26 NOTAMR A0499/26\nQ) LLLL/QPOCH/I /NBO/A /000/999/3200N03453E005\nA) LLBG B) 2608310629 C) 2609302359\nE) OCA(H) FOR ILS RWY 21 CHG TO 500(366) FOR ALL CAT.)",
       "fullTextAvailable": true
     },
     {
