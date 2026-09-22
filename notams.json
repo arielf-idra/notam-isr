@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-21T23:35:57.408Z",
+  "generatedAt": "2026-09-22T01:51:40.095Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 117,
+  "count": 116,
   "notams": [
     {
       "id": "C1982/26",
@@ -453,47 +453,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0764/26 NOTAMN\nQ) LLLL/QANLT/I /NBO/E /050/600/3156N03501E027\nA) LLLL B) 2609220001 C) 2612312359\nE) ATS RTE L53 CLSD BTN ABIMI-BGN.\nTFC WITH DEP FM AD WITHIN AMMAN FIR SHALL FILE H24\nTALMI DCT TAPUZ BTN 11,000-16,000FT.\nTFC WITH DEP FM LLER, LLNV, LLOV AND LLRM ONLY SHALL\nFILE H24 GOBRI DCT TAPUZ BTN 11,000-16,000FT.\nMIL FLT OVERFLYING FM AMMAN FIR TO NICOSIA FIR SHALL\nFILE H24 TALMI DCT TAPUZ ABV 17,000FT.\nMIL FLT OVERFLYING FM LLER, LLNV, LLOV AND LLRM TO NICOSIA\nFIR SHALL FILE H24 GOBRI DCT TAPUZ ABV 17,000FT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0763/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2059992",
-      "fromDate": "2026-09-17T12:21:00Z",
-      "toDate": "2026-09-21T23:59:00Z",
-      "createDate": "2026-09-17T12:23:34Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QANLT",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "050",
-        "upperLimitFl": "600",
-        "positionToken": "3156N03501E027",
-        "position": {
-          "lat": 31.933333,
-          "lon": 35.016667,
-          "radiusNm": 27
-        }
-      },
-      "eText": "ATS RTE L53 BTN TALMI-TAPUZ AVBL H24 BTN 11,000-16,000FT FOR TFC WITH DEP FM AD WITHIN AMMAN FIR, LLER, LLNV, LLOV AND LLRM ONLY, AVBL H24 ABV 17,000FT FOR MIL TFC ONLY.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.933333,
-        "lon": 35.016667,
-        "radiusNm": 27,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0763/26 NOTAMN\nQ) LLLL/QANLT/I /NBO/E /050/600/3156N03501E027\nA) LLLL B) 2609171221 C) 2609212359\nE) ATS RTE L53 BTN TALMI-TAPUZ AVBL H24 BTN 11,000-16,000FT\nFOR TFC WITH DEP FM AD WITHIN AMMAN FIR, LLER, LLNV,\nLLOV AND LLRM ONLY, AVBL H24 ABV 17,000FT FOR MIL TFC ONLY.)",
       "fullTextAvailable": true
     },
     {
