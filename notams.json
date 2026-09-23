@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-23T01:30:50.887Z",
+  "generatedAt": "2026-09-23T06:38:26.194Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 116,
+  "count": 114,
   "notams": [
     {
-      "id": "C1988/26",
+      "id": "C1990/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2061562",
-      "fromDate": "2026-09-23T21:00:00Z",
-      "toDate": "2026-09-25T03:07:00Z",
-      "createDate": "2026-09-22T15:12:05Z",
+      "msgNumber": "2061800",
+      "fromDate": "2026-09-23T06:23:00Z",
+      "toDate": "2026-09-25T06:00:00Z",
+      "createDate": "2026-09-23T06:25:10Z",
       "affected": [
         "LLLL"
       ],
@@ -42,48 +42,48 @@
       "administrative": false,
       "notamType": "N",
       "replaces": null,
-      "rawText": "(C1988/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/027/3242N03519E001\nA) LLLL B) 2609232100 C) 2609250307\nE) CAPTIVE BALLOON WILL TAKE PLACE AT NAZARETH.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 324212N0351902E\nCLSD FM GND UP TO 2,700FT AMSL, TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 2700FT AMSL)",
+      "rawText": "(C1990/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/027/3242N03519E001\nA) LLLL B) 2609230623 C) 2609250600\nE) CAPTIVE BALLOON WILL TAKE PLACE AT NAZARETH.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 324212N0351902E\nCLSD FM GND UP TO 2,700FT AMSL, TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 2700FT AMSL)",
       "fullTextAvailable": true
     },
     {
-      "id": "A0772/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2061551",
-      "fromDate": "2026-09-22T17:00:00Z",
-      "toDate": "2026-09-23T01:30:00Z",
-      "createDate": "2026-09-22T14:48:03Z",
+      "id": "A0773/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2061796",
+      "fromDate": "2026-09-24T08:30:00Z",
+      "toDate": "2026-09-24T10:30:00Z",
+      "createDate": "2026-09-23T06:23:10Z",
       "affected": [
-        "LLBG"
+        "LLLL"
       ],
       "qLine": {
         "fir": "LLLL",
-        "qcode": "QMRLC",
-        "traffic": "IV",
+        "qcode": "QANLC",
+        "traffic": "I",
         "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
+        "scope": "E",
+        "lowerLimitFl": "040",
+        "upperLimitFl": "050",
+        "positionToken": "3255N03533E005",
         "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
+          "lat": 32.916667,
+          "lon": 35.55,
           "radiusNm": 5
         }
       },
-      "eText": "RWY 21 CLSD FOR LDG, DUE CRANE ON FINAL 21. IN CASE OF EMERG LOWERED WI 30MIN.",
+      "eText": "ATS RTE J14 CLSD BTN BARZI-ROP.",
       "lowerLimit": null,
       "upperLimit": null,
       "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
+        "lat": 32.916667,
+        "lon": 35.55,
         "radiusNm": 5,
         "source": "q_line"
       },
       "administrative": false,
       "notamType": "N",
       "replaces": null,
-      "rawText": "(A0772/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2609221700 C) 2609230130\nE) RWY 21 CLSD FOR LDG, DUE CRANE ON FINAL 21.\nIN CASE OF EMERG LOWERED WI 30MIN.)",
+      "rawText": "(A0773/26 NOTAMN\nQ) LLLL/QANLC/I /NBO/E /040/050/3255N03533E005\nA) LLLL B) 2609240830 C) 2609241030\nE) ATS RTE J14 CLSD BTN BARZI-ROP.)",
       "fullTextAvailable": true
     },
     {
@@ -784,47 +784,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "C1969/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2059890",
-      "fromDate": "2026-09-17T06:21:00Z",
-      "toDate": "2026-09-23T03:00:00Z",
-      "createDate": "2026-09-17T06:23:06Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWCLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "027",
-        "positionToken": "3242N03519E001",
-        "position": {
-          "lat": 32.7,
-          "lon": 35.316667,
-          "radiusNm": 1
-        }
-      },
-      "eText": "CAPTIVE BALLOON WILL TAKE PLACE AT NAZARETH. AN AREA WI 0.4NM RADIUS CENTERED ON PSN 324212N0351902E CLSD FM GND UP TO 2,700FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "2700FT AMSL",
-      "position": {
-        "lat": 32.703333,
-        "lon": 35.317222,
-        "radiusNm": 0.4,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "R",
-      "replaces": "C1923/26",
-      "rawText": "(C1969/26 NOTAMR C1923/26\nQ) LLLL/QWCLW/IV/M  /W /000/027/3242N03519E001\nA) LLLL B) 2609170621 C) 2609230300\nE) CAPTIVE BALLOON WILL TAKE PLACE AT NAZARETH.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 324212N0351902E\nCLSD FM GND UP TO 2,700FT AMSL, TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 2700FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "A0760/26",
       "location": "LLER",
       "airfield": "Ramon",
@@ -1273,47 +1232,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1951/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/025/3132N03451E003\nA) LLLL B) 2609220500 C) 2609241500\nD) DAILY 0500-1500\nE) UAS ACT WILL TAKE PLACE AT KELCH/LACHISH.\nAN AREA FM GND UP TO 2,500FT AMSL CLSD TO ALL FLT\nBTN FLW PSN  313226N0344801E 313225N0345409E\n313144N0345409E 313129N0345246E 313129N0345126E\n313125N0344843E\nOPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 2500FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1950/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2059272",
-      "fromDate": "2026-09-23T05:00:00Z",
-      "toDate": "2026-09-23T06:30:00Z",
-      "createDate": "2026-09-15T15:01:42Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWBLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "005",
-        "upperLimitFl": "040",
-        "positionToken": "3233N03517E002",
-        "position": {
-          "lat": 32.55,
-          "lon": 35.283333,
-          "radiusNm": 2
-        }
-      },
-      "eText": "AEROBATICS FLT WILL TAKE PLACE AT TAANACHIM, BTN 500-4,000FT AMSL, WI THE FLW PSN, ACFT TYPE/DR107, REG/4X-OMR  323334N0351615E 323155N0351609E 323156N0351804E 323334N0351807E. CTN ADZ.",
-      "lowerLimit": "500FT AMSL",
-      "upperLimit": "4000FT AMSL",
-      "position": {
-        "lat": 32.55,
-        "lon": 35.283333,
-        "radiusNm": 2,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1950/26 NOTAMN\nQ) LLLL/QWBLW/IV/M  /W /005/040/3233N03517E002\nA) LLLL B) 2609230500 C) 2609230630\nE) AEROBATICS FLT WILL TAKE PLACE AT TAANACHIM,\nBTN 500-4,000FT AMSL, WI THE FLW PSN, ACFT TYPE/DR107,\nREG/4X-OMR  323334N0351615E 323155N0351609E\n323156N0351804E 323334N0351807E.\nCTN ADZ.\nF) 500FT AMSL G) 4000FT AMSL)",
       "fullTextAvailable": true
     },
     {
