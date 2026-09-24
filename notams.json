@@ -1,9 +1,132 @@
 {
-  "generatedAt": "2026-09-24T01:20:55.587Z",
+  "generatedAt": "2026-09-24T06:32:23.140Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 132,
+  "count": 135,
   "notams": [
+    {
+      "id": "A0776/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2062161",
+      "fromDate": "2026-09-30T04:00:00Z",
+      "toDate": "2026-09-30T11:00:00Z",
+      "createDate": "2026-09-24T04:38:50Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QMRLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3201N03453E005",
+        "position": {
+          "lat": 32.016667,
+          "lon": 34.883333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "RWY 08/26 CLSD EXC RWY INT, DUE WIP.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.016667,
+        "lon": 34.883333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0776/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2609300400 C) 2609301100\nE) RWY 08/26 CLSD EXC RWY INT, DUE WIP.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0775/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2062160",
+      "fromDate": "2026-09-29T04:00:00Z",
+      "toDate": "2026-09-29T11:00:00Z",
+      "createDate": "2026-09-24T04:34:49Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QMRLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3201N03453E005",
+        "position": {
+          "lat": 32.016667,
+          "lon": 34.883333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "RWY 03/21 CLSD EXC RWY INT DUE WIP.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.016667,
+        "lon": 34.883333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0775/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2609290400 C) 2609291100\nE) RWY 03/21 CLSD EXC RWY INT DUE WIP.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0774/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2062159",
+      "fromDate": "2026-09-28T04:00:00Z",
+      "toDate": "2026-09-28T11:00:00Z",
+      "createDate": "2026-09-24T04:26:49Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QMRLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3201N03453E005",
+        "position": {
+          "lat": 32.016667,
+          "lon": 34.883333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "RWY 12/30 CLSD EXC RWY INT DUE WIP.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.016667,
+        "lon": 34.883333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0774/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2609280400 C) 2609281100\nE) RWY 12/30 CLSD EXC RWY INT DUE WIP.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2017/26",
       "location": "LLLL",
