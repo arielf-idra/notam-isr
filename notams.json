@@ -1,48 +1,48 @@
 {
-  "generatedAt": "2026-09-25T12:20:25.333Z",
+  "generatedAt": "2026-09-25T17:22:10.823Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 132,
   "notams": [
     {
-      "id": "C2042/26",
+      "id": "C2043/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2062423",
-      "fromDate": "2026-09-25T05:30:00Z",
-      "toDate": "2026-09-25T13:00:00Z",
-      "createDate": "2026-09-24T19:22:05Z",
+      "msgNumber": "2062682",
+      "fromDate": "2026-09-27T03:00:00Z",
+      "toDate": "2026-09-28T15:50:00Z",
+      "createDate": "2026-09-25T12:45:29Z",
       "affected": [
         "LLLL"
       ],
       "qLine": {
         "fir": "LLLL",
-        "qcode": "QWULW",
+        "qcode": "QARLC",
         "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
+        "purpose": "NBO",
+        "scope": "E",
         "lowerLimitFl": "000",
-        "upperLimitFl": "035",
-        "positionToken": "3233N03517E002",
+        "upperLimitFl": "004",
+        "positionToken": "3204N03445E010",
         "position": {
-          "lat": 32.55,
-          "lon": 35.283333,
-          "radiusNm": 2
+          "lat": 32.066667,
+          "lon": 34.75,
+          "radiusNm": 10
         }
       },
-      "eText": "UAS ACT WILL TAKE PLACE S OF LLMG. AN AREA WI 1.5NM RADIUS CENTERED ON PSN 323256N0351645E CLSD FM GND UP TO 3,500FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "3500FT AMSL",
+      "eText": "ULTRALIGHT WEEKEND RTE CLSD TYONA-SHFAM. TYONA-SHEFC-SOREK.",
+      "lowerLimit": null,
+      "upperLimit": null,
       "position": {
-        "lat": 32.548889,
-        "lon": 35.279167,
-        "radiusNm": 1.5,
-        "source": "e_text"
+        "lat": 32.066667,
+        "lon": 34.75,
+        "radiusNm": 10,
+        "source": "q_line"
       },
       "administrative": false,
       "notamType": "N",
       "replaces": null,
-      "rawText": "(C2042/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/035/3233N03517E002\nA) LLLL B) 2609250530 C) 2609251300\nE) UAS ACT WILL TAKE PLACE S OF LLMG.\nAN AREA WI 1.5NM RADIUS CENTERED ON PSN 323256N0351645E\nCLSD FM GND UP TO 3,500FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 3500FT AMSL)",
+      "rawText": "(C2043/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /000/004/3204N03445E010\nA) LLLL B) 2609270300 C) 2609281550\nD) DAILY 0300-1550\nE) ULTRALIGHT WEEKEND RTE CLSD\nTYONA-SHFAM.\nTYONA-SHEFC-SOREK.)",
       "fullTextAvailable": true
     },
     {
