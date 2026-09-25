@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-09-25T17:22:10.823Z",
+  "generatedAt": "2026-09-25T20:39:21.339Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 132,
+  "count": 133,
   "notams": [
+    {
+      "id": "C2044/26",
+      "location": "LLMZ",
+      "airfield": "Metzada",
+      "msgNumber": "2062790",
+      "fromDate": "2026-09-26T05:00:00Z",
+      "toDate": "2026-09-26T14:00:00Z",
+      "createDate": "2026-09-25T19:27:56Z",
+      "affected": [
+        "LLMZ"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3120N03523E005",
+        "position": {
+          "lat": 31.333333,
+          "lon": 35.383333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AIRSTRIP CLSD TO ALL FLTS.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.333333,
+        "lon": 35.383333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2044/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3120N03523E005\nA) LLMZ B) 2609260500 C) 2609261400\nE) AIRSTRIP CLSD TO ALL FLTS.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2043/26",
       "location": "LLLL",
