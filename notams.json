@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-09-26T19:22:52.738Z",
+  "generatedAt": "2026-09-26T22:06:53.332Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 131,
+  "count": 132,
   "notams": [
+    {
+      "id": "C2046/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2063153",
+      "fromDate": "2026-09-27T03:00:00Z",
+      "toDate": "2026-09-28T15:50:00Z",
+      "createDate": "2026-09-26T20:03:58Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3043N03431E080",
+        "position": {
+          "lat": 30.716667,
+          "lon": 34.516667,
+          "radiusNm": 80
+        }
+      },
+      "eText": "GLD S OF LLBG TMA PROHIBITED.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.716667,
+        "lon": 34.516667,
+        "radiusNm": 80,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2046/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/999/3043N03431E080\nA) LLLL B) 2609270300 C) 2609281550\nD) DAILY 0300-1550\nE) GLD S OF LLBG TMA PROHIBITED.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2045/26",
       "location": "LLHD",
