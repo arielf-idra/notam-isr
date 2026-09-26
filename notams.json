@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-09-26T07:25:41.310Z",
+  "generatedAt": "2026-09-26T12:21:28.318Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 132,
+  "count": 133,
   "notams": [
+    {
+      "id": "C2045/26",
+      "location": "LLHD",
+      "airfield": "Haddassah Hospital",
+      "msgNumber": "2062986",
+      "fromDate": "2026-09-27T05:00:00Z",
+      "toDate": "2026-09-30T13:00:00Z",
+      "createDate": "2026-09-26T09:25:13Z",
+      "affected": [
+        "LLHD"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFHLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3146N03509E005",
+        "position": {
+          "lat": 31.766667,
+          "lon": 35.15,
+          "radiusNm": 5
+        }
+      },
+      "eText": "ROOF HELIPAD CLSD, HEL SHALL LAND ON GROUND HELIPAD ONLY.)",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.766667,
+        "lon": 35.15,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2045/26 NOTAMN\nQ) LLLL/QFHLC/IV/NBO/A /000/999/3146N03509E005\nA) LLHD B) 2609270500 C) 2609301300\nE) ROOF HELIPAD CLSD, HEL SHALL LAND ON GROUND HELIPAD ONLY.))",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2044/26",
       "location": "LLMZ",
