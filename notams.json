@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-26T01:57:29.773Z",
+  "generatedAt": "2026-09-26T07:25:41.310Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 133,
+  "count": 132,
   "notams": [
     {
       "id": "C2044/26",
@@ -1724,47 +1724,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1987/26 NOTAMN\nQ) LLLL/QWLLW/IV/NBO/W /000/025/3056N03441E006\nA) LLLL B) 2609280300 C) 2609280500\nE) HOT-AIR BALLOON WILL TAKE PLACE AT ASHELIM/SDE-BOKER.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 2,500FT AMSL\n305855N0344402E 305646N0344642E 305421N0344631E\n305253N0343751E 305636N0343545E.\nCTN ADZ.\nF) GND G) 2500FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1986/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2061501",
-      "fromDate": "2026-09-26T03:00:00Z",
-      "toDate": "2026-09-26T05:00:00Z",
-      "createDate": "2026-09-22T11:13:48Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWLLW",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "025",
-        "positionToken": "3056N03441E006",
-        "position": {
-          "lat": 30.933333,
-          "lon": 34.683333,
-          "radiusNm": 6
-        }
-      },
-      "eText": "HOT-AIR BALLOON WILL TAKE PLACE AT ASHELIM/SDE-BOKER. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 2,500FT AMSL 305855N0344402E 305646N0344642E 305421N0344631E 305253N0343751E 305636N0343545E. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "2500FT AMSL",
-      "position": {
-        "lat": 30.933333,
-        "lon": 34.683333,
-        "radiusNm": 6,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1986/26 NOTAMN\nQ) LLLL/QWLLW/IV/NBO/W /000/025/3056N03441E006\nA) LLLL B) 2609260300 C) 2609260500\nE) HOT-AIR BALLOON WILL TAKE PLACE AT ASHELIM/SDE-BOKER.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 2,500FT AMSL\n305855N0344402E 305646N0344642E 305421N0344631E\n305253N0343751E 305636N0343545E.\nCTN ADZ.\nF) GND G) 2500FT AMSL)",
       "fullTextAvailable": true
     },
     {
