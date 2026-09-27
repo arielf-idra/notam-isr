@@ -1,9 +1,132 @@
 {
-  "generatedAt": "2026-09-27T10:49:42.189Z",
+  "generatedAt": "2026-09-27T15:24:02.553Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 132,
+  "count": 135,
   "notams": [
+    {
+      "id": "C2053/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2063416",
+      "fromDate": "2026-09-27T15:00:00Z",
+      "toDate": "2026-09-27T20:59:00Z",
+      "createDate": "2026-09-27T13:39:35Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "015",
+        "positionToken": "3248N03531E002",
+        "position": {
+          "lat": 32.8,
+          "lon": 35.516667,
+          "radiusNm": 2
+        }
+      },
+      "eText": "UAS ACT WILL TAKE PLACE AT TIBERIUS. AN AREA FM GND UP TO 1500FT AMSL CLSD TO ALL FLT BTN FLW PSN  324753N0353105E, RADIUS 1.5NM. OPS OF AGRICULTURE FORBIDDEN. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "1500FT AMSL",
+      "position": {
+        "lat": 32.8,
+        "lon": 35.516667,
+        "radiusNm": 2,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2053/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/015/3248N03531E002\nA) LLLL B) 2609271500 C) 2609272059\nE) UAS ACT WILL TAKE PLACE AT TIBERIUS.\nAN AREA FM GND UP TO 1500FT AMSL CLSD TO ALL FLT\nBTN FLW PSN  324753N0353105E, RADIUS 1.5NM.\nOPS OF AGRICULTURE FORBIDDEN.\nCTN ADZ.\nF) GND G) 1500FT AMSL)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2052/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2063401",
+      "fromDate": "2026-09-27T13:00:00Z",
+      "toDate": "2026-10-01T09:00:00Z",
+      "createDate": "2026-09-27T12:45:31Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "007",
+        "positionToken": "3141N03440E001",
+        "position": {
+          "lat": 31.683333,
+          "lon": 34.666667,
+          "radiusNm": 1
+        }
+      },
+      "eText": "UAS ACT WILL TAKE PLACE AT JULIS. AN AREA FM GND UP TO 650FT AMSL CLSD TO ALL FLT BTN FLW PSN  314155N0344128E, RADIUS 0.6NM. OPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "650FT AMSL",
+      "position": {
+        "lat": 31.683333,
+        "lon": 34.666667,
+        "radiusNm": 1,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2052/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/007/3141N03440E001\nA) LLLL B) 2609271300 C) 2610010900\nD) SEP 27 1300-1800, SEP 28-30 DAILY 0600-1800,  OCT 01 0500-0900\nE) UAS ACT WILL TAKE PLACE AT JULIS.\nAN AREA FM GND UP TO 650FT AMSL CLSD TO ALL FLT\nBTN FLW PSN  314155N0344128E, RADIUS 0.6NM.\nOPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 650FT AMSL)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2049/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2063379",
+      "fromDate": "2026-09-27T11:20:00Z",
+      "toDate": "2026-09-28T15:50:00Z",
+      "createDate": "2026-09-27T11:21:25Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3054N03429E086",
+        "position": {
+          "lat": 30.9,
+          "lon": 34.483333,
+          "radiusNm": 86
+        }
+      },
+      "eText": "ULTRALIGHT RTE CLSD NITZA-NMADD-ZASHD. ZBRCH-NIZNM-ZASHD-SOREK. NITZA-ZBRCH-ZPLGT-MKGAT-GOVRN-ZHRYA. MACHZ-ZPLGT. SHARG-SORES-TZUBA-KENED-HOMMA-DUMIM-YRIHO-ALMOG. HOMMA-MARSB. ALMOG-ZUKIM-SHALM-ENGDI-LLMZ. NAHEM-NSHRM-NCSHN. SHLVM-REUTE. BSVTA-AMIOZ-NBSOR-OFKIM-GILAT-NASIH. ZELIM-NBSOR. NASIH-ZGOAL. NEGEV-YRUHM-DIMON-AFFAE-HATRU. NEGEV-SECHR-ETZEM-DIMON. KTORA-SIZFN-SITIM-ZZHOR.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.9,
+        "lon": 34.483333,
+        "radiusNm": 86,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2049/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /000/999/3054N03429E086\nA) LLLL B) 2609271120 C) 2609281550\nD) 27 1120-1550, 28 0300-1550\nE) ULTRALIGHT RTE CLSD\nNITZA-NMADD-ZASHD.\nZBRCH-NIZNM-ZASHD-SOREK.\nNITZA-ZBRCH-ZPLGT-MKGAT-GOVRN-ZHRYA.\nMACHZ-ZPLGT.\nSHARG-SORES-TZUBA-KENED-HOMMA-DUMIM-YRIHO-ALMOG.\nHOMMA-MARSB.\nALMOG-ZUKIM-SHALM-ENGDI-LLMZ.\nNAHEM-NSHRM-NCSHN.\nSHLVM-REUTE.\nBSVTA-AMIOZ-NBSOR-OFKIM-GILAT-NASIH.\nZELIM-NBSOR.\nNASIH-ZGOAL.\nNEGEV-YRUHM-DIMON-AFFAE-HATRU.\nNEGEV-SECHR-ETZEM-DIMON.\nKTORA-SIZFN-SITIM-ZZHOR.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2047/26",
       "location": "LLLL",
