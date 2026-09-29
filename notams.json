@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-09-29T13:04:37.647Z",
+  "generatedAt": "2026-09-29T18:36:31.487Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 130,
   "notams": [
+    {
+      "id": "C2056/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2064156",
+      "fromDate": "2026-10-04T03:00:00Z",
+      "toDate": "2026-10-08T14:30:00Z",
+      "createDate": "2026-09-29T14:11:50Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "037",
+        "positionToken": "3058N03456E001",
+        "position": {
+          "lat": 30.966667,
+          "lon": 34.933333,
+          "radiusNm": 1
+        }
+      },
+      "eText": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E CLSD FM GND UP TO 3,700FT AMSL. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "3700FT AMSL",
+      "position": {
+        "lat": 30.971944,
+        "lon": 34.933611,
+        "radiusNm": 0.3,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2056/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/037/3058N03456E001\nA) LLLL B) 2610040300 C) 2610081430\nD) DAILY 0300-1430\nE) UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E\nCLSD FM GND UP TO 3,700FT AMSL.\nCTN ADZ.\nF) GND G) 3700FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2055/26",
       "location": "LLLL",
@@ -986,47 +1027,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2021/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/027/3242N03519E001\nA) LLLL B) 2609271550 C) 2610020310\nD) DAILY 1550-0310\nE) CAPTIVE BALLOON WILL TAKE PLACE AT NAZARETH.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 324212N0351902E\nCLSD FM GND UP TO 2,700FT AMSL, TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 2700FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2020/26",
-      "location": "LLIC",
-      "airfield": "Ichilov Hospital, TLV",
-      "msgNumber": "2062255",
-      "fromDate": "2026-10-04T00:01:00Z",
-      "toDate": "2026-10-18T20:59:00Z",
-      "createDate": "2026-09-24T10:15:21Z",
-      "affected": [
-        "LLIC"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QFHLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3205N03447E005",
-        "position": {
-          "lat": 32.083333,
-          "lon": 34.783333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "ICHILOV HELIPAD CLSD.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.083333,
-        "lon": 34.783333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2020/26 NOTAMN\nQ) LLLL/QFHLC/IV/NBO/A /000/999/3205N03447E005\nA) LLIC B) 2610040001 C) 2610182059\nE) ICHILOV HELIPAD CLSD.)",
       "fullTextAvailable": true
     },
     {
