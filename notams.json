@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-29T18:36:31.487Z",
+  "generatedAt": "2026-09-29T22:35:34.563Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 130,
+  "count": 128,
   "notams": [
     {
       "id": "C2056/26",
@@ -330,88 +330,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2039/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/110/3117N03443E004\nA) LLLL B) 2610050430 C) 2610061200\nD) DAILY 0430-1200\nE) PJE AIRSPACE TEIMAN CLSD.\nF) GND G) 11000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2038/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2062419",
-      "fromDate": "2026-09-29T16:30:00Z",
-      "toDate": "2026-09-29T19:00:00Z",
-      "createDate": "2026-09-24T18:54:03Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "025",
-        "upperLimitFl": "030",
-        "positionToken": "3137N03452E007",
-        "position": {
-          "lat": 31.616667,
-          "lon": 34.866667,
-          "radiusNm": 7
-        }
-      },
-      "eText": "CVFR RTE CLSD  NOAAM-GOVRN-ZHRYA.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.616667,
-        "lon": 34.866667,
-        "radiusNm": 7,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2038/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /025/030/3137N03452E007\nA) LLLL B) 2609291630 C) 2609291900\nE) CVFR RTE CLSD  NOAAM-GOVRN-ZHRYA.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2037/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2062417",
-      "fromDate": "2026-09-29T17:00:00Z",
-      "toDate": "2026-09-29T22:00:00Z",
-      "createDate": "2026-09-24T18:52:02Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "035",
-        "upperLimitFl": "045",
-        "positionToken": "3037N03500E011",
-        "position": {
-          "lat": 30.616667,
-          "lon": 35,
-          "radiusNm": 11
-        }
-      },
-      "eText": "CVFR RTE CLSD  ZOFAR-HRGVS-RUHOT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 30.616667,
-        "lon": 35,
-        "radiusNm": 11,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2037/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /035/045/3037N03500E011\nA) LLLL B) 2609291700 C) 2609292200\nE) CVFR RTE CLSD  ZOFAR-HRGVS-RUHOT.)",
       "fullTextAvailable": true
     },
     {
