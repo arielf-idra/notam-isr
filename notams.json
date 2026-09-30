@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-30T07:25:34.840Z",
+  "generatedAt": "2026-09-30T14:06:51.365Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 128,
+  "count": 125,
   "notams": [
     {
       "id": "C2056/26",
@@ -166,88 +166,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2052/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/007/3141N03440E001\nA) LLLL B) 2609271300 C) 2610010900\nD) SEP 27 1300-1800, SEP 28-30 DAILY 0600-1800,  OCT 01 0500-0900\nE) UAS ACT WILL TAKE PLACE AT JULIS.\nAN AREA FM GND UP TO 650FT AMSL CLSD TO ALL FLT\nBTN FLW PSN  314155N0344128E, RADIUS 0.6NM.\nOPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 650FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2047/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2063331",
-      "fromDate": "2026-09-28T06:30:00Z",
-      "toDate": "2026-09-30T11:30:00Z",
-      "createDate": "2026-09-27T08:15:13Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "035",
-        "positionToken": "3140N03501E003",
-        "position": {
-          "lat": 31.666667,
-          "lon": 35.016667,
-          "radiusNm": 3
-        }
-      },
-      "eText": "UAS ACT WILL TAKE PLACE AT ADERET. AN AREA BTN FLW PSN FM GND UP TO 3,500FT AMSL CLSD TO ALL FLT INCLUDING AGRICULTURE FLT  314107N0345919E 313846N0345857E 313804N0350116E 313931N0350342E 314131N0350134E. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "3500FT AMSL",
-      "position": {
-        "lat": 31.666667,
-        "lon": 35.016667,
-        "radiusNm": 3,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2047/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/035/3140N03501E003\nA) LLLL B) 2609280630 C) 2609301130\nD) SEP 28 0630-0800 0900-1130, SEP 30 0630-0800 0900-1130\nE) UAS ACT WILL TAKE PLACE AT ADERET.\nAN AREA BTN FLW PSN FM GND UP TO 3,500FT AMSL CLSD TO\nALL FLT INCLUDING AGRICULTURE FLT  314107N0345919E\n313846N0345857E 313804N0350116E 313931N0350342E\n314131N0350134E.\nCTN ADZ.\nF) GND G) 3500FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2045/26",
-      "location": "LLHD",
-      "airfield": "Haddassah Hospital",
-      "msgNumber": "2062986",
-      "fromDate": "2026-09-27T05:00:00Z",
-      "toDate": "2026-09-30T13:00:00Z",
-      "createDate": "2026-09-26T09:25:13Z",
-      "affected": [
-        "LLHD"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QFHLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3146N03509E005",
-        "position": {
-          "lat": 31.766667,
-          "lon": 35.15,
-          "radiusNm": 5
-        }
-      },
-      "eText": "ROOF HELIPAD CLSD, HEL SHALL LAND ON GROUND HELIPAD ONLY.)",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.766667,
-        "lon": 35.15,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2045/26 NOTAMN\nQ) LLLL/QFHLC/IV/NBO/A /000/999/3146N03509E005\nA) LLHD B) 2609270500 C) 2609301300\nE) ROOF HELIPAD CLSD, HEL SHALL LAND ON GROUND HELIPAD ONLY.))",
       "fullTextAvailable": true
     },
     {
@@ -986,47 +904,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0777/26 NOTAMN\nQ) LLLL/QACLP/IV/NBO/AE/000/030/3251N03503E007\nA) LLHA B) 2610121400 C) 2610121630\nE) CIRCUIT EXER PROHIBITED, EXC ACFT ATR C/S HFA.\nLDG PROHIBITED EXC PPR FLT FM AD MANAGEMENT OR FM ATC.\nEXP DLA FOR DEP FLT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0776/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2062161",
-      "fromDate": "2026-09-30T04:00:00Z",
-      "toDate": "2026-09-30T11:00:00Z",
-      "createDate": "2026-09-24T04:38:50Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QMRLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "RWY 08/26 CLSD EXC RWY INT, DUE WIP.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0776/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2609300400 C) 2609301100\nE) RWY 08/26 CLSD EXC RWY INT, DUE WIP.)",
       "fullTextAvailable": true
     },
     {
