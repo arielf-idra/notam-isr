@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-30T14:06:51.365Z",
+  "generatedAt": "2026-09-30T19:15:17.419Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 125,
+  "count": 123,
   "notams": [
     {
       "id": "C2056/26",
@@ -2629,47 +2629,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "C1857/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2054397",
-      "fromDate": "2026-09-03T05:00:00Z",
-      "toDate": "2026-09-30T15:00:00Z",
-      "createDate": "2026-09-02T10:21:23Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWMLW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "120",
-        "positionToken": "3105N03454E001",
-        "position": {
-          "lat": 31.083333,
-          "lon": 34.9,
-          "radiusNm": 1
-        }
-      },
-      "eText": "FRNG WILL TAKE PLACE AT RAMAT-BEKA WI LLP14. AN AREA BTN THE FLW PSN  310542N0345314E 310541N0345352E 310509N0345351E 310453N0345313E CLSD FM GND UP TO 12,000FT AMSL. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "12000FT AMSL",
-      "position": {
-        "lat": 31.083333,
-        "lon": 34.9,
-        "radiusNm": 1,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1857/26 NOTAMN\nQ) LLLL/QWMLW/IV/BO /W /000/120/3105N03454E001\nA) LLLL B) 2609030500 C) 2609301500\nD) SUN-THU 0500-1500\nE) FRNG WILL TAKE PLACE AT RAMAT-BEKA WI LLP14.\nAN AREA BTN THE FLW PSN  310542N0345314E\n310541N0345352E 310509N0345351E 310453N0345313E\nCLSD FM GND UP TO 12,000FT AMSL.\nCTN ADZ.\nF) GND G) 12000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "A0718/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
@@ -4020,47 +3979,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1798/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/006/3233N03517E002\nA) LLLL B) 2609010001 C) 2609302059\nE) UAS ACT WILL TAKE PLACE AT TAANACHIM AND GADISH.\nAN AREA CLSD FM GND UP TO 100M AGL 560FT AMSL BTN FLW PSN\n323333N0351719E 323219N0351747E 323221N0351759E\n323207N0351803E 323201N0351722E 323254N0351640E\n323313N0351637E 323317N0351558E 323335N0351558E.\nAN AREA WI 400M RADIUS CENTERED ON PSN 323309N0351447E\nCLSD FM GND UP TO 100M AGL, 560FT AMSL.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 560FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1797/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2051325",
-      "fromDate": "2026-09-01T07:00:00Z",
-      "toDate": "2026-09-30T15:00:00Z",
-      "createDate": "2026-08-25T10:51:24Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "028",
-        "positionToken": "3147N03506E001",
-        "position": {
-          "lat": 31.783333,
-          "lon": 35.1,
-          "radiusNm": 1
-        }
-      },
-      "eText": "UAS/UAV ACT WILL TAKE PLACE AT EITANIM-HOSPITAL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 314643N0350539E CLSD FM GND UP TO 100M AGL, 2,800FT AMSL. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "2800FT AMSL",
-      "position": {
-        "lat": 31.778611,
-        "lon": 35.094167,
-        "radiusNm": 0.3,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1797/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/028/3147N03506E001\nA) LLLL B) 2609010700 C) 2609301500\nD) DAILY 0700-1500\nE) UAS/UAV ACT WILL TAKE PLACE AT EITANIM-HOSPITAL.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 314643N0350539E\nCLSD FM GND UP TO 100M AGL, 2,800FT AMSL.\nCTN ADZ.\nF) GND G) 2800FT AMSL)",
       "fullTextAvailable": true
     },
     {
