@@ -1,9 +1,173 @@
 {
-  "generatedAt": "2026-10-01T02:05:28.350Z",
+  "generatedAt": "2026-10-01T08:50:30.801Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 108,
+  "count": 111,
   "notams": [
+    {
+      "id": "C2060/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2064815",
+      "fromDate": "2026-10-01T09:00:00Z",
+      "toDate": "2026-10-01T11:00:00Z",
+      "createDate": "2026-10-01T07:35:12Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "025",
+        "positionToken": "3244N03520E001",
+        "position": {
+          "lat": 32.733333,
+          "lon": 35.333333,
+          "radiusNm": 1
+        }
+      },
+      "eText": "AN AREA WI 0.7NM RADIUS CENTERED ON PSN 324332N0351933E CLSD FM GND UP TO 2,500FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "2500FT AMSL",
+      "position": {
+        "lat": 32.725556,
+        "lon": 35.325833,
+        "radiusNm": 0.7,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2060/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/025/3244N03520E001\nA) LLLL B) 2610010900 C) 2610011100\nE) AN AREA WI 0.7NM RADIUS CENTERED ON PSN 324332N0351933E\nCLSD FM GND UP TO 2,500FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 2500FT AMSL)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0790/26",
+      "location": "LLER",
+      "airfield": "Ramon",
+      "msgNumber": "2064796",
+      "fromDate": "2026-10-01T06:21:00Z",
+      "toDate": "2026-10-15T20:59:00Z",
+      "createDate": "2026-10-01T06:23:07Z",
+      "affected": [
+        "LLER"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QPOCH",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "2944N03501E005",
+        "position": {
+          "lat": 29.733333,
+          "lon": 35.016667,
+          "radiusNm": 5
+        }
+      },
+      "eText": "OCA(H) FOR ILS RWY 01 CHG TO 500(248) FOR ALL CAT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 29.733333,
+        "lon": 35.016667,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0790/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/2944N03501E005\nA) LLER B) 2610010621 C) 2610152059\nE) OCA(H) FOR ILS RWY 01 CHG TO 500(248) FOR ALL CAT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0791/26",
+      "location": "LLER",
+      "airfield": "Ramon",
+      "msgNumber": "2064797",
+      "fromDate": "2026-10-01T06:21:00Z",
+      "toDate": "2026-10-15T20:59:00Z",
+      "createDate": "2026-10-01T06:23:07Z",
+      "affected": [
+        "LLER"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QPOCH",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "2944N03501E005",
+        "position": {
+          "lat": 29.733333,
+          "lon": 35.016667,
+          "radiusNm": 5
+        }
+      },
+      "eText": "OCA(H) FOR ILS RWY 19 CHG TO 500(228) FOR ALL CAT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 29.733333,
+        "lon": 35.016667,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0791/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/2944N03501E005\nA) LLER B) 2610010621 C) 2610152059\nE) OCA(H) FOR ILS RWY 19 CHG TO 500(228) FOR ALL CAT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0789/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2064795",
+      "fromDate": "2026-10-01T06:20:00Z",
+      "toDate": "2026-10-15T20:59:00Z",
+      "createDate": "2026-10-01T06:21:06Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QPOCH",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3201N03454E005",
+        "position": {
+          "lat": 32.016667,
+          "lon": 34.9,
+          "radiusNm": 5
+        }
+      },
+      "eText": "OCA(H) FOR ILS RWY 08 CHG TO 500(403) FOR ALL CAT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.016667,
+        "lon": 34.9,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0789/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/3201N03454E005\nA) LLBG B) 2610010620 C) 2610152059\nE) OCA(H) FOR ILS RWY 08 CHG TO 500(403) FOR ALL CAT.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2056/26",
       "location": "LLLL",
@@ -3651,47 +3815,6 @@
       "notamType": "R",
       "replaces": "A0596/26",
       "rawText": "(A0688/26 NOTAMR A0596/26\nQ) LLLL/QGWAU/IV/NBO/E /000/999/3125N03521E117\nA) LLLL B) 2608260947 C) 2610312359\nE) POSS INTRP TO AIRBORNE GNSS EQPT WI TEL-AVIV FIR.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1799/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2051341",
-      "fromDate": "2026-09-01T19:00:00Z",
-      "toDate": "2026-10-01T03:00:00Z",
-      "createDate": "2026-08-25T11:11:27Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "005",
-        "positionToken": "3230N03455E001",
-        "position": {
-          "lat": 32.5,
-          "lon": 34.916667,
-          "radiusNm": 1
-        }
-      },
-      "eText": "UAS/UAV ACT WILL TAKE PLACE AT KESARYA UP TO 100M AGL, AN AREA WI 0.8NM RADIUS CENTERED ON PSN 322941N0345439E CLSD FM GND UP TO 500FT AMSL. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "500FT AMSL",
-      "position": {
-        "lat": 32.494722,
-        "lon": 34.910833,
-        "radiusNm": 0.8,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1799/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/005/3230N03455E001\nA) LLLL B) 2609011900 C) 2610010300\nD) DAILY 1900-0300\nE) UAS/UAV ACT WILL TAKE PLACE AT KESARYA UP TO 100M AGL,\nAN AREA WI 0.8NM RADIUS CENTERED ON PSN 322941N0345439E\nCLSD FM GND UP TO 500FT AMSL.\nCTN ADZ.\nF) GND G) 500FT AMSL)",
       "fullTextAvailable": true
     },
     {
