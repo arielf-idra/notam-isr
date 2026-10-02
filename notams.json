@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-02T00:11:53.382Z",
+  "generatedAt": "2026-10-02T05:51:07.937Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 106,
+  "count": 104,
   "notams": [
     {
       "id": "C2061/26",
@@ -866,47 +866,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "C2021/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2062260",
-      "fromDate": "2026-09-27T15:50:00Z",
-      "toDate": "2026-10-02T03:10:00Z",
-      "createDate": "2026-09-24T10:35:23Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWCLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "027",
-        "positionToken": "3242N03519E001",
-        "position": {
-          "lat": 32.7,
-          "lon": 35.316667,
-          "radiusNm": 1
-        }
-      },
-      "eText": "CAPTIVE BALLOON WILL TAKE PLACE AT NAZARETH. AN AREA WI 0.4NM RADIUS CENTERED ON PSN 324212N0351902E CLSD FM GND UP TO 2,700FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "2700FT AMSL",
-      "position": {
-        "lat": 32.703333,
-        "lon": 35.317222,
-        "radiusNm": 0.4,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2021/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/027/3242N03519E001\nA) LLLL B) 2609271550 C) 2610020310\nD) DAILY 1550-0310\nE) CAPTIVE BALLOON WILL TAKE PLACE AT NAZARETH.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 324212N0351902E\nCLSD FM GND UP TO 2,700FT AMSL, TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 2700FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "A0777/26",
       "location": "LLHA",
       "airfield": "Haifa",
@@ -1027,47 +986,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2015/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/005/3230N03455E001\nA) LLLL B) 2610011900 C) 2611010330\nD) 01-24 DAILY 1900-0315, 25-31 DAILY 2000-0330\nE) UAS/UAV ACT WILL TAKE PLACE AT KESARYA UP TO 100M AGL,\nAN AREA WI 0.8NM RADIUS CENTERED ON PSN 322941N0345439E\nCLSD FM GND UP TO 500FT AMSL.\nCTN ADZ.\nF) GND G) 500FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2014/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2061957",
-      "fromDate": "2026-09-29T16:00:00Z",
-      "toDate": "2026-10-02T02:00:00Z",
-      "createDate": "2026-09-23T15:05:53Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWCLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "020",
-        "positionToken": "3306N03535E001",
-        "position": {
-          "lat": 33.1,
-          "lon": 35.583333,
-          "radiusNm": 1
-        }
-      },
-      "eText": "CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE DRG NGT, FM GND UP TO 400M AGL. LIT AND DAY MARKED. AN AREA WI 0.54NM RADIUS CENTERED ON PSN 330622N0353454E CLSD FM GND UP TO 2,000FT AMSL. IN CASE OF EMERG LOWERED WI 10MIN. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "2000FT AMSL",
-      "position": {
-        "lat": 33.106111,
-        "lon": 35.581667,
-        "radiusNm": 0.54,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2014/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/020/3306N03535E001\nA) LLLL B) 2609291600 C) 2610020200\nD) DAILY 0001-0200 1600-2359\nE) CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE DRG NGT,\nFM GND UP TO 400M AGL. LIT AND DAY MARKED.\nAN AREA WI 0.54NM RADIUS CENTERED ON PSN 330622N0353454E\nCLSD FM GND UP TO 2,000FT AMSL.\nIN CASE OF EMERG LOWERED WI 10MIN.\nCTN ADZ.\nF) GND G) 2000FT AMSL)",
       "fullTextAvailable": true
     },
     {
