@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-03T00:58:56.951Z",
+  "generatedAt": "2026-10-03T06:21:27.059Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 97,
   "notams": [
     {
-      "id": "A0793/26",
+      "id": "A0794/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2065219",
-      "fromDate": "2026-10-02T08:26:00Z",
-      "toDate": "2026-10-03T08:00:00Z",
-      "createDate": "2026-10-02T08:27:11Z",
+      "msgNumber": "2065550",
+      "fromDate": "2026-10-03T05:44:00Z",
+      "toDate": "2026-10-04T08:00:00Z",
+      "createDate": "2026-10-03T05:47:00Z",
       "affected": [
         "LLLL"
       ],
@@ -41,8 +41,8 @@
       },
       "administrative": false,
       "notamType": "R",
-      "replaces": "A0792/26",
-      "rawText": "(A0793/26 NOTAMR A0792/26\nQ) LLLL/QNMAS/IV/BO /E /000/999/3034N03510E025\nA) LLLL B) 2610020826 C) 2610030800\nE) VOR ZFR/ZOFAR 115.600MHZ CH103X\nWITHDRAWN FOR MAINT.)",
+      "replaces": "A0793/26",
+      "rawText": "(A0794/26 NOTAMR A0793/26\nQ) LLLL/QNMAS/IV/BO /E /000/999/3034N03510E025\nA) LLLL B) 2610030544 C) 2610040800\nE) VOR ZFR/ZOFAR 115.600MHZ CH103X\nWITHDRAWN FOR MAINT.)",
       "fullTextAvailable": true
     },
     {
