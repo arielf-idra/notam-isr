@@ -1,48 +1,48 @@
 {
-  "generatedAt": "2026-10-03T11:54:47.545Z",
+  "generatedAt": "2026-10-03T15:52:32.960Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 97,
   "notams": [
     {
-      "id": "A0794/26",
+      "id": "C2062/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2065550",
-      "fromDate": "2026-10-03T05:44:00Z",
-      "toDate": "2026-10-04T08:00:00Z",
-      "createDate": "2026-10-03T05:47:00Z",
+      "msgNumber": "2065702",
+      "fromDate": "2026-10-04T07:30:00Z",
+      "toDate": "2026-10-04T12:30:00Z",
+      "createDate": "2026-10-03T15:13:42Z",
       "affected": [
         "LLLL"
       ],
       "qLine": {
         "fir": "LLLL",
-        "qcode": "QNMAS",
+        "qcode": "QAELC",
         "traffic": "IV",
-        "purpose": "BO",
+        "purpose": "NBO",
         "scope": "E",
         "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3034N03510E025",
+        "upperLimitFl": "020",
+        "positionToken": "3244N03524E004",
         "position": {
-          "lat": 30.566667,
-          "lon": 35.166667,
-          "radiusNm": 25
+          "lat": 32.733333,
+          "lon": 35.4,
+          "radiusNm": 4
         }
       },
-      "eText": "VOR ZFR/ZOFAR 115.600MHZ CH103X WITHDRAWN FOR MAINT.",
+      "eText": "AN AREA AT KFAR-TAVOR WI LLMG TRG AREA NR A-WEST BTN FLW PSN CLSD FM GND UP TO 2,000FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT  324711N0352345E 324209N0352606E 324118N0352338E 324624N0352133E. CTN ADZ.",
       "lowerLimit": null,
       "upperLimit": null,
       "position": {
-        "lat": 30.566667,
-        "lon": 35.166667,
-        "radiusNm": 25,
+        "lat": 32.733333,
+        "lon": 35.4,
+        "radiusNm": 4,
         "source": "q_line"
       },
       "administrative": false,
-      "notamType": "R",
-      "replaces": "A0793/26",
-      "rawText": "(A0794/26 NOTAMR A0793/26\nQ) LLLL/QNMAS/IV/BO /E /000/999/3034N03510E025\nA) LLLL B) 2610030544 C) 2610040800\nE) VOR ZFR/ZOFAR 115.600MHZ CH103X\nWITHDRAWN FOR MAINT.)",
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2062/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/020/3244N03524E004\nA) LLLL B) 2610040730 C) 2610041230\nD) 0730-0930 1030-1230\nE) AN AREA AT KFAR-TAVOR WI LLMG TRG AREA NR A-WEST BTN FLW\nPSN CLSD FM GND UP TO 2,000FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT  324711N0352345E 324209N0352606E\n324118N0352338E 324624N0352133E.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
     {
