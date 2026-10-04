@@ -1,9 +1,173 @@
 {
-  "generatedAt": "2026-10-04T12:34:43.295Z",
+  "generatedAt": "2026-10-04T17:01:11.075Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 112,
+  "count": 114,
   "notams": [
+    {
+      "id": "A0799/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2066110",
+      "fromDate": "2026-10-05T05:45:00Z",
+      "toDate": "2026-10-05T12:00:00Z",
+      "createDate": "2026-10-04T16:07:47Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QANLC",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "050",
+        "upperLimitFl": "060",
+        "positionToken": "3241N03524E011",
+        "position": {
+          "lat": 32.683333,
+          "lon": 35.4,
+          "radiusNm": 11
+        }
+      },
+      "eText": "ATS RTE J14 CLSD BTN MEGID-GIMIK.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.683333,
+        "lon": 35.4,
+        "radiusNm": 11,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0799/26 NOTAMN\nQ) LLLL/QANLC/I /NBO/E /050/060/3241N03524E011\nA) LLLL B) 2610050545 C) 2610051200\nD) 0545-0800 0930-1200\nE) ATS RTE J14 CLSD BTN MEGID-GIMIK.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2082/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2066108",
+      "fromDate": "2026-10-05T05:45:00Z",
+      "toDate": "2026-10-05T12:00:00Z",
+      "createDate": "2026-10-04T16:01:46Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "020",
+        "positionToken": "3242N03521E006",
+        "position": {
+          "lat": 32.7,
+          "lon": 35.35,
+          "radiusNm": 6
+        }
+      },
+      "eText": "ULTRALIGHT BUBBLE A-WEST (BMGWA) CLSD.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.7,
+        "lon": 35.35,
+        "radiusNm": 6,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2082/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/020/3242N03521E006\nA) LLLL B) 2610050545 C) 2610051200\nD) 0545-0800 0930-1200\nE) ULTRALIGHT BUBBLE A-WEST (BMGWA) CLSD.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2081/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2066107",
+      "fromDate": "2026-10-05T05:45:00Z",
+      "toDate": "2026-10-05T12:00:00Z",
+      "createDate": "2026-10-04T15:57:46Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "045",
+        "positionToken": "3245N03524E003",
+        "position": {
+          "lat": 32.75,
+          "lon": 35.4,
+          "radiusNm": 3
+        }
+      },
+      "eText": "UAS ACT WILL TAKE PLACE AT KFAR-TAVOR. AN AREA WI LLMG TRG AREA NR A-WEST BTN FLW PSN CLSD FM GND UP TO 4,500FT AMSL TO ALL FLT. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC 324711N0352345E 324317N0352534E 324210N0352322E 324624N0352133E. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "4500FT AMSL",
+      "position": {
+        "lat": 32.75,
+        "lon": 35.4,
+        "radiusNm": 3,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2081/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/045/3245N03524E003\nA) LLLL B) 2610050545 C) 2610051200\nD) 0545-0800 0930-1200\nE) UAS ACT WILL TAKE PLACE AT KFAR-TAVOR.\nAN AREA WI LLMG TRG AREA NR A-WEST BTN FLW\nPSN CLSD FM GND UP TO 4,500FT AMSL TO ALL FLT.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC\n324711N0352345E 324317N0352534E 324210N0352322E\n324624N0352133E.\nCTN ADZ.\nF) GND G) 4500FT AMSL)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2080/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2066052",
+      "fromDate": "2026-10-05T19:30:00Z",
+      "toDate": "2026-10-11T13:00:00Z",
+      "createDate": "2026-10-04T12:51:32Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "005",
+        "upperLimitFl": "015",
+        "positionToken": "3234N03425E034",
+        "position": {
+          "lat": 32.566667,
+          "lon": 34.416667,
+          "radiusNm": 34
+        }
+      },
+      "eText": "HEL RTE CLSD EXC BY ATC GALIM-SUVAS. GALIM-KONFO. GALIM-DAFNA. GALIM-MERVA. GALIM-INBAR.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.566667,
+        "lon": 34.416667,
+        "radiusNm": 34,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2080/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /005/015/3234N03425E034\nA) LLLL B) 2610051930 C) 2610111300\nD) 05 1930-2059, 06 0900-1000, 07 11 DAILY 1200-1300\nE) HEL RTE CLSD EXC BY ATC\nGALIM-SUVAS.\nGALIM-KONFO.\nGALIM-DAFNA.\nGALIM-MERVA.\nGALIM-INBAR.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2077/26",
       "location": "LLLL",
@@ -617,47 +781,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2064/26 NOTAMN\nQ) LLLL/QARLT/IV/NBO/E /008/012/3155N03446E008\nA) LLLL B) 2610051400 C) 2610051945\nD) 1400-1500 1845-1945\nE) CVFR AND HEL RTE CLSD AT 1,200FT,\nAVBL BIDIRECTIONAL AT 800FT AMSL ONLY\nTYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2063/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2065899",
-      "fromDate": "2026-10-04T11:30:00Z",
-      "toDate": "2026-10-04T13:30:00Z",
-      "createDate": "2026-10-04T03:56:32Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "045",
-        "positionToken": "3243N03526E006",
-        "position": {
-          "lat": 32.716667,
-          "lon": 35.433333,
-          "radiusNm": 6
-        }
-      },
-      "eText": "UAS ACT WILL TAKE PLACE AT KFAR-TAVOR. AN AREA WI LLMG TRG AREA NR A-WEST BTN FLW PSN CLSD FM GND UP TO 4,500FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT  324713N0352345E 324334N0352525E 324206N0353046E 323959N0353009E 324142N0352328E 324628N0352118E. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "4500FT AMSL",
-      "position": {
-        "lat": 32.716667,
-        "lon": 35.433333,
-        "radiusNm": 6,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2063/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/045/3243N03526E006\nA) LLLL B) 2610041130 C) 2610041330\nE) UAS ACT WILL TAKE PLACE AT KFAR-TAVOR.\nAN AREA WI LLMG TRG AREA NR A-WEST BTN FLW\nPSN CLSD FM GND UP TO 4,500FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT  324713N0352345E 324334N0352525E\n324206N0353046E 323959N0353009E 324142N0352328E\n324628N0352118E.\nCTN ADZ.\nF) GND G) 4500FT AMSL)",
       "fullTextAvailable": true
     },
     {
@@ -2175,47 +2298,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1937/26 NOTAMN\nQ) LLLL/QACLC/IV/NBO/AE/000/020/3211N03451E004\nA) LLHZ B) 2610081030 C) 2610081330\nE) CTR CLSD TO ALL FLT, DUE EMERG DRILL.\nCLOSURE EXP TO BE EXTENDED.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0749/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2057405",
-      "fromDate": "2026-10-04T04:00:00Z",
-      "toDate": "2026-10-04T14:00:00Z",
-      "createDate": "2026-09-10T11:31:27Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QNDAS",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3148N03502E025",
-        "position": {
-          "lat": 31.8,
-          "lon": 35.033333,
-          "radiusNm": 25
-        }
-      },
-      "eText": "DME BTM/BET-MEIR FREQ 112.000MHZ WITHDRAWN FOR MAINT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.8,
-        "lon": 35.033333,
-        "radiusNm": 25,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0749/26 NOTAMN\nQ) LLLL/QNDAS/IV/BO /E /000/999/3148N03502E025\nA) LLLL B) 2610040400 C) 2610041400\nE) DME BTM/BET-MEIR FREQ 112.000MHZ WITHDRAWN FOR MAINT.)",
       "fullTextAvailable": true
     },
     {
