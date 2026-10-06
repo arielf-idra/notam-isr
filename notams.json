@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-06T00:00:35.564Z",
+  "generatedAt": "2026-10-06T06:14:12.506Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 120,
+  "count": 119,
   "notams": [
     {
       "id": "C2094/26",
@@ -576,47 +576,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0803/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2610060500 C) 2610061000\nE) RWY 03/21 CLSD EXC RWY INT DUE WIP.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2083/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2066350",
-      "fromDate": "2026-10-06T05:00:00Z",
-      "toDate": "2026-10-06T05:30:00Z",
-      "createDate": "2026-10-05T07:33:09Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "020",
-        "positionToken": "3137N03435E005",
-        "position": {
-          "lat": 31.616667,
-          "lon": 34.583333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "MINI UAV BUBBLE ASHKELON CLSD TO ALL FLT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.616667,
-        "lon": 34.583333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2083/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/020/3137N03435E005\nA) LLLL B) 2610060500 C) 2610060530\nE) MINI UAV BUBBLE ASHKELON CLSD TO ALL FLT.)",
       "fullTextAvailable": true
     },
     {
