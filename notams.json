@@ -1,9 +1,91 @@
 {
-  "generatedAt": "2026-10-07T02:13:52.721Z",
+  "generatedAt": "2026-10-07T08:50:02.480Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 113,
+  "count": 111,
   "notams": [
+    {
+      "id": "C2104/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2067150",
+      "fromDate": "2026-10-11T03:20:00Z",
+      "toDate": "2026-10-15T16:00:00Z",
+      "createDate": "2026-10-07T08:29:13Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "025",
+        "positionToken": "3057N03456E002",
+        "position": {
+          "lat": 30.95,
+          "lon": 34.933333,
+          "radiusNm": 2
+        }
+      },
+      "eText": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM. AN AREA BTN FLW PSN 305830N0345551E 305823N0345644E 305803N0345708E 305709N0345649E 305624N0345614E 305652N0345453E CLSD FM GND UP TO 2,500FT AMSL. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "2500FT AMSL",
+      "position": {
+        "lat": 30.95,
+        "lon": 34.933333,
+        "radiusNm": 2,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2104/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/025/3057N03456E002\nA) LLLL B) 2610110320 C) 2610151600\nD) DAILY 0320-1600\nE) UAS/UAV ACT WILL TAKE PLACE AT YERUHAM.\nAN AREA BTN FLW PSN 305830N0345551E 305823N0345644E\n305803N0345708E 305709N0345649E 305624N0345614E\n305652N0345453E CLSD FM GND UP TO 2,500FT AMSL.\nCTN ADZ.\nF) GND G) 2500FT AMSL)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2103/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2067145",
+      "fromDate": "2026-10-10T18:00:00Z",
+      "toDate": "2026-10-11T20:00:00Z",
+      "createDate": "2026-10-07T08:21:12Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "001",
+        "positionToken": "3118N03523E001",
+        "position": {
+          "lat": 31.3,
+          "lon": 35.383333,
+          "radiusNm": 1
+        }
+      },
+      "eText": "UAS/UAV AIR-SHOW WILL TAKE PLACE S OF LLMZ. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 311828N0352235E CLSD FM GND UP TO 50M AGL, (MINUS) -920FT AMSL. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "100FT AMSL",
+      "position": {
+        "lat": 31.307778,
+        "lon": 35.376389,
+        "radiusNm": 0.3,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2103/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/001/3118N03523E001\nA) LLLL B) 2610101800 C) 2610112000\nD) DAILY 1800-2000\nE) UAS/UAV AIR-SHOW WILL TAKE PLACE S OF LLMZ.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 311828N0352235E\nCLSD FM GND UP TO 50M AGL, (MINUS) -920FT AMSL.\nCTN ADZ.\nF) GND G) 100FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "A0807/26",
       "location": "LLLL",
@@ -207,47 +289,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2099/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/022/3242N03524E001\nA) LLLL B) 2610070600 C) 2610071300\nE) AN AREA AT BAT-SHLOMO WI 0.27NM RADIUS CENTERED ON\nPSN 323721N0350002E CLSD FM GND UP TO 2,200FT AMSL\nTO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN\nPPR FM ATC.\nCTN ADZ.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2098/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2066790",
-      "fromDate": "2026-10-07T03:30:00Z",
-      "toDate": "2026-10-07T05:30:00Z",
-      "createDate": "2026-10-06T10:17:25Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "004",
-        "positionToken": "3207N03446E008",
-        "position": {
-          "lat": 32.116667,
-          "lon": 34.766667,
-          "radiusNm": 8
-        }
-      },
-      "eText": "ULTRALIGHT WEEKEND AND WEEKDAY RTE CLSD  TYONA-SHFAM, DUE POWERED PARACHUTE ACT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.116667,
-        "lon": 34.766667,
-        "radiusNm": 8,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2098/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /000/004/3207N03446E008\nA) LLLL B) 2610070330 C) 2610070530\nE) ULTRALIGHT WEEKEND AND WEEKDAY RTE CLSD  TYONA-SHFAM,\nDUE POWERED PARACHUTE ACT.)",
       "fullTextAvailable": true
     },
     {
@@ -1194,88 +1235,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "A0790/26",
-      "location": "LLER",
-      "airfield": "Ramon",
-      "msgNumber": "2064796",
-      "fromDate": "2026-10-01T06:21:00Z",
-      "toDate": "2026-10-15T20:59:00Z",
-      "createDate": "2026-10-01T06:23:07Z",
-      "affected": [
-        "LLER"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QPOCH",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "2944N03501E005",
-        "position": {
-          "lat": 29.733333,
-          "lon": 35.016667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "OCA(H) FOR ILS RWY 01 CHG TO 500(248) FOR ALL CAT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 29.733333,
-        "lon": 35.016667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0790/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/2944N03501E005\nA) LLER B) 2610010621 C) 2610152059\nE) OCA(H) FOR ILS RWY 01 CHG TO 500(248) FOR ALL CAT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0791/26",
-      "location": "LLER",
-      "airfield": "Ramon",
-      "msgNumber": "2064797",
-      "fromDate": "2026-10-01T06:21:00Z",
-      "toDate": "2026-10-15T20:59:00Z",
-      "createDate": "2026-10-01T06:23:07Z",
-      "affected": [
-        "LLER"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QPOCH",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "2944N03501E005",
-        "position": {
-          "lat": 29.733333,
-          "lon": 35.016667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "OCA(H) FOR ILS RWY 19 CHG TO 500(228) FOR ALL CAT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 29.733333,
-        "lon": 35.016667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0791/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/2944N03501E005\nA) LLER B) 2610010621 C) 2610152059\nE) OCA(H) FOR ILS RWY 19 CHG TO 500(228) FOR ALL CAT.)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "C2056/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
@@ -1601,47 +1560,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0786/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/003/3200N03454E001\nA) LLBG B) 2610260600 C) 2610261100\nE) CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 315941.27N0345429.55E\nCLSD FM GND UP TO 89M 292FT AMSL.\nIN CASE OF EMERG LOWERED WI 5MIN.\nCTN ADZ.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0777/26",
-      "location": "LLHA",
-      "airfield": "Haifa",
-      "msgNumber": "2062197",
-      "fromDate": "2026-10-12T14:00:00Z",
-      "toDate": "2026-10-12T16:30:00Z",
-      "createDate": "2026-09-24T06:33:06Z",
-      "affected": [
-        "LLHA"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QACLP",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "AE",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "030",
-        "positionToken": "3251N03503E007",
-        "position": {
-          "lat": 32.85,
-          "lon": 35.05,
-          "radiusNm": 7
-        }
-      },
-      "eText": "CIRCUIT EXER PROHIBITED, EXC ACFT ATR C/S HFA. LDG PROHIBITED EXC PPR FLT FM AD MANAGEMENT OR FM ATC. EXP DLA FOR DEP FLT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.85,
-        "lon": 35.05,
-        "radiusNm": 7,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0777/26 NOTAMN\nQ) LLLL/QACLP/IV/NBO/AE/000/030/3251N03503E007\nA) LLHA B) 2610121400 C) 2610121630\nE) CIRCUIT EXER PROHIBITED, EXC ACFT ATR C/S HFA.\nLDG PROHIBITED EXC PPR FLT FM AD MANAGEMENT OR FM ATC.\nEXP DLA FOR DEP FLT.)",
       "fullTextAvailable": true
     },
     {
