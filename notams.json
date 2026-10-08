@@ -1,9 +1,173 @@
 {
-  "generatedAt": "2026-10-08T06:42:34.689Z",
+  "generatedAt": "2026-10-08T14:05:17.869Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 115,
+  "count": 116,
   "notams": [
+    {
+      "id": "C2130/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2067623",
+      "fromDate": "2026-10-14T08:00:00Z",
+      "toDate": "2026-10-14T08:30:00Z",
+      "createDate": "2026-10-08T13:29:32Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "010",
+        "upperLimitFl": "030",
+        "positionToken": "3235N03513E013",
+        "position": {
+          "lat": 32.583333,
+          "lon": 35.216667,
+          "radiusNm": 13
+        }
+      },
+      "eText": "CVFR RTE CLSD DUE ILS ACT WI LLRD EIRON-ZMGID-AFULA-TAVOR. AFULA-EITAN. ULTRALIGHT AND HEL RTE CLSD EIRON-ARRAA-ZMGID-NIRYA-MRHVA-TAVOR TFC WILL BE DIVERTED VIA FRDIS-HASID.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.583333,
+        "lon": 35.216667,
+        "radiusNm": 13,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2130/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /010/030/3235N03513E013\nA) LLLL B) 2610140800 C) 2610140830\nE) CVFR RTE CLSD DUE ILS ACT WI LLRD\nEIRON-ZMGID-AFULA-TAVOR.\nAFULA-EITAN.\nULTRALIGHT AND HEL RTE CLSD\nEIRON-ARRAA-ZMGID-NIRYA-MRHVA-TAVOR\nTFC WILL BE DIVERTED VIA FRDIS-HASID.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2129/26",
+      "location": "LLMG",
+      "airfield": "Meggido",
+      "msgNumber": "2067622",
+      "fromDate": "2026-10-14T08:00:00Z",
+      "toDate": "2026-10-14T08:30:00Z",
+      "createDate": "2026-10-08T13:25:31Z",
+      "affected": [
+        "LLMG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALT",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3236N03514E005",
+        "position": {
+          "lat": 32.6,
+          "lon": 35.233333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AIRSTRIP LTD TO MAX 900FT AMSL DUE ILS ACT WI LLRD CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.6,
+        "lon": 35.233333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2129/26 NOTAMN\nQ) LLLL/QFALT/IV/NBO/A /000/999/3236N03514E005\nA) LLMG B) 2610140800 C) 2610140830\nE) AIRSTRIP LTD TO MAX 900FT AMSL DUE ILS ACT WI LLRD\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2128/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2067616",
+      "fromDate": "2026-10-15T09:30:00Z",
+      "toDate": "2026-10-16T11:00:00Z",
+      "createDate": "2026-10-08T13:09:30Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWPLW",
+        "traffic": "IV",
+        "purpose": "M",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "080",
+        "positionToken": "3120N03523E003",
+        "position": {
+          "lat": 31.333333,
+          "lon": 35.383333,
+          "radiusNm": 3
+        }
+      },
+      "eText": "PJE AIRSPACE METZADA ACT FM 8,000FT AMSL. OPR BY PPR FM ATC ONLY.",
+      "lowerLimit": "GND",
+      "upperLimit": "8000FT AMSL",
+      "position": {
+        "lat": 31.333333,
+        "lon": 35.383333,
+        "radiusNm": 3,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2128/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/080/3120N03523E003\nA) LLLL B) 2610150930 C) 2610161100\nD) 15 0930-1530, 16 0600-1100\nE) PJE AIRSPACE METZADA ACT FM 8,000FT AMSL.\nOPR BY PPR FM ATC ONLY.\nF) GND G) 8000FT AMSL)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2127/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2067543",
+      "fromDate": "2026-10-11T05:50:00Z",
+      "toDate": "2026-10-11T06:40:00Z",
+      "createDate": "2026-10-08T08:27:12Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "040",
+        "positionToken": "3257N03509E004",
+        "position": {
+          "lat": 32.95,
+          "lon": 35.15,
+          "radiusNm": 4
+        }
+      },
+      "eText": "ZVULUN ULTRALIGHT BUBBLE N (BZVUN) CLSD TO ALL FLT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.95,
+        "lon": 35.15,
+        "radiusNm": 4,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2127/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/040/3257N03509E004\nA) LLLL B) 2610110550 C) 2610110640\nE) ZVULUN ULTRALIGHT BUBBLE N (BZVUN) CLSD TO ALL FLT.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2126/26",
       "location": "LLLL",
@@ -1317,47 +1481,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "C2065/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2065970",
-      "fromDate": "2026-10-07T05:00:00Z",
-      "toDate": "2026-10-08T12:00:00Z",
-      "createDate": "2026-10-04T08:15:11Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "007",
-        "positionToken": "3307N03536E001",
-        "position": {
-          "lat": 33.116667,
-          "lon": 35.6,
-          "radiusNm": 1
-        }
-      },
-      "eText": "AN AREA AT HACHULA-LAKE WI 0.54NM RADIUS CENTERED ON PSN 330651N0353618E CLSD FM GND UP TO 660FT AGL TO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 33.114167,
-        "lon": 35.605,
-        "radiusNm": 0.54,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2065/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/007/3307N03536E001\nA) LLLL B) 2610070500 C) 2610081200\nD) DAILY 0500-1200\nE) AN AREA AT HACHULA-LAKE WI 0.54NM RADIUS CENTERED ON\nPSN 330651N0353618E CLSD FM GND UP TO 660FT AGL\nTO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN\nPPR FM ATC.\nCTN ADZ.)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "C2061/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
@@ -2380,88 +2503,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C1947/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/014/3143N03450E002\nA) LLLL B) 2610010001 C) 2610312159\nE) UAS/UAV ACT WILL TAKE PLACE AT DALIA/TZAFIT, WI ULTRALIGHT\nBUBBLE GOVRIN SOUTH (BGOVS) UP TO 100M AGL.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,400FT AMSL\n314353N0345038E 314339N0345010E 314221N0344925E\n314150N0345023E 314222N0345118E 314323N0345123E.\nCTN ADZ.\nF) GND G) 1400FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1938/26",
-      "location": "LLHZ",
-      "airfield": "Herzlia",
-      "msgNumber": "2059118",
-      "fromDate": "2026-10-08T10:30:00Z",
-      "toDate": "2026-10-08T13:30:00Z",
-      "createDate": "2026-09-15T05:53:01Z",
-      "affected": [
-        "LLHZ"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QFALC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3211N03450E005",
-        "position": {
-          "lat": 32.183333,
-          "lon": 34.833333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "AD CLSD TO ALL FLT INCLUDING HEL, DUE EMERG DRILL. AD NOT AVBL FOR LDG IN EMERG. TAX, RUN-UP, REFUEL OR ANY AVIATION ACT PROHIBITED. CLOSURE EXP TO BE EXTENDED.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.183333,
-        "lon": 34.833333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1938/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3211N03450E005\nA) LLHZ B) 2610081030 C) 2610081330\nE) AD CLSD TO ALL FLT INCLUDING HEL, DUE EMERG DRILL.\nAD NOT AVBL FOR LDG IN EMERG.\nTAX, RUN-UP, REFUEL OR ANY AVIATION ACT PROHIBITED.\nCLOSURE EXP TO BE EXTENDED.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1937/26",
-      "location": "LLHZ",
-      "airfield": "Herzlia",
-      "msgNumber": "2059115",
-      "fromDate": "2026-10-08T10:30:00Z",
-      "toDate": "2026-10-08T13:30:00Z",
-      "createDate": "2026-09-15T05:45:00Z",
-      "affected": [
-        "LLHZ"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QACLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "AE",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "020",
-        "positionToken": "3211N03451E004",
-        "position": {
-          "lat": 32.183333,
-          "lon": 34.85,
-          "radiusNm": 4
-        }
-      },
-      "eText": "CTR CLSD TO ALL FLT, DUE EMERG DRILL. CLOSURE EXP TO BE EXTENDED.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.183333,
-        "lon": 34.85,
-        "radiusNm": 4,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1937/26 NOTAMN\nQ) LLLL/QACLC/IV/NBO/AE/000/020/3211N03451E004\nA) LLHZ B) 2610081030 C) 2610081330\nE) CTR CLSD TO ALL FLT, DUE EMERG DRILL.\nCLOSURE EXP TO BE EXTENDED.)",
       "fullTextAvailable": true
     },
     {
