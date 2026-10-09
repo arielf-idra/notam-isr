@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-08T19:54:29.066Z",
+  "generatedAt": "2026-10-09T06:19:29.249Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 112,
+  "count": 111,
   "notams": [
     {
       "id": "C2130/26",
@@ -1437,47 +1437,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2067/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/045/3252N03503E009\nA) LLLL B) 2610051930 C) 2610111300\nD) 05 1930-2059, 06 0900-1000, 07 11 DAILY 1200-1300\nE) UAS ACT WILL TAKE PLACE WI LLHA CTR.\nAN AREA BTN FLW PSN CLSD FM GND UP TO 4,500FT AMSL\nTO ALL FLT INCLUDING AGRICULTURE FLT, EXC BY ATC\n325719N0351003E 324637N0351003E 324637N0345646E\n325719N0345646E.\nCTN ADZ.\nF) GND G) 4500FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2066/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2065973",
-      "fromDate": "2026-10-07T16:00:00Z",
-      "toDate": "2026-10-09T02:00:00Z",
-      "createDate": "2026-10-04T08:41:12Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWCLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "020",
-        "positionToken": "3306N03535E001",
-        "position": {
-          "lat": 33.1,
-          "lon": 35.583333,
-          "radiusNm": 1
-        }
-      },
-      "eText": "CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE DRG NGT, FM GND UP TO 400M AGL. LIT AND DAY MARKED. AN AREA WI 0.54NM RADIUS CENTERED ON PSN 330622N0353454E CLSD FM GND UP TO 2,000FT AMSL. IN CASE OF EMERG LOWERED WI 10MIN. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "2000FT AMSL",
-      "position": {
-        "lat": 33.106111,
-        "lon": 35.581667,
-        "radiusNm": 0.54,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2066/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/020/3306N03535E001\nA) LLLL B) 2610071600 C) 2610090200\nD) DAILY 0001-0200 1600-2359\nE) CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE DRG NGT,\nFM GND UP TO 400M AGL. LIT AND DAY MARKED.\nAN AREA WI 0.54NM RADIUS CENTERED ON PSN 330622N0353454E\nCLSD FM GND UP TO 2,000FT AMSL.\nIN CASE OF EMERG LOWERED WI 10MIN.\nCTN ADZ.\nF) GND G) 2000FT AMSL)",
       "fullTextAvailable": true
     },
     {
