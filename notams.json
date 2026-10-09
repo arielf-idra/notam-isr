@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-09T06:19:29.249Z",
+  "generatedAt": "2026-10-09T13:30:41.219Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 111,
+  "count": 110,
   "notams": [
+    {
+      "id": "C2131/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2067965",
+      "fromDate": "2026-10-10T04:00:00Z",
+      "toDate": "2026-10-10T11:00:00Z",
+      "createDate": "2026-10-09T11:25:26Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "004",
+        "positionToken": "3158N03444E004",
+        "position": {
+          "lat": 31.966667,
+          "lon": 34.733333,
+          "radiusNm": 4
+        }
+      },
+      "eText": "ULTRALIGHT WEEKEND RTE CLSD TYONA-SHEFC-SOREK.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.966667,
+        "lon": 34.733333,
+        "radiusNm": 4,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2131/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /000/004/3158N03444E004\nA) LLLL B) 2610100400 C) 2610101100\nE) ULTRALIGHT WEEKEND RTE CLSD\nTYONA-SHEFC-SOREK.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2130/26",
       "location": "LLLL",
@@ -863,47 +904,6 @@
       "notamType": "R",
       "replaces": "C1859/26",
       "rawText": "(C2085/26 NOTAMR C1859/26\nQ) LLLL/QKKKK/K /K  /K /000/999/3124N03520E999\nA) LLLL B) 2610051239 C) 2611051239EST\nE) CHECKLIST\nYEAR=2026 0005 0010 0032 0037 0431 1281 1361 1541 1637 1656 1698 1825\n1826 1827 1828 1829 1830 1831 1832 1833 1834 1835 1836 1837\n1838 1840 1842 1843 1853 1858 1860 1884 1937 1938 1947 1948\n1983 2006 2009 2010 2011 2012 2013 2015 2016 2024 2026 2039\n2040 2055 2056 2061 2064 2065 2066 2067 2068 2069 2071 2073\n2074 2075 2080 2083 2084\nLATEST PUBLICATIONS\nAIP AIRAC AMDT IFR 001/2026 EFFECTIVE DATE 06 AUG 26\nAIP AIRAC SUP NIL\nAIC IFR A001/2026 EFFECTIVE DATE 05 FEB 26\nAIC CHECKLIST\nAIP IFR\nA001/2026\nAIP VFR\nA001/2026\nAIP MIL\nNIL\nSUP CHECKLIST\nAIP IFR\nNIL\nAIP VFR\nNIL\nAIP MIL\nNIL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2084/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2066367",
-      "fromDate": "2026-10-08T10:00:00Z",
-      "toDate": "2026-10-09T11:00:00Z",
-      "createDate": "2026-10-05T08:41:14Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWPLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "080",
-        "positionToken": "3120N03523E003",
-        "position": {
-          "lat": 31.333333,
-          "lon": 35.383333,
-          "radiusNm": 3
-        }
-      },
-      "eText": "PJE AIRSPACE METZADA ACT FM 8,000FT AMSL. OPR BY PPR FM ATC ONLY.",
-      "lowerLimit": "GND",
-      "upperLimit": "8000FT AMSL",
-      "position": {
-        "lat": 31.333333,
-        "lon": 35.383333,
-        "radiusNm": 3,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2084/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/080/3120N03523E003\nA) LLLL B) 2610081000 C) 2610091100\nD) 08 1000-1545, 09 0500-1100\nE) PJE AIRSPACE METZADA ACT FM 8,000FT AMSL.\nOPR BY PPR FM ATC ONLY.\nF) GND G) 8000FT AMSL)",
       "fullTextAvailable": true
     },
     {
@@ -1929,47 +1929,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2010/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/015/3231N03518E002\nA) LLLL B) 2610010001 C) 2610312159\nE) UAS/UAV ACT WILL TAKE PLACE AT MAGEN-SHAUL, UP TO 100M AGL.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,500FT AMSL\n323145N0351642E 323024N0351638E 323039N0352004E\n323139N0351954E 323153N0351930E 323159N0351907E\nCTN ADZ.\nF) GND G) 1500FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2009/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2061925",
-      "fromDate": "2026-10-09T09:15:00Z",
-      "toDate": "2026-10-09T11:00:00Z",
-      "createDate": "2026-09-23T13:13:45Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWPLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "110",
-        "positionToken": "3117N03443E004",
-        "position": {
-          "lat": 31.283333,
-          "lon": 34.716667,
-          "radiusNm": 4
-        }
-      },
-      "eText": "PJE AIRSPACE TEIMAN ACT FM 11,000FT AMSL. IN CASE OF EMERG CLEAR THE AIRSPACE WI 5MIN. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "11000FT AMSL",
-      "position": {
-        "lat": 31.283333,
-        "lon": 34.716667,
-        "radiusNm": 4,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2009/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/110/3117N03443E004\nA) LLLL B) 2610090915 C) 2610091100\nE) PJE AIRSPACE TEIMAN ACT FM 11,000FT AMSL.\nIN CASE OF EMERG CLEAR THE AIRSPACE WI 5MIN.\nCTN ADZ.\nF) GND G) 11000FT AMSL)",
       "fullTextAvailable": true
     },
     {
