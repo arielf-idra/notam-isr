@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-10T18:57:15.201Z",
+  "generatedAt": "2026-10-10T22:22:04.150Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 109,
+  "count": 107,
   "notams": [
     {
       "id": "C2130/26",
@@ -497,47 +497,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "C2106/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2067197",
-      "fromDate": "2026-10-10T05:00:00Z",
-      "toDate": "2026-10-10T19:00:00Z",
-      "createDate": "2026-10-07T11:15:24Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "040",
-        "positionToken": "3024N03446E016",
-        "position": {
-          "lat": 30.4,
-          "lon": 34.766667,
-          "radiusNm": 16
-        }
-      },
-      "eText": "ULTRALIGHT BUBBLE CLSD  HARIF (BHARF).",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 30.4,
-        "lon": 34.766667,
-        "radiusNm": 16,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2106/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/040/3024N03446E016\nA) LLLL B) 2610100500 C) 2610101900\nE) ULTRALIGHT BUBBLE CLSD  HARIF (BHARF).)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "C2105/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
@@ -699,47 +658,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2097/26 NOTAMN\nQ) LLLL/QFALT/IV/NBO/A /000/999/3259N03534E005\nA) LLIB B) 2610250700 C) 2610251000\nE) AD CLSD TO ALL FLT, DUE WIP.\nOPS OF HEL AVBL BY PPR FM ATC.\nIN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2096/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2066758",
-      "fromDate": "2026-10-10T16:00:00Z",
-      "toDate": "2026-10-10T19:00:00Z",
-      "createDate": "2026-10-06T08:33:15Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWSLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "012",
-        "positionToken": "3155N03455E001",
-        "position": {
-          "lat": 31.916667,
-          "lon": 34.916667,
-          "radiusNm": 1
-        }
-      },
-      "eText": "AN AREA WI 1KM RADIUS CENTERED ON PSN 315455N0345500E AT GEZER POWER PLANT CLSD FM GND UP TO 1,200FT AMSL, DUE TO GAS EMISSION. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "1200FT AMSL",
-      "position": {
-        "lat": 31.915278,
-        "lon": 34.916667,
-        "radiusNm": null,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2096/26 NOTAMN\nQ) LLLL/QWSLW/IV/M  /W /000/012/3155N03455E001\nA) LLLL B) 2610101600 C) 2610101900\nE) AN AREA WI 1KM RADIUS CENTERED ON PSN 315455N0345500E\nAT GEZER POWER PLANT CLSD FM GND UP TO 1,200FT AMSL,\nDUE TO GAS EMISSION.\nCTN ADZ.\nF) GND G) 1200FT AMSL)",
       "fullTextAvailable": true
     },
     {
