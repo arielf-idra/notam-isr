@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-11T01:09:44.416Z",
+  "generatedAt": "2026-10-11T07:12:22.550Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 107,
+  "count": 106,
   "notams": [
+    {
+      "id": "A0819/26",
+      "location": "LLER",
+      "airfield": "Ramon",
+      "msgNumber": "2068624",
+      "fromDate": "2026-10-11T06:23:00Z",
+      "toDate": "2026-12-31T23:59:00Z",
+      "createDate": "2026-10-11T06:25:02Z",
+      "affected": [
+        "LLER"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QPOCH",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "2944N03501E005",
+        "position": {
+          "lat": 29.733333,
+          "lon": 35.016667,
+          "radiusNm": 5
+        }
+      },
+      "eText": "LNAV/VNAV OCA(H) FOR RNP RWY 19 (MAP GRADIENT 2.5 PERCENTAGE) CHG TO 730(460) FOR ALL CAT. ISRAEL AIP, PART AD, CHART AD 2 LLER IAC-19RNP. REF.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 29.733333,
+        "lon": 35.016667,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0819/26 NOTAMN\nQ) LLLL/QPOCH/I /NBO/A /000/999/2944N03501E005\nA) LLER B) 2610110623 C) 2612312359\nE) LNAV/VNAV OCA(H) FOR RNP RWY 19 (MAP GRADIENT 2.5 PERCENTAGE)\nCHG TO 730(460) FOR ALL CAT.\nISRAEL AIP, PART AD, CHART AD 2 LLER IAC-19RNP. REF.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2130/26",
       "location": "LLLL",
@@ -128,47 +169,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "C2127/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2067543",
-      "fromDate": "2026-10-11T05:50:00Z",
-      "toDate": "2026-10-11T06:40:00Z",
-      "createDate": "2026-10-08T08:27:12Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "040",
-        "positionToken": "3257N03509E004",
-        "position": {
-          "lat": 32.95,
-          "lon": 35.15,
-          "radiusNm": 4
-        }
-      },
-      "eText": "ZVULUN ULTRALIGHT BUBBLE N (BZVUN) CLSD TO ALL FLT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.95,
-        "lon": 35.15,
-        "radiusNm": 4,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2127/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/040/3257N03509E004\nA) LLLL B) 2610110550 C) 2610110640\nE) ZVULUN ULTRALIGHT BUBBLE N (BZVUN) CLSD TO ALL FLT.)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "C2126/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
@@ -289,47 +289,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2125/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /035/045/3037N03500E011\nA) LLLL B) 2610120600 C) 2610121340\nE) CVFR RTE CLSD  ZOFAR-HRGVS-RUHOT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2123/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2067274",
-      "fromDate": "2026-10-11T05:50:00Z",
-      "toDate": "2026-10-11T06:40:00Z",
-      "createDate": "2026-10-07T15:15:44Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "015",
-        "upperLimitFl": "020",
-        "positionToken": "3253N03507E005",
-        "position": {
-          "lat": 32.883333,
-          "lon": 35.116667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "CVFR RTE CLSD  EVLYM-AHIUD-AAKKO-SMRAT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.883333,
-        "lon": 35.116667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2123/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /015/020/3253N03507E005\nA) LLLL B) 2610110550 C) 2610110640\nE) CVFR RTE CLSD  EVLYM-AHIUD-AAKKO-SMRAT.)",
       "fullTextAvailable": true
     },
     {
