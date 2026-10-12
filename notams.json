@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-12T13:00:52.581Z",
+  "generatedAt": "2026-10-12T13:10:46.602Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 98,
+  "count": 97,
   "notams": [
     {
       "id": "C2138/26",
@@ -576,47 +576,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2108/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/017/3234N03527E002\nA) LLLL B) 2610130400 C) 2610131000\nE) UAS/UAV ACT WILL TAKE PLACE AT BET-HASHITA.\nAN AREA BTN FLW PSN CLSD FM GND UP TO 1,700FT AMSL\n323326N0352802E 323431N0352815E 323441N0352700E\n323344N0352635E.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 1700FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0812/26",
-      "location": "LLER",
-      "airfield": "Ramon",
-      "msgNumber": "2067227",
-      "fromDate": "2026-10-12T10:00:00Z",
-      "toDate": "2026-10-12T13:00:00Z",
-      "createDate": "2026-10-07T12:59:32Z",
-      "affected": [
-        "LLER"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QISAS",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "2943N03501E005",
-        "position": {
-          "lat": 29.716667,
-          "lon": 35.016667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "ILS RWY 19 C/S RB FREQ 110.500MHZ WITHDRAWN FOR MAINT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 29.716667,
-        "lon": 35.016667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0812/26 NOTAMN\nQ) LLLL/QISAS/I /NBO/A /000/999/2943N03501E005\nA) LLER B) 2610121000 C) 2610121300\nE) ILS RWY 19 C/S RB FREQ 110.500MHZ WITHDRAWN FOR MAINT.)",
       "fullTextAvailable": true
     },
     {
