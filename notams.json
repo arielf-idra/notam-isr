@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-12T07:00:51.613Z",
+  "generatedAt": "2026-10-12T07:10:50.760Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 101,
+  "count": 100,
   "notams": [
     {
       "id": "A0823/26",
@@ -289,47 +289,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2133/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/030/3057N03456E002\nA) LLLL B) 2610180330 C) 2610221530\nD) DAILY 0330-1530\nE) UAS/UAV ACT WILL TAKE PLACE AT YERUHAM.\nAN AREA BTN FLW PSN 305830N0345551E 305823N0345644E\n305803N0345708E 305709N0345649E 305624N0345614E\n305652N0345453E CLSD FM GND UP TO 3,000FT AMSL.\nCTN ADZ.\nF) GND G) 3000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2132/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2068658",
-      "fromDate": "2026-10-12T04:00:00Z",
-      "toDate": "2026-10-12T07:00:00Z",
-      "createDate": "2026-10-11T08:33:11Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWSLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "012",
-        "positionToken": "3155N03455E001",
-        "position": {
-          "lat": 31.916667,
-          "lon": 34.916667,
-          "radiusNm": 1
-        }
-      },
-      "eText": "AN AREA WI 1KM RADIUS CENTERED ON PSN 315455N0345500E AT GEZER POWER PLANT CLSD FM GND UP TO 1,200FT AMSL, DUE TO GAS EMISSION. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "1200FT AMSL",
-      "position": {
-        "lat": 31.915278,
-        "lon": 34.916667,
-        "radiusNm": null,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2132/26 NOTAMN\nQ) LLLL/QWSLW/IV/M  /W /000/012/3155N03455E001\nA) LLLL B) 2610120400 C) 2610120700\nE) AN AREA WI 1KM RADIUS CENTERED ON PSN 315455N0345500E\nAT GEZER POWER PLANT CLSD FM GND UP TO 1,200FT AMSL,\nDUE TO GAS EMISSION.\nCTN ADZ.\nF) GND G) 1200FT AMSL)",
       "fullTextAvailable": true
     },
     {
