@@ -51,8 +51,9 @@ Single-purpose scraper, no framework:
     row count is below `NOTAM_MIN_ROWS` (env var, default `10`) — this is
     the sanity gate that keeps a broken scrape from ever reaching the
     published file.
-- **`.github/workflows/scrape.yml`** — cron (every 10 min) + manual
-  `workflow_dispatch`. Runs `npm run scrape`, then commits/pushes
+- **`.github/workflows/scrape.yml`** — `workflow_dispatch` (fired every
+  10 min by the Cloudflare Worker in `scheduler/`) + hourly cron as a
+  backup, since GitHub's own cron is best-effort and ran hours late. Runs `npm run scrape`, then commits/pushes
   `notams.json` **only if the scrape step succeeded** (a failed step halts
   the job before the commit step runs, per default GitHub Actions
   behavior) **and** the file actually changed. This means a scrape failure

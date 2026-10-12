@@ -1,0 +1,13 @@
+# Cloudflare Worker that triggers the scrape workflow every 10 minutes.
+# Secrets (GITHUB_TOKEN) are set with `npx wrangler secret put GITHUB_TOKEN`,
+# never in this file.
+name = "notam-isr-scheduler"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+workers_dev = false
+
+[triggers]
+crons = ["*/10 * * * *"]
+
+[observability]
+enabled = true

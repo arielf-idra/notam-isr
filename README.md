@@ -48,8 +48,9 @@ const res = await fetch('https://raw.githubusercontent.com/arielf-idra/notam-isr
 const { generatedAt, disclaimer, count, notams } = await res.json();
 ```
 
-Refresh interval: **every 10 minutes** (GitHub Actions cron), plus manual
-runs. Check `generatedAt` in the payload to see how fresh the data actually
+Refresh interval: **every 10 minutes**, triggered by a small Cloudflare Worker
+(see [`scheduler/`](scheduler/README.md)), with an hourly GitHub Actions cron
+as a backup, plus manual runs. Check `generatedAt` in the payload to see how fresh the data actually
 is at fetch time — it's set to when the scrape run **started** reading the
 source page, not when it finished. A full run walks ~90 rows sequentially
 and takes ~50-60s, so using the finish time would understate staleness if
@@ -192,7 +193,8 @@ whatever was last committed by the scrape workflow.
   (`NOTAM_MIN_ROWS`, default `10`) — a low count almost always means the
   scrape broke (WAF change, layout change) rather than a genuinely quiet day.
 - [`.github/workflows/scrape.yml`](.github/workflows/scrape.yml) runs this on
-  a schedule (every 10 minutes, plus manual `workflow_dispatch`), and only
+  `workflow_dispatch` every 10 minutes from the Cloudflare Worker in
+  [`scheduler/`](scheduler/README.md), with an hourly cron as a backup, and only
   commits/pushes `notams.json` if the scrape succeeded. **If the scrape fails
   or looks broken, the job fails loudly and the last known-good
   `notams.json` stays published untouched** — a stale-but-valid file is
