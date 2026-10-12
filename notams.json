@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-12T09:00:58.728Z",
+  "generatedAt": "2026-10-12T09:10:58.284Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 100,
+  "count": 99,
   "notams": [
     {
       "id": "A0823/26",
@@ -576,47 +576,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0812/26 NOTAMN\nQ) LLLL/QISAS/I /NBO/A /000/999/2943N03501E005\nA) LLER B) 2610121000 C) 2610121300\nE) ILS RWY 19 C/S RB FREQ 110.500MHZ WITHDRAWN FOR MAINT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0811/26",
-      "location": "LLER",
-      "airfield": "Ramon",
-      "msgNumber": "2067226",
-      "fromDate": "2026-10-12T06:00:00Z",
-      "toDate": "2026-10-12T09:00:00Z",
-      "createDate": "2026-10-07T12:55:32Z",
-      "affected": [
-        "LLER"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QISAS",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "2945N03501E005",
-        "position": {
-          "lat": 29.75,
-          "lon": 35.016667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "ILS RWY 01 C/S RC FREQ 108.700MHZ WITHDRAWN FOR MAINT.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 29.75,
-        "lon": 35.016667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0811/26 NOTAMN\nQ) LLLL/QISAS/I /NBO/A /000/999/2945N03501E005\nA) LLER B) 2610120600 C) 2610120900\nE) ILS RWY 01 C/S RC FREQ 108.700MHZ WITHDRAWN FOR MAINT.)",
       "fullTextAvailable": true
     },
     {
