@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-13T10:10:46.177Z",
+  "generatedAt": "2026-10-13T10:20:53.196Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 96,
+  "count": 97,
   "notams": [
+    {
+      "id": "A0825/26",
+      "location": "LLHA",
+      "airfield": "Haifa",
+      "msgNumber": "2069443",
+      "fromDate": "2026-11-23T00:01:00Z",
+      "toDate": "2026-12-31T21:59:00Z",
+      "createDate": "2026-10-13T10:17:21Z",
+      "affected": [
+        "LLHA"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QMPLC",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3249N03503E005",
+        "position": {
+          "lat": 32.816667,
+          "lon": 35.05,
+          "radiusNm": 5
+        }
+      },
+      "eText": "ACFT STAND A2 CLSD DUE WIP.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.816667,
+        "lon": 35.05,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0825/26 NOTAMN\nQ) LLLL/QMPLC/IV/BO /A /000/999/3249N03503E005\nA) LLHA B) 2611230001 C) 2612312159\nE) ACFT STAND A2 CLSD DUE WIP.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "A0824/26",
       "location": "LLHA",
