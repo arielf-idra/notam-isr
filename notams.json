@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-13T09:50:44.777Z",
+  "generatedAt": "2026-10-13T10:00:49.736Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 97,
+  "count": 98,
   "notams": [
+    {
+      "id": "A0824/26",
+      "location": "LLHA",
+      "airfield": "Haifa",
+      "msgNumber": "2069441",
+      "fromDate": "2026-11-03T06:25:00Z",
+      "toDate": "2026-11-03T11:00:00Z",
+      "createDate": "2026-10-13T09:55:20Z",
+      "affected": [
+        "LLHA"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3249N03503E005",
+        "position": {
+          "lat": 32.816667,
+          "lon": 35.05,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AD CLSD TO ALL FLT INCLUDING HEL, DUE WIP. IN CASE OF EMERG AVBL WI 10MIN.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.816667,
+        "lon": 35.05,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0824/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3249N03503E005\nA) LLHA B) 2611030625 C) 2611031100\nD) 0625-0825 0930-1100\nE) AD CLSD TO ALL FLT INCLUDING HEL, DUE WIP.\nIN CASE OF EMERG AVBL WI 10MIN.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2141/26",
       "location": "LLLL",
