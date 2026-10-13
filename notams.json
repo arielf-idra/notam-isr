@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-13T06:30:48.417Z",
+  "generatedAt": "2026-10-13T06:40:58.617Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 97,
   "notams": [
     {
-      "id": "C2139/26",
+      "id": "C2141/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2069369",
+      "msgNumber": "2069388",
       "fromDate": "2026-10-13T09:00:00Z",
       "toDate": "2026-10-13T19:30:00Z",
-      "createDate": "2026-10-13T05:35:01Z",
+      "createDate": "2026-10-13T06:37:06Z",
       "affected": [
         "LLLL"
       ],
@@ -30,7 +30,7 @@
           "radiusNm": 2
         }
       },
-      "eText": "UAS ACT WILL TAKE PLACE AT MODIIN. AN AREA BTN FLW PSN CLSD FM GND UP TO 1,300FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT 315509N0345856E 315510N0350130E 315300N0350128E 315300N0345857E. CTN ADZ.",
+      "eText": "UAS ACT WILL TAKE PLACE AT MODIIN. AN AREA BTN FLW PSN CLSD FM GND UP TO 1,300FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT 315509N0345856E 315507N0350100E 315300N0350055E 315300N0345857E. CTN ADZ.",
       "lowerLimit": "GND",
       "upperLimit": "1300FT AMSL",
       "position": {
@@ -42,7 +42,7 @@
       "administrative": false,
       "notamType": "N",
       "replaces": null,
-      "rawText": "(C2139/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/013/3154N03500E002\nA) LLLL B) 2610130900 C) 2610131930\nE) UAS ACT WILL TAKE PLACE AT MODIIN.\nAN AREA BTN FLW PSN CLSD FM GND UP TO 1,300FT AMSL\nTO ALL FLT INCLUDING AGRICULTURE FLT\n315509N0345856E 315510N0350130E 315300N0350128E\n315300N0345857E.\nCTN ADZ.\nF) GND G) 1300FT AMSL)",
+      "rawText": "(C2141/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/013/3154N03500E002\nA) LLLL B) 2610130900 C) 2610131930\nE) UAS ACT WILL TAKE PLACE AT MODIIN.\nAN AREA BTN FLW PSN CLSD FM GND UP TO 1,300FT AMSL\nTO ALL FLT INCLUDING AGRICULTURE FLT\n315509N0345856E 315507N0350100E 315300N0350055E\n315300N0345857E.\nCTN ADZ.\nF) GND G) 1300FT AMSL)",
       "fullTextAvailable": true
     },
     {
