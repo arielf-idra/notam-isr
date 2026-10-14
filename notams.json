@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T08:31:01.526Z",
+  "generatedAt": "2026-10-14T08:41:00.991Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 112,
+  "count": 110,
   "notams": [
     {
       "id": "C2156/26",
@@ -1068,88 +1068,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2133/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/030/3057N03456E002\nA) LLLL B) 2610180330 C) 2610221530\nD) DAILY 0330-1530\nE) UAS/UAV ACT WILL TAKE PLACE AT YERUHAM.\nAN AREA BTN FLW PSN 305830N0345551E 305823N0345644E\n305803N0345708E 305709N0345649E 305624N0345614E\n305652N0345453E CLSD FM GND UP TO 3,000FT AMSL.\nCTN ADZ.\nF) GND G) 3000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2130/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2067623",
-      "fromDate": "2026-10-14T08:00:00Z",
-      "toDate": "2026-10-14T08:30:00Z",
-      "createDate": "2026-10-08T13:29:32Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "010",
-        "upperLimitFl": "030",
-        "positionToken": "3235N03513E013",
-        "position": {
-          "lat": 32.583333,
-          "lon": 35.216667,
-          "radiusNm": 13
-        }
-      },
-      "eText": "CVFR RTE CLSD DUE ILS ACT WI LLRD EIRON-ZMGID-AFULA-TAVOR. AFULA-EITAN. ULTRALIGHT AND HEL RTE CLSD EIRON-ARRAA-ZMGID-NIRYA-MRHVA-TAVOR TFC WILL BE DIVERTED VIA FRDIS-HASID.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.583333,
-        "lon": 35.216667,
-        "radiusNm": 13,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2130/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /010/030/3235N03513E013\nA) LLLL B) 2610140800 C) 2610140830\nE) CVFR RTE CLSD DUE ILS ACT WI LLRD\nEIRON-ZMGID-AFULA-TAVOR.\nAFULA-EITAN.\nULTRALIGHT AND HEL RTE CLSD\nEIRON-ARRAA-ZMGID-NIRYA-MRHVA-TAVOR\nTFC WILL BE DIVERTED VIA FRDIS-HASID.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2129/26",
-      "location": "LLMG",
-      "airfield": "Meggido",
-      "msgNumber": "2067622",
-      "fromDate": "2026-10-14T08:00:00Z",
-      "toDate": "2026-10-14T08:30:00Z",
-      "createDate": "2026-10-08T13:25:31Z",
-      "affected": [
-        "LLMG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QFALT",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3236N03514E005",
-        "position": {
-          "lat": 32.6,
-          "lon": 35.233333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "AIRSTRIP LTD TO MAX 900FT AMSL DUE ILS ACT WI LLRD CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.6,
-        "lon": 35.233333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2129/26 NOTAMN\nQ) LLLL/QFALT/IV/NBO/A /000/999/3236N03514E005\nA) LLMG B) 2610140800 C) 2610140830\nE) AIRSTRIP LTD TO MAX 900FT AMSL DUE ILS ACT WI LLRD\nCTN ADZ.)",
       "fullTextAvailable": true
     },
     {
