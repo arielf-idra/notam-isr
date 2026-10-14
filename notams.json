@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T10:50:59.446Z",
+  "generatedAt": "2026-10-14T11:10:59.243Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 109,
+  "count": 108,
   "notams": [
     {
       "id": "C2156/26",
@@ -904,47 +904,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2136/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/022/3307N03534E001\nA) LLLL B) 2610200330 C) 2610210800\nD) DAILY 0330-0800\nE) CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE,\nFM GND UP TO 400M AGL. LIT AND DAY MARKED.\nAN AREA WI 0.54NM RADIUS CENTERED ON PSN 330646N0353414E\nCLSD FM GND UP TO 2,200FT AMSL.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nIN CASE OF EMERG LOWERED WI 10MIN.\nCTN ADZ.\nF) GND G) 2200FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0823/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2068993",
-      "fromDate": "2026-10-14T04:00:00Z",
-      "toDate": "2026-10-14T11:00:00Z",
-      "createDate": "2026-10-12T05:45:04Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QMRLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "RWY 08/26 CLSD EXC RWY INT, DUE WIP.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0823/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2610140400 C) 2610141100\nE) RWY 08/26 CLSD EXC RWY INT, DUE WIP.)",
       "fullTextAvailable": true
     },
     {
