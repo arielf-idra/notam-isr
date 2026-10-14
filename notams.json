@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T15:11:00.832Z",
+  "generatedAt": "2026-10-14T15:21:10.184Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 109,
+  "count": 107,
   "notams": [
     {
       "id": "C2159/26",
@@ -43,88 +43,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2159/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/110/3117N03443E004\nA) LLLL B) 2610160500 C) 2610161100\nE) PJE AIRSPACE TEIMAN ACT FM 11,000FT AMSL.\nIN CASE OF EMERG CLEAR THE AIRSPACE WI 5MIN.\nCTN ADZ.\nF) GND G) 11000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2156/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2069540",
-      "fromDate": "2026-10-14T14:00:00Z",
-      "toDate": "2026-10-14T15:15:00Z",
-      "createDate": "2026-10-13T15:45:44Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "022",
-        "upperLimitFl": "040",
-        "positionToken": "3058N03448E007",
-        "position": {
-          "lat": 30.966667,
-          "lon": 34.8,
-          "radiusNm": 7
-        }
-      },
-      "eText": "CVFR RTE CLSD, TFC WILL BE DIVERTED VIA YRUHM BOKER-TLLIM-NEGEV. HEL RTE CLSD, TFC WILL BE DIVERTED VIA YRUHM HAGAY--TLLIM-NEGEV.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 30.966667,
-        "lon": 34.8,
-        "radiusNm": 7,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2156/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /022/040/3058N03448E007\nA) LLLL B) 2610141400 C) 2610141515\nE) CVFR RTE CLSD, TFC WILL BE DIVERTED VIA YRUHM\nBOKER-TLLIM-NEGEV.\nHEL RTE CLSD, TFC WILL BE DIVERTED VIA YRUHM\nHAGAY--TLLIM-NEGEV.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2155/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2069538",
-      "fromDate": "2026-10-14T14:00:00Z",
-      "toDate": "2026-10-14T15:15:00Z",
-      "createDate": "2026-10-13T15:41:44Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "110",
-        "positionToken": "3059N03446E002",
-        "position": {
-          "lat": 30.983333,
-          "lon": 34.766667,
-          "radiusNm": 2
-        }
-      },
-      "eText": "AN AREA AT TLALIM WI 2NM RADIUS CENTERED ON PSN 305257N0344552E CLSD TO ALL FLT INCLUDING AGRICULTURE FLT FM GND UP TO 11,000FT AMSL. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 30.8825,
-        "lon": 34.764444,
-        "radiusNm": 2,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2155/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/110/3059N03446E002\nA) LLLL B) 2610141400 C) 2610141515\nE) AN AREA AT TLALIM WI 2NM RADIUS CENTERED ON PSN 305257N0344552E\nCLSD TO ALL FLT INCLUDING AGRICULTURE FLT FM GND\nUP TO 11,000FT AMSL.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
     {
