@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T20:10:56.513Z",
+  "generatedAt": "2026-10-14T20:21:07.311Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 107,
@@ -335,43 +335,22 @@
     {
       "id": "C2146/26",
       "location": "LLEY",
-      "airfield": "Eyn-Yahav",
-      "msgNumber": "2069501",
-      "fromDate": "2026-11-26T00:01:00Z",
-      "toDate": "2026-12-09T23:59:00Z",
-      "createDate": "2026-10-13T13:31:36Z",
-      "affected": [
-        "LLEY"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QOATT",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "AE",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3037N03512E005",
-        "position": {
-          "lat": 30.616667,
-          "lon": 35.2,
-          "radiusNm": 5
-        }
-      },
-      "eText": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 02/26 WEF 26 NOV 2026 AIRSTRIP OPS HR UPDATED.",
+      "airfield": null,
+      "msgNumber": null,
+      "fromDate": null,
+      "toDate": null,
+      "createDate": null,
+      "affected": [],
+      "qLine": null,
+      "eText": "E) TRIGGER NOTAM - AIRAC DOM AIP AMDT 02/26 WEF 26 NOV 2026",
       "lowerLimit": null,
       "upperLimit": null,
-      "position": {
-        "lat": 30.616667,
-        "lon": 35.2,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
+      "position": null,
       "administrative": false,
-      "notamType": "N",
+      "notamType": null,
       "replaces": null,
-      "rawText": "(C2146/26 NOTAMN\nQ) LLLL/QOATT/IV/BO /AE/000/999/3037N03512E005\nA) LLEY B) 2611260001 C) 2612092359\nE) TRIGGER NOTAM - AIRAC DOM AIP AMDT 02/26 WEF 26 NOV 2026\nAIRSTRIP OPS HR UPDATED.)",
-      "fullTextAvailable": true
+      "rawText": "E) TRIGGER NOTAM - AIRAC DOM AIP AMDT 02/26 WEF 26 NOV 2026",
+      "fullTextAvailable": false
     },
     {
       "id": "A0828/26",
