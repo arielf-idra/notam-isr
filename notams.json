@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-14T12:51:14.563Z",
+  "generatedAt": "2026-10-14T13:01:16.881Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 109,
   "notams": [
     {
-      "id": "C2157/26",
+      "id": "C2159/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2069869",
+      "msgNumber": "2069880",
       "fromDate": "2026-10-16T05:00:00Z",
-      "toDate": "2026-10-17T15:00:00Z",
-      "createDate": "2026-10-14T12:43:29Z",
+      "toDate": "2026-10-16T11:00:00Z",
+      "createDate": "2026-10-14T12:59:31Z",
       "affected": [
         "LLLL"
       ],
@@ -42,7 +42,7 @@
       "administrative": false,
       "notamType": "N",
       "replaces": null,
-      "rawText": "(C2157/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/110/3117N03443E004\nA) LLLL B) 2610160500 C) 2610171500\nD) 16 0500-1500, 17 0500-1500\nE) PJE AIRSPACE TEIMAN ACT FM 11,000FT AMSL.\nIN CASE OF EMERG CLEAR THE AIRSPACE WI 5MIN.\nCTN ADZ.\nF) GND G) 11000FT AMSL)",
+      "rawText": "(C2159/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/110/3117N03443E004\nA) LLLL B) 2610160500 C) 2610161100\nE) PJE AIRSPACE TEIMAN ACT FM 11,000FT AMSL.\nIN CASE OF EMERG CLEAR THE AIRSPACE WI 5MIN.\nCTN ADZ.\nF) GND G) 11000FT AMSL)",
       "fullTextAvailable": true
     },
     {
