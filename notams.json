@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-15T07:50:52.407Z",
+  "generatedAt": "2026-10-15T08:01:00.910Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 113,
+  "count": 114,
   "notams": [
+    {
+      "id": "C2170/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2070192",
+      "fromDate": "2026-10-22T04:15:00Z",
+      "toDate": "2026-10-22T10:00:00Z",
+      "createDate": "2026-10-15T07:53:12Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLT",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "008",
+        "upperLimitFl": "012",
+        "positionToken": "3155N03446E008",
+        "position": {
+          "lat": 31.916667,
+          "lon": 34.766667,
+          "radiusNm": 8
+        }
+      },
+      "eText": "CVFR AND HEL RTE CLSD AT 1,200FT, AVBL BIDIRECTIONAL AT 800FT AMSL ONLY TYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.916667,
+        "lon": 34.766667,
+        "radiusNm": 8,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2170/26 NOTAMN\nQ) LLLL/QARLT/IV/NBO/E /008/012/3155N03446E008\nA) LLLL B) 2610220415 C) 2610221000\nD) 0415-0530 0600-0650 0900-1000\nE) CVFR AND HEL RTE CLSD AT 1,200FT,\nAVBL BIDIRECTIONAL AT 800FT AMSL ONLY\nTYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2169/26",
       "location": "LLLL",
