@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-15T09:01:12.792Z",
+  "generatedAt": "2026-10-15T09:11:04.525Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 115,
+  "count": 116,
   "notams": [
+    {
+      "id": "A0830/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2070211",
+      "fromDate": "2026-10-21T06:00:00Z",
+      "toDate": "2026-10-21T10:00:00Z",
+      "createDate": "2026-10-15T09:07:18Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QISAS",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3201N03453E005",
+        "position": {
+          "lat": 32.016667,
+          "lon": 34.883333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "ILS RWY 08 C/S BC FREQ 110.900MHZ WITHDRAWN FOR MAINT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.016667,
+        "lon": 34.883333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0830/26 NOTAMN\nQ) LLLL/QISAS/I /NBO/A /000/999/3201N03453E005\nA) LLBG B) 2610210600 C) 2610211000\nE) ILS RWY 08 C/S BC FREQ 110.900MHZ WITHDRAWN FOR MAINT.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2171/26",
       "location": "LLLL",
