@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-15T07:20:55.228Z",
+  "generatedAt": "2026-10-15T07:31:02.462Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 110,
   "notams": [
     {
-      "id": "C2164/26",
+      "id": "C2166/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2070174",
-      "fromDate": "2026-10-20T06:00:00Z",
-      "toDate": "2026-10-20T07:40:00Z",
-      "createDate": "2026-10-15T07:19:09Z",
+      "msgNumber": "2070176",
+      "fromDate": "2026-10-18T06:00:00Z",
+      "toDate": "2026-10-18T07:40:00Z",
+      "createDate": "2026-10-15T07:23:09Z",
       "affected": [
         "LLLL"
       ],
@@ -42,7 +42,7 @@
       "administrative": false,
       "notamType": "N",
       "replaces": null,
-      "rawText": "(C2164/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /017/020/3246N03517E004\nA) LLLL B) 2610200600 C) 2610200740\nE) ULTRALIGHT RTE CLSD DUE FIREFIGHTING ACT\nMOVIL-KKANA.)",
+      "rawText": "(C2166/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /017/020/3246N03517E004\nA) LLLL B) 2610180600 C) 2610180740\nE) ULTRALIGHT RTE CLSD DUE FIREFIGHTING ACT\nMOVIL-KKANA.)",
       "fullTextAvailable": true
     },
     {
