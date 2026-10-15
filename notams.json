@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-15T13:11:00.581Z",
+  "generatedAt": "2026-10-15T13:20:55.279Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 120,
+  "count": 121,
   "notams": [
+    {
+      "id": "C2175/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2070288",
+      "fromDate": "2026-10-18T19:00:00Z",
+      "toDate": "2026-10-23T03:20:00Z",
+      "createDate": "2026-10-15T13:11:39Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "025",
+        "upperLimitFl": "030",
+        "positionToken": "3247N03529E007",
+        "position": {
+          "lat": 32.783333,
+          "lon": 35.483333,
+          "radiusNm": 7
+        }
+      },
+      "eText": "CVFR RTE CLSD  DESHE-TAVOR.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.783333,
+        "lon": 35.483333,
+        "radiusNm": 7,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2175/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /025/030/3247N03529E007\nA) LLLL B) 2610181900 C) 2610230320\nD) DAILY 1900-2359 0001-0320\nE) CVFR RTE CLSD  DESHE-TAVOR.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2174/26",
       "location": "LLLL",
