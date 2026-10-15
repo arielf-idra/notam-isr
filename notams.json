@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-15T17:11:11.759Z",
+  "generatedAt": "2026-10-15T17:21:33.199Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 119,
+  "count": 120,
   "notams": [
+    {
+      "id": "A0834/26",
+      "location": "LLER",
+      "airfield": "Ramon",
+      "msgNumber": "2070353",
+      "fromDate": "2026-10-19T10:05:00Z",
+      "toDate": "2026-10-20T16:40:00Z",
+      "createDate": "2026-10-15T17:17:56Z",
+      "affected": [
+        "LLER"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "2944N03501E005",
+        "position": {
+          "lat": 29.733333,
+          "lon": 35.016667,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AD CLSD TO ALL FLT DUE WIP. IN CASE OF EMERG AVBL WI 10MIN PPR FM ATC.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 29.733333,
+        "lon": 35.016667,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0834/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/2944N03501E005\nA) LLER B) 2610191005 C) 2610201640\nD) 19 1005-1105, 1205-1255, 1350-1445, 1545-1640, 20 1205-1255,\n1350-1445, 1545-1640\nE) AD CLSD TO ALL FLT DUE WIP.\nIN CASE OF EMERG AVBL WI 10MIN PPR FM ATC.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2175/26",
       "location": "LLLL",
