@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-15T20:51:03.993Z",
+  "generatedAt": "2026-10-15T21:11:07.971Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 120,
+  "count": 119,
   "notams": [
     {
       "id": "A0834/26",
@@ -2462,47 +2462,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2010/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/015/3231N03518E002\nA) LLLL B) 2610010001 C) 2610312159\nE) UAS/UAV ACT WILL TAKE PLACE AT MAGEN-SHAUL, UP TO 100M AGL.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,500FT AMSL\n323145N0351642E 323024N0351638E 323039N0352004E\n323139N0351954E 323153N0351930E 323159N0351907E\nCTN ADZ.\nF) GND G) 1500FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C1983/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2061441",
-      "fromDate": "2026-09-22T07:37:00Z",
-      "toDate": "2026-10-15T20:59:00Z",
-      "createDate": "2026-09-22T07:39:32Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "010",
-        "positionToken": "3224N03454E001",
-        "position": {
-          "lat": 32.4,
-          "lon": 34.9,
-          "radiusNm": 1
-        }
-      },
-      "eText": "UAS/UAV ACT WILL TAKE PLACE AT EMEK HEFER, FM GND UP TO 30M AGL. AN AREA BTN FLW PSN CLSD FM GND UP TO 950FT AMSL 322407N0345354E 322407N0345357E 322405N0345357E 322405N0345355E. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "950FT AMSL",
-      "position": {
-        "lat": 32.4,
-        "lon": 34.9,
-        "radiusNm": 1,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C1983/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/010/3224N03454E001\nA) LLLL B) 2609220737 C) 2610152059\nE) UAS/UAV ACT WILL TAKE PLACE AT EMEK HEFER, FM GND UP TO 30M AGL.\nAN AREA BTN FLW PSN CLSD FM GND UP TO 950FT AMSL\n322407N0345354E 322407N0345357E 322405N0345357E\n322405N0345355E.\nCTN ADZ.\nF) GND G) 950FT AMSL)",
       "fullTextAvailable": true
     },
     {
