@@ -1,9 +1,91 @@
 {
-  "generatedAt": "2026-10-15T06:50:55.451Z",
+  "generatedAt": "2026-10-15T07:01:03.919Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 106,
+  "count": 108,
   "notams": [
+    {
+      "id": "C2162/26",
+      "location": "LLEY",
+      "airfield": "Eyn-Yahav",
+      "msgNumber": "2070171",
+      "fromDate": "2026-10-20T17:30:00Z",
+      "toDate": "2026-10-20T19:00:00Z",
+      "createDate": "2026-10-15T06:59:07Z",
+      "affected": [
+        "LLEY"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3037N03512E005",
+        "position": {
+          "lat": 30.616667,
+          "lon": 35.2,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AIRSTRIP CLSD TO ALL FLT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.616667,
+        "lon": 35.2,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2162/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3037N03512E005\nA) LLEY B) 2610201730 C) 2610201900\nE) AIRSTRIP CLSD TO ALL FLT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2161/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2070169",
+      "fromDate": "2026-10-20T17:30:00Z",
+      "toDate": "2026-10-20T19:00:00Z",
+      "createDate": "2026-10-15T06:57:06Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "035",
+        "upperLimitFl": "045",
+        "positionToken": "3035N03504E007",
+        "position": {
+          "lat": 30.583333,
+          "lon": 35.066667,
+          "radiusNm": 7
+        }
+      },
+      "eText": "CVFR RTE CLSD  ZOFAR-HRGVS.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.583333,
+        "lon": 35.066667,
+        "radiusNm": 7,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2161/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /035/045/3035N03504E007\nA) LLLL B) 2610201730 C) 2610201900\nE) CVFR RTE CLSD  ZOFAR-HRGVS.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2160/26",
       "location": "LLLL",
