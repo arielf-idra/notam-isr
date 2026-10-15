@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-15T08:40:59.431Z",
+  "generatedAt": "2026-10-15T08:50:57.588Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 114,
+  "count": 115,
   "notams": [
+    {
+      "id": "C2171/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2070201",
+      "fromDate": "2026-10-22T06:00:00Z",
+      "toDate": "2026-10-22T08:00:00Z",
+      "createDate": "2026-10-15T08:49:16Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWPLW",
+        "traffic": "IV",
+        "purpose": "M",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "024",
+        "positionToken": "3103N03442E006",
+        "position": {
+          "lat": 31.05,
+          "lon": 34.7,
+          "radiusNm": 6
+        }
+      },
+      "eText": "PJE WILL TAKE PLACE AT REVIVIM. AN AREA BTN FLW PSN CLSD FM GND UP 2,400FT AMSL 310712N0344550E 310511N0343920E 310455N0343655E 305931N0343815E 310035N0344409E 310359N0344720E 310712N0344550E. OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "2400FT AMSL",
+      "position": {
+        "lat": 31.05,
+        "lon": 34.7,
+        "radiusNm": 6,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2171/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/024/3103N03442E006\nA) LLLL B) 2610220600 C) 2610220800\nE) PJE WILL TAKE PLACE AT REVIVIM.\nAN AREA BTN FLW PSN CLSD FM GND UP 2,400FT AMSL\n310712N0344550E 310511N0343920E 310455N0343655E\n305931N0343815E 310035N0344409E 310359N0344720E\n310712N0344550E.\nOPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC\nCTN ADZ.\nF) GND G) 2400FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2170/26",
       "location": "LLLL",
