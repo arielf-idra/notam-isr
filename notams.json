@@ -1,9 +1,132 @@
 {
-  "generatedAt": "2026-10-15T07:40:56.332Z",
+  "generatedAt": "2026-10-15T07:50:52.407Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 110,
+  "count": 113,
   "notams": [
+    {
+      "id": "C2169/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2070183",
+      "fromDate": "2026-10-21T09:00:00Z",
+      "toDate": "2026-10-21T18:00:00Z",
+      "createDate": "2026-10-15T07:49:11Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLT",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "008",
+        "upperLimitFl": "012",
+        "positionToken": "3155N03446E008",
+        "position": {
+          "lat": 31.916667,
+          "lon": 34.766667,
+          "radiusNm": 8
+        }
+      },
+      "eText": "CVFR AND HEL RTE CLSD AT 1,200FT, AVBL BIDIRECTIONAL AT 800FT AMSL ONLY TYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.916667,
+        "lon": 34.766667,
+        "radiusNm": 8,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2169/26 NOTAMN\nQ) LLLL/QARLT/IV/NBO/E /008/012/3155N03446E008\nA) LLLL B) 2610210900 C) 2610211800\nD) 0900-1000 1700-1800\nE) CVFR AND HEL RTE CLSD AT 1,200FT,\nAVBL BIDIRECTIONAL AT 800FT AMSL ONLY\nTYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2168/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2070182",
+      "fromDate": "2026-10-19T18:00:00Z",
+      "toDate": "2026-10-19T19:00:00Z",
+      "createDate": "2026-10-15T07:47:11Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLT",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "008",
+        "upperLimitFl": "012",
+        "positionToken": "3155N03446E008",
+        "position": {
+          "lat": 31.916667,
+          "lon": 34.766667,
+          "radiusNm": 8
+        }
+      },
+      "eText": "CVFR AND HEL RTE CLSD AT 1,200FT, AVBL BIDIRECTIONAL AT 800FT AMSL ONLY TYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.916667,
+        "lon": 34.766667,
+        "radiusNm": 8,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2168/26 NOTAMN\nQ) LLLL/QARLT/IV/NBO/E /008/012/3155N03446E008\nA) LLLL B) 2610191800 C) 2610191900\nE) CVFR AND HEL RTE CLSD AT 1,200FT,\nAVBL BIDIRECTIONAL AT 800FT AMSL ONLY\nTYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2167/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2070181",
+      "fromDate": "2026-10-20T17:30:00Z",
+      "toDate": "2026-10-20T19:00:00Z",
+      "createDate": "2026-10-15T07:41:10Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "025",
+        "upperLimitFl": "040",
+        "positionToken": "3051N03515E054",
+        "position": {
+          "lat": 30.85,
+          "lon": 35.25,
+          "radiusNm": 54
+        }
+      },
+      "eText": "CVFR RTE CLSD KTORA-YAHEL-BMNUH-ZOFAR-ARAVA-ZOHAR-MMORR-LLMZ-ZUKIM. MMORR-ARRAD-LLMZ. ARRAD-HATRU-ZOHAR. TARAD-ARRAD.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.85,
+        "lon": 35.25,
+        "radiusNm": 54,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2167/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /025/040/3051N03515E054\nA) LLLL B) 2610201730 C) 2610201900\nE) CVFR RTE CLSD\nKTORA-YAHEL-BMNUH-ZOFAR-ARAVA-ZOHAR-MMORR-LLMZ-ZUKIM.\nMMORR-ARRAD-LLMZ.\nARRAD-HATRU-ZOHAR.\nTARAD-ARRAD.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2166/26",
       "location": "LLLL",
