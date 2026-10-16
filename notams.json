@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-16T11:10:55.888Z",
+  "generatedAt": "2026-10-16T11:20:53.215Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 118,
+  "count": 119,
   "notams": [
+    {
+      "id": "C2177/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2070647",
+      "fromDate": "2026-10-17T09:30:00Z",
+      "toDate": "2026-10-17T19:30:00Z",
+      "createDate": "2026-10-16T11:13:25Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "022",
+        "upperLimitFl": "030",
+        "positionToken": "3058N03449E007",
+        "position": {
+          "lat": 30.966667,
+          "lon": 34.816667,
+          "radiusNm": 7
+        }
+      },
+      "eText": "ULTRALIGHT RTE NEGEV-BOKER CLSD.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.966667,
+        "lon": 34.816667,
+        "radiusNm": 7,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2177/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /022/030/3058N03449E007\nA) LLLL B) 2610170930 C) 2610171930\nE) ULTRALIGHT RTE NEGEV-BOKER CLSD.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2176/26",
       "location": "LLLL",
