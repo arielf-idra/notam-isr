@@ -6,6 +6,21 @@ const OUTPUT_FILE = new URL('./notams.json', import.meta.url);
 const MIN_ROWS = Number(process.env.NOTAM_MIN_ROWS || 10);
 const ROW_TIMEOUT_MS = 20000;
 
+// IAA's *.iaa.gov.il certificate expired on 2026-10-16 23:59:59 UTC and has
+// not been renewed yet, so Chromium rejects the site (ERR_CERT_DATE_INVALID).
+// Rather than ignoring ALL certificate errors (which would let any
+// man-in-the-middle feed us fake NOTAMs), Chromium is told to tolerate errors
+// only for a certificate carrying this exact public key: the expired DigiCert
+// cert issued to Israel Airports Authority (serial 03428DB20E1DD2A3D3C7D702795828E6).
+// Any other invalid certificate is still rejected. A properly renewed,
+// valid certificate passes normal validation and never needs this list, so
+// once IAA renews, this entry can be deleted.
+// Recompute a hash with:
+//   openssl s_client -connect ext.iaa.gov.il:443 -servername ext.iaa.gov.il </dev/null //     | openssl x509 -pubkey -noout | openssl pkey -pubin -outform der //     | openssl dgst -sha256 -binary | base64
+const TOLERATED_SPKI_SHA256 = [
+  'rESug1xEaXxZ6ubCBAIFxalVm6zUP9I45Z1QBskA14c=',
+];
+
 function decodeEntities(str) {
   return str
     .replace(/&amp;/g, '&')
@@ -209,7 +224,12 @@ function buildNotamRecord(xml, fallback) {
 }
 
 async function scrapeAll() {
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({
+    headless: true,
+    args: TOLERATED_SPKI_SHA256.length
+      ? [`--ignore-certificate-errors-spki-list=${TOLERATED_SPKI_SHA256.join(',')}`]
+      : [],
+  });
   const page = await browser.newPage();
 
   // Captured right before the first request to the source page, not after
