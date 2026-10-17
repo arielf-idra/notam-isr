@@ -1,91 +1,9 @@
 {
-  "generatedAt": "2026-10-17T19:21:03.849Z",
+  "generatedAt": "2026-10-17T19:30:56.228Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 118,
+  "count": 116,
   "notams": [
-    {
-      "id": "C2177/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2070647",
-      "fromDate": "2026-10-17T09:30:00Z",
-      "toDate": "2026-10-17T19:30:00Z",
-      "createDate": "2026-10-16T11:13:25Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "022",
-        "upperLimitFl": "030",
-        "positionToken": "3058N03449E007",
-        "position": {
-          "lat": 30.966667,
-          "lon": 34.816667,
-          "radiusNm": 7
-        }
-      },
-      "eText": "ULTRALIGHT RTE NEGEV-BOKER CLSD.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 30.966667,
-        "lon": 34.816667,
-        "radiusNm": 7,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2177/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /022/030/3058N03449E007\nA) LLLL B) 2610170930 C) 2610171930\nE) ULTRALIGHT RTE NEGEV-BOKER CLSD.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2176/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2070640",
-      "fromDate": "2026-10-17T09:30:00Z",
-      "toDate": "2026-10-17T19:30:00Z",
-      "createDate": "2026-10-16T11:05:24Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "015",
-        "positionToken": "3059N03446E002",
-        "position": {
-          "lat": 30.983333,
-          "lon": 34.766667,
-          "radiusNm": 2
-        }
-      },
-      "eText": "UAS ACT WILL TAKE PLACE AT TLALIM. AN AREA WI 1.3NM RADIUS CENTERED ON PSN 305906N0344551E CLSD FM GND UP TO 1,500FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "1500FT AMSL",
-      "position": {
-        "lat": 30.985,
-        "lon": 34.764167,
-        "radiusNm": 1.3,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2176/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/015/3059N03446E002\nA) LLLL B) 2610170930 C) 2610171930\nE) UAS ACT WILL TAKE PLACE AT TLALIM.\nAN AREA WI 1.3NM RADIUS CENTERED ON PSN 305906N0344551E\nCLSD FM GND UP TO 1,500FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 1500FT AMSL)",
-      "fullTextAvailable": true
-    },
     {
       "id": "A0834/26",
       "location": "LLER",
