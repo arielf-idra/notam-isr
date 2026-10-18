@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-18T08:30:47.646Z",
+  "generatedAt": "2026-10-18T08:38:41.422Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 109,
+  "count": 108,
   "notams": [
     {
       "id": "C2183/26",
@@ -1191,47 +1191,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2143/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/024/3103N03442E006\nA) LLLL B) 2610190600 C) 2610211400\nD) 19 0600-0930 1800-1920, 20 1150-1400, 21 0630-0900 1150-1400\nE) PJE WILL TAKE PLACE AT REVIVIM.\nAN AREA BTN FLW PSN CLSD FM GND UP 2,400FT AMSL\n310712N0344550E 310511N0343920E 310455N0343655E\n305931N0343815E 310035N0344409E 310359N0344720E\n310712N0344550E.\nOPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC\nCTN ADZ.\nF) GND G) 2400FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2142/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2069466",
-      "fromDate": "2026-10-18T06:00:00Z",
-      "toDate": "2026-10-18T08:30:00Z",
-      "createDate": "2026-10-13T11:33:28Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "015",
-        "positionToken": "3151N03456E002",
-        "position": {
-          "lat": 31.85,
-          "lon": 34.933333,
-          "radiusNm": 2
-        }
-      },
-      "eText": "FIREFIGHTING ACT WILL TAKE PLACE AT NACHSHON. AN AREA BTN FLW PSN CLSD FM GND UP TO 1,500FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT  314953N0345531E 315139N0345452E 315146N0345658E 315015N0345804E. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.85,
-        "lon": 34.933333,
-        "radiusNm": 2,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2142/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/015/3151N03456E002\nA) LLLL B) 2610180600 C) 2610180830\nE) FIREFIGHTING ACT WILL TAKE PLACE AT NACHSHON.\nAN AREA BTN FLW PSN CLSD FM GND UP TO 1,500FT AMSL\nTO ALL FLT INCLUDING AGRICULTURE FLT  314953N0345531E\n315139N0345452E 315146N0345658E 315015N0345804E.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
     {
