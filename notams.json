@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-18T13:40:49.010Z",
+  "generatedAt": "2026-10-18T13:50:54.161Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 114,
+  "count": 115,
   "notams": [
+    {
+      "id": "C2191/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2071445",
+      "fromDate": "2026-10-19T10:00:00Z",
+      "toDate": "2026-10-19T17:00:00Z",
+      "createDate": "2026-10-18T13:41:39Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "010",
+        "upperLimitFl": "020",
+        "positionToken": "3235N03513E013",
+        "position": {
+          "lat": 32.583333,
+          "lon": 35.216667,
+          "radiusNm": 13
+        }
+      },
+      "eText": "ULTRALIGHT AND HEL RTE CLSD EIRON-ARRAA-ZMGID-NIRYA-MRHVA-TAVOR. TFC WILL BE DIVERTED VIA FRDIS-HASID.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.583333,
+        "lon": 35.216667,
+        "radiusNm": 13,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2191/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /010/020/3235N03513E013\nA) LLLL B) 2610191000 C) 2610191700\nE) ULTRALIGHT AND HEL RTE CLSD\nEIRON-ARRAA-ZMGID-NIRYA-MRHVA-TAVOR.\nTFC WILL BE DIVERTED VIA FRDIS-HASID.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2190/26",
       "location": "LLLL",
