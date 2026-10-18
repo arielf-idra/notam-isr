@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-18T07:00:50.079Z",
+  "generatedAt": "2026-10-18T07:10:54.686Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 108,
+  "count": 109,
   "notams": [
+    {
+      "id": "C2181/26",
+      "location": "LLMG",
+      "airfield": "Meggido",
+      "msgNumber": "2071336",
+      "fromDate": "2026-11-26T00:01:00Z",
+      "toDate": "2026-12-09T23:59:00Z",
+      "createDate": "2026-10-18T07:01:09Z",
+      "affected": [
+        "LLMG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QOATT",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "AE",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3236N03514E005",
+        "position": {
+          "lat": 32.6,
+          "lon": 35.233333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 02/26 WEF 26 NOV 2026 HEL LDG AND TAX PROCEDURES UPDATED.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.6,
+        "lon": 35.233333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2181/26 NOTAMN\nQ) LLLL/QOATT/IV/BO /AE/000/999/3236N03514E005\nA) LLMG B) 2611260001 C) 2612092359\nE) TRIGGER NOTAM - AIRAC DOM AIP AMDT 02/26 WEF 26 NOV 2026\nHEL LDG AND TAX PROCEDURES UPDATED.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "A0834/26",
       "location": "LLER",
