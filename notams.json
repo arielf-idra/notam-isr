@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-18T12:20:54.164Z",
+  "generatedAt": "2026-10-18T12:30:54.877Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 110,
+  "count": 111,
   "notams": [
+    {
+      "id": "C2186/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2071422",
+      "fromDate": "2026-10-19T00:01:00Z",
+      "toDate": "2026-10-25T21:59:00Z",
+      "createDate": "2026-10-18T12:21:33Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWCLW",
+        "traffic": "IV",
+        "purpose": "M",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "018",
+        "positionToken": "3249N03510E001",
+        "position": {
+          "lat": 32.816667,
+          "lon": 35.166667,
+          "radiusNm": 1
+        }
+      },
+      "eText": "CAPTIVE BALLOON WILL TAKE PLACE AT TAMRAH. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 324850N0351002E CLSD FM GND UP TO 1,800FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "1800FT AMSL",
+      "position": {
+        "lat": 32.813889,
+        "lon": 35.167222,
+        "radiusNm": 0.3,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2186/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/018/3249N03510E001\nA) LLLL B) 2610190001 C) 2610252159\nE) CAPTIVE BALLOON WILL TAKE PLACE AT TAMRAH.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 324850N0351002E\nCLSD FM GND UP TO 1,800FT AMSL, TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 1800FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2185/26",
       "location": "LLLL",
