@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-18T12:50:51.381Z",
+  "generatedAt": "2026-10-18T13:00:47.004Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 110,
+  "count": 111,
   "notams": [
+    {
+      "id": "C2187/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2071435",
+      "fromDate": "2026-10-19T05:30:00Z",
+      "toDate": "2026-10-19T08:30:00Z",
+      "createDate": "2026-10-18T12:55:36Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "025",
+        "positionToken": "3242N03449E006",
+        "position": {
+          "lat": 32.7,
+          "lon": 34.816667,
+          "radiusNm": 6
+        }
+      },
+      "eText": "AN AREA FM GND UP TO 2,500FT AMSL CLSD TO ALL FLT BTN FLW PSN  324512N0345359E 323914N0345217E 323914N0344438E 324512N0344438E. CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.7,
+        "lon": 34.816667,
+        "radiusNm": 6,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2187/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/025/3242N03449E006\nA) LLLL B) 2610190530 C) 2610190830\nE) AN AREA FM GND UP TO 2,500FT AMSL CLSD TO ALL FLT\nBTN FLW PSN  324512N0345359E 323914N0345217E\n323914N0344438E 324512N0344438E.\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2186/26",
       "location": "LLLL",
