@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-18T06:00:55.369Z",
+  "generatedAt": "2026-10-18T06:11:08.829Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 112,
+  "count": 111,
   "notams": [
     {
       "id": "A0834/26",
@@ -1888,47 +1888,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2024/26 NOTAMN\nQ) LLLL/QCACF/IV/BO /E /000/999/3043N03431E080\nA) LLLL B) 2609241159 C) 2612312159\nE) SHANUN CTL (MIL SOUTHERN SECTOR) FREQ CHG TO 122.900MHZ.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0785/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2062287",
-      "fromDate": "2026-10-19T05:00:00Z",
-      "toDate": "2026-10-19T10:00:00Z",
-      "createDate": "2026-09-24T11:39:29Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QOBCE",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "AE",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "003",
-        "positionToken": "3200N03454E001",
-        "position": {
-          "lat": 32,
-          "lon": 34.9,
-          "radiusNm": 1
-        }
-      },
-      "eText": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 315941.27N0345429.55E CLSD FM GND UP TO 89M 292FT AMSL. IN CASE OF EMERG LOWERED WI 5MIN. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32,
-        "lon": 34.9,
-        "radiusNm": 1,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0785/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/003/3200N03454E001\nA) LLBG B) 2610190500 C) 2610191000\nE) CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 315941.27N0345429.55E\nCLSD FM GND UP TO 89M 292FT AMSL.\nIN CASE OF EMERG LOWERED WI 5MIN.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
     {
