@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-18T13:50:54.161Z",
+  "generatedAt": "2026-10-18T14:00:51.026Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 115,
+  "count": 116,
   "notams": [
+    {
+      "id": "A0839/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2071453",
+      "fromDate": "2026-10-19T10:00:00Z",
+      "toDate": "2026-10-19T17:00:00Z",
+      "createDate": "2026-10-18T13:55:41Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QANLT",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "050",
+        "upperLimitFl": "060",
+        "positionToken": "3236N03518E018",
+        "position": {
+          "lat": 32.6,
+          "lon": 35.3,
+          "radiusNm": 18
+        }
+      },
+      "eText": "ATS RTE J14 LIMITED TO MIN 6,000 FT BTN ZACCI-GIMIK.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.6,
+        "lon": 35.3,
+        "radiusNm": 18,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0839/26 NOTAMN\nQ) LLLL/QANLT/I /NBO/E /050/060/3236N03518E018\nA) LLLL B) 2610191000 C) 2610191700\nE) ATS RTE J14 LIMITED TO MIN 6,000 FT BTN\nZACCI-GIMIK.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2191/26",
       "location": "LLLL",
