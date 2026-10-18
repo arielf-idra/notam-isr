@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-18T07:40:51.140Z",
+  "generatedAt": "2026-10-18T07:50:58.186Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 109,
+  "count": 107,
   "notams": [
     {
       "id": "C2181/26",
@@ -494,88 +494,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2168/26 NOTAMN\nQ) LLLL/QARLT/IV/NBO/E /008/012/3155N03446E008\nA) LLLL B) 2610191800 C) 2610191900\nE) CVFR AND HEL RTE CLSD AT 1,200FT,\nAVBL BIDIRECTIONAL AT 800FT AMSL ONLY\nTYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2166/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2070176",
-      "fromDate": "2026-10-18T06:00:00Z",
-      "toDate": "2026-10-18T07:40:00Z",
-      "createDate": "2026-10-15T07:23:09Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "017",
-        "upperLimitFl": "020",
-        "positionToken": "3246N03517E004",
-        "position": {
-          "lat": 32.766667,
-          "lon": 35.283333,
-          "radiusNm": 4
-        }
-      },
-      "eText": "ULTRALIGHT RTE CLSD DUE FIREFIGHTING ACT MOVIL-KKANA.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.766667,
-        "lon": 35.283333,
-        "radiusNm": 4,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2166/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /017/020/3246N03517E004\nA) LLLL B) 2610180600 C) 2610180740\nE) ULTRALIGHT RTE CLSD DUE FIREFIGHTING ACT\nMOVIL-KKANA.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2163/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2070173",
-      "fromDate": "2026-10-18T06:00:00Z",
-      "toDate": "2026-10-18T07:40:00Z",
-      "createDate": "2026-10-15T07:11:08Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "020",
-        "positionToken": "3247N03519E002",
-        "position": {
-          "lat": 32.783333,
-          "lon": 35.316667,
-          "radiusNm": 2
-        }
-      },
-      "eText": "FIREFIGHTING ACT WILL TAKE PLACE AT BEIT RIMON. AN AREA WI 2NM RADIUS CENTERED ON PSN 324703N0351902E CLSD FM GND UP TO 2,000FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.784167,
-        "lon": 35.317222,
-        "radiusNm": 2,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2163/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/020/3247N03519E002\nA) LLLL B) 2610180600 C) 2610180740\nE) FIREFIGHTING ACT WILL TAKE PLACE AT BEIT RIMON.\nAN AREA WI 2NM RADIUS CENTERED ON PSN 324703N0351902E\nCLSD FM GND UP TO 2,000FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.)",
       "fullTextAvailable": true
     },
     {
