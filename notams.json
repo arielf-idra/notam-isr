@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-19T08:40:52.710Z",
+  "generatedAt": "2026-10-19T08:51:02.890Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 115,
+  "count": 116,
   "notams": [
+    {
+      "id": "C2195/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2071745",
+      "fromDate": "2026-11-01T00:01:00Z",
+      "toDate": "2026-11-30T21:59:00Z",
+      "createDate": "2026-10-19T08:43:15Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "003",
+        "positionToken": "3146N03445E001",
+        "position": {
+          "lat": 31.766667,
+          "lon": 34.75,
+          "radiusNm": 1
+        }
+      },
+      "eText": "UAS/UAV ACT WILL TAKE PLACE AT PARK-REEM. AN AREA WI 0.5NM RADIUS CENTERED ON PSN 314633N0344520E CLSD FM GND UP TO 25M AGL 300FT AMSL. OPS AVBL WITH PPR FM ATC ONLY. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "300FT AMSL",
+      "position": {
+        "lat": 31.775833,
+        "lon": 34.755556,
+        "radiusNm": 0.5,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2195/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/003/3146N03445E001\nA) LLLL B) 2611010001 C) 2611302159\nE) UAS/UAV ACT WILL TAKE PLACE AT PARK-REEM.\nAN AREA WI 0.5NM RADIUS CENTERED ON PSN 314633N0344520E\nCLSD FM GND UP TO 25M AGL 300FT AMSL.\nOPS AVBL WITH PPR FM ATC ONLY.\nCTN ADZ.\nF) GND G) 300FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2194/26",
       "location": "LLLL",
