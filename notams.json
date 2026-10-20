@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-20T10:00:50.988Z",
+  "generatedAt": "2026-10-20T10:10:52.431Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 119,
+  "count": 118,
   "notams": [
     {
       "id": "C2204/26",
@@ -863,47 +863,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0833/26 NOTAMN\nQ) LLLL/QNMAS/IV/BO /E /000/999/3117N03443E025\nA) LLLL B) 2610250600 C) 2610251000\nE) VOR/DME BSA FREQ 114.300MHZ WITHDRAWN FOR MAINT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0832/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2070238",
-      "fromDate": "2026-10-20T06:00:00Z",
-      "toDate": "2026-10-20T10:00:00Z",
-      "createDate": "2026-10-15T10:51:25Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QMRLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "RWY 03/21 CLSD DUE WIP.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0832/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2610200600 C) 2610201000\nE) RWY 03/21 CLSD DUE WIP.)",
       "fullTextAvailable": true
     },
     {
