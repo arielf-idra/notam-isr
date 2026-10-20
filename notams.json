@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-20T08:10:51.687Z",
+  "generatedAt": "2026-10-20T08:21:02.778Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 117,
+  "count": 118,
   "notams": [
+    {
+      "id": "C2203/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072096",
+      "fromDate": "2026-11-01T00:01:00Z",
+      "toDate": "2026-11-30T21:59:00Z",
+      "createDate": "2026-10-20T08:13:10Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "011",
+        "positionToken": "3154N03502E001",
+        "position": {
+          "lat": 31.9,
+          "lon": 35.033333,
+          "radiusNm": 1
+        }
+      },
+      "eText": "UAS/UAV ACT WILL TAKE PLACE AT MACCABIM, FM GND UP TO 50M AGL. AN AREA BTN FLW PSN 315351N0350218E 315311N0350222E 315311N0350220E 315320N0350216E 315319N0350210E 315323N0350207E 315328N0350208E 315329N0350202E 315336N0350201E 315336N0350210E 315346N0350213E 315348N0350211E 315353N0350212E CLSD FM GND UP TO 1,050FT AMSL. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "1100FT AMSL",
+      "position": {
+        "lat": 31.9,
+        "lon": 35.033333,
+        "radiusNm": 1,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2203/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/011/3154N03502E001\nA) LLLL B) 2611010001 C) 2611302159\nE) UAS/UAV ACT WILL TAKE PLACE AT MACCABIM, FM GND UP TO 50M AGL.\nAN AREA BTN FLW PSN 315351N0350218E 315311N0350222E\n315311N0350220E 315320N0350216E 315319N0350210E\n315323N0350207E 315328N0350208E 315329N0350202E\n315336N0350201E 315336N0350210E 315346N0350213E\n315348N0350211E 315353N0350212E\nCLSD FM GND UP TO 1,050FT AMSL.\nCTN ADZ.\nF) GND G) 1100FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2202/26",
       "location": "LLLL",
