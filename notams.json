@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-20T10:20:54.183Z",
+  "generatedAt": "2026-10-20T10:30:53.906Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 118,
+  "count": 119,
   "notams": [
+    {
+      "id": "C2205/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072131",
+      "fromDate": "2026-10-28T03:30:00Z",
+      "toDate": "2026-10-29T03:30:00Z",
+      "createDate": "2026-10-20T10:27:19Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "050",
+        "positionToken": "3311N03544E004",
+        "position": {
+          "lat": 33.183333,
+          "lon": 35.733333,
+          "radiusNm": 4
+        }
+      },
+      "eText": "AN AREA BTN FLW PSN CLSD TO ALL FLT, INCLUDING AGRICULTURE FLT FM GND UP TO 5000FT AMSL 331338N0354511E 331124N0354425E 331112N0354045E 331008N0354043E 330912N0354112E 330751N0354518E 330927N0354653E 331225N0354755E 331312N0354732E 331341N0354631E CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 33.183333,
+        "lon": 35.733333,
+        "radiusNm": 4,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2205/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/050/3311N03544E004\nA) LLLL B) 2610280330 C) 2610290330\nE) AN AREA BTN FLW PSN CLSD TO ALL FLT,\nINCLUDING AGRICULTURE FLT FM GND UP TO 5000FT AMSL\n331338N0354511E 331124N0354425E 331112N0354045E\n331008N0354043E 330912N0354112E 330751N0354518E\n330927N0354653E 331225N0354755E 331312N0354732E\n331341N0354631E\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2204/26",
       "location": "LLLL",
