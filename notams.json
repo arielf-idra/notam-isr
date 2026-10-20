@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-20T11:20:55.794Z",
+  "generatedAt": "2026-10-20T11:30:53.563Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 119,
+  "count": 120,
   "notams": [
+    {
+      "id": "C2206/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072147",
+      "fromDate": "2026-10-27T10:00:00Z",
+      "toDate": "2026-10-28T03:30:00Z",
+      "createDate": "2026-10-20T11:21:24Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "050",
+        "positionToken": "3310N03541E004",
+        "position": {
+          "lat": 33.166667,
+          "lon": 35.683333,
+          "radiusNm": 4
+        }
+      },
+      "eText": "AN AREA BTN FLW PSN CLSD TO ALL FLT, INCLUDING AGRICULTURE FLT FM GND UP TO 5000FT AMSL 331102N0353744E 331212N0353916E 331126N0354407E 330830N0354341E 330815N0353754E CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 33.166667,
+        "lon": 35.683333,
+        "radiusNm": 4,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2206/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/050/3310N03541E004\nA) LLLL B) 2610271000 C) 2610280330\nE) AN AREA BTN FLW PSN CLSD TO ALL FLT,\nINCLUDING AGRICULTURE FLT FM GND UP TO 5000FT AMSL\n331102N0353744E 331212N0353916E 331126N0354407E\n330830N0354341E 330815N0353754E\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2205/26",
       "location": "LLLL",
