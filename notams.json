@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-20T09:50:51.555Z",
+  "generatedAt": "2026-10-20T10:00:50.988Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 118,
+  "count": 119,
   "notams": [
+    {
+      "id": "C2204/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072115",
+      "fromDate": "2026-10-21T06:30:00Z",
+      "toDate": "2026-10-21T14:30:00Z",
+      "createDate": "2026-10-20T09:51:16Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "015",
+        "positionToken": "3243N03524E001",
+        "position": {
+          "lat": 32.716667,
+          "lon": 35.4,
+          "radiusNm": 1
+        }
+      },
+      "eText": "UAS ACT WILL TAKE PLACE AT KFAR-TAVOR. AN AREA WI 1.1NM RADIUS CENTERED ON PSN 324241N0352429E CLSD FM GND UP TO 1,500FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "1500FT AMSL",
+      "position": {
+        "lat": 32.711389,
+        "lon": 35.408056,
+        "radiusNm": 1.1,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2204/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/015/3243N03524E001\nA) LLLL B) 2610210630 C) 2610211430\nD) 0630-0730 1330-1430\nE) UAS ACT WILL TAKE PLACE AT KFAR-TAVOR.\nAN AREA WI 1.1NM RADIUS CENTERED ON PSN 324241N0352429E\nCLSD FM GND UP TO 1,500FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 1500FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2203/26",
       "location": "LLLL",
