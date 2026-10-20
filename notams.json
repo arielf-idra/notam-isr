@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-20T15:41:00.316Z",
+  "generatedAt": "2026-10-20T15:50:55.138Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 121,
+  "count": 122,
   "notams": [
+    {
+      "id": "C2207/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072213",
+      "fromDate": "2026-10-21T14:00:00Z",
+      "toDate": "2026-10-22T00:01:00Z",
+      "createDate": "2026-10-20T15:43:42Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "040",
+        "positionToken": "3233N03517E002",
+        "position": {
+          "lat": 32.55,
+          "lon": 35.283333,
+          "radiusNm": 2
+        }
+      },
+      "eText": "UAS ACT WILL TAKE PLACE S OF LLMG. AN AREA WI 1.5NM RADIUS CENTERED ON PSN 323256N0351645E CLSD FM GND UP TO 4,000FT AMSL TO ALL FLT. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "4000FT AMSL",
+      "position": {
+        "lat": 32.548889,
+        "lon": 35.279167,
+        "radiusNm": 1.5,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2207/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/040/3233N03517E002\nA) LLLL B) 2610211400 C) 2610220001\nE) UAS ACT WILL TAKE PLACE S OF LLMG.\nAN AREA WI 1.5NM RADIUS CENTERED ON PSN 323256N0351645E\nCLSD FM GND UP TO 4,000FT AMSL TO ALL FLT.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 4000FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "A0840/26",
       "location": "LLLL",
