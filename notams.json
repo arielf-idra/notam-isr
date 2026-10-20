@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-20T16:40:56.353Z",
+  "generatedAt": "2026-10-20T16:50:57.362Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 122,
+  "count": 121,
   "notams": [
+    {
+      "id": "A0842/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072230",
+      "fromDate": "2026-10-21T14:00:00Z",
+      "toDate": "2026-10-22T23:59:00Z",
+      "createDate": "2026-10-20T16:47:48Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QANLC",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "050",
+        "upperLimitFl": "060",
+        "positionToken": "3230N03510E008",
+        "position": {
+          "lat": 32.5,
+          "lon": 35.166667,
+          "radiusNm": 8
+        }
+      },
+      "eText": "ATS RTE J14 CLSD BTN ZACCI-MEGID.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.5,
+        "lon": 35.166667,
+        "radiusNm": 8,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0842/26 NOTAMN\nQ) LLLL/QANLC/I /NBO/E /050/060/3230N03510E008\nA) LLLL B) 2610211400 C) 2610222359\nE) ATS RTE J14 CLSD BTN ZACCI-MEGID.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2207/26",
       "location": "LLLL",
@@ -43,47 +84,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2207/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/040/3233N03517E002\nA) LLLL B) 2610211400 C) 2610220001\nE) UAS ACT WILL TAKE PLACE S OF LLMG.\nAN AREA WI 1.5NM RADIUS CENTERED ON PSN 323256N0351645E\nCLSD FM GND UP TO 4,000FT AMSL TO ALL FLT.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 4000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0840/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2072212",
-      "fromDate": "2026-10-21T14:00:00Z",
-      "toDate": "2026-10-22T00:01:00Z",
-      "createDate": "2026-10-20T15:35:42Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QANLC",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "050",
-        "upperLimitFl": "060",
-        "positionToken": "3230N03510E008",
-        "position": {
-          "lat": 32.5,
-          "lon": 35.166667,
-          "radiusNm": 8
-        }
-      },
-      "eText": "ATS RTE J14 CLSD BTN ZACCI-MEGID.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.5,
-        "lon": 35.166667,
-        "radiusNm": 8,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0840/26 NOTAMN\nQ) LLLL/QANLC/I /NBO/E /050/060/3230N03510E008\nA) LLLL B) 2610211400 C) 2610220001\nE) ATS RTE J14 CLSD BTN ZACCI-MEGID.)",
       "fullTextAvailable": true
     },
     {
@@ -863,47 +863,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2181/26 NOTAMN\nQ) LLLL/QOATT/IV/BO /AE/000/999/3236N03514E005\nA) LLMG B) 2611260001 C) 2612092359\nE) TRIGGER NOTAM - AIRAC DOM AIP AMDT 02/26 WEF 26 NOV 2026\nHEL LDG AND TAX PROCEDURES UPDATED.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0834/26",
-      "location": "LLER",
-      "airfield": "Ramon",
-      "msgNumber": "2070353",
-      "fromDate": "2026-10-19T10:05:00Z",
-      "toDate": "2026-10-20T16:40:00Z",
-      "createDate": "2026-10-15T17:17:56Z",
-      "affected": [
-        "LLER"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QFALC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "2944N03501E005",
-        "position": {
-          "lat": 29.733333,
-          "lon": 35.016667,
-          "radiusNm": 5
-        }
-      },
-      "eText": "AD CLSD TO ALL FLT DUE WIP. IN CASE OF EMERG AVBL WI 10MIN PPR FM ATC.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 29.733333,
-        "lon": 35.016667,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0834/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/2944N03501E005\nA) LLER B) 2610191005 C) 2610201640\nD) 19 1005-1105, 1205-1255, 1350-1445, 1545-1640, 20 1205-1255,\n1350-1445, 1545-1640\nE) AD CLSD TO ALL FLT DUE WIP.\nIN CASE OF EMERG AVBL WI 10MIN PPR FM ATC.)",
       "fullTextAvailable": true
     },
     {
