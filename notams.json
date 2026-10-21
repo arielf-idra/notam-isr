@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-21T19:50:56.722Z",
+  "generatedAt": "2026-10-21T20:10:54.654Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 124,
+  "count": 123,
   "notams": [
     {
       "id": "C2222/26",
@@ -699,47 +699,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2203/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/011/3154N03502E001\nA) LLLL B) 2611010001 C) 2611302159\nE) UAS/UAV ACT WILL TAKE PLACE AT MACCABIM, FM GND UP TO 50M AGL.\nAN AREA BTN FLW PSN 315351N0350218E 315311N0350222E\n315311N0350220E 315320N0350216E 315319N0350210E\n315323N0350207E 315328N0350208E 315329N0350202E\n315336N0350201E 315336N0350210E 315346N0350213E\n315348N0350211E 315353N0350212E\nCLSD FM GND UP TO 1,050FT AMSL.\nCTN ADZ.\nF) GND G) 1100FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2202/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2072085",
-      "fromDate": "2026-10-21T17:30:00Z",
-      "toDate": "2026-10-21T20:00:00Z",
-      "createDate": "2026-10-20T07:41:07Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "004",
-        "positionToken": "3158N03445E001",
-        "position": {
-          "lat": 31.966667,
-          "lon": 34.75,
-          "radiusNm": 1
-        }
-      },
-      "eText": "UAS/UAV AIR-SHOW WILL TAKE PLACE AT RISHON LEZION. AN AREA WI 0.17NM RADIUS CENTERED ON PSN 315832E0344954E CLSD FM GND UP TO 50M AGL 360FT AMSL. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "360FT AMSL",
-      "position": {
-        "lat": 31.966667,
-        "lon": 34.75,
-        "radiusNm": 1,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2202/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/004/3158N03445E001\nA) LLLL B) 2610211730 C) 2610212000\nE) UAS/UAV AIR-SHOW WILL TAKE PLACE AT RISHON LEZION.\nAN AREA WI 0.17NM RADIUS CENTERED ON PSN\n315832E0344954E CLSD FM GND UP TO 50M AGL 360FT AMSL.\nCTN ADZ.\nF) GND G) 360FT AMSL)",
       "fullTextAvailable": true
     },
     {
