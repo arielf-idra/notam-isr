@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-21T08:00:52.661Z",
+  "generatedAt": "2026-10-21T08:10:57.446Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 122,
   "notams": [
+    {
+      "id": "C2209/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072473",
+      "fromDate": "2026-10-29T06:00:00Z",
+      "toDate": "2026-10-29T13:00:00Z",
+      "createDate": "2026-10-21T08:05:12Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWCLW",
+        "traffic": "IV",
+        "purpose": "M",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "018",
+        "positionToken": "3136N03436E001",
+        "position": {
+          "lat": 31.6,
+          "lon": 34.6,
+          "radiusNm": 1
+        }
+      },
+      "eText": "CAPTIVE BALLOON WILL TAKE PLACE AT GVARAM. AN AREA WI 0.4NM RADIUS CENTERED ON PSN 313612N0343627E CLSD FM GND UP TO 1,800FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "1800FT AMSL",
+      "position": {
+        "lat": 31.603333,
+        "lon": 34.6075,
+        "radiusNm": 0.4,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2209/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/018/3136N03436E001\nA) LLLL B) 2610290600 C) 2610291300\nE) CAPTIVE BALLOON WILL TAKE PLACE AT GVARAM.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 313612N0343627E\nCLSD FM GND UP TO 1,800FT AMSL, TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 1800FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2208/26",
       "location": "LLLL",
@@ -1970,47 +2011,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2137/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/020/3306N03535E001\nA) LLLL B) 2610191600 C) 2610230200\nD) DAILY 0001-0200 1600-2359\nE) CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE DRG NGT,\nFM GND UP TO 400M AGL. LIT AND DAY MARKED.\nAN AREA WI 0.54NM RADIUS CENTERED ON PSN 330622N0353454E\nCLSD FM GND UP TO 2,000FT AMSL.\nIN CASE OF EMERG LOWERED WI 10MIN.\nCTN ADZ.\nF) GND G) 2000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2136/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2069069",
-      "fromDate": "2026-10-20T03:30:00Z",
-      "toDate": "2026-10-21T08:00:00Z",
-      "createDate": "2026-10-12T10:17:25Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWCLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "022",
-        "positionToken": "3307N03534E001",
-        "position": {
-          "lat": 33.116667,
-          "lon": 35.566667,
-          "radiusNm": 1
-        }
-      },
-      "eText": "CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE, FM GND UP TO 400M AGL. LIT AND DAY MARKED. AN AREA WI 0.54NM RADIUS CENTERED ON PSN 330646N0353414E CLSD FM GND UP TO 2,200FT AMSL. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. IN CASE OF EMERG LOWERED WI 10MIN. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "2200FT AMSL",
-      "position": {
-        "lat": 33.112778,
-        "lon": 35.570556,
-        "radiusNm": 0.54,
-        "source": "e_text"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2136/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/022/3307N03534E001\nA) LLLL B) 2610200330 C) 2610210800\nD) DAILY 0330-0800\nE) CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE,\nFM GND UP TO 400M AGL. LIT AND DAY MARKED.\nAN AREA WI 0.54NM RADIUS CENTERED ON PSN 330646N0353414E\nCLSD FM GND UP TO 2,200FT AMSL.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nIN CASE OF EMERG LOWERED WI 10MIN.\nCTN ADZ.\nF) GND G) 2200FT AMSL)",
       "fullTextAvailable": true
     },
     {
