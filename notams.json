@@ -1,17 +1,58 @@
 {
-  "generatedAt": "2026-10-21T13:31:54.783Z",
+  "generatedAt": "2026-10-21T13:40:59.922Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 125,
+  "count": 127,
   "notams": [
     {
-      "id": "C2215/26",
+      "id": "C2219/26",
+      "location": "LLMZ",
+      "airfield": "Metzada",
+      "msgNumber": "2072569",
+      "fromDate": "2026-10-23T04:15:00Z",
+      "toDate": "2026-10-23T13:10:00Z",
+      "createDate": "2026-10-21T13:39:39Z",
+      "affected": [
+        "LLMZ"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3120N03523E005",
+        "position": {
+          "lat": 31.333333,
+          "lon": 35.383333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AIRSTRIP CLSD TO ALL FLT, EXC PARTICIPATING ACFT IN FLY-PAST.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.333333,
+        "lon": 35.383333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2219/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3120N03523E005\nA) LLMZ B) 2610230415 C) 2610231310\nD) 0415-0630 1145-1310\nE) AIRSTRIP CLSD TO ALL FLT, EXC PARTICIPATING ACFT IN FLY-PAST.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2218/26",
       "location": "LLRS",
       "airfield": "Rishon Letzion",
-      "msgNumber": "2072565",
+      "msgNumber": "2072568",
       "fromDate": "2026-10-23T03:30:00Z",
       "toDate": "2026-10-23T14:00:00Z",
-      "createDate": "2026-10-21T13:29:38Z",
+      "createDate": "2026-10-21T13:35:39Z",
       "affected": [
         "LLRS"
       ],
@@ -30,7 +71,7 @@
           "radiusNm": 5
         }
       },
-      "eText": "AIRSTRIP CLSD TO ALL FLT, EXP PARTICIPATING ACFT IN FLY-PAST.",
+      "eText": "AIRSTRIP CLSD TO ALL FLT, EXC PARTICIPATING ACFT IN FLY-PAST.",
       "lowerLimit": null,
       "upperLimit": null,
       "position": {
@@ -42,7 +83,48 @@
       "administrative": false,
       "notamType": "N",
       "replaces": null,
-      "rawText": "(C2215/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3158N03445E005\nA) LLRS B) 2610230330 C) 2610231400\nD) 0330-0515 1220-1400\nE) AIRSTRIP CLSD TO ALL FLT, EXP PARTICIPATING ACFT IN FLY-PAST.)",
+      "rawText": "(C2218/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3158N03445E005\nA) LLRS B) 2610230330 C) 2610231400\nD) 0330-0515 1220-1400\nE) AIRSTRIP CLSD TO ALL FLT, EXC PARTICIPATING ACFT IN FLY-PAST.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2216/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072566",
+      "fromDate": "2026-10-23T03:45:00Z",
+      "toDate": "2026-10-23T14:00:00Z",
+      "createDate": "2026-10-21T13:33:39Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "030",
+        "positionToken": "3126N03522E018",
+        "position": {
+          "lat": 31.433333,
+          "lon": 35.366667,
+          "radiusNm": 18
+        }
+      },
+      "eText": "ULTRALIGHT BUBBLE CLSD, EXC PARTICIPATING ACFT IN FLY-PAST SHALEM (BSHLM), YAM-HAMELCH (BYMLH), EIN-GEDI (BNGDI).",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.433333,
+        "lon": 35.366667,
+        "radiusNm": 18,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2216/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/030/3126N03522E018\nA) LLLL B) 2610230345 C) 2610231400\nD) 0345-0615 1200-1400\nE) ULTRALIGHT BUBBLE CLSD, EXC PARTICIPATING ACFT IN FLY-PAST\nSHALEM (BSHLM), YAM-HAMELCH (BYMLH), EIN-GEDI (BNGDI).)",
       "fullTextAvailable": true
     },
     {
