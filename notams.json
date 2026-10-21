@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-21T08:30:50.374Z",
+  "generatedAt": "2026-10-21T08:40:55.951Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 122,
+  "count": 123,
   "notams": [
+    {
+      "id": "C2210/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072479",
+      "fromDate": "2026-10-21T08:37:00Z",
+      "toDate": "2026-12-31T21:59:00Z",
+      "createDate": "2026-10-21T08:39:15Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "009",
+        "positionToken": "3211N03455E001",
+        "position": {
+          "lat": 32.183333,
+          "lon": 34.916667,
+          "radiusNm": 1
+        }
+      },
+      "eText": "UAS ACT WILL TAKE PLACE AT KFAR-SABA WI LLHZ TRG AREA NR 3, FM GND UP TO 400FT AGL. AN AREA BTN FLW PSN CLSD FM GND UP TO 900FT AMSL 321038N0345552E 321015N0345531E 321023N0345500E 321100N0345511E 321112N0345414E 321144N0345442E 321143N0345448E 321141N0345447E 321132N0345511E 321126N0345509E 321122N0345510E 321114N0345542E 321045N0345541E. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "900FT AMSL",
+      "position": {
+        "lat": 32.183333,
+        "lon": 34.916667,
+        "radiusNm": 1,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2210/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/009/3211N03455E001\nA) LLLL B) 2610210837 C) 2612312159\nE) UAS ACT WILL TAKE PLACE AT KFAR-SABA WI LLHZ TRG AREA NR 3,\nFM GND UP TO 400FT AGL.\nAN AREA BTN FLW PSN CLSD FM GND UP TO 900FT AMSL\n321038N0345552E 321015N0345531E 321023N0345500E\n321100N0345511E 321112N0345414E 321144N0345442E\n321143N0345448E 321141N0345447E 321132N0345511E\n321126N0345509E 321122N0345510E 321114N0345542E\n321045N0345541E.\nCTN ADZ.\nF) GND G) 900FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2209/26",
       "location": "LLLL",
