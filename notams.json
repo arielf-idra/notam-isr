@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-21T13:00:56.555Z",
+  "generatedAt": "2026-10-21T13:10:51.390Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 124,
+  "count": 123,
   "notams": [
     {
       "id": "C2213/26",
@@ -1027,47 +1027,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2183/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/020/3242N03521E006\nA) LLLL B) 2610210630 C) 2610211450\nD) 0630-0730 1350-1450\nE) ULTRALIGHT BUBBLE A-WEST (BMGWA) CLSD.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2182/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2071353",
-      "fromDate": "2026-10-21T12:20:00Z",
-      "toDate": "2026-10-21T13:00:00Z",
-      "createDate": "2026-10-18T08:13:14Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "035",
-        "upperLimitFl": "040",
-        "positionToken": "3119N03512E014",
-        "position": {
-          "lat": 31.316667,
-          "lon": 35.2,
-          "radiusNm": 14
-        }
-      },
-      "eText": "CVFR RTE CLSD, TFC WILL BE DIVERTED VIA MZDOT SOKET-MYTAR-TARAD-ARRAD-HATRU-ZOHAR. MMORR-ARRAD-LLMZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.316667,
-        "lon": 35.2,
-        "radiusNm": 14,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2182/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /035/040/3119N03512E014\nA) LLLL B) 2610211220 C) 2610211300\nE) CVFR RTE CLSD, TFC WILL BE DIVERTED VIA MZDOT\nSOKET-MYTAR-TARAD-ARRAD-HATRU-ZOHAR.\nMMORR-ARRAD-LLMZ.)",
       "fullTextAvailable": true
     },
     {
