@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-21T12:50:54.952Z",
+  "generatedAt": "2026-10-21T13:00:56.555Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 123,
+  "count": 124,
   "notams": [
+    {
+      "id": "C2213/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072556",
+      "fromDate": "2026-10-23T04:15:00Z",
+      "toDate": "2026-10-23T05:30:00Z",
+      "createDate": "2026-10-21T12:55:35Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "005",
+        "upperLimitFl": "018",
+        "positionToken": "3200N03459E012",
+        "position": {
+          "lat": 32,
+          "lon": 34.983333,
+          "radiusNm": 12
+        }
+      },
+      "eText": "ULTRALIGHT RTE CLSD, EXC PARTICIPATING ACFT IN FLY-PAST MEYAL-ELYAU-ZNYMN-YARHV-SSOMR-MCZVA-LAPID-REUTE- HORON-SHARG.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32,
+        "lon": 34.983333,
+        "radiusNm": 12,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2213/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /005/018/3200N03459E012\nA) LLLL B) 2610230415 C) 2610230530\nE) ULTRALIGHT RTE CLSD, EXC PARTICIPATING ACFT IN FLY-PAST\nMEYAL-ELYAU-ZNYMN-YARHV-SSOMR-MCZVA-LAPID-REUTE-\nHORON-SHARG.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2212/26",
       "location": "LLLL",
