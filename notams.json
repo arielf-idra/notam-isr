@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-21T18:00:56.828Z",
+  "generatedAt": "2026-10-21T18:10:53.653Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 125,
+  "count": 124,
   "notams": [
     {
       "id": "C2222/26",
@@ -1396,47 +1396,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2170/26 NOTAMN\nQ) LLLL/QARLT/IV/NBO/E /008/012/3155N03446E008\nA) LLLL B) 2610220415 C) 2610221000\nD) 0415-0530 0600-0650 0900-1000\nE) CVFR AND HEL RTE CLSD AT 1,200FT,\nAVBL BIDIRECTIONAL AT 800FT AMSL ONLY\nTYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2169/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2070183",
-      "fromDate": "2026-10-21T09:00:00Z",
-      "toDate": "2026-10-21T18:00:00Z",
-      "createDate": "2026-10-15T07:49:11Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLT",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "008",
-        "upperLimitFl": "012",
-        "positionToken": "3155N03446E008",
-        "position": {
-          "lat": 31.916667,
-          "lon": 34.766667,
-          "radiusNm": 8
-        }
-      },
-      "eText": "CVFR AND HEL RTE CLSD AT 1,200FT, AVBL BIDIRECTIONAL AT 800FT AMSL ONLY TYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.916667,
-        "lon": 34.766667,
-        "radiusNm": 8,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2169/26 NOTAMN\nQ) LLLL/QARLT/IV/NBO/E /008/012/3155N03446E008\nA) LLLL B) 2610210900 C) 2610211800\nD) 0900-1000 1700-1800\nE) CVFR AND HEL RTE CLSD AT 1,200FT,\nAVBL BIDIRECTIONAL AT 800FT AMSL ONLY\nTYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.)",
       "fullTextAvailable": true
     },
     {
