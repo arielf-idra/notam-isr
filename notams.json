@@ -1,9 +1,91 @@
 {
-  "generatedAt": "2026-10-21T13:20:55.547Z",
+  "generatedAt": "2026-10-21T13:31:54.783Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 123,
+  "count": 125,
   "notams": [
+    {
+      "id": "C2215/26",
+      "location": "LLRS",
+      "airfield": "Rishon Letzion",
+      "msgNumber": "2072565",
+      "fromDate": "2026-10-23T03:30:00Z",
+      "toDate": "2026-10-23T14:00:00Z",
+      "createDate": "2026-10-21T13:29:38Z",
+      "affected": [
+        "LLRS"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3158N03445E005",
+        "position": {
+          "lat": 31.966667,
+          "lon": 34.75,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AIRSTRIP CLSD TO ALL FLT, EXP PARTICIPATING ACFT IN FLY-PAST.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.966667,
+        "lon": 34.75,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2215/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3158N03445E005\nA) LLRS B) 2610230330 C) 2610231400\nD) 0330-0515 1220-1400\nE) AIRSTRIP CLSD TO ALL FLT, EXP PARTICIPATING ACFT IN FLY-PAST.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2214/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072564",
+      "fromDate": "2026-10-23T03:30:00Z",
+      "toDate": "2026-10-23T14:00:00Z",
+      "createDate": "2026-10-21T13:25:38Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "005",
+        "upperLimitFl": "050",
+        "positionToken": "3143N03506E023",
+        "position": {
+          "lat": 31.716667,
+          "lon": 35.1,
+          "radiusNm": 23
+        }
+      },
+      "eText": "ULTRALIGHT RTE CLSD, EXC PARTICIPATING ACFT IN FLY-PAST LLRS-SOREK-BOVED-IANES-SIRNI-NSHRM-AYLON-LTRUN-SHARG- SORES-TZUBA-KENED-HOMMA-DUMIM-YREHO-ALMOG-ZUKIM- SHALM-ENGDE-LLMZ. NTAIM-MNSZN. SIRNI-MNSZN-RSNIM-IKKEA-MEHOL-LLRS. HOMMA-MARSB. CVFR RTE CLSD, EXC PARTICIPATING ACFT IN FLY-PAST LLRS-NTAIM-SIRNI-NSHRM-AYLON-LTRUN-SHARG-SORES-HAREL- HNINA-ANATA-DUMIM-UREHO-ALMOG-ZUKIM-SHALM-ENGDI-LLMZ. MIHMS-DUMIM. YRIHO-MIHMS-ANATA.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.716667,
+        "lon": 35.1,
+        "radiusNm": 23,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2214/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /005/050/3143N03506E023\nA) LLLL B) 2610230330 C) 2610231400\nD) 0330-0615 1200-1400\nE) ULTRALIGHT RTE CLSD, EXC PARTICIPATING ACFT IN FLY-PAST\nLLRS-SOREK-BOVED-IANES-SIRNI-NSHRM-AYLON-LTRUN-SHARG-\nSORES-TZUBA-KENED-HOMMA-DUMIM-YREHO-ALMOG-ZUKIM-\nSHALM-ENGDE-LLMZ.\nNTAIM-MNSZN.\nSIRNI-MNSZN-RSNIM-IKKEA-MEHOL-LLRS.\nHOMMA-MARSB.\nCVFR RTE CLSD, EXC PARTICIPATING ACFT IN FLY-PAST\nLLRS-NTAIM-SIRNI-NSHRM-AYLON-LTRUN-SHARG-SORES-HAREL-\nHNINA-ANATA-DUMIM-UREHO-ALMOG-ZUKIM-SHALM-ENGDI-LLMZ.\nMIHMS-DUMIM.\nYRIHO-MIHMS-ANATA.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2213/26",
       "location": "LLLL",
