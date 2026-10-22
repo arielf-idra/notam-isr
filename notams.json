@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-22T11:01:50.965Z",
+  "generatedAt": "2026-10-22T11:10:58.733Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 128,
+  "count": 127,
   "notams": [
     {
       "id": "C2240/26",
@@ -617,47 +617,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0843/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2610260600 C) 2610261100\nE) RWY 12/30 CLSD EXC RWY INT DUE WIP.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2222/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2072580",
-      "fromDate": "2026-10-23T03:30:00Z",
-      "toDate": "2026-10-23T06:15:00Z",
-      "createDate": "2026-10-21T14:01:42Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "020",
-        "positionToken": "3142N03457E010",
-        "position": {
-          "lat": 31.7,
-          "lon": 34.95,
-          "radiusNm": 10
-        }
-      },
-      "eText": "ULTRALIGHT BUBBLE BET-GOVRIN NORTH (BGOVN) AND SOUTH (BGOVS) CLSD TO ALL FLT, EXC PARTICIPATING ACFT IN FLY-PAST.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.7,
-        "lon": 34.95,
-        "radiusNm": 10,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2222/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/020/3142N03457E010\nA) LLLL B) 2610230330 C) 2610230615\nE) ULTRALIGHT BUBBLE BET-GOVRIN NORTH (BGOVN) AND SOUTH (BGOVS)\nCLSD TO ALL FLT, EXC PARTICIPATING ACFT IN FLY-PAST.)",
       "fullTextAvailable": true
     },
     {
