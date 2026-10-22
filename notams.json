@@ -1,9 +1,173 @@
 {
-  "generatedAt": "2026-10-22T09:51:34.694Z",
+  "generatedAt": "2026-10-22T10:12:42.177Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 128,
+  "count": 131,
   "notams": [
+    {
+      "id": "C2230/26",
+      "location": "LLHF",
+      "airfield": "Heftzibah",
+      "msgNumber": "2072887",
+      "fromDate": "2026-10-25T10:00:00Z",
+      "toDate": "2026-10-25T19:00:00Z",
+      "createDate": "2026-10-22T10:09:19Z",
+      "affected": [
+        "LLHF"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3232N03526E005",
+        "position": {
+          "lat": 32.533333,
+          "lon": 35.433333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AIRSTRIP CLSD TO ALL FLT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.533333,
+        "lon": 35.433333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2230/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3232N03526E005\nA) LLHF B) 2610251000 C) 2610251900\nD) 25 1000-1400 1500-1900\nE) AIRSTRIP CLSD TO ALL FLT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2229/26",
+      "location": "LLFK",
+      "airfield": "Fiq (El-Al)",
+      "msgNumber": "2072884",
+      "fromDate": "2026-10-25T10:00:00Z",
+      "toDate": "2026-10-26T19:00:00Z",
+      "createDate": "2026-10-22T10:03:18Z",
+      "affected": [
+        "LLFK"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3247N03543E005",
+        "position": {
+          "lat": 32.783333,
+          "lon": 35.716667,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AIRSTRIP CLSD TO ALL FLT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.783333,
+        "lon": 35.716667,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2229/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3247N03543E005\nA) LLFK B) 2610251000 C) 2610261900\nD) 25 1000-1400 1500-1900, 26 0500-0900 1000-1400 1500-1900\nE) AIRSTRIP CLSD TO ALL FLT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2228/26",
+      "location": "LLMZ",
+      "airfield": "Metzada",
+      "msgNumber": "2072883",
+      "fromDate": "2026-10-25T10:00:00Z",
+      "toDate": "2026-10-25T19:00:00Z",
+      "createDate": "2026-10-22T09:59:18Z",
+      "affected": [
+        "LLMZ"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3120N03523E005",
+        "position": {
+          "lat": 31.333333,
+          "lon": 35.383333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AIRSTRIP CLSD TO ALL FLT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.333333,
+        "lon": 35.383333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2228/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3120N03523E005\nA) LLMZ B) 2610251000 C) 2610251900\nD) 1000-1400 1500-1900\nE) AIRSTRIP CLSD TO ALL FLT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0846/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072882",
+      "fromDate": "2026-10-25T10:00:00Z",
+      "toDate": "2026-10-25T19:00:00Z",
+      "createDate": "2026-10-22T09:57:17Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QANLC",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "040",
+        "upperLimitFl": "070",
+        "positionToken": "3240N03516E026",
+        "position": {
+          "lat": 32.666667,
+          "lon": 35.266667,
+          "radiusNm": 26
+        }
+      },
+      "eText": "ATS RTE J14 CLSD.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.666667,
+        "lon": 35.266667,
+        "radiusNm": 26,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0846/26 NOTAMN\nQ) LLLL/QANLC/I /NBO/E /040/070/3240N03516E026\nA) LLLL B) 2610251000 C) 2610251900\nD) 1000-1400 1500-1900\nE) ATS RTE J14 CLSD.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2227/26",
       "location": "LLLL",
@@ -1519,47 +1683,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0833/26 NOTAMN\nQ) LLLL/QNMAS/IV/BO /E /000/999/3117N03443E025\nA) LLLL B) 2610250600 C) 2610251000\nE) VOR/DME BSA FREQ 114.300MHZ WITHDRAWN FOR MAINT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2170/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2070192",
-      "fromDate": "2026-10-22T04:15:00Z",
-      "toDate": "2026-10-22T10:00:00Z",
-      "createDate": "2026-10-15T07:53:12Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLT",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "008",
-        "upperLimitFl": "012",
-        "positionToken": "3155N03446E008",
-        "position": {
-          "lat": 31.916667,
-          "lon": 34.766667,
-          "radiusNm": 8
-        }
-      },
-      "eText": "CVFR AND HEL RTE CLSD AT 1,200FT, AVBL BIDIRECTIONAL AT 800FT AMSL ONLY TYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.916667,
-        "lon": 34.766667,
-        "radiusNm": 8,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2170/26 NOTAMN\nQ) LLLL/QARLT/IV/NBO/E /008/012/3155N03446E008\nA) LLLL B) 2610220415 C) 2610221000\nD) 0415-0530 0600-0650 0900-1000\nE) CVFR AND HEL RTE CLSD AT 1,200FT,\nAVBL BIDIRECTIONAL AT 800FT AMSL ONLY\nTYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.)",
       "fullTextAvailable": true
     },
     {
