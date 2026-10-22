@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-22T10:12:42.177Z",
+  "generatedAt": "2026-10-22T10:21:01.080Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 131,
   "notams": [
+    {
+      "id": "C2235/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072893",
+      "fromDate": "2026-10-26T05:00:00Z",
+      "toDate": "2026-10-26T19:00:00Z",
+      "createDate": "2026-10-22T10:19:21Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "005",
+        "upperLimitFl": "020",
+        "positionToken": "3248N03537E008",
+        "position": {
+          "lat": 32.8,
+          "lon": 35.616667,
+          "radiusNm": 8
+        }
+      },
+      "eText": "ULTRALIGHT RTE CLSD ZBTZD-ENGEV-ZEMAH-MIGDL.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.8,
+        "lon": 35.616667,
+        "radiusNm": 8,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2235/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /005/020/3248N03537E008\nA) LLLL B) 2610260500 C) 2610261900\nD) 0500-0900 1000-1400 1500-1900\nE) ULTRALIGHT RTE CLSD\nZBTZD-ENGEV-ZEMAH-MIGDL.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2230/26",
       "location": "LLHF",
@@ -576,47 +617,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2221/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/080/3120N03523E003\nA) LLLL B) 2610221000 C) 2610231100\nD) 22 1000-1530, 23 0630-1100\nE) PJE AIRSPACE METZADA ACT FM 8,000FT AMSL.\nOPR BY PPR FM ATC ONLY.\nF) GND G) 8000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2219/26",
-      "location": "LLMZ",
-      "airfield": "Metzada",
-      "msgNumber": "2072569",
-      "fromDate": "2026-10-23T04:15:00Z",
-      "toDate": "2026-10-23T13:10:00Z",
-      "createDate": "2026-10-21T13:39:39Z",
-      "affected": [
-        "LLMZ"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QFALC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3120N03523E005",
-        "position": {
-          "lat": 31.333333,
-          "lon": 35.383333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "AIRSTRIP CLSD TO ALL FLT, EXC PARTICIPATING ACFT IN FLY-PAST.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.333333,
-        "lon": 35.383333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2219/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3120N03523E005\nA) LLMZ B) 2610230415 C) 2610231310\nD) 0415-0630 1145-1310\nE) AIRSTRIP CLSD TO ALL FLT, EXC PARTICIPATING ACFT IN FLY-PAST.)",
       "fullTextAvailable": true
     },
     {
