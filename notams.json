@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-22T11:32:53.721Z",
+  "generatedAt": "2026-10-22T11:40:53.745Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 129,
+  "count": 130,
   "notams": [
+    {
+      "id": "C2248/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072928",
+      "fromDate": "2026-10-26T04:00:00Z",
+      "toDate": "2026-10-26T06:30:00Z",
+      "createDate": "2026-10-22T11:37:29Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "035",
+        "upperLimitFl": "045",
+        "positionToken": "3035N03453E007",
+        "position": {
+          "lat": 30.583333,
+          "lon": 34.883333,
+          "radiusNm": 7
+        }
+      },
+      "eText": "CVFR RTE CLSD  RUHOT-MESAR.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.583333,
+        "lon": 34.883333,
+        "radiusNm": 7,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2248/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /035/045/3035N03453E007\nA) LLLL B) 2610260400 C) 2610260630\nE) CVFR RTE CLSD  RUHOT-MESAR.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2247/26",
       "location": "LLLL",
