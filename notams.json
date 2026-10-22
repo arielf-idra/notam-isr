@@ -1,9 +1,132 @@
 {
-  "generatedAt": "2026-10-22T11:51:09.037Z",
+  "generatedAt": "2026-10-22T12:00:52.640Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 130,
+  "count": 133,
   "notams": [
+    {
+      "id": "C2250/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072939",
+      "fromDate": "2026-10-22T11:55:00Z",
+      "toDate": "2027-01-31T23:59:00Z",
+      "createDate": "2026-10-22T11:55:30Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWUXX",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3124N03520E121",
+        "position": {
+          "lat": 31.4,
+          "lon": 35.333333,
+          "radiusNm": 121
+        }
+      },
+      "eText": "OPS OF FIBER OPTIC GUIDED UAS AND THE USE OF CELLULAR COMMUNICATIONS IN UAS OPS IS PROHIBIRED WITHIN TEL AVIV FIR. FOR FURTHER INFORMATION PLEASE REFER TO CAA SITE - HTTPS //WWW.GOV.IL/HE/PAGES/OPTICAL-FIBER-SIM-PROHUBITION.)",
+      "lowerLimit": "GND",
+      "upperLimit": "UNL",
+      "position": {
+        "lat": 31.4,
+        "lon": 35.333333,
+        "radiusNm": 121,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2250/26 NOTAMN\nQ) LLLL/QWUXX/IV/NBO/W /000/999/3124N03520E121\nA) LLLL B) 2610221155 C) 2701312359\nE) OPS OF FIBER OPTIC GUIDED UAS AND THE USE OF CELLULAR\nCOMMUNICATIONS IN UAS OPS IS PROHIBIRED WITHIN TEL AVIV\nFIR. FOR FURTHER INFORMATION PLEASE REFER TO CAA SITE -\nHTTPS //WWW.GOV.IL/HE/PAGES/OPTICAL-FIBER-SIM-PROHUBITION.)\nF) GND G) UNL)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2251/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072940",
+      "fromDate": "2026-10-25T23:00:00Z",
+      "toDate": "2026-10-27T03:00:00Z",
+      "createDate": "2026-10-22T11:55:30Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "025",
+        "upperLimitFl": "030",
+        "positionToken": "3247N03529E007",
+        "position": {
+          "lat": 32.783333,
+          "lon": 35.483333,
+          "radiusNm": 7
+        }
+      },
+      "eText": "CVFR RTE CLSD  TAVOR-DESHE.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.783333,
+        "lon": 35.483333,
+        "radiusNm": 7,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2251/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /025/030/3247N03529E007\nA) LLLL B) 2610252300 C) 2610270300\nD) DAILY 2300-0300\nE) CVFR RTE CLSD  TAVOR-DESHE.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2249/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072932",
+      "fromDate": "2026-10-26T08:30:00Z",
+      "toDate": "2026-10-26T12:05:00Z",
+      "createDate": "2026-10-22T11:51:29Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "035",
+        "upperLimitFl": "040",
+        "positionToken": "3116N03506E009",
+        "position": {
+          "lat": 31.266667,
+          "lon": 35.1,
+          "radiusNm": 9
+        }
+      },
+      "eText": "CVFR RTE CLSD MYTAR-TARAD-ARRAD-HATRU. LLMZ-ARRAD.)",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.266667,
+        "lon": 35.1,
+        "radiusNm": 9,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2249/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /035/040/3116N03506E009\nA) LLLL B) 2610260830 C) 2610261205\nD) 0830-0850 1145-1205\nE) CVFR RTE CLSD\nMYTAR-TARAD-ARRAD-HATRU.\nLLMZ-ARRAD.))",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2248/26",
       "location": "LLLL",
