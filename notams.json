@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-22T07:41:03.181Z",
+  "generatedAt": "2026-10-22T07:51:03.970Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 125,
+  "count": 124,
   "notams": [
     {
       "id": "A0845/26",
@@ -945,47 +945,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2198/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/037/3058N03456E001\nA) LLLL B) 2610250330 C) 2610291530\nD) DAILY 0330-1530\nE) UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E\nCLSD FM GND UP TO 3,700FT AMSL.\nCTN ADZ.\nF) GND G) 3700FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2197/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2071756",
-      "fromDate": "2026-10-22T07:20:00Z",
-      "toDate": "2026-10-22T07:40:00Z",
-      "createDate": "2026-10-19T09:21:17Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "025",
-        "upperLimitFl": "040",
-        "positionToken": "3142N03459E008",
-        "position": {
-          "lat": 31.7,
-          "lon": 34.983333,
-          "radiusNm": 8
-        }
-      },
-      "eText": "CVFR RTE CLSD  SORES-ESTOL-BSEMS-ZHRYA-GOVRN.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.7,
-        "lon": 34.983333,
-        "radiusNm": 8,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2197/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /025/040/3142N03459E008\nA) LLLL B) 2610220720 C) 2610220740\nE) CVFR RTE CLSD  SORES-ESTOL-BSEMS-ZHRYA-GOVRN.)",
       "fullTextAvailable": true
     },
     {
