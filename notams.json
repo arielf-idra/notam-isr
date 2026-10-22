@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-22T09:30:55.448Z",
+  "generatedAt": "2026-10-22T09:40:51.297Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 127,
+  "count": 128,
   "notams": [
+    {
+      "id": "C2227/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072873",
+      "fromDate": "2026-10-25T10:00:00Z",
+      "toDate": "2026-10-25T19:00:00Z",
+      "createDate": "2026-10-22T09:39:16Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "025",
+        "upperLimitFl": "050",
+        "positionToken": "3149N03523E065",
+        "position": {
+          "lat": 31.816667,
+          "lon": 35.383333,
+          "radiusNm": 65
+        }
+      },
+      "eText": "CVFR RTE CLSD AFULA-EITAN. DESHE-EITAN-FAZEL-NAAMA-HAZVA. FAZEL-MIHMS-ALMOG. DUMIN-MIHMS-ANATA. SORES-DUMIM-ALMOG. MMORR-ARRAD-LLMZ. ARRAD-HATRU-ZOHAR.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.816667,
+        "lon": 35.383333,
+        "radiusNm": 65,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2227/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /025/050/3149N03523E065\nA) LLLL B) 2610251000 C) 2610251900\nD) 1000-1400 1500-1900\nE) CVFR RTE CLSD\nAFULA-EITAN.\nDESHE-EITAN-FAZEL-NAAMA-HAZVA.\nFAZEL-MIHMS-ALMOG.\nDUMIN-MIHMS-ANATA.\nSORES-DUMIM-ALMOG.\nMMORR-ARRAD-LLMZ.\nARRAD-HATRU-ZOHAR.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2226/26",
       "location": "LLLL",
