@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-22T08:00:45.627Z",
+  "generatedAt": "2026-10-22T08:10:51.275Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
   "count": 124,
   "notams": [
+    {
+      "id": "C2223/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072851",
+      "fromDate": "2026-10-24T16:00:00Z",
+      "toDate": "2026-10-24T19:00:00Z",
+      "createDate": "2026-10-22T08:05:10Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWSLW",
+        "traffic": "IV",
+        "purpose": "M",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "008",
+        "positionToken": "3155N03455E001",
+        "position": {
+          "lat": 31.916667,
+          "lon": 34.916667,
+          "radiusNm": 1
+        }
+      },
+      "eText": "AN AREA WI 1KM RADIUS CENTERED ON PSN 315455N0345500E AT GEZER POWER PLANT CLSD FM GND UP TO 800FT AMSL, DUE TO GAS EMISSION. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "800FT AMSL",
+      "position": {
+        "lat": 31.915278,
+        "lon": 34.916667,
+        "radiusNm": null,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2223/26 NOTAMN\nQ) LLLL/QWSLW/IV/M  /W /000/008/3155N03455E001\nA) LLLL B) 2610241600 C) 2610241900\nE) AN AREA WI 1KM RADIUS CENTERED ON PSN 315455N0345500E\nAT GEZER POWER PLANT CLSD FM GND UP TO 800FT AMSL,\nDUE TO GAS EMISSION.\nCTN ADZ.\nF) GND G) 800FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "A0845/26",
       "location": "LLBG",
@@ -1314,47 +1355,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0833/26 NOTAMN\nQ) LLLL/QNMAS/IV/BO /E /000/999/3117N03443E025\nA) LLLL B) 2610250600 C) 2610251000\nE) VOR/DME BSA FREQ 114.300MHZ WITHDRAWN FOR MAINT.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2171/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2070201",
-      "fromDate": "2026-10-22T06:00:00Z",
-      "toDate": "2026-10-22T08:00:00Z",
-      "createDate": "2026-10-15T08:49:16Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWPLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "024",
-        "positionToken": "3103N03442E006",
-        "position": {
-          "lat": 31.05,
-          "lon": 34.7,
-          "radiusNm": 6
-        }
-      },
-      "eText": "PJE WILL TAKE PLACE AT REVIVIM. AN AREA BTN FLW PSN CLSD FM GND UP 2,400FT AMSL 310712N0344550E 310511N0343920E 310455N0343655E 305931N0343815E 310035N0344409E 310359N0344720E 310712N0344550E. OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "2400FT AMSL",
-      "position": {
-        "lat": 31.05,
-        "lon": 34.7,
-        "radiusNm": 6,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2171/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/024/3103N03442E006\nA) LLLL B) 2610220600 C) 2610220800\nE) PJE WILL TAKE PLACE AT REVIVIM.\nAN AREA BTN FLW PSN CLSD FM GND UP 2,400FT AMSL\n310712N0344550E 310511N0343920E 310455N0343655E\n305931N0343815E 310035N0344409E 310359N0344720E\n310712N0344550E.\nOPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC\nCTN ADZ.\nF) GND G) 2400FT AMSL)",
       "fullTextAvailable": true
     },
     {
