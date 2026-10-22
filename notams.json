@@ -1,9 +1,91 @@
 {
-  "generatedAt": "2026-10-22T06:00:57.375Z",
+  "generatedAt": "2026-10-22T06:10:54.576Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 122,
+  "count": 124,
   "notams": [
+    {
+      "id": "A0844/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2072820",
+      "fromDate": "2026-10-26T07:00:00Z",
+      "toDate": "2026-10-26T11:00:00Z",
+      "createDate": "2026-10-22T06:05:01Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QISAS",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3200N03454E005",
+        "position": {
+          "lat": 32,
+          "lon": 34.9,
+          "radiusNm": 5
+        }
+      },
+      "eText": "ILS RWY 12 C/S BG FREQ 110.300MHZ WITHDRAWN FOR MAINT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32,
+        "lon": 34.9,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0844/26 NOTAMN\nQ) LLLL/QISAS/I /NBO/A /000/999/3200N03454E005\nA) LLBG B) 2610260700 C) 2610261100\nE) ILS RWY 12 C/S BG FREQ 110.300MHZ WITHDRAWN FOR MAINT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0843/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2072818",
+      "fromDate": "2026-10-26T06:00:00Z",
+      "toDate": "2026-10-26T11:00:00Z",
+      "createDate": "2026-10-22T06:01:00Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QMRLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3201N03453E005",
+        "position": {
+          "lat": 32.016667,
+          "lon": 34.883333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "RWY 12/30 CLSD EXC RWY INT DUE WIP.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.016667,
+        "lon": 34.883333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0843/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2610260600 C) 2610261100\nE) RWY 12/30 CLSD EXC RWY INT DUE WIP.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2222/26",
       "location": "LLLL",
