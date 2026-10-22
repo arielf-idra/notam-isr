@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-22T09:22:04.055Z",
+  "generatedAt": "2026-10-22T09:30:55.448Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 126,
+  "count": 127,
   "notams": [
+    {
+      "id": "C2226/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072868",
+      "fromDate": "2026-10-25T10:00:00Z",
+      "toDate": "2026-10-25T19:00:00Z",
+      "createDate": "2026-10-22T09:21:15Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "005",
+        "upperLimitFl": "020",
+        "positionToken": "3248N03537E008",
+        "position": {
+          "lat": 32.8,
+          "lon": 35.616667,
+          "radiusNm": 8
+        }
+      },
+      "eText": "ULTRALIGHT RTE CLSD ZBTZD-ENGEV-ZEMAH-MIGDL.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.8,
+        "lon": 35.616667,
+        "radiusNm": 8,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2226/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /005/020/3248N03537E008\nA) LLLL B) 2610251000 C) 2610251900\nD) 1000-1400 1500-1900\nE) ULTRALIGHT RTE CLSD\nZBTZD-ENGEV-ZEMAH-MIGDL.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2225/26",
       "location": "LLLL",
