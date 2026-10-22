@@ -1,9 +1,91 @@
 {
-  "generatedAt": "2026-10-22T11:10:58.733Z",
+  "generatedAt": "2026-10-22T11:32:53.721Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 127,
+  "count": 129,
   "notams": [
+    {
+      "id": "C2247/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072924",
+      "fromDate": "2026-10-24T23:30:00Z",
+      "toDate": "2026-10-25T02:00:00Z",
+      "createDate": "2026-10-22T11:25:28Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "008",
+        "upperLimitFl": "040",
+        "positionToken": "3200N03446E007",
+        "position": {
+          "lat": 32,
+          "lon": 34.766667,
+          "radiusNm": 7
+        }
+      },
+      "eText": "CVFR RTE CLSD BTN BGN-MRISN-NTAIM-BOVED-NAGID. RIDNG-CLORE-TYONA-SUPER-MEHOL-NTAIM.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32,
+        "lon": 34.766667,
+        "radiusNm": 7,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2247/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /008/040/3200N03446E007\nA) LLLL B) 2610242330 C) 2610250200\nE) CVFR RTE CLSD BTN\nBGN-MRISN-NTAIM-BOVED-NAGID.\nRIDNG-CLORE-TYONA-SUPER-MEHOL-NTAIM.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2246/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072923",
+      "fromDate": "2026-10-26T04:00:00Z",
+      "toDate": "2026-10-26T06:30:00Z",
+      "createDate": "2026-10-22T11:23:27Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWLLW",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "050",
+        "positionToken": "3036N03450E003",
+        "position": {
+          "lat": 30.6,
+          "lon": 34.833333,
+          "radiusNm": 3
+        }
+      },
+      "eText": "HOT-AIR BALLOON WILL TAKE PLACE AT MAKHTESH-RAMON. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 5,000FT AMSL 303545N0345233E 303648N0344723E 303759N0344956E. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "5000FT AMSL",
+      "position": {
+        "lat": 30.6,
+        "lon": 34.833333,
+        "radiusNm": 3,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2246/26 NOTAMN\nQ) LLLL/QWLLW/IV/NBO/W /000/050/3036N03450E003\nA) LLLL B) 2610260400 C) 2610260630\nE) HOT-AIR BALLOON WILL TAKE PLACE AT MAKHTESH-RAMON.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 5,000FT AMSL\n303545N0345233E 303648N0344723E 303759N0344956E.\nCTN ADZ.\nF) GND G) 5000FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2240/26",
       "location": "LLLL",
