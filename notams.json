@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-22T08:50:52.648Z",
+  "generatedAt": "2026-10-22T09:00:58.779Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 124,
+  "count": 125,
   "notams": [
+    {
+      "id": "C2224/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2072865",
+      "fromDate": "2026-10-25T10:00:00Z",
+      "toDate": "2026-10-26T19:00:00Z",
+      "createDate": "2026-10-22T08:55:13Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "050",
+        "positionToken": "3255N03534E027",
+        "position": {
+          "lat": 32.916667,
+          "lon": 35.566667,
+          "radiusNm": 27
+        }
+      },
+      "eText": "AN AREA BTN FLW PSN CLSD TO ALL FLT, INCLUDING AGRICULTURE FLT, EXC EMERG, MEDEVAC OR FIREFIGHTING FLT FM GND UP TO 5000FT AMSL 331904N0354558E 331357N0353432E 330412N0353402E 330338N0353920E 325237N0353841E 324002N0352615E 323833N0352708E 323118N0352141E 322901N0353430E 323856N0353411E 324501N0354547E 325618N0355331E CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.916667,
+        "lon": 35.566667,
+        "radiusNm": 27,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2224/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/050/3255N03534E027\nA) LLLL B) 2610251000 C) 2610261900\nD) 25 1000-1400 1500-1900, 26 0500-0900 1000-1400 1500-1900\nE) AN AREA BTN FLW PSN CLSD TO ALL FLT,\nINCLUDING AGRICULTURE FLT, EXC EMERG, MEDEVAC OR FIREFIGHTING\nFLT FM GND UP TO 5000FT AMSL\n331904N0354558E 331357N0353432E 330412N0353402E\n330338N0353920E 325237N0353841E 324002N0352615E\n323833N0352708E 323118N0352141E 322901N0353430E\n323856N0353411E 324501N0354547E 325618N0355331E\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2223/26",
       "location": "LLLL",
