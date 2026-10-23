@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-23T11:01:14.712Z",
+  "generatedAt": "2026-10-23T11:11:15.954Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 130,
+  "count": 128,
   "notams": [
     {
       "id": "C2257/26",
@@ -412,47 +412,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2246/26 NOTAMN\nQ) LLLL/QWLLW/IV/NBO/W /000/050/3036N03450E003\nA) LLLL B) 2610260400 C) 2610260630\nE) HOT-AIR BALLOON WILL TAKE PLACE AT MAKHTESH-RAMON.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 5,000FT AMSL\n303545N0345233E 303648N0344723E 303759N0344956E.\nCTN ADZ.\nF) GND G) 5000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2240/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2072902",
-      "fromDate": "2026-10-22T10:25:00Z",
-      "toDate": "2026-10-23T11:00:00Z",
-      "createDate": "2026-10-22T10:25:22Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWPLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "080",
-        "positionToken": "3120N03523E003",
-        "position": {
-          "lat": 31.333333,
-          "lon": 35.383333,
-          "radiusNm": 3
-        }
-      },
-      "eText": "PJE AIRSPACE METZADA ACT FM 8,000FT AMSL. OPR BY PPR FM ATC ONLY.",
-      "lowerLimit": "GND",
-      "upperLimit": "8000FT AMSL",
-      "position": {
-        "lat": 31.333333,
-        "lon": 35.383333,
-        "radiusNm": 3,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2240/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/080/3120N03523E003\nA) LLLL B) 2610221025 C) 2610231100\nD) 22 1025-1530, 23 0600-1100\nE) PJE AIRSPACE METZADA ACT FM 8,000FT AMSL.\nOPR BY PPR FM ATC ONLY.\nF) GND G) 8000FT AMSL)",
       "fullTextAvailable": true
     },
     {
@@ -1191,47 +1150,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2209/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/018/3136N03436E001\nA) LLLL B) 2610290600 C) 2610291300\nE) CAPTIVE BALLOON WILL TAKE PLACE AT GVARAM.\nAN AREA WI 0.4NM RADIUS CENTERED ON PSN 313612N0343627E\nCLSD FM GND UP TO 1,800FT AMSL, TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 1800FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2208/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2072457",
-      "fromDate": "2026-10-23T05:00:00Z",
-      "toDate": "2026-10-23T11:00:00Z",
-      "createDate": "2026-10-21T07:17:08Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWPLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "110",
-        "positionToken": "3117N03443E004",
-        "position": {
-          "lat": 31.283333,
-          "lon": 34.716667,
-          "radiusNm": 4
-        }
-      },
-      "eText": "PJE AIRSPACE TEIMAN ACT FM 11,000FT AMSL. IN CASE OF EMERG CLEAR THE AIRSPACE WI 5MIN. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "11000FT AMSL",
-      "position": {
-        "lat": 31.283333,
-        "lon": 34.716667,
-        "radiusNm": 4,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2208/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/110/3117N03443E004\nA) LLLL B) 2610230500 C) 2610231100\nE) PJE AIRSPACE TEIMAN ACT FM 11,000FT AMSL.\nIN CASE OF EMERG CLEAR THE AIRSPACE WI 5MIN.\nCTN ADZ.\nF) GND G) 11000FT AMSL)",
       "fullTextAvailable": true
     },
     {
