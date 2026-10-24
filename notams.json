@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-24T11:01:16.776Z",
+  "generatedAt": "2026-10-24T11:11:06.792Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 130,
+  "count": 129,
   "notams": [
     {
       "id": "A0848/26",
@@ -84,47 +84,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0847/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2610250900 C) 2610251100\nE) RWY 21 CLSD FOR LDG, DUE CRANE ON FINAL 21.\nIN CASE OF EMERG LOWERED WI 30MIN.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2257/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2073287",
-      "fromDate": "2026-10-24T04:00:00Z",
-      "toDate": "2026-10-24T11:00:00Z",
-      "createDate": "2026-10-23T10:49:20Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QARLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "004",
-        "positionToken": "3158N03444E004",
-        "position": {
-          "lat": 31.966667,
-          "lon": 34.733333,
-          "radiusNm": 4
-        }
-      },
-      "eText": "ULTRALIGHT WEEKEND RTE CLSD TYONA-SHEFC-SOREK.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.966667,
-        "lon": 34.733333,
-        "radiusNm": 4,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2257/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /000/004/3158N03444E004\nA) LLLL B) 2610240400 C) 2610241100\nE) ULTRALIGHT WEEKEND RTE CLSD\nTYONA-SHEFC-SOREK.)",
       "fullTextAvailable": true
     },
     {
