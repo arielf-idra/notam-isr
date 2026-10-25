@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-25T13:51:10.797Z",
+  "generatedAt": "2026-10-25T14:01:11.231Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 127,
+  "count": 128,
   "notams": [
+    {
+      "id": "C2264/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2074090",
+      "fromDate": "2026-10-28T07:45:00Z",
+      "toDate": "2026-10-28T13:30:00Z",
+      "createDate": "2026-10-25T13:51:38Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "005",
+        "upperLimitFl": "015",
+        "positionToken": "3234N03425E034",
+        "position": {
+          "lat": 32.566667,
+          "lon": 34.416667,
+          "radiusNm": 34
+        }
+      },
+      "eText": "HEL RTE CLSD GALIM-SUVAS. GALIM-KONFO. GALIM-DAFNA. GALIM-MERVA. GALIM-INBAR.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.566667,
+        "lon": 34.416667,
+        "radiusNm": 34,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2264/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /005/015/3234N03425E034\nA) LLLL B) 2610280745 C) 2610281330\nD) 0745-1030 1230-1330\nE) HEL RTE CLSD\nGALIM-SUVAS.\nGALIM-KONFO.\nGALIM-DAFNA.\nGALIM-MERVA.\nGALIM-INBAR.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "A0849/26",
       "location": "LLLL",
