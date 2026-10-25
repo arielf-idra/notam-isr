@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-25T14:11:13.554Z",
+  "generatedAt": "2026-10-25T14:21:20.264Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 128,
+  "count": 129,
   "notams": [
+    {
+      "id": "C2265/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2074101",
+      "fromDate": "2026-10-28T07:45:00Z",
+      "toDate": "2026-10-28T13:30:00Z",
+      "createDate": "2026-10-25T14:11:40Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "010",
+        "upperLimitFl": "025",
+        "positionToken": "3243N03458E008",
+        "position": {
+          "lat": 32.716667,
+          "lon": 34.966667,
+          "radiusNm": 8
+        }
+      },
+      "eText": "CVFR RTE CLSD GALIM-DAROM-HOTRM-BOREN-FRDIS. HEL RTE CLSD GALIM-DAROM-ATLIT. ULTRALIGHT RTE CLSD DAROM-HOTRM-BOREN-FRDIS.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.716667,
+        "lon": 34.966667,
+        "radiusNm": 8,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2265/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /010/025/3243N03458E008\nA) LLLL B) 2610280745 C) 2610281330\nD) 0745-1030 1230-1330\nE) CVFR RTE CLSD\nGALIM-DAROM-HOTRM-BOREN-FRDIS.\nHEL RTE CLSD\nGALIM-DAROM-ATLIT.\nULTRALIGHT RTE CLSD\nDAROM-HOTRM-BOREN-FRDIS.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2264/26",
       "location": "LLLL",
