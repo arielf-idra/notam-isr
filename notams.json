@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-25T13:41:18.208Z",
+  "generatedAt": "2026-10-25T13:51:10.797Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 126,
+  "count": 127,
   "notams": [
+    {
+      "id": "A0849/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2074089",
+      "fromDate": "2026-10-28T07:45:00Z",
+      "toDate": "2026-10-28T13:30:00Z",
+      "createDate": "2026-10-25T13:41:37Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QANLC",
+        "traffic": "I",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "030",
+        "upperLimitFl": "120",
+        "positionToken": "3235N03448E018",
+        "position": {
+          "lat": 32.583333,
+          "lon": 34.8,
+          "radiusNm": 18
+        }
+      },
+      "eText": "ATS RTE CLSD P68 BTN GALIM-MERVA. Q17 BTN ATLIT-ZAHAV. J15 NAT-ATLIT. Q28 GALIM-ATLIT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.583333,
+        "lon": 34.8,
+        "radiusNm": 18,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0849/26 NOTAMN\nQ) LLLL/QANLC/I /NBO/E /030/120/3235N03448E018\nA) LLLL B) 2610280745 C) 2610281330\nD) 0745-1030 1230-1330\nE) ATS RTE CLSD\nP68 BTN GALIM-MERVA.\nQ17 BTN ATLIT-ZAHAV.\nJ15 NAT-ATLIT.\nQ28 GALIM-ATLIT.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2263/26",
       "location": "LLLV",
