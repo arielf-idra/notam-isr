@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-10-25T13:21:09.142Z",
+  "generatedAt": "2026-10-25T13:31:07.172Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 125,
+  "count": 126,
   "notams": [
+    {
+      "id": "C2263/26",
+      "location": "LLLV",
+      "airfield": "Lavi",
+      "msgNumber": "2074088",
+      "fromDate": "2026-10-28T07:45:00Z",
+      "toDate": "2026-10-28T13:30:00Z",
+      "createDate": "2026-10-25T13:27:37Z",
+      "affected": [
+        "LLLV"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3236N03448E005",
+        "position": {
+          "lat": 32.6,
+          "lon": 34.8,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AIRSRRIP CLSD.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.6,
+        "lon": 34.8,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2263/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3236N03448E005\nA) LLLV B) 2610280745 C) 2610281330\nD) 0745-1030 1230-1330\nE) AIRSRRIP CLSD.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2262/26",
       "location": "LLBO",
