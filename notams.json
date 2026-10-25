@@ -1,9 +1,91 @@
 {
-  "generatedAt": "2026-10-25T13:11:13.852Z",
+  "generatedAt": "2026-10-25T13:21:09.142Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 123,
+  "count": 125,
   "notams": [
+    {
+      "id": "C2262/26",
+      "location": "LLBO",
+      "airfield": "Habonim",
+      "msgNumber": "2074083",
+      "fromDate": "2026-10-28T07:45:00Z",
+      "toDate": "2026-10-28T13:30:00Z",
+      "createDate": "2026-10-25T13:19:35Z",
+      "affected": [
+        "LLBO"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QFALC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3239N03456E005",
+        "position": {
+          "lat": 32.65,
+          "lon": 34.933333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "AIRSTRIP CLSD TO ALL FLT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.65,
+        "lon": 34.933333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2262/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3239N03456E005\nA) LLBO B) 2610280745 C) 2610281330\nD) 0745-1030 1230-1330\nE) AIRSTRIP CLSD TO ALL FLT.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2261/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2074082",
+      "fromDate": "2026-10-28T07:45:00Z",
+      "toDate": "2026-10-28T13:30:00Z",
+      "createDate": "2026-10-25T13:17:35Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "120",
+        "positionToken": "3250N03438E022",
+        "position": {
+          "lat": 32.833333,
+          "lon": 34.633333,
+          "radiusNm": 22
+        }
+      },
+      "eText": "AN AREA BTN FLW PSN CLSD TO ALL FLT, FM GND UP TO 12,000FT AMSL 323334N0345409E 324716N0345650E 324734N0345630E 324938N0345558E 330007N0345704E 330423N0344903E 330539N0342818E 330607N0342135E 324029N0341802E CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.833333,
+        "lon": 34.633333,
+        "radiusNm": 22,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2261/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/120/3250N03438E022\nA) LLLL B) 2610280745 C) 2610281330\nD) 0745-1030 1230-1330\nE) AN AREA BTN FLW PSN CLSD TO ALL FLT, FM GND UP TO 12,000FT AMSL\n323334N0345409E 324716N0345650E 324734N0345630E\n324938N0345558E 330007N0345704E 330423N0344903E\n330539N0342818E 330607N0342135E 324029N0341802E\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2260/26",
       "location": "LLLL",
