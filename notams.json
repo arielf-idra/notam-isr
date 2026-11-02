@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-02T10:01:03.879Z",
+  "generatedAt": "2026-11-02T10:11:01.754Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 114,
+  "count": 113,
   "notams": [
     {
       "id": "C2334/26",
@@ -863,47 +863,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(A0868/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611020600 C) 2611021200\nE) RWY 12/30 CLSD EXC RWY INT DUE WIP.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0867/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2075761",
-      "fromDate": "2026-11-02T07:00:00Z",
-      "toDate": "2026-11-02T10:00:00Z",
-      "createDate": "2026-10-29T13:47:41Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QIGAS",
-        "traffic": "I",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "GP RWY 30 C/S BD CH56X FREQ 331.000MHZ WITHDRAWN FOR MAINT.)",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0867/26 NOTAMN\nQ) LLLL/QIGAS/I /NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611020700 C) 2611021000\nE) GP RWY 30 C/S BD CH56X FREQ 331.000MHZ WITHDRAWN FOR MAINT.))",
       "fullTextAvailable": true
     },
     {
