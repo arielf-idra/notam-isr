@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-02T12:01:22.298Z",
+  "generatedAt": "2026-11-02T12:10:55.838Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 113,
+  "count": 111,
   "notams": [
     {
       "id": "C2334/26",
@@ -743,47 +743,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "A0869/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2076740",
-      "fromDate": "2026-11-02T06:00:00Z",
-      "toDate": "2026-11-02T12:00:00Z",
-      "createDate": "2026-11-01T05:55:20Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QOBCE",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "AE",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "003",
-        "positionToken": "3200N03454E001",
-        "position": {
-          "lat": 32,
-          "lon": 34.9,
-          "radiusNm": 1
-        }
-      },
-      "eText": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 315941.27N0345429.55E CLSD FM GND UP TO 89M 292FT AMSL. IN CASE OF EMERG LOWERED WI 5MIN. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32,
-        "lon": 34.9,
-        "radiusNm": 1,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0869/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/003/3200N03454E001\nA) LLBG B) 2611020600 C) 2611021200\nE) CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION.\nAN AREA WI 0.3NM RADIUS CENTERED ON PSN 315941.27N0345429.55E\nCLSD FM GND UP TO 89M 292FT AMSL.\nIN CASE OF EMERG LOWERED WI 5MIN.\nCTN ADZ.)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "C2318/26",
       "location": "LLLL",
       "airfield": "Tel-Aviv FIR",
@@ -822,47 +781,6 @@
       "notamType": "R",
       "replaces": "C2297/26",
       "rawText": "(C2318/26 NOTAMR C2297/26\nQ) LLLL/QKKKK/K /K  /K /000/999/3124N03520E999\nA) LLLL B) 2610291421 C) 2611291421EST\nE) CHECKLIST\nYEAR=2026 0005 0010 0032 0037 0431 1281 1361 1541 1637 1656 1698 1825\n1826 1827 1828 1829 1830 1831 1832 1833 1834 1835 1836 1837\n1838 1840 1842 1843 1858 1860 1884 1947 1948 2010 2011 2012\n2013 2015 2016 2024 2074 2095 2144 2145 2146 2147 2148 2149\n2150 2151 2152 2153 2154 2181 2194 2195 2196 2198 2199 2200\n2201 2203 2209 2210 2212 2250 2259 2260 2270 2272 2274 2275\n2277 2278 2279 2280 2285 2293 2294 2295 2296\nLATEST PUBLICATIONS\nAIP AIRAC AMDT IFR 002/2026 EFFECTIVE DATE 26 NOV 26\nAIP AIRAC SUP IFR 004/2026 EFFECTIVE DATE 14 MAY 26\nAIC IFR A001/2026 EFFECTIVE DATE 05 FEB 26\nAIC CHECKLIST\nAIP IFR\nA001/2026\nAIP VFR\n001/2026\nAIP MIL\nNIL\nSUP CHECKLIST\nAIP IFR\nNIL\nAIP VFR\nNIL\nAIP MIL\nNIL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0868/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2075762",
-      "fromDate": "2026-11-02T06:00:00Z",
-      "toDate": "2026-11-02T12:00:00Z",
-      "createDate": "2026-10-29T13:49:42Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QMRLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "RWY 12/30 CLSD EXC RWY INT DUE WIP.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0868/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611020600 C) 2611021200\nE) RWY 12/30 CLSD EXC RWY INT DUE WIP.)",
       "fullTextAvailable": true
     },
     {
