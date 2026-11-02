@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-02T19:50:55.136Z",
+  "generatedAt": "2026-11-02T20:10:57.970Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 112,
+  "count": 109,
   "notams": [
     {
       "id": "C2337/26",
@@ -207,47 +207,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2331/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/024/3103N03442E006\nA) LLLL B) 2611091000 C) 2611111100\nD) 09 1000-1100 1500-1700, 10 0600-0800 1000-1100 1800-1900, 11\n0600-0700 1000-1100\nE) PJE WILL TAKE PLACE AT REVIVIM.\nAN AREA BTN FLW PSN CLSD FM GND UP 2,400FT AMSL\n310712N0344550E 310511N0343920E 310455N0343655E\n305931N0343815E 310035N0344409E 310359N0344720E\n310712N0344550E.\nOPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC\nCTN ADZ.\nF) GND G) 2400FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0875/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2076877",
-      "fromDate": "2026-11-02T13:00:00Z",
-      "toDate": "2026-11-02T20:00:00Z",
-      "createDate": "2026-11-01T14:05:54Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QMXLC",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "TWY R CLSD BTN W3-E, INCLUDING TWY W1 W2. TWY E CLSD BTN R-RWY 26, AND TWY E1.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0875/26 NOTAMN\nQ) LLLL/QMXLC/IV/BO /A /000/999/3201N03453E005\nA) LLBG B) 2611021300 C) 2611022000\nE) TWY R CLSD BTN W3-E, INCLUDING TWY W1 W2.\nTWY E CLSD BTN R-RWY 26, AND TWY E1.)",
       "fullTextAvailable": true
     },
     {
@@ -822,88 +781,6 @@
       "notamType": "R",
       "replaces": "C2297/26",
       "rawText": "(C2318/26 NOTAMR C2297/26\nQ) LLLL/QKKKK/K /K  /K /000/999/3124N03520E999\nA) LLLL B) 2610291421 C) 2611291421EST\nE) CHECKLIST\nYEAR=2026 0005 0010 0032 0037 0431 1281 1361 1541 1637 1656 1698 1825\n1826 1827 1828 1829 1830 1831 1832 1833 1834 1835 1836 1837\n1838 1840 1842 1843 1858 1860 1884 1947 1948 2010 2011 2012\n2013 2015 2016 2024 2074 2095 2144 2145 2146 2147 2148 2149\n2150 2151 2152 2153 2154 2181 2194 2195 2196 2198 2199 2200\n2201 2203 2209 2210 2212 2250 2259 2260 2270 2272 2274 2275\n2277 2278 2279 2280 2285 2293 2294 2295 2296\nLATEST PUBLICATIONS\nAIP AIRAC AMDT IFR 002/2026 EFFECTIVE DATE 26 NOV 26\nAIP AIRAC SUP IFR 004/2026 EFFECTIVE DATE 14 MAY 26\nAIC IFR A001/2026 EFFECTIVE DATE 05 FEB 26\nAIC CHECKLIST\nAIP IFR\nA001/2026\nAIP VFR\n001/2026\nAIP MIL\nNIL\nSUP CHECKLIST\nAIP IFR\nNIL\nAIP VFR\nNIL\nAIP MIL\nNIL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0865/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2075753",
-      "fromDate": "2026-11-02T13:00:00Z",
-      "toDate": "2026-11-02T20:00:00Z",
-      "createDate": "2026-10-29T13:07:39Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QMRLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "RWY 03/21 CLSD EXC RWY INT DUE EMERG DRILL. EXP ACT EMERG VEHICLE MOV ALONG MANEUVERING AREA.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0865/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611021300 C) 2611022000\nE) RWY 03/21 CLSD EXC RWY INT DUE EMERG DRILL.\nEXP ACT EMERG VEHICLE MOV ALONG MANEUVERING AREA.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0866/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2075754",
-      "fromDate": "2026-11-02T13:00:00Z",
-      "toDate": "2026-11-02T20:00:00Z",
-      "createDate": "2026-10-29T13:07:39Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QMRLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "RWY 08/26 CLSD EXC RWY INT DUE EMERG DRILL. EXP ACT EMERG VEHICLE MOV ALONG MANEUVERING AREA.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0866/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611021300 C) 2611022000\nE) RWY 08/26 CLSD EXC RWY INT DUE EMERG DRILL.\nEXP ACT EMERG VEHICLE MOV ALONG MANEUVERING AREA.)",
       "fullTextAvailable": true
     },
     {
