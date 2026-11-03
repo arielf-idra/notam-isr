@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-11-03T11:50:59.389Z",
+  "generatedAt": "2026-11-03T12:01:18.468Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 113,
+  "count": 114,
   "notams": [
+    {
+      "id": "C2345/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2077594",
+      "fromDate": "2026-11-08T10:00:00Z",
+      "toDate": "2026-11-10T11:00:00Z",
+      "createDate": "2026-11-03T11:55:31Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWPLW",
+        "traffic": "IV",
+        "purpose": "M",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "028",
+        "positionToken": "3057N03430E005",
+        "position": {
+          "lat": 30.95,
+          "lon": 34.5,
+          "radiusNm": 5
+        }
+      },
+      "eText": "PJE WILL TAKE PLACE AT SHUNRAH. AN AREA FM GND UP TO 2,800FT AMSL CLSD BTN FLW PSN 305416N0342843E 305436N0342531E 305721N0342433E 310025N0343407E 305642N0343528E. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "2800FT AMSL",
+      "position": {
+        "lat": 30.95,
+        "lon": 34.5,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2345/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/028/3057N03430E005\nA) LLLL B) 2611081000 C) 2611101100\nD) 08 1000-1100, 09 0600-0700 1000-1100 1800-1930,  10 0600-0700\n1000-1100\nE) PJE WILL TAKE PLACE AT SHUNRAH.\nAN AREA FM GND UP TO 2,800FT AMSL CLSD BTN FLW PSN\n305416N0342843E 305436N0342531E 305721N0342433E\n310025N0343407E 305642N0343528E.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 2800FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2344/26",
       "location": "LLLL",
