@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-03T11:11:12.421Z",
+  "generatedAt": "2026-11-03T11:20:58.496Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 110,
+  "count": 111,
   "notams": [
     {
-      "id": "A0876/26",
+      "id": "A0883/26",
       "location": "LLBG",
       "airfield": "Ben-Gurion",
-      "msgNumber": "2077566",
+      "msgNumber": "2077578",
       "fromDate": "2026-11-04T11:00:00Z",
       "toDate": "2026-11-04T14:00:00Z",
-      "createDate": "2026-11-03T11:09:26Z",
+      "createDate": "2026-11-03T11:19:28Z",
       "affected": [
         "LLBG"
       ],
@@ -30,7 +30,7 @@
           "radiusNm": 5
         }
       },
-      "eText": "RWY 26 CLSD FOR LDG, DUE CRANE ON FINAL 26. IN CASE OF EMERG LOWERED WI 30MIN.",
+      "eText": "RWY 26 CLSD FOR LDG, DUE CRANE ON FINAL 26 FOR AIRCRAFT RECOVERY DRILL. IN CASE OF EMERG LOWERED WI 30MIN.",
       "lowerLimit": null,
       "upperLimit": null,
       "position": {
@@ -42,7 +42,48 @@
       "administrative": false,
       "notamType": "N",
       "replaces": null,
-      "rawText": "(A0876/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611041100 C) 2611041400\nE) RWY 26 CLSD FOR LDG, DUE CRANE ON FINAL 26.\nIN CASE OF EMERG LOWERED WI 30MIN.)",
+      "rawText": "(A0883/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611041100 C) 2611041400\nE) RWY 26 CLSD FOR LDG, DUE CRANE ON FINAL 26 FOR AIRCRAFT\nRECOVERY DRILL. IN CASE OF EMERG LOWERED WI 30MIN.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "A0881/26",
+      "location": "LLBG",
+      "airfield": "Ben-Gurion",
+      "msgNumber": "2077576",
+      "fromDate": "2026-11-04T11:00:00Z",
+      "toDate": "2026-11-04T14:00:00Z",
+      "createDate": "2026-11-03T11:17:28Z",
+      "affected": [
+        "LLBG"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QMRLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "A",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "3201N03453E005",
+        "position": {
+          "lat": 32.016667,
+          "lon": 34.883333,
+          "radiusNm": 5
+        }
+      },
+      "eText": "RWY 03/21 CLSD EXC RWY INT 03/30, DUE CRANE ON FINAL 26 FOR AIRCRAFT RECOVERY DRILL. IN CASE OF EMERG LOWERED WI 30MIN.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.016667,
+        "lon": 34.883333,
+        "radiusNm": 5,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0881/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611041100 C) 2611041400\nE) RWY 03/21 CLSD EXC RWY INT 03/30, DUE CRANE ON FINAL 26 FOR\nAIRCRAFT RECOVERY DRILL. IN CASE OF EMERG LOWERED WI 30MIN.)",
       "fullTextAvailable": true
     },
     {
