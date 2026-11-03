@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-11-03T12:30:57.923Z",
+  "generatedAt": "2026-11-03T12:40:49.523Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 114,
+  "count": 115,
   "notams": [
+    {
+      "id": "C2347/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2077603",
+      "fromDate": "2026-11-09T05:00:00Z",
+      "toDate": "2026-11-09T15:00:00Z",
+      "createDate": "2026-11-03T12:39:36Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "022",
+        "positionToken": "3237N03500E001",
+        "position": {
+          "lat": 32.616667,
+          "lon": 35,
+          "radiusNm": 1
+        }
+      },
+      "eText": "AN AREA AT BAT-SHLOMO WI 0.54NM RADIUS CENTERED ON PSN 323721N0350002E CLSD FM GND UP TO 2,200FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.6225,
+        "lon": 35.000556,
+        "radiusNm": 0.54,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2347/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/022/3237N03500E001\nA) LLLL B) 2611090500 C) 2611091500\nE) AN AREA AT BAT-SHLOMO WI 0.54NM RADIUS CENTERED ON\nPSN 323721N0350002E CLSD FM GND UP TO 2,200FT AMSL\nTO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN\nPPR FM ATC.\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2346/26",
       "location": "LLLL",
