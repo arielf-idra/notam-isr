@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-11-03T10:40:58.727Z",
+  "generatedAt": "2026-11-03T10:50:58.963Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 109,
+  "count": 110,
   "notams": [
+    {
+      "id": "C2343/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2077556",
+      "fromDate": "2026-11-03T11:00:00Z",
+      "toDate": "2026-11-05T17:00:00Z",
+      "createDate": "2026-11-03T10:49:24Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "010",
+        "positionToken": "3142N03441E001",
+        "position": {
+          "lat": 31.7,
+          "lon": 34.683333,
+          "radiusNm": 1
+        }
+      },
+      "eText": "UAS ACT WILL TAKE PLACE AT JULIS. AN AREA FM GND UP TO 1000FT AMSL CLSD TO ALL FLT BTN FLW PSN  314157N0344054E, RADIUS 0.6NM. OPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "650FT AMSL",
+      "position": {
+        "lat": 31.7,
+        "lon": 34.683333,
+        "radiusNm": 1,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2343/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/010/3142N03441E001\nA) LLLL B) 2611031100 C) 2611051700\nD) 03 1100-1700, 04 05 DAILY 0730-1700\nE) UAS ACT WILL TAKE PLACE AT JULIS.\nAN AREA FM GND UP TO 1000FT AMSL CLSD TO ALL FLT\nBTN FLW PSN  314157N0344054E, RADIUS 0.6NM.\nOPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 650FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2342/26",
       "location": "LLLL",
