@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-03T16:01:05.646Z",
+  "generatedAt": "2026-11-03T16:10:52.335Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 114,
+  "count": 113,
   "notams": [
     {
       "id": "C2347/26",
@@ -494,47 +494,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2337/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/020/3138N03439E001\nA) LLLL B) 2611040700 C) 2611041600\nE) UAS ACT WILL TAKE PLACE AT KOHAV-MICHAL.\nAN AREA WI 0.6NM RADIUS CENTERED ON PSN 313758N0343929E\nCLSD FM GND UP TO 2,000FT AMSL TO ALL FLT, OPS OF\nAGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 2000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2335/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2077226",
-      "fromDate": "2026-11-03T06:00:00Z",
-      "toDate": "2026-11-03T16:00:00Z",
-      "createDate": "2026-11-02T13:17:51Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "015",
-        "positionToken": "3113N03431E003",
-        "position": {
-          "lat": 31.216667,
-          "lon": 34.516667,
-          "radiusNm": 3
-        }
-      },
-      "eText": "AN AREA AT TZEELIM BTN FLW PSN CLSD FM GND UP TO 1,500 AMSL TO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. 311548N0343054E 311536N0343157E 311105N343147E 311050N0343052E. CTN ADZ.)",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 31.216667,
-        "lon": 34.516667,
-        "radiusNm": 3,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2335/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/015/3113N03431E003\nA) LLLL B) 2611030600 C) 2611031600\nE) AN AREA AT TZEELIM BTN FLW PSN CLSD FM GND UP TO 1,500 AMSL TO\nALL\nFLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC.\n311548N0343054E 311536N0343157E 311105N343147E\n311050N0343052E.\nCTN ADZ.))",
       "fullTextAvailable": true
     },
     {
