@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-11-04T10:10:50.885Z",
+  "generatedAt": "2026-11-04T10:20:48.921Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 115,
+  "count": 116,
   "notams": [
+    {
+      "id": "C2351/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2077931",
+      "fromDate": "2026-11-05T07:00:00Z",
+      "toDate": "2026-11-05T16:00:00Z",
+      "createDate": "2026-11-04T10:19:21Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "020",
+        "positionToken": "3138N03439E001",
+        "position": {
+          "lat": 31.633333,
+          "lon": 34.65,
+          "radiusNm": 1
+        }
+      },
+      "eText": "UAS ACT WILL TAKE PLACE AT KOHAV-MICHAL. AN AREA WI 0.6NM RADIUS CENTERED ON PSN 313758N0343929E CLSD FM GND UP TO 2,000FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "2000FT AMSL",
+      "position": {
+        "lat": 31.632778,
+        "lon": 34.658056,
+        "radiusNm": 0.6,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2351/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/020/3138N03439E001\nA) LLLL B) 2611050700 C) 2611051600\nE) UAS ACT WILL TAKE PLACE AT KOHAV-MICHAL.\nAN AREA WI 0.6NM RADIUS CENTERED ON PSN 313758N0343929E\nCLSD FM GND UP TO 2,000FT AMSL TO ALL FLT, OPS OF\nAGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 2000FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2350/26",
       "location": "LLLL",
