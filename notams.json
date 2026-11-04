@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-11-04T06:50:49.961Z",
+  "generatedAt": "2026-11-04T07:00:56.947Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 114,
+  "count": 115,
   "notams": [
+    {
+      "id": "C2349/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2077879",
+      "fromDate": "2026-11-04T08:00:00Z",
+      "toDate": "2026-11-04T14:00:00Z",
+      "createDate": "2026-11-04T06:57:06Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QAELC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "022",
+        "positionToken": "3247N03518E001",
+        "position": {
+          "lat": 32.783333,
+          "lon": 35.3,
+          "radiusNm": 1
+        }
+      },
+      "eText": "AN AREA AT BEIT-RIMON FM GND UP TO 2,200FT AMSL CLSD TO ALL FLT BTN FLW PSN  324620N0351807E 324702N0351803E 324704N0351840E 324621N0351847E OPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC. CTN ADZ.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.783333,
+        "lon": 35.3,
+        "radiusNm": 1,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2349/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/022/3247N03518E001\nA) LLLL B) 2611040800 C) 2611041400\nE) AN AREA AT BEIT-RIMON FM GND UP TO 2,200FT AMSL CLSD TO\nALL FLT BTN FLW PSN  324620N0351807E 324702N0351803E\n324704N0351840E 324621N0351847E\nOPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC.\nCTN ADZ.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2348/26",
       "location": "LLIB",
