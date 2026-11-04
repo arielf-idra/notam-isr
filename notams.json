@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-11-04T12:00:50.006Z",
+  "generatedAt": "2026-11-04T12:10:49.947Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 116,
+  "count": 117,
   "notams": [
+    {
+      "id": "C2353/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2077964",
+      "fromDate": "2026-11-05T09:00:00Z",
+      "toDate": "2026-11-30T17:00:00Z",
+      "createDate": "2026-11-04T12:01:29Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "030",
+        "positionToken": "3144N03505E003",
+        "position": {
+          "lat": 31.733333,
+          "lon": 35.083333,
+          "radiusNm": 3
+        }
+      },
+      "eText": "UAS/UAV ACT WILL TAKE PLACE AT NES-HARIM. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 3,000FT AMSL 314252N0350253E 314311N0350158E 314421N0350206E 314526N0350239E 314614N0350415E 314605N0350605E 314533N0350625E 314249N0350625E 314159N0350514E 314126N0350356E CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "3000FT AMSL",
+      "position": {
+        "lat": 31.733333,
+        "lon": 35.083333,
+        "radiusNm": 3,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2353/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/030/3144N03505E003\nA) LLLL B) 2611050900 C) 2611301700\nD) SUN-THU 0900-1700\nE) UAS/UAV ACT WILL TAKE PLACE AT NES-HARIM.\nAN AREA BTN THE FLW PSN CLSD FM GND UP TO 3,000FT AMSL\n314252N0350253E 314311N0350158E 314421N0350206E\n314526N0350239E 314614N0350415E 314605N0350605E\n314533N0350625E 314249N0350625E 314159N0350514E\n314126N0350356E\nCTN ADZ.\nF) GND G) 3000FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2352/26",
       "location": "LLLL",
