@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-04T11:00:53.883Z",
+  "generatedAt": "2026-11-04T11:10:50.237Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 116,
+  "count": 115,
   "notams": [
     {
       "id": "C2351/26",
@@ -986,47 +986,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2324/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/080/3129N03450E005\nA) LLLL B) 2611020600 C) 2611051500\nD) DAILY 0600-1500\nE) PJE WILL TAKE PLACE AT KELACH.\nAN AREA FM GND UP TO 8,000FT AMSL CLSD TO ALL FLT BTN FLW PSN\n313200N0345319E 313159N0344733E 312602N0344730E\n312444N0345024E 312602N0345311E.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 8000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0873/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2076763",
-      "fromDate": "2026-11-04T07:00:00Z",
-      "toDate": "2026-11-04T11:00:00Z",
-      "createDate": "2026-11-01T06:59:26Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QMRLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "RWY 08/26 CLSD EXC RWY INT, DUE WIP.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0873/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611040700 C) 2611041100\nE) RWY 08/26 CLSD EXC RWY INT, DUE WIP.)",
       "fullTextAvailable": true
     },
     {
