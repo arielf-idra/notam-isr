@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-04T14:00:48.082Z",
+  "generatedAt": "2026-11-04T14:10:53.018Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 118,
+  "count": 114,
   "notams": [
     {
       "id": "C2354/26",
@@ -210,47 +210,6 @@
       "fullTextAvailable": true
     },
     {
-      "id": "C2349/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2077879",
-      "fromDate": "2026-11-04T08:00:00Z",
-      "toDate": "2026-11-04T14:00:00Z",
-      "createDate": "2026-11-04T06:57:06Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QAELC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "E",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "022",
-        "positionToken": "3247N03518E001",
-        "position": {
-          "lat": 32.783333,
-          "lon": 35.3,
-          "radiusNm": 1
-        }
-      },
-      "eText": "AN AREA AT BEIT-RIMON FM GND UP TO 2,200FT AMSL CLSD TO ALL FLT BTN FLW PSN  324620N0351807E 324702N0351803E 324704N0351840E 324621N0351847E OPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.783333,
-        "lon": 35.3,
-        "radiusNm": 1,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2349/26 NOTAMN\nQ) LLLL/QAELC/IV/NBO/E /000/022/3247N03518E001\nA) LLLL B) 2611040800 C) 2611041400\nE) AN AREA AT BEIT-RIMON FM GND UP TO 2,200FT AMSL CLSD TO\nALL FLT BTN FLW PSN  324620N0351807E 324702N0351803E\n324704N0351840E 324621N0351847E\nOPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC.\nCTN ADZ.)",
-      "fullTextAvailable": true
-    },
-    {
       "id": "C2348/26",
       "location": "LLIB",
       "airfield": "Rosh-Pina",
@@ -453,129 +412,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2344/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/080/3129N03450E005\nA) LLLL B) 2611090600 C) 2611091500\nE) PJE WILL TAKE PLACE AT KELACH.\nAN AREA FM GND UP TO 8,000FT AMSL CLSD TO ALL FLT BTN FLW PSN\n313200N0345319E 313159N0344733E 312602N0344730E\n312444N0345024E 312602N0345311E.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 8000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0884/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2077579",
-      "fromDate": "2026-11-04T11:00:00Z",
-      "toDate": "2026-11-04T14:00:00Z",
-      "createDate": "2026-11-03T11:21:29Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QOBCE",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "AE",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "002",
-        "positionToken": "3201N03454E001",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.9,
-          "radiusNm": 1
-        }
-      },
-      "eText": "CRANE ERECTED WI LLBG CTR, AT Q APRON. ON PSN 320114.84N0345352.36E FM GND UP TO 40M 131FT AGL. CTN ADZ.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.9,
-        "radiusNm": 1,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0884/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/002/3201N03454E001\nA) LLBG B) 2611041100 C) 2611041400\nE) CRANE ERECTED WI LLBG CTR, AT Q APRON.\nON PSN 320114.84N0345352.36E\nFM GND UP TO 40M 131FT AGL.\nCTN ADZ.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0883/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2077578",
-      "fromDate": "2026-11-04T11:00:00Z",
-      "toDate": "2026-11-04T14:00:00Z",
-      "createDate": "2026-11-03T11:19:28Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QMRLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "RWY 26 CLSD FOR LDG, DUE CRANE ON FINAL 26 FOR AIRCRAFT RECOVERY DRILL. IN CASE OF EMERG LOWERED WI 30MIN.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0883/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611041100 C) 2611041400\nE) RWY 26 CLSD FOR LDG, DUE CRANE ON FINAL 26 FOR AIRCRAFT\nRECOVERY DRILL. IN CASE OF EMERG LOWERED WI 30MIN.)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "A0881/26",
-      "location": "LLBG",
-      "airfield": "Ben-Gurion",
-      "msgNumber": "2077576",
-      "fromDate": "2026-11-04T11:00:00Z",
-      "toDate": "2026-11-04T14:00:00Z",
-      "createDate": "2026-11-03T11:17:28Z",
-      "affected": [
-        "LLBG"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QMRLC",
-        "traffic": "IV",
-        "purpose": "NBO",
-        "scope": "A",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "999",
-        "positionToken": "3201N03453E005",
-        "position": {
-          "lat": 32.016667,
-          "lon": 34.883333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "RWY 03/21 CLSD EXC RWY INT 03/30, DUE CRANE ON FINAL 26 FOR AIRCRAFT RECOVERY DRILL. IN CASE OF EMERG LOWERED WI 30MIN.",
-      "lowerLimit": null,
-      "upperLimit": null,
-      "position": {
-        "lat": 32.016667,
-        "lon": 34.883333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(A0881/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611041100 C) 2611041400\nE) RWY 03/21 CLSD EXC RWY INT 03/30, DUE CRANE ON FINAL 26 FOR\nAIRCRAFT RECOVERY DRILL. IN CASE OF EMERG LOWERED WI 30MIN.)",
       "fullTextAvailable": true
     },
     {
