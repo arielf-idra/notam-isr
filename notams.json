@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-05T15:00:48.748Z",
+  "generatedAt": "2026-11-05T15:10:58.005Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 123,
+  "count": 122,
   "notams": [
     {
       "id": "C2365/26",
@@ -1314,47 +1314,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2325/26 NOTAMN\nQ) LLLL/QWCLW/IV/M  /W /000/020/3306N03535E001\nA) LLLL B) 2611091500 C) 2611122359\nD) 09 1500-2359, 10-12 DAILY 1500-2359\nE) CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE DRG NGT,\nFM GND UP TO 400M AGL. LIT AND DAY MARKED.\nAN AREA WI 0.54NM RADIUS CENTERED ON PSN 330622N0353454E\nCLSD FM GND UP TO 2,000FT AMSL.\nIN CASE OF EMERG LOWERED WI 10MIN.\nCTN ADZ.\nF) GND G) 2000FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2324/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2076810",
-      "fromDate": "2026-11-02T06:00:00Z",
-      "toDate": "2026-11-05T15:00:00Z",
-      "createDate": "2026-11-01T09:59:38Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWPLW",
-        "traffic": "IV",
-        "purpose": "M",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "080",
-        "positionToken": "3129N03450E005",
-        "position": {
-          "lat": 31.483333,
-          "lon": 34.833333,
-          "radiusNm": 5
-        }
-      },
-      "eText": "PJE WILL TAKE PLACE AT KELACH. AN AREA FM GND UP TO 8,000FT AMSL CLSD TO ALL FLT BTN FLW PSN 313200N0345319E 313159N0344733E 312602N0344730E 312444N0345024E 312602N0345311E. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "8000FT AMSL",
-      "position": {
-        "lat": 31.483333,
-        "lon": 34.833333,
-        "radiusNm": 5,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2324/26 NOTAMN\nQ) LLLL/QWPLW/IV/M  /W /000/080/3129N03450E005\nA) LLLL B) 2611020600 C) 2611051500\nD) DAILY 0600-1500\nE) PJE WILL TAKE PLACE AT KELACH.\nAN AREA FM GND UP TO 8,000FT AMSL CLSD TO ALL FLT BTN FLW PSN\n313200N0345319E 313159N0344733E 312602N0344730E\n312444N0345024E 312602N0345311E.\nOPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC.\nCTN ADZ.\nF) GND G) 8000FT AMSL)",
       "fullTextAvailable": true
     },
     {
