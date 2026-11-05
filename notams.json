@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-11-05T07:40:55.181Z",
+  "generatedAt": "2026-11-05T07:50:49.622Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 112,
+  "count": 113,
   "notams": [
+    {
+      "id": "A0885/26",
+      "location": "LLER",
+      "airfield": "Ramon",
+      "msgNumber": "2078261",
+      "fromDate": "2026-11-12T07:00:00Z",
+      "toDate": "2026-11-12T11:00:00Z",
+      "createDate": "2026-11-05T07:43:09Z",
+      "affected": [
+        "LLER"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QNMAS",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "AE",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "999",
+        "positionToken": "2945N03501E025",
+        "position": {
+          "lat": 29.75,
+          "lon": 35.016667,
+          "radiusNm": 25
+        }
+      },
+      "eText": "VOR/DME RAM FREQ 113.850MHZ WITHDRAWN FOR MAINT.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 29.75,
+        "lon": 35.016667,
+        "radiusNm": 25,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(A0885/26 NOTAMN\nQ) LLLL/QNMAS/IV/BO /AE/000/999/2945N03501E025\nA) LLER B) 2611120700 C) 2611121100\nE) VOR/DME RAM FREQ 113.850MHZ WITHDRAWN FOR MAINT.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2354/26",
       "location": "LLLL",
