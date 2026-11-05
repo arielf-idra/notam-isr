@@ -1,9 +1,91 @@
 {
-  "generatedAt": "2026-11-05T09:50:57.136Z",
+  "generatedAt": "2026-11-05T10:00:54.989Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 120,
+  "count": 122,
   "notams": [
+    {
+      "id": "C2364/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2078310",
+      "fromDate": "2026-11-10T11:00:00Z",
+      "toDate": "2026-11-10T11:50:00Z",
+      "createDate": "2026-11-05T09:53:20Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "008",
+        "upperLimitFl": "015",
+        "positionToken": "3138N03450E009",
+        "position": {
+          "lat": 31.633333,
+          "lon": 34.833333,
+          "radiusNm": 9
+        }
+      },
+      "eText": "ULTRALIGHT RTE CLSD DUE IFR ACT WI LLEK MACHZ-MKGAT-NAHLA-NAHEM-GEFFN-ZHRYA.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.633333,
+        "lon": 34.833333,
+        "radiusNm": 9,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2364/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /008/015/3138N03450E009\nA) LLLL B) 2611101100 C) 2611101150\nE) ULTRALIGHT RTE CLSD DUE IFR ACT WI LLEK\nMACHZ-MKGAT-NAHLA-NAHEM-GEFFN-ZHRYA.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2363/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2078300",
+      "fromDate": "2026-11-10T11:00:00Z",
+      "toDate": "2026-11-10T11:50:00Z",
+      "createDate": "2026-11-05T09:51:19Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "025",
+        "upperLimitFl": "030",
+        "positionToken": "3139N03451E008",
+        "position": {
+          "lat": 31.65,
+          "lon": 34.85,
+          "radiusNm": 8
+        }
+      },
+      "eText": "CVFR RTE CLSD DUE IFR ACT WI LLEK  REVAH-NOAAM-GOVRN-ZHRYA.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 31.65,
+        "lon": 34.85,
+        "radiusNm": 8,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2363/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /025/030/3139N03451E008\nA) LLLL B) 2611101100 C) 2611101150\nE) CVFR RTE CLSD DUE IFR ACT WI LLEK  REVAH-NOAAM-GOVRN-ZHRYA.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2362/26",
       "location": "LLLL",
