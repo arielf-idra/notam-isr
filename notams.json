@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-05T15:20:51.556Z",
+  "generatedAt": "2026-11-05T15:30:57.111Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 122,
+  "count": 121,
   "notams": [
     {
       "id": "C2365/26",
@@ -2503,47 +2503,6 @@
       "notamType": "N",
       "replaces": null,
       "rawText": "(C2270/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/015/3246N03502E002\nA) LLLL B) 2611010001 C) 2611302159\nE) UAS/UAV ACT WILL TAKE PLACE AT NESHER WI LLHA CTR\nFM GND UP TO 460M AGL 1,510FT AMSL, BTN FLW PSN\n324637N0350134E 324629N0350037E 324552N0350043E\n324514N0350131E 324513N0350243E 324559N0350245E\n324617N0350207E.\nCTN ADZ.\nF) GND G) 1500FT AMSL)",
-      "fullTextAvailable": true
-    },
-    {
-      "id": "C2260/26",
-      "location": "LLLL",
-      "airfield": "Tel-Aviv FIR",
-      "msgNumber": "2074064",
-      "fromDate": "2026-11-01T03:30:00Z",
-      "toDate": "2026-11-05T15:20:00Z",
-      "createDate": "2026-10-25T11:59:30Z",
-      "affected": [
-        "LLLL"
-      ],
-      "qLine": {
-        "fir": "LLLL",
-        "qcode": "QWULW",
-        "traffic": "IV",
-        "purpose": "BO",
-        "scope": "W",
-        "lowerLimitFl": "000",
-        "upperLimitFl": "032",
-        "positionToken": "3057N03456E002",
-        "position": {
-          "lat": 30.95,
-          "lon": 34.933333,
-          "radiusNm": 2
-        }
-      },
-      "eText": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM. AN AREA BTN FLW PSN 305830N0345551E 305823N0345644E 305803N0345708E 305709N0345649E 305624N0345614E 305652N0345453E CLSD FM GND UP TO 3,200FT AMSL. CTN ADZ.",
-      "lowerLimit": "GND",
-      "upperLimit": "3200FT AMSL",
-      "position": {
-        "lat": 30.95,
-        "lon": 34.933333,
-        "radiusNm": 2,
-        "source": "q_line"
-      },
-      "administrative": false,
-      "notamType": "N",
-      "replaces": null,
-      "rawText": "(C2260/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/032/3057N03456E002\nA) LLLL B) 2611010330 C) 2611051520\nD) DAILY 0330-1520\nE) UAS/UAV ACT WILL TAKE PLACE AT YERUHAM.\nAN AREA BTN FLW PSN 305830N0345551E 305823N0345644E\n305803N0345708E 305709N0345649E 305624N0345614E\n305652N0345453E CLSD FM GND UP TO 3,200FT AMSL.\nCTN ADZ.\nF) GND G) 3200FT AMSL)",
       "fullTextAvailable": true
     },
     {
