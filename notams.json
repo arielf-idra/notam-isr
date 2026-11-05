@@ -1,9 +1,91 @@
 {
-  "generatedAt": "2026-11-05T08:30:47.654Z",
+  "generatedAt": "2026-11-05T08:40:52.990Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 115,
+  "count": 117,
   "notams": [
+    {
+      "id": "C2359/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2078278",
+      "fromDate": "2026-11-09T03:40:00Z",
+      "toDate": "2026-11-09T05:10:00Z",
+      "createDate": "2026-11-05T08:39:13Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "015",
+        "upperLimitFl": "020",
+        "positionToken": "3253N03508E004",
+        "position": {
+          "lat": 32.883333,
+          "lon": 35.133333,
+          "radiusNm": 4
+        }
+      },
+      "eText": "CVFR RTE CLSD  EVLYM-AHIUD-AAKKO.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 32.883333,
+        "lon": 35.133333,
+        "radiusNm": 4,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2359/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /015/020/3253N03508E004\nA) LLLL B) 2611090340 C) 2611090510\nE) CVFR RTE CLSD  EVLYM-AHIUD-AAKKO.)",
+      "fullTextAvailable": true
+    },
+    {
+      "id": "C2358/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2078277",
+      "fromDate": "2026-11-09T17:00:00Z",
+      "toDate": "2026-11-09T17:30:00Z",
+      "createDate": "2026-11-05T08:31:12Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QARLC",
+        "traffic": "IV",
+        "purpose": "NBO",
+        "scope": "E",
+        "lowerLimitFl": "027",
+        "upperLimitFl": "045",
+        "positionToken": "3050N03450E011",
+        "position": {
+          "lat": 30.833333,
+          "lon": 34.833333,
+          "radiusNm": 11
+        }
+      },
+      "eText": "CVFR RTE CLSD RUHOT-OVDAT-BOKER-TLLIM. BOKER-YRUHM. ULTRALIGHT RTE CLSD RUHOT-KNFHA-OVDAT-BOKER-TLLIM.",
+      "lowerLimit": null,
+      "upperLimit": null,
+      "position": {
+        "lat": 30.833333,
+        "lon": 34.833333,
+        "radiusNm": 11,
+        "source": "q_line"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2358/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /027/045/3050N03450E011\nA) LLLL B) 2611091700 C) 2611091730\nE) CVFR RTE CLSD\nRUHOT-OVDAT-BOKER-TLLIM.\nBOKER-YRUHM.\nULTRALIGHT RTE CLSD\nRUHOT-KNFHA-OVDAT-BOKER-TLLIM.)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2356/26",
       "location": "LLLL",
