@@ -1,9 +1,50 @@
 {
-  "generatedAt": "2026-11-05T12:20:54.267Z",
+  "generatedAt": "2026-11-05T12:30:49.106Z",
   "source": "https://ext.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "disclaimer": "Informational only. Not a substitute for an official pre-flight briefing.",
-  "count": 122,
+  "count": 123,
   "notams": [
+    {
+      "id": "C2365/26",
+      "location": "LLLL",
+      "airfield": "Tel-Aviv FIR",
+      "msgNumber": "2078353",
+      "fromDate": "2026-11-05T14:00:00Z",
+      "toDate": "2026-11-12T23:59:00Z",
+      "createDate": "2026-11-05T12:27:32Z",
+      "affected": [
+        "LLLL"
+      ],
+      "qLine": {
+        "fir": "LLLL",
+        "qcode": "QWULW",
+        "traffic": "IV",
+        "purpose": "BO",
+        "scope": "W",
+        "lowerLimitFl": "000",
+        "upperLimitFl": "015",
+        "positionToken": "3140N03433E001",
+        "position": {
+          "lat": 31.666667,
+          "lon": 34.55,
+          "radiusNm": 1
+        }
+      },
+      "eText": "UAS ACT WILL TAKE PLACE AT ASHKELON. AN AREA WI 0.5NM RADIUS CENTERED ON PSN 314037N0343323E CLSD FM GND UP TO 1,500FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
+      "lowerLimit": "GND",
+      "upperLimit": "1500FT AMSL",
+      "position": {
+        "lat": 31.676944,
+        "lon": 34.556389,
+        "radiusNm": 0.5,
+        "source": "e_text"
+      },
+      "administrative": false,
+      "notamType": "N",
+      "replaces": null,
+      "rawText": "(C2365/26 NOTAMN\nQ) LLLL/QWULW/IV/BO /W /000/015/3140N03433E001\nA) LLLL B) 2611051400 C) 2611122359\nD) 1400-2359\nE) UAS ACT WILL TAKE PLACE AT ASHKELON.\nAN AREA WI 0.5NM RADIUS CENTERED ON PSN 314037N0343323E\nCLSD FM GND UP TO 1,500FT AMSL TO ALL FLT INCLUDING\nAGRICULTURE FLT.\nCTN ADZ.\nF) GND G) 1500FT AMSL)",
+      "fullTextAvailable": true
+    },
     {
       "id": "C2364/26",
       "location": "LLLL",
